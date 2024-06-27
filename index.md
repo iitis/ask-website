@@ -1,7 +1,7 @@
 ---
 bg: "rails2.jpg"
 layout: default
-title: "Optymalizacja transportu"
+title: "Akademia Sztuki Kwantowej"
 summary: "Strona główna"
 ---
 
