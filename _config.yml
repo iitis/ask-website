@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 domain: iitis.github.io
-url: https://iitis.github.io/ask-website/
+url: https://iitis.github.io/ask-website
 title: Akademia Sztuki Kwantowej
 email: lpawela@iitis.pl
 description: >- # this means to ignore newlines until "baseurl:"
