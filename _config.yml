@@ -17,12 +17,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-domain: optipubtrans.iitis.pl
-url: https://optipubtrans.iitis.pl
-title: Optymalizacja transportu
+domain: iitis.github.io
+url: https://iitis.github.io/ask-website/
+title: Akademia Sztuki Kwantowej
 email: lpawela@iitis.pl
 description: >- # this means to ignore newlines until "baseurl:"
-  Optimal public transport in Poland
+  Szkolenia kwantowe
 baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  lpawela
 
