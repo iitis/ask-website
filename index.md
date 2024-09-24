@@ -1,5 +1,5 @@
 ---
-bg: "rails2.jpg"
+bg: "main.jpg"
 layout: default
 title: "Akademia Sztuki Kwantowej"
 summary: "Strona główna"
