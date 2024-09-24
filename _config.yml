@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Szkolenia kwantowe
 baseurl: "/ask-website/" # the subpath of your site, e.g. /blog
 github_username:  lpawela
+lang: pl
 
 # Exclude from processing.
 # The following items will not be processed, by default.
