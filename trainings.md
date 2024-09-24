@@ -2,7 +2,7 @@
 bg: "station.jpg"
 layout: default
 permalink: /trainings/
-title: "Publikacje"
+title: "Tematy szkoleń"
 summary: "Lista szkoleń"
 active: true
 ---
