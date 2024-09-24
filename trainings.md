@@ -1,5 +1,5 @@
 ---
-bg: "station.jpg"
+bg: "trainings.jpg"
 layout: default
 permalink: /trainings/
 title: "Tematy szkoleń"
