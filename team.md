@@ -1,5 +1,5 @@
 ---
-bg: "station.jpg"
+bg: "team.jpg"
 layout: default
 permalink: /team/
 title: "Zespół"
