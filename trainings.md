@@ -9,6 +9,23 @@ active: true
 
 # Obliczenia i algorytmy kwantowe
 
+## Zagadnienia teoretyczne
+
+- Zagadnienia wstępne, fizyka mikroświata, efekty kwantowe:
+- Wprowadzenie do podstaw fizyki kwantowej, omówienie zjawisk na poziomie mikroskopowym.
+- Ewolucja układu w czasie. Równanie Schrödingera: Przegląd zasad ewolucji układów kwantowych i ich opis matematyczny poprzez równanie Schrödingera.
+- Stany kwantowe i superpozycja stanów – definicje i przykłady: Omówienie podstawowych pojęć, takich jak stany kwantowe i superpozycja, z praktycznymi przykładami.
+- Pomiar kwantowy – czym jest i jakie są jego efekty?
+- Wyjaśnienie procesu pomiaru w mechanice kwantowej i jego wpływu na stan układu.
+- Hamiltonian, ewolucja unitarna: Analiza roli Hamiltonianu w opisie ewolucji kwantowej i pojęcia ewolucji unitarnej.
+- Bramki kwantowe: Przedstawienie podstawowych operacji na qubitach za pomocą bramek kwantowych.
+- Układy złożone, iloczyn tensorowy, stany produktowe, stany splątane, stany Bella: Omówienie układów złożonych, pojęcia iloczynu tensorowego oraz zaawansowanych koncepcji takich jak splątanie kwantowe i stany Bella.
+- Informacja klasyczna vs informacja kwantowa. Częściowa konwersja obu form informacji w siebie: Porównanie informacji klasycznej i kwantowej oraz możliwość ich częściowej konwersji.
+- No cloning theorem: Omówienie fundamentalnego twierdzenia o niemożności skopiowania stanu kwantowego.
+- Kwantowe gęste kodowanie. Kwantowa teleportacja: Przedstawienie zaawansowanych technik kwantowego gęstego kodowania i kwantowej teleportacji.
+- Kwantowa kryptografia: Wprowadzenie do zastosowań kryptografii kwantowej, które oferują nowy poziom bezpieczeństwa komunikacji.
+
+
 # Uczenie maszynowe
 
 # Uczenie architektur kwantowych
