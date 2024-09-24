@@ -7,6 +7,22 @@ summary: "Lista szkoleń"
 active: true
 ---
 
+
+# Podstawy matematyczne SI i obliczeń kwantowych
+
+- Elementy rachunku prawdopodobieństwa i statystyki matematycznej.
+- Testowanie statystyczne – wprowadzenie i omówienie przykładów (w tym m.in. testu Shapiro-Wilka, testu t dla par, testu Wilcoxona).
+- Metoda stochastycznego spadku wzdłuż gradientu.
+- Elementy algebry liniowej (macierze i działania na macierzach, wektory i wartości własne macierzy, przestrzeń wektorowa, iloczyn skalarny).
+- Notacja Diraca.
+- Bit kwantowy (kubit) – definicja matematyczna i interpretacja graficzna.
+- Elementy rachunku prawdopodobieństwa.
+- Elementy statystyki matematycznej, w tym testowanie hipotez statystycznych.
+- Metoda stochastycznego spadku wzdłuż gradientu (?).
+- Elementy algebry liniowej.
+- Notacja Diraca i pojęcie bitu kwantowego (kubitu).
+- Metody jądrowe i “kernel trick”.
+
 # Obliczenia i algorytmy kwantowe
 
 ## Zagadnienia teoretyczne
@@ -28,9 +44,63 @@ active: true
 
 # Uczenie maszynowe
 
+- Analiza i przygotowanie zbiorów danych: podstawowe narzędzia data mining (statystyki opisowe, algorytmy grupowania, algorytmy rzutowania), zasady ich użycia, ćwiczenia praktyczne z przygotowywania zbiorów dla klasyfikacji i regresji
+- Budowa eksperymentu klasyfikacji: miary wydajności, podział zbiorów (walidacja krzyżowa, optymalizacja hiperparametrów, przetrenowanie, przekleństwo wymiarowości), porównanie klasyfikatorów testami statystycznymi, wybór metod przetwarzania wstępnego
+- Najważniejsze klasyfikatory. Konfigurowanie i wykorzystanie SVM. Konfiguracja i trenowanie sieci MLP (krzywa loss, optymalizacja, funkcje aktywacji, hiperparametry)
+- Diagnostyka procesu treningu sieci neuronowej, weryfikacja skuteczności, ataki na sieć, wyjaśnianie działania sieci
+- Zaawansowane architektury sieci neuronowych, głębokie hierarchie cech, implementacja treningu (w tym transfer learning)
+
 # Uczenie architektur kwantowych
 
+## Zagadnienia teoretyczne
+- Bramkowe komputery kwantowe: Szczegółowy opis budowy i zasad działania komputerów kwantowych opartych na bramkach.
+- Kubity i stany kubitu: Omówienie podstawowych jednostek informacji kwantowej, ich reprezentacji i właściwości na architekturach IBMQ.
+- Splątanie kwantowe: Wyjaśnienie fenomenu splątania oraz jego znaczenia w obliczeniach kwantowych na architekturach IBMQ.
+- Bramkowy model obliczeń: Przedstawienie zasad działania komputerów kwantowych opartych na bramkach w odniesieniu do architektur IBMQ.
+- Obwody kwantowe: Budowa i analiza podstawowych obwodów kwantowych.
+- Perceptron: Przypomnienie klasycznego perceptronu oraz zasad jego działania i uczenia.
+- Python: Krótkie przypomnienie podstawowej składni języka Python, niezbędnej do implementacji obwodów kwantowych.
+- Ograniczenia komputerów kwantowych: Omówienie problemów i ograniczeń związanych z obecnym stanem technologii kwantowej.
+- Źródła błędów w komputerach bramkowych: Analiza typowych źródeł błędów w obliczeniach kwantowych i ich wpływu na wyniki.
+- Kwantowy model perceptronu: Budowa, elementy składowe oraz przykładowe obwody kwantowego perceptronu.
+- Uzyskanie dostępu do IBMQ: Proces rejestracji i uzyskania dostępu do platformy IBMQ.
+- Podstawy biblioteki qiskit: Wprowadzenie do biblioteki Qiskit, narzędzia do programowania komputerów kwantowych.
+- Podstawowe operacje w portalu IBMQ: Nauka monitorowania i zarządzania obliczeniami kwantowymi za pomocą portalu IBMQ.
+- Symulatory architektur komputerów bramkowych: Implementacja pierwszego programu na symulatorze kwantowym.
+- Symulatory lokalne vs chmurowe: Porównanie lokalnych i chmurowych symulatorów kwantowych.
+- Implementacja programu uruchamianego na komputerze bramkowym: Praktyczna realizacja przygotowania stanu splątanego.
+- Implementacja składowych perceptronu: Tworzenie i testowanie podstawowych elementów kwantowego perceptronu.
+
+## Praktyka
+- Obserwacje działania modelu dla losowo dobranych wag: Analiza wyników działania perceptronu z losowo wybranymi wagami.
+- Implementacja algorytmu uczenia kwantowego perceptronu: Kodowanie i testowanie algorytmu uczącego perceptronu.
+- Uczenie kwantowego modelu perceptronu, weryfikacja wyników: Proces uczenia modelu perceptronu i ocena jego skuteczności.
+- Model bramkowy vs wyżarzanie kwantowe: Porównanie dwóch podejść do obliczeń kwantowych: modelu bramkowego i wyżarzania kwantowego.
+- Algorytm QAOA: Przegląd algorytmu Quantum Approximate Optimization Algorithm (QAOA) i jego zastosowań.
+
+## Zagadnienia dodatkowe:
+- Model bramkowy vs wyżarzanie kwantowe.
+- Algortym QAOA.
+
 # Kwantowe sieci neuronowe i kwantowe metody jądrowe
+
+- Kwantowe bramki parametryzowalne.
+- Kwantowe obwody parametryzowalne.
+- Kwantowe algorytmy wariacyjne.
+- Różniczkowanie funkcji opartych o obwody parametryzowalne.
+- Kwantowa metoda przesuwania parametrów.
+- Optymalizacja parametrów obwodów kwantowych.
+- Kwantowe sieci neuronowe.
+- Ładowanie danych do sieci.
+- Architektury sieci kwantowych.
+- Kwantowe metody jądrowe.
+- Klasyfikacja za pomocą kwantowych sieci neuronowych i kwantowych metod jądrowych.
+- Biblioteka Pennylane.
+- Implementacja prostego klasyfikatora jedno-kubitowego.
+- Implementacja klasyfikatora z ponownym ładowaniem danych.
+- Implementacja klasyfikatora wykorzystującego splątanie.
+- Dobór architektury sieci.
+- Implementacja klasyfikatora SVM wykorzystującego kwantową metodę jądrową
 
 # Kwantowe wyżarzanie kombinatorycznych problemów optymalizacyjnych
 
