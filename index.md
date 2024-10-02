@@ -8,50 +8,46 @@ summary: "Strona główna"
 # Informacje o projekcie „Akademia Sztuki Kwantowej”
 
 
-Projekt „Akademia Sztuki Kwantowej: Szkolenia z obliczeń kwantowych i SI
-kreujące innowacyjne społeczeństwo” (NdS-II/SP/0222/2024/01), realizowany w
-Instytucie Informatyki Teoretycznej i Stosowanej Polskiej Akademii Nauk (IITiS
-PAN) w Gliwicach, jest finansowany ze środków budżetu państwa, przyznanych przez
-Ministra Edukacji i Nauki  w ramach Programu „Nauka dla Społeczeństwa II”. 
+W Gliwicach programujemy komputery kwantowe od niemal ćwierć wieku. Wówczas były
+one jedynie wizją przyszłości. Dziś, w miarę jak informatyka kwantowa zyskuje na
+znaczeniu, rośnie zapotrzebowanie na specjalistów, którzy potrafią wykorzystać
+ich potencjał. To właśnie ci eksperci będą kluczowi w przekształcaniu takich
+branż jak farmacja, logistyka, finanse czy przemysł lotniczy i kosmiczny.
 
+Projekt „Akademia Sztuki Kwantowej” to odpowiedź na dynamiczne zmiany na rynku
+pracy, spowodowane postępem technologicznym XXI wieku, zwłaszcza w dziedzinach
+sztucznej inteligencji i obliczeń kwantowych. Wychodząc naprzeciw rosnącym
+potrzebom globalnego rynku, Akademia ma za zadanie wykształcić nowoczesnych
+specjalistów, którzy będą przyczyniać się do rozwoju innowacyjnych rozwiązań
+technologicznych. 
 
-## Cel projektu
-Jego celem jest wykształcenie nowoczesnych specjalistów, którzy będą przyczyniać
-się do rozwoju innowacyjnych rozwiązań technologicznych, zwłaszcza w dziedzinach
-sztucznej inteligencji (SI) i obliczeń kwantowych.
+Podczas szkoleń prowadzonych w ramach „Akademii Sztuki Kwantowej”  skupiamy się
+na zagadnieniach takich jak podstawy matematyczne obliczeń kwantowych, algorytmy
+kwantowe, fundamenty uczenia maszynowego czy metody wyżarzania kwantowego,
+stosowane do rozwiązywania kombinatorycznych problemów optymalizacyjnych.
 
-## Szkolenia
+Projekt jest prowadzony przez czołowych specjalistów w dziedzinie obliczeń
+kwantowych. Dzięki swojemu różnorodnemu doświadczeniu — informatycznemu,
+matematycznemu i fizycznemu — oferują oni całościowy obraz tak złożonej
+dziedziny, jaką jest informatyka kwantowa.
 
-Szkolenia prowadzone w ramach „Akademii Sztuki Kwantowej” mają być kierowane
-zarówno do studentów czy pracowników naukowych, jak również do przedstawicieli
-biznesu. Uczestnicy będą uczyć się nie tylko najnowszych technologii, ale także
-zrozumieją ich kontekst i zastosowanie w różnych dziedzinach nauki i biznesu.
+Akademia działa na terenie całego kraju. Program szkoleń jest przeznaczony dla
+studentów oraz profesjonalistów z podstawową wiedzą w dziedzinach ścisłych i/lub
+technicznych. Najpierw uczestnicy wezmą udział w serii wykładów online, które
+dostarczą niezbędnej wiedzy teoretycznej. Następnie w różnych miastach w Polsce
+odbędą się warsztaty praktyczne z mentorami. 
 
-Zajęcia będą bezpłatne, a rekrutacja na kurs odbywać się będzie w trybie zapisu
-z limitem miejsc.
-
-## Etapy projektu
-
-Projekt „Akademii Sztuki Kwantowej” będzie się składać z trzech etapów szkoleń:
-
-1. Pierwszy etap obejmie szeroko zakrojone wykłady wprowadzające, mające na celu
-   dostarczenie uczestnikom solidnych podstaw teoretycznych (wykłady odbędą się
-   w trybie online i rozpoczną jesienią br.).
-2. W drugim etapie (planowanym na wiosnę 2025 r.) uczestnicy będą brali udział w
-   warsztatach praktycznych, które pozwolą im na rozwijanie umiejętności
-   związanych z implementacją nowoczesnych rozwiązań technologicznych.
-3. W trzecim i ostatnim etapie (planowanym na jesień 2026 r.) uczestnicy będą
-   mieli okazję pracować nad projektami zespołowymi, które integrują zdobytą
-   wiedzę i umiejętności, a także sprzyjają nawiązaniu trwałej współpracy między
-   specjalistami z różnych dziedzin.
-
-Szczegółowe plany szkoleń znajdują się na podstronie [Szkolenia](trainings/)
 ## Finansowanie
 
 
-Projekt dofinansowany ze środków budżetu państwa, przyznanych przez Ministra
-Edukacji i Nauki w ramach Programu „Nauka dla
-Społeczeństwa II"
+*Projekt dofinansowany ze środków budżetu państwa, przyznanych przez Ministra Edukacji i Nauki w ramach Programu „Nauka dla Społeczeństwa II"*
+
+Numer projektu: **NdS-II/SP/0222/2024/01**
+Termin realizacji: **od 03/04/2024 do 03/04/2026**
+Źródło finansowania: **Ministerstwo Nauki i Szkolnictwa Wyższego**
+Nazwa programu i moduł: **Nauka dla Społeczeństwa II**
+Kwota przyznana: **1 000 000 PLN**
+
 
 ![logomnisw]({{ site.images | relative_url }}/logo1.png)
 ![logonds]({{ site.images | relative_url }}/logo2.png)

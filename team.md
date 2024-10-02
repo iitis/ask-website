@@ -2,13 +2,24 @@
 bg: "team.jpg"
 layout: default
 permalink: /team/
-title: "Zespół"
+title: "Kadra dydaktyczna"
 summary: "Ludzie w projekcie"
 active: true
 ---
 
-# Zespół projektowy
-- **dr hab. Hanna Wojewódka-Ściązko - kierownik** - Stopień dra nauk matematycznych uzyskała  w Uniwersytecie Gdańskim (UG) w 2015 r., a stopień dra hab. (również w dyscyplinie matematyka) - w Uniwersytecie Śląskim (UŚ) w Katowicach w 2024 r. W latach 2013-16 była zatrudniona w Krajowym Centrum Informatyki Kwantowej  w Gdańsku w ramach europejskiego projektu Randomness and Quantum Entanglement. Od 2016 r. jest pracownikiem UŚ w Katowicach, a od 2019 r. także IITiS PAN w Gliwicach (od lipca 2024 r. na stanowisku profesora instytutu). W 2017 r. została laureatką Stypendium START FNP oraz Stypendium im. Barbary Skargi. Jest autorką 19 artykułów naukowych, opublikowanych, m.in., w Nat. Commun., IEEE Trans. Inf. Theory i Quantum.  Uczestniczyła w ponad 30 krajowych i międzynarodowych konferencjach naukowych, z czego na 9 z nich wygłosiła wykład na zaproszenie. Do tej pory kierowała jednym projektem naukowym finansowanym przez NCN oraz brała udział w realizacji kilku innych projektów finansowanych przez NCN i FNP. Posiada bogate doświadczenie dydaktyczne, wykładała m.in. na Politechnice Gdańskiej (2015-2016), UŚ w Katowicach (2016-2020 oraz 2023-2024), a także na UG (2021-2022) na kierunku Quantum Information Technology.
+**dr hab. Bartłomiej Gardas**
+
+Stopień dra uzyskał na Uniwersytecie Śląskim w Katowicach w 2014 roku; następnie
+był stażystą podoktorskim w Los Alamos National Laboratory (USA), 2014 - 2016, a
+później (2016-2019) na Uniwersytecie Jagiellońskim. Laureat programu START
+Fundacji na rzecz  Nauki polskiej (2014). Otrzymał nagrodę za rozprawę doktorską
+Polskiego Towarzystwa Fizycznego (2015). W 2018 roku otrzymał nagrodę Google
+Research Award za wkład w dziedzinę obliczeń kwantowych, a w 2019 roku
+stypendium dla wybitnego młodego naukowca (MNiSW). Od 2019 r. związany z
+Instytutem Informatyki Teoretycznej i Stosowanej PAN w Gliwicach, obecnie
+zatrudniony na stanowisku profesora instytutu prowadzi własną grupę badawczą w
+ramach projektu Sonata Bis 10. Kierownik i wykonawca wielu grantów naukowych z
+zakresu fizyki kwantowej i obliczeniowej. Autor ponad 40 publikacji naukowych.
   
 - **dr hab. Bartłomiej Gardas** - stopień dra uzyskał na Uniwersytecie Śląskim w Katowicach w 2014 roku; następnie był stażystą podoktorskim w Los Alamos National Laboratory (USA), 2014 - 2016, a później (2016-2019) na Uniwersytecie Jagiellońskim. Laureat programu START Fundacji na rzecz  Nauki polskiej (2014).  Otrzymał nagrodę za rozprawę doktorską Polskiego Towarzystwa Fizycznego (2015). W 2018 roku otrzymał nagrodę Google Research Award za wkład w dziedzinę obliczeń kwantowych, a w 2019 roku stypendium dla wybitnego młodego naukowca (MNiSW). Od 2019 r. związany z Instytutem Informatyki Teoretycznej i Stosowanej PAN, obecnie zatrudniony na stanowisku profesora instytutu prowadzi własna grupę badawczą w ramach projektu Sonata Bis 10. Kierownik i wykonawca wielu grantów naukowych z zakresu fizyki kwantowej i obliczeniowej. Autor ponad 40 publikacji naukowych.
   
