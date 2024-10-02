@@ -43,9 +43,13 @@ odbędą się warsztaty praktyczne z mentorami.
 *Projekt dofinansowany ze środków budżetu państwa, przyznanych przez Ministra Edukacji i Nauki w ramach Programu „Nauka dla Społeczeństwa II"*
 
 Numer projektu: **NdS-II/SP/0222/2024/01**
+
 Termin realizacji: **od 03/04/2024 do 03/04/2026**
+
 Źródło finansowania: **Ministerstwo Nauki i Szkolnictwa Wyższego**
+
 Nazwa programu i moduł: **Nauka dla Społeczeństwa II**
+
 Kwota przyznana: **1 000 000 PLN**
 
 
