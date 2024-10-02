@@ -14,28 +14,29 @@ znaczeniu, rośnie zapotrzebowanie na specjalistów, którzy potrafią wykorzyst
 ich potencjał. To właśnie ci eksperci będą kluczowi w przekształcaniu takich
 branż jak farmacja, logistyka, finanse czy przemysł lotniczy i kosmiczny.
 
-Projekt „Akademia Sztuki Kwantowej” to odpowiedź na dynamiczne zmiany na rynku
+**Projekt „Akademia Sztuki Kwantowej” to odpowiedź na dynamiczne zmiany na rynku
 pracy, spowodowane postępem technologicznym XXI wieku, zwłaszcza w dziedzinach
-sztucznej inteligencji i obliczeń kwantowych. Wychodząc naprzeciw rosnącym
+sztucznej inteligencji i obliczeń kwantowych**. Wychodząc naprzeciw rosnącym
 potrzebom globalnego rynku, Akademia ma za zadanie wykształcić nowoczesnych
 specjalistów, którzy będą przyczyniać się do rozwoju innowacyjnych rozwiązań
 technologicznych. 
 
 Podczas szkoleń prowadzonych w ramach „Akademii Sztuki Kwantowej”  skupiamy się
-na zagadnieniach takich jak podstawy matematyczne obliczeń kwantowych, algorytmy
-kwantowe, fundamenty uczenia maszynowego czy metody wyżarzania kwantowego,
-stosowane do rozwiązywania kombinatorycznych problemów optymalizacyjnych.
+na zagadnieniach takich jak **podstawy matematyczne obliczeń kwantowych,
+algorytmy kwantowe, fundamenty uczenia maszynowego czy metody wyżarzania
+kwantowego, stosowane do rozwiązywania kombinatorycznych problemów
+optymalizacyjnych**.
 
-Projekt jest prowadzony przez czołowych specjalistów w dziedzinie obliczeń
-kwantowych. Dzięki swojemu różnorodnemu doświadczeniu — informatycznemu,
+Projekt jest **prowadzony przez czołowych specjalistów w dziedzinie obliczeń
+kwantowych**. Dzięki swojemu różnorodnemu doświadczeniu — informatycznemu,
 matematycznemu i fizycznemu — oferują oni całościowy obraz tak złożonej
 dziedziny, jaką jest informatyka kwantowa.
 
-Akademia działa na terenie całego kraju. Program szkoleń jest przeznaczony dla
+Akademia działa na terenie całego kraju. **Program szkoleń jest przeznaczony dla
 studentów oraz profesjonalistów z podstawową wiedzą w dziedzinach ścisłych i/lub
-technicznych. Najpierw uczestnicy wezmą udział w serii wykładów online, które
-dostarczą niezbędnej wiedzy teoretycznej. Następnie w różnych miastach w Polsce
-odbędą się warsztaty praktyczne z mentorami. 
+technicznych**. Najpierw uczestnicy wezmą udział w serii wykładów online, które
+dostarczą niezbędnej wiedzy teoretycznej. Następnie  
+w różnych miastach w Polsce odbędą się warsztaty praktyczne z mentorami. 
 
 ## Finansowanie
 
