@@ -12,7 +12,7 @@ active: true
 Stopień dra uzyskał na Uniwersytecie Śląskim w Katowicach w 2014 roku; następnie
 był stażystą podoktorskim w Los Alamos National Laboratory (USA), 2014 - 2016, a
 później (2016-2019) na Uniwersytecie Jagiellońskim. Laureat programu START
-Fundacji na rzecz  Nauki polskiej (2014). Otrzymał nagrodę za rozprawę doktorską
+Fundacji na rzecz Nauki polskiej (2014). Otrzymał nagrodę za rozprawę doktorską
 Polskiego Towarzystwa Fizycznego (2015). W 2018 roku otrzymał nagrodę Google
 Research Award za wkład w dziedzinę obliczeń kwantowych, a w 2019 roku
 stypendium dla wybitnego młodego naukowca (MNiSW). Od 2019 r. związany z
