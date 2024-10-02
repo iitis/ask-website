@@ -4,7 +4,7 @@ layout: default
 permalink: /trainings/
 title: "Tematy szkoleń"
 summary: "Lista szkoleń"
-active: true
+active: false
 ---
 
 
