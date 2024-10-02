@@ -21,7 +21,7 @@ active: false
 - Metoda stochastycznego spadku wzdłuż gradientu.
 - Elementy algebry liniowej.
 - Notacja Diraca i pojęcie bitu kwantowego (kubitu).
-- Metody jądrowe i “kernel trick”.
+- Metody jądrowe i „kernel trick”.
 
 # Obliczenia i algorytmy kwantowe
 
@@ -123,7 +123,7 @@ active: false
 - Rozwiązywanie modelu Isinga z wykorzystaniem kwantowego wyżarzania.
 - Praktyczne wykorzystanie biblioteki D-Wave Ocean.
 - Implementacja algorytmu wyczerpującego przeszukiwania.
-- Implementacja algorytmu typu "Branch & Bound".
+- Implementacja algorytmu typu „Branch & Bound”.
 - Implementacja algorytmu symulowanej bifurkacji.
 - Implementacja algorytmu symulowanego wyżarzania.
 - Implementacja algorytmu równoległego wyżarzania.
