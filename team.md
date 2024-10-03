@@ -57,12 +57,12 @@ stypendium START.
 
 **prof. dr hab. Zbigniew Puchała**
 
-Stopień dra uzyskał w Instytucie Matematycznym Uniwersytetu Wrocławskiego w roku
-2007. Stopień dra hab. w dziedzinie nauk technicznych w dyscyplinie informatyka
-przyznany w 2014. Tytuł profesora nauk technicznych uzyskał w roku 2023.
-Kierownik Zespołu Kwantowych Systemów Informatyki oraz zastępca dyrektora do
-spraw naukowych w Instytucie Informatyki Teoretycznej i Stosowanej PAN w
-Gliwicach. W swoim dorobku posiada ponad 80 publikacji naukowych dotyczących
+Stopień dra uzyskał w Instytucie Matematycznym Uniwersytetu Wrocławskiego w 
+roku 2007. Stopień dra hab. w dziedzinie nauk technicznych w dyscyplinie
+informatyka przyznany w 2014. Tytuł profesora nauk technicznych uzyskał
+w roku 2023. Kierownik Zespołu Kwantowych Systemów Informatyki oraz zastępca
+dyrektora do spraw naukowych w Instytucie Informatyki Teoretycznej i Stosowanej
+PAN w Gliwicach. W swoim dorobku posiada ponad 80 publikacji naukowych dotyczących
 informatyki kwantowej, teorii prawdopodobieństwa oraz optymalizacji. Kierował 9
 projektami naukowymi finansowanymi z NCN, MNiSW i FNP oraz był wykonawcą w
 kilkunastu. Laureat stypendium MNiSW dla wybitnych młodych naukowców oraz
