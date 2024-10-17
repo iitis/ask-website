@@ -4,7 +4,7 @@ layout: default
 title: "Akademia Sztuki Kwantowej"
 summary: "Strona główna"
 ---
-
+![Logo z pomarańczowymi i szarymi liniami i kropkami oraz tekstem Akademia Sztuki Kwantowej]({{ site.images | relative_url }}/logo_akademia.png)
 # Informacje o projekcie „Akademia Sztuki Kwantowej”
 
 
@@ -54,5 +54,5 @@ Nazwa programu i moduł: **Nauka dla Społeczeństwa II**
 Kwota przyznana: **1 000 000 PLN**
 
 
-![logomnisw]({{ site.images | relative_url }}/logo1.png)
-![logonds]({{ site.images | relative_url }}/logo2.png)
+![Logo z polskim godłem orła oraz tekstem Ministerstwo Nauki i Szkolnictwa Wyższego, z czerwoną i białą linią poniżej]({{ site.images | relative_url }}/logo1.png)
+![Logo z kolorowymi połączonymi węzłami oraz tekstem Nauka Dla Społeczeństwa poniżej]({{ site.images | relative_url }}/logo2.png)
