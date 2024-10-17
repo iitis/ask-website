@@ -6,6 +6,9 @@ title: "Plan szkoleń"
 summary: "Plan szkoleń/ramowy plan szkoleń"
 active: true
 ---
+## Szczegółowy plan szkoleń
+Szczegółowy plan szkoleń znajduje się [tutaj]({{ site.docs | relative_url }}/plan_szkolen.pdf)
+
 
 ## I ETAP (XI 2024 – III 2025)
 
