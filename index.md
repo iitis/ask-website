@@ -35,10 +35,10 @@ matematycznemu i fizycznemu — oferują oni całościowy obraz tak złożonej
 dziedziny, jaką jest informatyka kwantowa.
 
 Akademia działa na terenie całego kraju. **Program szkoleń jest przeznaczony dla
-studentów oraz profesjonalistów z podstawową wiedzą w dziedzinach ścisłych i/lub
+osób pełnoletnich, które posiadają podstawową wiedzę w dziedzinach ścisłych i/lub
 technicznych**. Najpierw uczestnicy wezmą udział w serii wykładów online, które
-dostarczą niezbędnej wiedzy teoretycznej. Następnie  
-w różnych miastach w Polsce odbędą się warsztaty praktyczne z mentorami. 
+dostarczą niezbędnej wiedzy teoretycznej. Następnie w różnych miastach w Polsce
+odbędą się warsztaty praktyczne z mentorami. 
 
 ## Finansowanie
 
