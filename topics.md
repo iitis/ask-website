@@ -6,6 +6,8 @@ title: "Tematyka szkoleń"
 summary: "Tematyka szkoleń"
 active: true
 ---
+## [Szczegółowy plan szkoleń]({{ site.docs | relative_url }}/plan_szkolen.pdf)
+
 
 ## Obliczenia i algorytmy kwantowe
 

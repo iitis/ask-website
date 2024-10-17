@@ -47,3 +47,4 @@ lang: pl
 #   - vendor/gems/
 #   - vendor/ruby/
 images: '/assets/images'
+docs: '/assets/docs'
