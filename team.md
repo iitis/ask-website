@@ -2,7 +2,7 @@
 bg: "team.jpg"
 layout: default
 permalink: /team/
-title: "Kadra dydaktyczna"
+title: "Kadra"
 summary: "Ludzie w projekcie"
 active: true
 ---
