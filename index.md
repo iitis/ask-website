@@ -8,8 +8,6 @@ summary: "Strona główna"
 
 # Informacje o projekcie „Akademia Sztuki Kwantowej”
 
-<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61565889624120%2Fvideos%2F1724233205056689%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-
 W Gliwicach programujemy komputery kwantowe od niemal ćwierć wieku. Wówczas były
 one jedynie wizją przyszłości. Dziś, w miarę jak informatyka kwantowa zyskuje na
 znaczeniu, rośnie zapotrzebowanie na specjalistów, którzy potrafią wykorzystać
