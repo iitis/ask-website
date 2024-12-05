@@ -28,6 +28,10 @@ zakresu fizyki kwantowej i obliczeniowej. Autor ponad 40 publikacji naukowych.
   
 **dr hab. inż. Piotr Gawron**
 
+![Mężczyzna z łysą głową i brodą, ubrany w czarny sweter. Patrzy prosto w
+aparat. W tle widać rośliny i jasne wnętrze.]({{ site.images | relative_url
+}}/photos/pwg.jpg)
+
 Dr hab. inż. nauk technicznych w dziedzinie informatyki. Zatrudnienie: Centrum
 Astronomiczne im. Mikołaja Kopernika Polska Akademia Nauk, od 2019 – profesor
 instytutu. Centrum Doskonałości Sztucznej Inteligencji AGH, od 2024 – profesor
@@ -42,6 +46,10 @@ bezpośredniej detekcji. Laureat programu START.
   
 **dr hab. inż. Przemysław Głomb**
 
+![Mężczyzna z włosami związanymi w kucyk, ubrany w bordowy t-shirt, opiera głowę
+na dłoni. Siedzi przy stole z otwartą książką oraz kilkoma książkami obok.]({{
+site.images | relative_url}}/photos/pg.jpg)
+
 Kierownik Zespołu Uczenia Maszynowego w Instytucie Informatyki Teoretycznej i
 Stosowanej PAN w Gliwicach. Stopień dr hab. w dziedzinie nauk technicznych w
 dyscyplinie informatyka uzyskał w roku 2020, dr w 2007. W swoim dorobku posiada
@@ -50,6 +58,10 @@ uczących. Kierownik 9 projektów badawczych i badawczo-wdrożeniowych w zakresi
 teorii i zastosowań uczenia maszynowego, finansowanych m.in. z NCN, NCBR, MNiSW.
   
 **dr hab. inż. Łukasz Pawela**
+
+![Mężczyzna z długimi włosami, ubrany w czarną koszulę, stojący przed tablicą
+pełną równań matematycznych. Gestykuluje rękoma, patrząc w stronę aparatu.]({{
+site.images | relative_url}}/photos/lp.jpg)
 
 Stopień dra uzyskał w Instytucie Informatyki Teoretycznej i Stosowanej PAN w
 Gliwicach w roku 2017. Stopień dra hab. w dziedzinie nauk technicznych w
@@ -61,6 +73,10 @@ kilkunastu. Laureat stypendium MNiSW dla wybitnych młodych naukowców oraz
 stypendium START.
 
 **prof. dr hab. Zbigniew Puchała**
+
+![Mężczyzna w ciemnoszarej koszuli, stojący przed tablicą pełną wzorów
+matematycznych, wskazuje ręką na jeden z zapisów. Patrzy w stronę aparatu.]({{
+site.images | relative_url}}/photos/zp.jpg)
 
 Stopień dra uzyskał w Instytucie Matematycznym Uniwersytetu Wrocławskiego w 
 roku 2007. Stopień dra hab. w dziedzinie nauk technicznych w dyscyplinie
@@ -74,6 +90,10 @@ kilkunastu. Laureat stypendium MNiSW dla wybitnych młodych naukowców oraz
 stypendium START (FNP).
   
 **dr hab. Hanna Wojewódka-Ściążko**
+
+![Kobieta z krótkimi włosami, ubrana w zielony sweter i okulary. Opiera się o
+stos książek i uśmiecha się pewnie. Tło jest jednolicie białe.]({{ site.images |
+relative_url}}/photos/hws.jpg)
 
 Stopień dra nauk matematycznych uzyskała w Uniwersytecie Gdańskim (UG) w 2015
 r., a stopień dra hab. (również w dyscyplinie matematyka) - w Uniwersytecie
