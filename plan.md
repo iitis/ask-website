@@ -12,8 +12,7 @@ Szczegółowy plan szkoleń znajduje się [tutaj]({{ site.docs | relative_url }}
 
 ## I ETAP (XI 2024 – III 2025)
 
-**Wykłady online** (minimum 24h lekcyjne, prowadzone przez 3 doświadczonych
-wykładowców), mające na celu dostarczenie uczestnikom solidnych **podstaw
+**Wykłady online** mające na celu dostarczenie uczestnikom solidnych **podstaw
 teoretycznych**, obejmujących m.in.
 
 * Elementy rachunku prawdopodobieństwa i statystyki matematycznej.
@@ -30,10 +29,9 @@ teoretycznych**, obejmujących m.in.
 
 ## II ETAP (IV 2025 – IX 2025)
 
-**Warsztaty teoretyczno-praktyczne** (minimum 24h lekcyjne, prowadzone przez 2
-doświadczonych tutorów), które pozwolą uczestnikom na **rozwijanie umiejętności
-związanych z implementacją nowoczesnych rozwiązań technicznych**. Zakres
-tematyczny tych szkoleń obejmie m.in.
+**Warsztaty teoretyczno-praktyczne**, które pozwolą uczestnikom na **rozwijanie
+umiejętności związanych z implementacją nowoczesnych rozwiązań technicznych**.
+Zakres tematyczny tych szkoleń obejmie m.in.
 
 * Uczenie maszynowe – część I (data mining).
 
@@ -49,10 +47,9 @@ tematyczny tych szkoleń obejmie m.in.
 
 ## III ETAP (X 2025 – III 2026)
 
-**Warsztaty i projekty zespołowe** (minimum 24h lekcyjne, prowadzone przez 2
-doświadczonych tutorów), które **integrują zdobytą wiedzę i umiejętności, a
-także sprzyjają nawiązaniu trwałej współpracy między specjalistami z różnych
-dziedzin**. Zakres tematyczny tych szkoleń obejmie m.in.
+**Warsztaty i projekty zespołowe**, które **integrują zdobytą wiedzę i
+umiejętności, a także sprzyjają nawiązaniu trwałej współpracy między
+specjalistami z różnych dziedzin**. Zakres tematyczny tych szkoleń obejmie m.in.
 
 * Kwantowe sieci neuronowe i kwantowe metody jądrowe – część I (bramki  
   i obwody parametryzowalne).

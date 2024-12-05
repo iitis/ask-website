@@ -9,6 +9,11 @@ active: true
 
 **dr hab. Bartłomiej Gardas**
 
+![Mężczyzna w swobodnej pozycji siedzącej przy biurku, ubrany w koszulę w kratę
+na t-shircie. Korzysta z myszy komputerowej i patrzy na ekran laptopa. Biurko
+stoi przy oknie, przez które wpada naturalne światło.]({{ site.images |
+relative_url }}/photos/logo1.png)
+
 Stopień dra uzyskał na Uniwersytecie Śląskim w Katowicach w 2014 roku; następnie
 był stażystą podoktorskim w Los Alamos National Laboratory (USA), 2014 - 2016, a
 później (2016-2019) na Uniwersytecie Jagiellońskim. Laureat programu START

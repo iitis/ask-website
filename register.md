@@ -7,6 +7,6 @@ summary: "Rejestracja na szkolenia"
 active: true
 ---
 
-[Zapisy na I etap szkoleń zostaną uruchomione dnia 20.10.2024 r o 15:00.](https://akademia.iitis.pl)
+[Zapisy na I etap szkoleń (zapisy na termin I zostały zamknięte, zapraszamy do zapisów na termin II).](https://akademia.iitis.pl/event/8/registrations/2/)
 
 [Grafik wykładów online]({{ site.docs | relative_url }}/grafik_szkolen.pdf)
