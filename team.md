@@ -12,7 +12,7 @@ active: true
 ![Mężczyzna w swobodnej pozycji siedzącej przy biurku, ubrany w koszulę w kratę
 na t-shircie. Korzysta z myszy komputerowej i patrzy na ekran laptopa. Biurko
 stoi przy oknie, przez które wpada naturalne światło.]({{ site.images |
-relative_url }}/photos/logo1.png)
+relative_url }}/photos/bg.jpg)
 
 Stopień dra uzyskał na Uniwersytecie Śląskim w Katowicach w 2014 roku; następnie
 był stażystą podoktorskim w Los Alamos National Laboratory (USA), 2014 - 2016, a
