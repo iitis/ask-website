@@ -7,6 +7,6 @@ summary: "Rejestracja na szkolenia"
 active: true
 ---
 
-[Zapisy na I etap szkoleń, termin III.](https://akademia.iitis.pl/event/12/)
+[Zapisy na II etap szkoleń.](https://akademia.iitis.pl/)
 
 [Grafik wykładów online]({{ site.docs | relative_url }}/grafik_szkolen.pdf)
