@@ -7,6 +7,6 @@ summary: "Rejestracja na szkolenia"
 active: true
 ---
 
-[Zapisy na II etap szkoleń.](https://akademia.iitis.pl/)
+Rejestracja zakończona.
 
 [Grafik wykładów online]({{ site.docs | relative_url }}/grafik_szkolen.pdf)
