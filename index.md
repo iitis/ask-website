@@ -45,18 +45,25 @@ odbędą się warsztaty praktyczne z mentorami.
 
 ## Finansowanie
 
+<img src="{{ site.images | relative_url }}/barwy_godlo_rp.png" alt="Barwy Rzeczypospolitej Polskiej oraz wizerunek godła Rzeczypospolitej Polskiej" style="width:380px; max-width:100%; height:auto;">
 
-*Projekt dofinansowany ze środków budżetu państwa, przyznanych przez Ministra Edukacji i Nauki w ramach Programu „Nauka dla Społeczeństwa II"*
+**Sfinansowano ze środków budżetu państwa**
+
+*Projekt „Akademia Sztuki Kwantowej" sfinansowany ze środków budżetu państwa, przyznanych przez Ministra Edukacji i Nauki w ramach Programu „Nauka dla Społeczeństwa II".*
+
+Nazwa zadania: **Akademia Sztuki Kwantowej**
 
 Numer projektu: **NdS-II/SP/0222/2024/01**
 
+Nazwa programu: **Nauka dla Społeczeństwa II**
+
+Źródło finansowania: **budżet państwa — Ministerstwo Nauki i Szkolnictwa Wyższego**
+
+Wartość finansowania: **1 000 000 zł**
+
+Całkowita wartość zadania: **1 000 000 zł**
+
 Termin realizacji: **od 03/04/2024 do 03/04/2026**
-
-Źródło finansowania: **Ministerstwo Nauki i Szkolnictwa Wyższego**
-
-Nazwa programu i moduł: **Nauka dla Społeczeństwa II**
-
-Kwota przyznana: **1 000 000 PLN**
 
 
 ![Logo z polskim godłem orła oraz tekstem Ministerstwo Nauki i Szkolnictwa Wyższego, z czerwoną i białą linią poniżej]({{ site.images | relative_url }}/logo1.png)
