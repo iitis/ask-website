@@ -499,7 +499,13 @@ def main() -> int:
     print(f"\nZapisano {DATA_FILE.relative_to(ROOT)}: {len(events)} wydarzeń")
     print(f"Materiały lokalne: {n_local} unikalnych plików, {human_size(mirror.bytes)}"
           f" (nowo pobrane: {mirror.downloaded}, użyte ponownie: {mirror.reused})")
-    print(f"Pozostawione jako linki do Indico: {len(mirror.skipped)} plików")
+    if VIDEO_LINKS["files"]:
+        print(f"Nagrania linkowane do {VIDEO_LINKS['source_label']}: "
+              f"{len(VIDEO_LINKS['files'])} unikalnych plików "
+              f"({len(mirror.skipped)} wpisów na stronach), "
+              f"rekord {VIDEO_LINKS.get('record_url')}")
+    else:
+        print(f"Pozostawione jako linki do Indico: {len(mirror.skipped)} plików")
     return 0
 
 

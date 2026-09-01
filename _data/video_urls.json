@@ -1,0 +1,168 @@
+{
+ "record": "22231106",
+ "record_url": "https://zenodo.org/records/22231106",
+ "doi": "10.5281/zenodo.22231106",
+ "source_label": "Zenodo",
+ "files": {
+  "a746bef1d67772501b57ccd609e274e2": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_01.mp4?download=1",
+   "filename": "Algorytmy_01.mp4"
+  },
+  "56c073687e180bb9aaec28798543a8fe": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_02.mp4?download=1",
+   "filename": "Algorytmy_02.mp4"
+  },
+  "b5f3809e776c3056dee6f5406bb64f63": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_03.mp4?download=1",
+   "filename": "Algorytmy_03.mp4"
+  },
+  "a6dce37447cdd620de02220c642e7278": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_04.mp4?download=1",
+   "filename": "Algorytmy_04.mp4"
+  },
+  "cbc70cb6f0b29214fcedd24a6f1de0ee": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_05.mp4?download=1",
+   "filename": "Algorytmy_05.mp4"
+  },
+  "11c36ea2f2ef9d7c1f8d36673fd3961d": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_06.mp4?download=1",
+   "filename": "Algorytmy_06.mp4"
+  },
+  "83a49708d5277e92ed982f28dc9888c5": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_07.mp4?download=1",
+   "filename": "Algorytmy_07.mp4"
+  },
+  "f5542f72af92347d8e7638f745c07f67": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_08.mp4?download=1",
+   "filename": "Algorytmy_08.mp4"
+  },
+  "72dce77fb3ce5c14971eb35129548c78": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_09.mp4?download=1",
+   "filename": "Algorytmy_09.mp4"
+  },
+  "7352c95bf80978f14ccfff8ac76b793b": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_10.mp4?download=1",
+   "filename": "Algorytmy_10.mp4"
+  },
+  "54063919e3f55cf986f0e7138032e2e2": {
+   "url": "https://zenodo.org/records/22231106/files/Algorytmy_11.mp4?download=1",
+   "filename": "Algorytmy_11.mp4"
+  },
+  "d39d8348c777987798ee30586fba9fda": {
+   "url": "https://zenodo.org/records/22231106/files/OK_2._Elementy_algebry_liniowej_cz.mp4?download=1",
+   "filename": "OK_2._Elementy_algebry_liniowej_cz.mp4"
+  },
+  "65f52d709688f3cace49e240bc6a940a": {
+   "url": "https://zenodo.org/records/22231106/files/OK._1_Elementy_algebry_liniowej_cz.mp4?download=1",
+   "filename": "OK._1_Elementy_algebry_liniowej_cz.mp4"
+  },
+  "24a023e7096a2ffc8dc76e779c6c4425": {
+   "url": "https://zenodo.org/records/22231106/files/OK.mp4?download=1",
+   "filename": "OK.mp4"
+  },
+  "381e2514f1ead0e02c731c31a98e16f8": {
+   "url": "https://zenodo.org/records/22231106/files/OK-2.mp4?download=1",
+   "filename": "OK-2.mp4"
+  },
+  "dd02e759e2932540cd96fd205df27966": {
+   "url": "https://zenodo.org/records/22231106/files/OK-3.mp4?download=1",
+   "filename": "OK-3.mp4"
+  },
+  "ca66b35c9980fc97a59b5fa764b74d31": {
+   "url": "https://zenodo.org/records/22231106/files/OK._8_Zakaz_klonowania.mp4?download=1",
+   "filename": "OK._8_Zakaz_klonowania.mp4"
+  },
+  "bb44ccf4b2e16b7b72885019102ed167": {
+   "url": "https://zenodo.org/records/22231106/files/OK-4.mp4?download=1",
+   "filename": "OK-4.mp4"
+  },
+  "68463c6b09b8486e602b06e527b96baa": {
+   "url": "https://zenodo.org/records/22231106/files/OK._3_4_Metoda_spadku_wzdluz_gradientu.mp4?download=1",
+   "filename": "OK._3_4_Metoda_spadku_wzdluz_gradientu.mp4"
+  },
+  "3f5795be845d9eab4b89981010680592": {
+   "url": "https://zenodo.org/records/22231106/files/UM._1_Elementy_rachunku_prawdopodobienstwa_cz.mp4?download=1",
+   "filename": "UM._1_Elementy_rachunku_prawdopodobienstwa_cz.mp4"
+  },
+  "aefa09196de6c340b11a31f162adb02b": {
+   "url": "https://zenodo.org/records/22231106/files/UM._2_Elementy_rachunku_prawdopodobienstwa_cz.mp4?download=1",
+   "filename": "UM._2_Elementy_rachunku_prawdopodobienstwa_cz.mp4"
+  },
+  "21879f346108619788fc095037dd4af8": {
+   "url": "https://zenodo.org/records/22231106/files/UM._3_Elementy_statystyki_matematycznej_cz.mp4?download=1",
+   "filename": "UM._3_Elementy_statystyki_matematycznej_cz.mp4"
+  },
+  "61a7a27d26c4d3461d5c984f7ee96c98": {
+   "url": "https://zenodo.org/records/22231106/files/UM._4_Elementy_statystyki_matematycznej_cz.mp4?download=1",
+   "filename": "UM._4_Elementy_statystyki_matematycznej_cz.mp4"
+  },
+  "d628c3bdea6afb820d5090f9dbc30003": {
+   "url": "https://zenodo.org/records/22231106/files/UM.mp4?download=1",
+   "filename": "UM.mp4"
+  },
+  "28bb6ba499abe8fd76091276131a8679": {
+   "url": "https://zenodo.org/records/22231106/files/UM-2.mp4?download=1",
+   "filename": "UM-2.mp4"
+  },
+  "eb9dc4082362c290e2e78ff0715f03f2": {
+   "url": "https://zenodo.org/records/22231106/files/UM-3.mp4?download=1",
+   "filename": "UM-3.mp4"
+  },
+  "69cf83ed09ab415f357068d9efe2506f": {
+   "url": "https://zenodo.org/records/22231106/files/UM-4.mp4?download=1",
+   "filename": "UM-4.mp4"
+  },
+  "3f3ffe2d6f97a6e118cef8ba5d7d17da": {
+   "url": "https://zenodo.org/records/22231106/files/UM-5.mp4?download=1",
+   "filename": "UM-5.mp4"
+  },
+  "36b3f2a77e2bd351d6c265a094383eae": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_ASK.mp4?download=1",
+   "filename": "Wyklad_otwierajacy_ASK.mp4"
+  },
+  "d28dd6ea42cdd794e4744d01353def1f": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_ASK-2.mp4?download=1",
+   "filename": "Wyklad_otwierajacy_ASK-2.mp4"
+  },
+  "ed236ceaa7bd1d3ce65d668a317c0028": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_OK.mp4?download=1",
+   "filename": "Wyklad_otwierajacy_OK.mp4"
+  },
+  "155ac056488b3685c52e1128607260aa": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_UM.mp4?download=1",
+   "filename": "Wyklad_otwierajacy_UM.mp4"
+  },
+  "521cdd740b0e9be7a4fc902ac3ee8897": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy.mp4?download=1",
+   "filename": "Wyklad_podsumowujacy.mp4"
+  },
+  "fab7f06b7272197384830cdc838211f9": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-2.mp4?download=1",
+   "filename": "Wyklad_podsumowujacy-2.mp4"
+  },
+  "745dfac6ab94264b0f4cf37fd6e5e613": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-3.mp4?download=1",
+   "filename": "Wyklad_podsumowujacy-3.mp4"
+  },
+  "7680cc541c205ce9c97e27f06800a21b": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-4.mp4?download=1",
+   "filename": "Wyklad_podsumowujacy-4.mp4"
+  },
+  "97c89737f7b30be314fc62796feba971": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-5.mp4?download=1",
+   "filename": "Wyklad_podsumowujacy-5.mp4"
+  },
+  "3d4eb7ef00974c90eb43f778befd300b": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-6.mp4?download=1",
+   "filename": "Wyklad_podsumowujacy-6.mp4"
+  },
+  "1298f9c3e6ee556813f666e3da2d9724": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_wprowadzajacy_do_obliczen_kwantowych.mp4?download=1",
+   "filename": "Wyklad_wprowadzajacy_do_obliczen_kwantowych.mp4"
+  },
+  "3e23ecfc47d6cfa19dd288472759ce74": {
+   "url": "https://zenodo.org/records/22231106/files/Wyklad_wprowadzajacy_do_uczenia_maszynowego.mp4?download=1",
+   "filename": "Wyklad_wprowadzajacy_do_uczenia_maszynowego.mp4"
+  }
+ }
+}

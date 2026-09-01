@@ -3,10 +3,10 @@
  "fetched_at": "2026-09-01",
  "fetched_at_label": "1 września 2026",
  "video_host": {
-  "label": "Indico",
-  "record_url": "",
-  "doi": null,
-  "moved": false
+  "label": "Zenodo",
+  "record_url": "https://zenodo.org/records/22231106",
+  "doi": "10.5281/zenodo.22231106",
+  "moved": true
  },
  "stats": {
   "events": "16 wydarzeń",
@@ -124,8 +124,8 @@
            "size": 276508514,
            "size_label": "264 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/49/Wyk%C5%82ad%203b.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK_2._Elementy_algebry_liniowej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 3b.mp4"
           },
           {
@@ -134,8 +134,8 @@
            "size": 321947700,
            "size_label": "307 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/16/Wyk%C5%82ad%203a.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._1_Elementy_algebry_liniowej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 3a.mp4"
           },
           {
@@ -144,8 +144,8 @@
            "size": 297681539,
            "size_label": "284 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/256/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._3_4_Metoda_spadku_wzdluz_gradientu.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.mp4"
           },
           {
@@ -154,8 +154,8 @@
            "size": 455151444,
            "size_label": "434 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/8/Wyk%C5%82ad%201a.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._1_Elementy_rachunku_prawdopodobienstwa_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 1a.mp4"
           },
           {
@@ -164,8 +164,8 @@
            "size": 352353634,
            "size_label": "336 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/9/Wyk%C5%82ad%201b.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._2_Elementy_rachunku_prawdopodobienstwa_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 1b.mp4"
           },
           {
@@ -174,8 +174,8 @@
            "size": 596559021,
            "size_label": "569 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/13/Wyk%C5%82ad%202.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._3_Elementy_statystyki_matematycznej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 2.mp4"
           },
           {
@@ -184,8 +184,8 @@
            "size": 426556817,
            "size_label": "407 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/15/Wyk%C5%82ad%202b.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._4_Elementy_statystyki_matematycznej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 2b.mp4"
           }
          ]
@@ -474,8 +474,8 @@
            "size": 588880396,
            "size_label": "562 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/9/76/otwarcie_ask.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_ASK.mp4?download=1",
+           "source": "Zenodo",
            "filename": "otwarcie_ask.mp4"
           }
          ]
@@ -514,8 +514,8 @@
            "size": 459538484,
            "size_label": "438 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/51/Wprowadzenie.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wprowadzenie.mp4"
           },
           {
@@ -524,8 +524,8 @@
            "size": 306188118,
            "size_label": "292 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/52/Pomiary.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Pomiary.mp4"
           },
           {
@@ -534,8 +534,8 @@
            "size": 326434102,
            "size_label": "311 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/54/Informacja.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-3.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Informacja.mp4"
           },
           {
@@ -544,8 +544,8 @@
            "size": 314130694,
            "size_label": "300 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/55/Klonowanie.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._8_Zakaz_klonowania.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Klonowanie.mp4"
           },
           {
@@ -554,8 +554,8 @@
            "size": 209489153,
            "size_label": "200 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/92/Kryptografia.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-4.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Kryptografia.mp4"
           }
          ]
@@ -586,8 +586,8 @@
            "size": 220853712,
            "size_label": "211 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/141/algorytmy-1.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_01.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-1.mp4"
           },
           {
@@ -596,8 +596,8 @@
            "size": 118873599,
            "size_label": "113 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/142/algorytmy-2.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_02.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-2.mp4"
           },
           {
@@ -606,8 +606,8 @@
            "size": 96650397,
            "size_label": "92 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/143/algorytmy-3.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_03.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-3.mp4"
           },
           {
@@ -616,8 +616,8 @@
            "size": 208694337,
            "size_label": "199 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/144/algorytmy-4.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_04.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-4.mp4"
           },
           {
@@ -626,8 +626,8 @@
            "size": 174436621,
            "size_label": "166 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/145/algorytmy-5.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_05.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-5.mp4"
           },
           {
@@ -636,8 +636,8 @@
            "size": 162776609,
            "size_label": "155 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/152/algorytmy-6.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_06.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-6.mp4"
           },
           {
@@ -646,8 +646,8 @@
            "size": 177919440,
            "size_label": "170 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/147/algorytmy-7.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_07.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-7.mp4"
           },
           {
@@ -656,8 +656,8 @@
            "size": 158681122,
            "size_label": "151 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/148/algorytmy-8.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_08.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-8.mp4"
           },
           {
@@ -666,8 +666,8 @@
            "size": 198327606,
            "size_label": "189 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/149/algorytmy-9.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_09.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-9.mp4"
           },
           {
@@ -676,8 +676,8 @@
            "size": 76346858,
            "size_label": "73 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/150/algorytmy-10.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_10.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-10.mp4"
           },
           {
@@ -686,8 +686,8 @@
            "size": 200647072,
            "size_label": "191 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/151/algorytmy-11.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_11.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-11.mp4"
           }
          ]
@@ -718,8 +718,8 @@
            "size": 654873890,
            "size_label": "625 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/10/80/otwarcie_oblicze%C5%84_kwantowych.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_wprowadzajacy_do_obliczen_kwantowych.mp4?download=1",
+           "source": "Zenodo",
            "filename": "otwarcie_obliczeń_kwantowych.mp4"
           }
          ]
@@ -758,8 +758,8 @@
            "size": 258602935,
            "size_label": "247 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/10/perceptron.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM.mp4?download=1",
+           "source": "Zenodo",
            "filename": "perceptron.mp4"
           },
           {
@@ -768,8 +768,8 @@
            "size": 914288055,
            "size_label": "872 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/11/mlp.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "mlp.mp4"
           },
           {
@@ -778,8 +778,8 @@
            "size": 249566904,
            "size_label": "238 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/14/mlp_ex.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-3.mp4?download=1",
+           "source": "Zenodo",
            "filename": "mlp_ex.mp4"
           },
           {
@@ -788,8 +788,8 @@
            "size": 544339678,
            "size_label": "519 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/12/covariance.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-4.mp4?download=1",
+           "source": "Zenodo",
            "filename": "covariance.mp4"
           },
           {
@@ -798,8 +798,8 @@
            "size": 976545093,
            "size_label": "931 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/57/metody_statystyczne.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-5.mp4?download=1",
+           "source": "Zenodo",
            "filename": "metody_statystyczne.mp4"
           }
          ]
@@ -900,8 +900,8 @@
            "size": 776841044,
            "size_label": "741 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/79/otwarcie_uczenia_maszynowego.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_wprowadzajacy_do_uczenia_maszynowego.mp4?download=1",
+           "source": "Zenodo",
            "filename": "otwarcie_uczenia_maszynowego.mp4"
           }
          ]
@@ -955,8 +955,8 @@
            "size": 658537279,
            "size_label": "628 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/7/attachments/6/138/podsumowanie_ask.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-3.mp4?download=1",
+           "source": "Zenodo",
            "filename": "podsumowanie_ask.mp4"
           }
          ]
@@ -995,8 +995,8 @@
            "size": 532610286,
            "size_label": "508 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/8/attachments/28/139/podsumowanie_oblicze%C5%84_kwantowych.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy.mp4?download=1",
+           "source": "Zenodo",
            "filename": "podsumowanie_obliczeń_kwantowych.mp4"
           }
          ]
@@ -1035,8 +1035,8 @@
            "size": 533146107,
            "size_label": "508 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/7/contributions/9/attachments/29/140/podsumowanie_uczenia_maszynowego.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "podsumowanie_uczenia_maszynowego.mp4"
           }
          ]
@@ -1156,8 +1156,8 @@
            "size": 321947700,
            "size_label": "307 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/96/OK.1%20Algebra%20liniowa%20%E2%80%93%20cz.%201.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._1_Elementy_algebry_liniowej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.1 Algebra liniowa – cz. 1.mp4"
           },
           {
@@ -1166,8 +1166,8 @@
            "size": 276508514,
            "size_label": "264 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/97/OK.2%20Algebra%20liniowa%20%E2%80%93%20cz.%202.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK_2._Elementy_algebry_liniowej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.2 Algebra liniowa – cz. 2.mp4"
           },
           {
@@ -1176,8 +1176,8 @@
            "size": 297681539,
            "size_label": "284 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/252/UM.5%20Algorytmy%20numeryczne%20znajduj%C4%85ce%20minimum%20lokalne%20zadanej%20funkcji%20celu.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._3_4_Metoda_spadku_wzdluz_gradientu.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.5 Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu.mp4"
           },
           {
@@ -1186,8 +1186,8 @@
            "size": 455151444,
            "size_label": "434 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/95/UM.1%20Rachunek%20prawdopodobie%C5%84stwa%20%E2%80%93%20cz.%201.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._1_Elementy_rachunku_prawdopodobienstwa_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.1 Rachunek prawdopodobieństwa – cz. 1.mp4"
           },
           {
@@ -1196,8 +1196,8 @@
            "size": 352353634,
            "size_label": "336 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/94/UM.2%20Rachunek%20prawdopodobie%C5%84stwa%20%E2%80%93%20cz.%202.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._2_Elementy_rachunku_prawdopodobienstwa_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.2 Rachunek prawdopodobieństwa – cz. 2.mp4"
           },
           {
@@ -1206,8 +1206,8 @@
            "size": 596559021,
            "size_label": "569 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/98/UM.3%20Statystyka%20matematyczna%20%E2%80%93%20cz.%201.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._3_Elementy_statystyki_matematycznej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.3 Statystyka matematyczna – cz. 1.mp4"
           },
           {
@@ -1216,8 +1216,8 @@
            "size": 426556817,
            "size_label": "407 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/99/UM.4%20Statystyka%20matematyczna%20%E2%80%93%20cz.%202.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._4_Elementy_statystyki_matematycznej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.4 Statystyka matematyczna – cz. 2.mp4"
           }
          ]
@@ -1506,8 +1506,8 @@
            "size": 762676155,
            "size_label": "727 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/24/153/live_2_hws.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_ASK-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "live_2_hws.mp4"
           }
          ]
@@ -1546,8 +1546,8 @@
            "size": 459538484,
            "size_label": "438 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/133/OK.5%20Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.5 Wprowadzenie do obliczeń kwantowych.mp4"
           },
           {
@@ -1556,8 +1556,8 @@
            "size": 306188118,
            "size_label": "292 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/134/OK.6%20Pomiary%20kwantowe.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.6 Pomiary kwantowe.mp4"
           },
           {
@@ -1566,8 +1566,8 @@
            "size": 326434102,
            "size_label": "311 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/135/OK.7%20Informacja%20klasyczna%20i%20kwantowa.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-3.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.7 Informacja klasyczna i kwantowa.mp4"
           },
           {
@@ -1576,8 +1576,8 @@
            "size": 314130694,
            "size_label": "300 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/136/OK.8%20Zakaz%20klonowania.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._8_Zakaz_klonowania.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.8 Zakaz klonowania.mp4"
           },
           {
@@ -1586,8 +1586,8 @@
            "size": 209489153,
            "size_label": "200 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/137/OK.9%20Kryptografia.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-4.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.9 Kryptografia.mp4"
           }
          ]
@@ -1618,8 +1618,8 @@
            "size": 220853712,
            "size_label": "211 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/170/OK.10%20Algorytmy%20kwantowe%201.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_01.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 1.mp4"
           },
           {
@@ -1628,8 +1628,8 @@
            "size": 118873599,
            "size_label": "113 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/168/OK.10%20Algorytmy%20kwantowe%202.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_02.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 2.mp4"
           },
           {
@@ -1638,8 +1638,8 @@
            "size": 96650397,
            "size_label": "92 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/171/OK.10%20Algorytmy%20kwantowe%203.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_03.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 3.mp4"
           },
           {
@@ -1648,8 +1648,8 @@
            "size": 208694337,
            "size_label": "199 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/165/OK.10%20Algorytmy%20kwantowe%204.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_04.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 4.mp4"
           },
           {
@@ -1658,8 +1658,8 @@
            "size": 174436621,
            "size_label": "166 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/164/OK.10%20Algorytmy%20kwantowe%205.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_05.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 5.mp4"
           },
           {
@@ -1668,8 +1668,8 @@
            "size": 162776609,
            "size_label": "155 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/163/OK.10%20Algorytmy%20kwantowe%206.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_06.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 6.mp4"
           },
           {
@@ -1678,8 +1678,8 @@
            "size": 177919440,
            "size_label": "170 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/162/OK.10%20Algorytmy%20kwantowe%207.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_07.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 7.mp4"
           },
           {
@@ -1688,8 +1688,8 @@
            "size": 158681122,
            "size_label": "151 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/161/OK.10%20Algorytmy%20kwantowe%208.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_08.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 8.mp4"
           },
           {
@@ -1698,8 +1698,8 @@
            "size": 198327606,
            "size_label": "189 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/166/OK.10%20Algorytmy%20kwantowe%209.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_09.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 9.mp4"
           },
           {
@@ -1708,8 +1708,8 @@
            "size": 76346858,
            "size_label": "73 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/169/OK.10%20Algorytmy%20kwantowe%2010.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_10.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 10.mp4"
           },
           {
@@ -1718,8 +1718,8 @@
            "size": 200647072,
            "size_label": "191 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/167/OK.10%20Algorytmy%20kwantowe%2011.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_11.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.10 Algorytmy kwantowe 11.mp4"
           }
          ]
@@ -1750,8 +1750,8 @@
            "size": 524351435,
            "size_label": "500 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/26/154/live_2_zp.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_OK.mp4?download=1",
+           "source": "Zenodo",
            "filename": "live_2_zp.mp4"
           }
          ]
@@ -1790,8 +1790,8 @@
            "size": 258602935,
            "size_label": "247 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/125/UM.5%20Perceptron.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.5 Perceptron.mp4"
           },
           {
@@ -1800,8 +1800,8 @@
            "size": 914288055,
            "size_label": "872 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/126/UM.6%20Sieci%20MLP.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.6 Sieci MLP.mp4"
           },
           {
@@ -1810,8 +1810,8 @@
            "size": 249566904,
            "size_label": "238 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/127/UM.7%20Sieci%20MLP%20(analiza).mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-3.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.7 Sieci MLP (analiza).mp4"
           },
           {
@@ -1820,8 +1820,8 @@
            "size": 544339678,
            "size_label": "519 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/131/UM.8%20Statystyczne%20metody%20UM%20-%20wprowadzenie.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-4.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.8 Statystyczne metody UM - wprowadzenie.mp4"
           },
           {
@@ -1830,8 +1830,8 @@
            "size": 976545093,
            "size_label": "931 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/132/UM.9%20Statystyczne%20metody%20UM.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-5.mp4?download=1",
+           "source": "Zenodo",
            "filename": "UM.9 Statystyczne metody UM.mp4"
           }
          ]
@@ -1932,8 +1932,8 @@
            "size": 627608880,
            "size_label": "599 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/155/live_2_pg.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_UM.mp4?download=1",
+           "source": "Zenodo",
            "filename": "live_2_pg.mp4"
           }
          ]
@@ -1977,8 +1977,8 @@
            "size": 72818082,
            "size_label": "69 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/17/attachments/54/258/informatyka_kwantowa.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-4.mp4?download=1",
+           "source": "Zenodo",
            "filename": "informatyka_kwantowa.mp4"
           }
          ]
@@ -2017,8 +2017,8 @@
            "size": 143300399,
            "size_label": "137 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/16/attachments/55/259/intro_march.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-6.mp4?download=1",
+           "source": "Zenodo",
            "filename": "intro_march.mp4"
           }
          ]
@@ -2057,8 +2057,8 @@
            "size": 238524860,
            "size_label": "227 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/8/contributions/18/attachments/56/260/uczenie_maszyn.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-5.mp4?download=1",
+           "source": "Zenodo",
            "filename": "uczenie_maszyn.mp4"
           }
          ]
@@ -2178,8 +2178,8 @@
            "size": 321947700,
            "size_label": "307 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/187/Wyk%C5%82ad%203a.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._1_Elementy_algebry_liniowej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 3a.mp4"
           },
           {
@@ -2188,8 +2188,8 @@
            "size": 276508514,
            "size_label": "264 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/188/Wyk%C5%82ad%203b.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK_2._Elementy_algebry_liniowej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 3b.mp4"
           },
           {
@@ -2198,8 +2198,8 @@
            "size": 455151444,
            "size_label": "434 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/189/Wyk%C5%82ad%201a.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._1_Elementy_rachunku_prawdopodobienstwa_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 1a.mp4"
           },
           {
@@ -2208,8 +2208,8 @@
            "size": 352353634,
            "size_label": "336 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/190/Wyk%C5%82ad%201b.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._2_Elementy_rachunku_prawdopodobienstwa_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 1b.mp4"
           },
           {
@@ -2218,8 +2218,8 @@
            "size": 596559021,
            "size_label": "569 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/191/Wyk%C5%82ad%202.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._3_Elementy_statystyki_matematycznej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 2.mp4"
           },
           {
@@ -2228,8 +2228,8 @@
            "size": 426556817,
            "size_label": "407 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/192/Wyk%C5%82ad%202b.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM._4_Elementy_statystyki_matematycznej_cz.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wykład 2b.mp4"
           },
           {
@@ -2238,8 +2238,8 @@
            "size": 297681539,
            "size_label": "284 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/254/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._3_4_Metoda_spadku_wzdluz_gradientu.mp4?download=1",
+           "source": "Zenodo",
            "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.mp4"
           }
          ]
@@ -2528,8 +2528,8 @@
            "size": 588880396,
            "size_label": "562 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/41/222/otwarcie_ask.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_otwierajacy_ASK.mp4?download=1",
+           "source": "Zenodo",
            "filename": "otwarcie_ask.mp4"
           }
          ]
@@ -2568,8 +2568,8 @@
            "size": 326434102,
            "size_label": "311 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/198/Informacja.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-3.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Informacja.mp4"
           },
           {
@@ -2578,8 +2578,8 @@
            "size": 209489153,
            "size_label": "200 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/199/Kryptografia.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-4.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Kryptografia.mp4"
           },
           {
@@ -2588,8 +2588,8 @@
            "size": 306188118,
            "size_label": "292 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/200/Pomiary.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Pomiary.mp4"
           },
           {
@@ -2598,8 +2598,8 @@
            "size": 459538484,
            "size_label": "438 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/201/Wprowadzenie.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Wprowadzenie.mp4"
           },
           {
@@ -2608,8 +2608,8 @@
            "size": 314130694,
            "size_label": "300 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/202/Klonowanie.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/OK._8_Zakaz_klonowania.mp4?download=1",
+           "source": "Zenodo",
            "filename": "Klonowanie.mp4"
           }
          ]
@@ -2624,8 +2624,8 @@
            "size": 220853712,
            "size_label": "211 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/241/algorytmy-1.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_01.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-1.mp4"
           },
           {
@@ -2634,8 +2634,8 @@
            "size": 76346858,
            "size_label": "73 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/242/algorytmy-10.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_10.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-10.mp4"
           },
           {
@@ -2644,8 +2644,8 @@
            "size": 200647072,
            "size_label": "191 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/243/algorytmy-11.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_11.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-11.mp4"
           },
           {
@@ -2654,8 +2654,8 @@
            "size": 118873599,
            "size_label": "113 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/244/algorytmy-2.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_02.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-2.mp4"
           },
           {
@@ -2664,8 +2664,8 @@
            "size": 96650397,
            "size_label": "92 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/245/algorytmy-3.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_03.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-3.mp4"
           },
           {
@@ -2674,8 +2674,8 @@
            "size": 208694337,
            "size_label": "199 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/246/algorytmy-4.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_04.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-4.mp4"
           },
           {
@@ -2684,8 +2684,8 @@
            "size": 174436621,
            "size_label": "166 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/247/algorytmy-5.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_05.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-5.mp4"
           },
           {
@@ -2694,8 +2694,8 @@
            "size": 162776609,
            "size_label": "155 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/248/algorytmy-6.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_06.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-6.mp4"
           },
           {
@@ -2704,8 +2704,8 @@
            "size": 177919440,
            "size_label": "170 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/249/algorytmy-7.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_07.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-7.mp4"
           },
           {
@@ -2714,8 +2714,8 @@
            "size": 158681122,
            "size_label": "151 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/250/algorytmy-8.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_08.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-8.mp4"
           },
           {
@@ -2724,8 +2724,8 @@
            "size": 198327606,
            "size_label": "189 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/251/algorytmy-9.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Algorytmy_09.mp4?download=1",
+           "source": "Zenodo",
            "filename": "algorytmy-9.mp4"
           }
          ]
@@ -2772,8 +2772,8 @@
            "size": 654873890,
            "size_label": "625 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/42/223/otwarcie_oblicze%C5%84_kwantowych.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_wprowadzajacy_do_obliczen_kwantowych.mp4?download=1",
+           "source": "Zenodo",
            "filename": "otwarcie_obliczeń_kwantowych.mp4"
           }
          ]
@@ -2812,8 +2812,8 @@
            "size": 258602935,
            "size_label": "247 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/193/perceptron.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM.mp4?download=1",
+           "source": "Zenodo",
            "filename": "perceptron.mp4"
           },
           {
@@ -2822,8 +2822,8 @@
            "size": 914288055,
            "size_label": "872 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/194/mlp.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "mlp.mp4"
           },
           {
@@ -2832,8 +2832,8 @@
            "size": 249566904,
            "size_label": "238 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/195/mlp_ex.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-3.mp4?download=1",
+           "source": "Zenodo",
            "filename": "mlp_ex.mp4"
           },
           {
@@ -2842,8 +2842,8 @@
            "size": 976545093,
            "size_label": "931 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/196/metody_statystyczne.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-5.mp4?download=1",
+           "source": "Zenodo",
            "filename": "metody_statystyczne.mp4"
           },
           {
@@ -2852,8 +2852,8 @@
            "size": 544339678,
            "size_label": "519 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/197/covariance.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/UM-4.mp4?download=1",
+           "source": "Zenodo",
            "filename": "covariance.mp4"
           }
          ]
@@ -2954,8 +2954,8 @@
            "size": 776841044,
            "size_label": "741 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/224/otwarcie_uczenia_maszynowego.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_wprowadzajacy_do_uczenia_maszynowego.mp4?download=1",
+           "source": "Zenodo",
            "filename": "otwarcie_uczenia_maszynowego.mp4"
           }
          ]
@@ -2999,8 +2999,8 @@
            "size": 533146107,
            "size_label": "508 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/27/attachments/49/240/podsumowanie_uczenia_maszynowego.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-2.mp4?download=1",
+           "source": "Zenodo",
            "filename": "podsumowanie_uczenia_maszynowego.mp4"
           }
          ]
@@ -3049,8 +3049,8 @@
            "size": 658537279,
            "size_label": "628 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/29/attachments/38/204/podsumowanie_ask.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy-3.mp4?download=1",
+           "source": "Zenodo",
            "filename": "podsumowanie_ask.mp4"
           }
          ]
@@ -3089,8 +3089,8 @@
            "size": 532610286,
            "size_label": "508 MB",
            "local": null,
-           "remote": "https://akademia.iitis.pl/event/12/contributions/28/attachments/48/239/podsumowanie_oblicze%C5%84_kwantowych.mp4",
-           "source": "Indico",
+           "remote": "https://zenodo.org/records/22231106/files/Wyklad_podsumowujacy.mp4?download=1",
+           "source": "Zenodo",
            "filename": "podsumowanie_obliczeń_kwantowych.mp4"
           }
          ]
