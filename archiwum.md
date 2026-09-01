@@ -3,6 +3,7 @@ bg: "trainings.jpg"
 layout: default
 permalink: /archiwum/
 title: "Archiwum wydarzeń"
+nav_title: "Archiwum"
 summary: "Wykłady online i warsztaty — program i materiały"
 active: true
 ---
@@ -16,8 +17,12 @@ wydarzenia.
 
 Dane pochodzą z systemu Indico ([{{ site.data.archiwum.source | remove: 'https://' }}]({{ site.data.archiwum.source }})),
 stan na **{{ site.data.archiwum.fetched_at_label }}**. Prezentacje, notatniki i skrypty
-zostały skopiowane na ten serwer i są dostępne bezpośrednio. Nagrania wideo (ponad
-37 GB) pozostają na serwerze Indico — przy nich podano odnośnik do oryginału.
+zostały skopiowane na ten serwer i są dostępne bezpośrednio.
+{% assign host = site.data.archiwum.video_host %}
+{% if host.moved %}Nagrania wykładów są udostępniane z {{ host.label }}{% if host.doi %}
+([DOI: {{ host.doi }}](https://doi.org/{{ host.doi }})){% endif %} — każde nagranie
+ma osobny odnośnik przy odpowiednim punkcie programu.{% else %}Nagrania wideo pozostają
+na serwerze Indico — przy nich podano odnośnik do oryginału.{% endif %}
 
 {% assign online = site.data.archiwum.events | where: 'kind', 'online' %}
 {% assign warsztaty = site.data.archiwum.events | where: 'kind', 'warsztaty' %}

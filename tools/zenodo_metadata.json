@@ -1,0 +1,39 @@
+{
+ "upload_type": "lesson",
+ "title": "Akademia Sztuki Kwantowej: nagrania wykładów online",
+ "publication_date": "2026-09-01",
+ "language": "pol",
+ "access_right": "open",
+ "license": "cc-by-4.0",
+ "creators": [
+  {
+   "name": "Instytut Informatyki Teoretycznej i Stosowanej Polskiej Akademii Nauk",
+   "affiliation": "Polska Akademia Nauk"
+  }
+ ],
+ "description": "<p>Nagrania wykładów online zrealizowanych w ramach projektu <strong>&bdquo;Akademia Sztuki Kwantowej&rdquo;</strong> (2024&ndash;2026) &mdash; programu szkoleń z obliczeń kwantowych i uczenia maszynowego, prowadzonego przez Instytut Informatyki Teoretycznej i Stosowanej PAN w Gliwicach.</p><p>Zestaw obejmuje 40 nagrań (ok. 15 GB) z bloków tematycznych:</p><ul><li>elementy rachunku prawdopodobieństwa i statystyki matematycznej,</li><li>elementy algebry liniowej i notacja Diraca,</li><li>metoda stochastycznego spadku wzdłuż gradientu,</li><li>podstawy uczenia maszynowego (perceptron, sieci MLP, metody statystyczne),</li><li>wprowadzenie do obliczeń kwantowych (stany, pomiar, bramki, splątanie),</li><li>algorytmy kwantowe (Shora, Deutscha&ndash;Jozsy, Grovera, korekcja błędów),</li><li>kryptografia kwantowa, gęste kodowanie i teleportacja.</li></ul><p><strong>Wykłady prowadzili:</strong> Przemysław Głomb, Łukasz Pawela, Piotr Gawron, Bartłomiej Gardas, Tomasz Śmierzchalski, Zbigniew Puchała, Hanna Wojewódka-Ściążko. Afiliacje: Instytut Informatyki Teoretycznej i Stosowanej PAN w Gliwicach; Centrum Astronomiczne im. Mikołaja Kopernika PAN (P. Gawron).</p><p>Program, terminy oraz materiały towarzyszące (slajdy, notatniki) są dostępne w archiwum wydarzeń projektu: <a href=\"https://ask.iitis.pl/archiwum/\">https://ask.iitis.pl/archiwum/</a></p><p><strong>Finansowanie:</strong> projekt &bdquo;Akademia Sztuki Kwantowej&rdquo; sfinansowany ze środków budżetu państwa, przyznanych przez Ministra Edukacji i Nauki w ramach Programu &bdquo;Nauka dla Społeczeństwa II&rdquo;. Numer projektu: NdS-II/SP/0222/2024/01. Wartość finansowania: 1 000 000 zł. Termin realizacji: 03.04.2024 &ndash; 03.04.2026.</p>",
+ "notes": "Nagrania pochodzą z trzech terminów wykładów online (XII 2024 – III 2025). Zestaw zdeduplikowano po sumach MD5: terminy I, II i III udostępniały w dużej mierze te same nagrania, więc każdy plik występuje tu raz. Sumy kontrolne zgodne z oryginałami w systemie Indico (akademia.iitis.pl).",
+ "keywords": [
+  "obliczenia kwantowe",
+  "informatyka kwantowa",
+  "uczenie maszynowe",
+  "algorytmy kwantowe",
+  "kubit",
+  "materiały dydaktyczne",
+  "quantum computing",
+  "machine learning",
+  "lecture recordings"
+ ],
+ "related_identifiers": [
+  {
+   "identifier": "https://ask.iitis.pl/archiwum/",
+   "relation": "isDocumentedBy",
+   "resource_type": "other"
+  },
+  {
+   "identifier": "https://akademia.iitis.pl/",
+   "relation": "isDerivedFrom",
+   "resource_type": "other"
+  }
+ ]
+}

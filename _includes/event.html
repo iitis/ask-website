@@ -89,10 +89,16 @@ Użycie: {% include event.html event=event %}
     {% endfor %}
   {% endif %}
 
+  {% assign host = site.data.archiwum.video_host %}
   <p class="ev-note">
     Kopia danych z systemu Indico (<a href="{{ event.indico_url }}" rel="noopener">{{ event.indico_url }}</a>),
     stan na {{ site.data.archiwum.fetched_at_label }}. Nagrania wideo, ze względu na rozmiar,
-    pozostają na serwerze Indico &mdash; oznaczono je etykietą „Indico”.
+    {% if host.moved %}
+      są udostępniane z {{ host.label }}{% if host.doi %} (DOI: <a href="https://doi.org/{{ host.doi }}" rel="noopener">{{ host.doi }}</a>){% endif %}
+      &mdash; oznaczono je etykietą „{{ host.label }}”.
+    {% else %}
+      pozostają na serwerze Indico &mdash; oznaczono je etykietą „Indico”.
+    {% endif %}
   </p>
 
 </article>

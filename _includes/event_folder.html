@@ -1,7 +1,7 @@
 {% comment %}
 Renderuje jeden folder z materiałami (Indico "attachment folder").
-Pliki skopiowane lokalnie linkują do assets/materials/, wideo i odnośniki
-zewnętrzne - do źródła.
+Pliki skopiowane lokalnie linkują do assets/materials/; nagrania i odnośniki
+zewnętrzne - do źródła, oznaczonego etykietą item.source.
 {% endcomment %}
 {% assign folder = include.folder %}
 
@@ -32,7 +32,7 @@ zewnętrzne - do źródła.
             {% else %}<span class="ev-tag">plik</span>
           {% endcase %}
           {% if item.size_label != '' %}<span class="ev-size">{{ item.size_label }}</span>{% endif %}
-          {% unless item.local %}{% if item.kind != 'link' %}<span class="ev-tag ev-tag--remote">Indico</span>{% endif %}{% endunless %}
+          {% if item.source != '' %}<span class="ev-tag ev-tag--remote">{{ item.source }}</span>{% endif %}
         </span>
       </li>
     {% endfor %}

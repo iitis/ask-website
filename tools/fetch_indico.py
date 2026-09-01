@@ -74,6 +74,8 @@ MIRROR_MAX_BYTES = 60 * 1024 * 1024
 
 MATERIALS_DIR = ROOT / "assets" / "materials"
 DATA_FILE = ROOT / "_data" / "archiwum.json"
+# Mapowanie MD5 -> URL dla nagrań przeniesionych poza Indico (patrz zenodo.py).
+VIDEO_LINKS_FILE = ROOT / "_data" / "video_urls.json"
 PAGES_DIR = ROOT / "archiwum"
 
 MONTHS = {
@@ -111,6 +113,20 @@ def _relax_tls_if_needed() -> None:
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     session.verify = False
     print(f"Uwaga: {BASE} ma niepełny łańcuch certyfikatów - weryfikacja TLS wyłączona.")
+
+
+def load_video_links() -> dict:
+    """Nagrania nie mieszczą się w GitHub Pages, więc leżą w zewnętrznym
+    repozytorium. Jeśli mapowanie istnieje, linkujemy tam zamiast do Indico."""
+    if not VIDEO_LINKS_FILE.exists():
+        return {"files": {}, "source_label": "Indico", "record_url": "", "doi": None}
+    data = json.loads(VIDEO_LINKS_FILE.read_text(encoding="utf-8"))
+    data.setdefault("files", {})
+    data.setdefault("source_label", "Zenodo")
+    return data
+
+
+VIDEO_LINKS = load_video_links()
 
 
 def ascii_fold(text: str) -> str:
@@ -298,13 +314,23 @@ def build_folders(raw_folders: list[dict] | None, mirror: Mirror) -> list[dict]:
         for att in folder.get("attachments", []):
             kind = kind_of(att)
             local = mirror.path_for(att)
+            remote = att.get("link_url") or att.get("download_url")
+            source = ""
+            if not local and kind != "link":
+                moved = VIDEO_LINKS["files"].get(att.get("checksum") or "")
+                if moved:
+                    remote = moved["url"]
+                    source = VIDEO_LINKS["source_label"]
+                else:
+                    source = "Indico"
             items.append({
                 "title": att.get("title") or att.get("filename") or "materiał",
                 "kind": kind,
                 "size": att.get("size"),
                 "size_label": human_size(att.get("size")),
                 "local": local,
-                "remote": att.get("link_url") or att.get("download_url"),
+                "remote": remote,
+                "source": source,
                 "filename": att.get("filename"),
             })
         if not items:
@@ -444,6 +470,12 @@ def main() -> int:
         "source": BASE,
         "fetched_at": now.strftime("%Y-%m-%d"),
         "fetched_at_label": f"{now.day} {MONTHS[now.month]} {now.year}",
+        "video_host": {
+            "label": VIDEO_LINKS["source_label"],
+            "record_url": VIDEO_LINKS.get("record_url") or "",
+            "doi": VIDEO_LINKS.get("doi"),
+            "moved": bool(VIDEO_LINKS["files"]),
+        },
         "stats": {
             "events": plural(len(events), "wydarzenie", "wydarzenia", "wydarzeń"),
             "online": plural(n_online, "wydarzenie online", "wydarzenia online",

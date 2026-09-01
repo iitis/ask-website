@@ -124,7 +124,7 @@
     a {
       font-size: 13px;
       display: block;
-      padding-right: 2em;
+      padding-right: 1.25em;
       margin: 0;
     }
   }
@@ -148,6 +148,13 @@
     width: $content-wrapper-width;
     max-width: $article-max-width;
     margin-left: $post-margin-left;
+  }
+
+  /* Nagłówek nie jest tekstem artykułu - limit szerokości kolumny czytelniczej
+     go dusił i pozycje menu zawijały się do drugiego rzędu. */
+  .main-header.content-wrapper {
+    max-width: none;
+    width: 100% - $post-margin-left;
   }
 
   main {

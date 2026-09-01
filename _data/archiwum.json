@@ -2,6 +2,12 @@
  "source": "https://akademia.iitis.pl",
  "fetched_at": "2026-09-01",
  "fetched_at_label": "1 września 2026",
+ "video_host": {
+  "label": "Indico",
+  "record_url": "",
+  "doi": null,
+  "moved": false
+ },
  "stats": {
   "events": "16 wydarzeń",
   "online": "4 wydarzenia online",
@@ -46,6 +52,7 @@
        "size_label": "162 kB",
        "local": "assets/materials/12c2df0d/grafik_wykladow_online_ASK.pdf",
        "remote": "https://akademia.iitis.pl/event/7/attachments/1/91/grafik_wykladow_online_ASK.pdf",
+       "source": "",
        "filename": "grafik_wykladow_online_ASK.pdf"
       },
       {
@@ -55,6 +62,7 @@
        "size_label": "214 kB",
        "local": "assets/materials/1fbf2170/kadra_dydaktyczna.pdf",
        "remote": "https://akademia.iitis.pl/event/7/attachments/1/3/kadra_dydaktyczna.pdf",
+       "source": "",
        "filename": "kadra_dydaktyczna.pdf"
       },
       {
@@ -64,6 +72,7 @@
        "size_label": "133 kB",
        "local": "assets/materials/4f893652/opis_blokow_tematycznych.pdf",
        "remote": "https://akademia.iitis.pl/event/7/attachments/1/4/opis_blok%C3%B3w_tematycznych.pdf",
+       "source": "",
        "filename": "opis_bloków_tematycznych.pdf"
       },
       {
@@ -73,6 +82,7 @@
        "size_label": "129 kB",
        "local": "assets/materials/a30fc141/Sugerowana_kolejnosc_odtwarzania_wykladow_I_termin.pdf",
        "remote": "https://akademia.iitis.pl/event/7/attachments/1/178/Sugerowana%20kolejno%C5%9B%C4%87%20odtwarzania%20wyk%C5%82ad%C3%B3w%20(I%20termin).pdf",
+       "source": "",
        "filename": "Sugerowana kolejność odtwarzania wykładów (I termin).pdf"
       }
      ]
@@ -115,6 +125,7 @@
            "size_label": "264 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/49/Wyk%C5%82ad%203b.mp4",
+           "source": "Indico",
            "filename": "Wykład 3b.mp4"
           },
           {
@@ -124,6 +135,7 @@
            "size_label": "307 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/16/Wyk%C5%82ad%203a.mp4",
+           "source": "Indico",
            "filename": "Wykład 3a.mp4"
           },
           {
@@ -133,6 +145,7 @@
            "size_label": "284 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/256/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.mp4",
+           "source": "Indico",
            "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.mp4"
           },
           {
@@ -142,6 +155,7 @@
            "size_label": "434 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/8/Wyk%C5%82ad%201a.mp4",
+           "source": "Indico",
            "filename": "Wykład 1a.mp4"
           },
           {
@@ -151,6 +165,7 @@
            "size_label": "336 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/9/Wyk%C5%82ad%201b.mp4",
+           "source": "Indico",
            "filename": "Wykład 1b.mp4"
           },
           {
@@ -160,6 +175,7 @@
            "size_label": "569 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/13/Wyk%C5%82ad%202.mp4",
+           "source": "Indico",
            "filename": "Wykład 2.mp4"
           },
           {
@@ -169,6 +185,7 @@
            "size_label": "407 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/15/Wyk%C5%82ad%202b.mp4",
+           "source": "Indico",
            "filename": "Wykład 2b.mp4"
           }
          ]
@@ -184,6 +201,7 @@
            "size_label": "1.5 MB",
            "local": "assets/materials/8e8ca11c/OK._3_4_Metoda_spadku_wzdluz_gradientu.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/53/257/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.pdf",
+           "source": "",
            "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.pdf"
           }
          ]
@@ -199,6 +217,7 @@
            "size_label": "546 kB",
            "local": "assets/materials/3fd20274/3.1._Liczby_zespolone.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/87/3.1.%20Liczby%20zespolone.pdf",
+           "source": "",
            "filename": "3.1. Liczby zespolone.pdf"
           },
           {
@@ -208,6 +227,7 @@
            "size_label": "170 kB",
            "local": "assets/materials/c9fd9aa0/3.2._Wektory._Sprzezenie_hermitowskie.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/86/3.2.%20Wektory.%20Sprz%C4%99%C5%BCenie%20hermitowskie.pdf",
+           "source": "",
            "filename": "3.2. Wektory. Sprzężenie hermitowskie.pdf"
           },
           {
@@ -217,6 +237,7 @@
            "size_label": "171 kB",
            "local": "assets/materials/9144f5ac/3.3._Iloczyn_skalarny_wektorow._Liniowa_zaleznosc_wektorow._Baza_i_wymiar_przestrzeni_wektorowej.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/85/3.3.%20Iloczyn%20skalarny%20wektor%C3%B3w.%20Liniowa%20zale%C5%BCno%C5%9B%C4%87%20wektor%C3%B3w.%20Baza%20i%20wymiar%20przestrzeni%20wektorowej.pdf",
+           "source": "",
            "filename": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf"
           },
           {
@@ -226,6 +247,7 @@
            "size_label": "106 kB",
            "local": "assets/materials/d7557cc2/3.4._Norma_euklidesowa._Wektory_unormowane._Wektory_ortogonalne.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/84/3.4.%20Norma%20euklidesowa.%20Wektory%20unormowane.%20Wektory%20ortogonalne.pdf",
+           "source": "",
            "filename": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf"
           },
           {
@@ -235,6 +257,7 @@
            "size_label": "155 kB",
            "local": "assets/materials/b6b082f4/3.5._Macierze.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/83/3.5.%20Macierze.pdf",
+           "source": "",
            "filename": "3.5. Macierze.pdf"
           },
           {
@@ -244,6 +267,7 @@
            "size_label": "182 kB",
            "local": "assets/materials/9ba30eef/3.6._Pewne_szczegolne_rodzaje_macierzy.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/82/3.6.%20Pewne%20szczeg%C3%B3lne%20rodzaje%20macierzy.pdf",
+           "source": "",
            "filename": "3.6. Pewne szczególne rodzaje macierzy.pdf"
           },
           {
@@ -253,6 +277,7 @@
            "size_label": "182 kB",
            "local": "assets/materials/6d544902/3.7._Wektory_i_wartosci_wlasne.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/81/3.7.%20Wektory%20i%20warto%C5%9Bci%20w%C5%82asne.pdf",
+           "source": "",
            "filename": "3.7. Wektory i wartości własne.pdf"
           }
          ]
@@ -268,6 +293,7 @@
            "size_label": "14 MB",
            "local": "assets/materials/3901cc74/1.1._Doswiadczenie_losowe_a_model_matematyczny.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/65/1.1.%20Do%C5%9Bwiadczenie%20losowe%20a%20model%20matematyczny.pdf",
+           "source": "",
            "filename": "1.1. Doświadczenie losowe a model matematyczny.pdf"
           },
           {
@@ -277,6 +303,7 @@
            "size_label": "1.6 MB",
            "local": "assets/materials/05bcc517/1.2._Prawdopodobienstwo_warunkowe_zdarzenia_niezalezne.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/64/1.2.%20Prawdopodobie%C5%84stwo%20warunkowe,%20zdarzenia%20niezale%C5%BCne.pdf",
+           "source": "",
            "filename": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf"
           },
           {
@@ -286,6 +313,7 @@
            "size_label": "5.5 MB",
            "local": "assets/materials/1fd823a1/1.3._Zmienna_losowa.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/63/1.3.%20Zmienna%20losowa.pdf",
+           "source": "",
            "filename": "1.3. Zmienna losowa.pdf"
           },
           {
@@ -295,6 +323,7 @@
            "size_label": "5.3 MB",
            "local": "assets/materials/308afa91/1.4._Zmienna_losowa_dyskretna.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/62/1.4.%20Zmienna%20losowa%20dyskretna.pdf",
+           "source": "",
            "filename": "1.4. Zmienna losowa dyskretna.pdf"
           },
           {
@@ -304,6 +333,7 @@
            "size_label": "212 kB",
            "local": "assets/materials/e306fecc/1.5._Dystrybuanta_zmiennej_losowej.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/61/1.5.%20Dystrybuanta%20zmiennej%20losowej.pdf",
+           "source": "",
            "filename": "1.5. Dystrybuanta zmiennej losowej.pdf"
           },
           {
@@ -313,6 +343,7 @@
            "size_label": "521 kB",
            "local": "assets/materials/e5aa4178/1.6._Zmienna_losowa_absolutnie_ciagla.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/60/1.6.%20Zmienna%20losowa%20absolutnie%20ci%C4%85g%C5%82a.pdf",
+           "source": "",
            "filename": "1.6. Zmienna losowa absolutnie ciągła.pdf"
           },
           {
@@ -322,6 +353,7 @@
            "size_label": "538 kB",
            "local": "assets/materials/f821a404/1.7._Dwuwymiarowa_zmienna_losowa_zmienne_losowe_niezalezne.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/59/1.7.%20Dwuwymiarowa%20zmienna%20losowa,%20zmienne%20losowe%20niezale%C5%BCne.pdf",
+           "source": "",
            "filename": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf"
           },
           {
@@ -331,6 +363,7 @@
            "size_label": "185 kB",
            "local": "assets/materials/2725d5ca/1.8._CTG_rozklad_t_Studenta.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/58/1.8.%20CTG,%20rozk%C5%82ad%20t%20Studenta.pdf",
+           "source": "",
            "filename": "1.8. CTG, rozkład t Studenta.pdf"
           }
          ]
@@ -346,6 +379,7 @@
            "size_label": "5.1 MB",
            "local": "assets/materials/84e34717/2.1._Teoretyczne_podstawy_wnioskowania_statystycznego.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/67/2.1.%20Teoretyczne%20podstawy%20wnioskowania%20statystycznego.pdf",
+           "source": "",
            "filename": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf"
           },
           {
@@ -355,6 +389,7 @@
            "size_label": "455 kB",
            "local": "assets/materials/f9c22b30/2.2._Statystyka_z_proby_jako_zmienna_losowa.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/66/2.2.%20Statystyka%20z%20pr%C3%B3by%20(jako%20zmienna%20losowa).pdf",
+           "source": "",
            "filename": "2.2. Statystyka z próby (jako zmienna losowa).pdf"
           },
           {
@@ -364,6 +399,7 @@
            "size_label": "336 kB",
            "local": "assets/materials/de3b90a7/2.3._Weryfikacja_hipotez_statystycznych.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/68/2.3.%20Weryfikacja%20hipotez%20statystycznych.pdf",
+           "source": "",
            "filename": "2.3. Weryfikacja hipotez statystycznych.pdf"
           },
           {
@@ -373,6 +409,7 @@
            "size_label": "3.6 MB",
            "local": "assets/materials/195b761f/2.4._Parametryczne_testy_istotnosci.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/70/2.4.%20Parametryczne%20testy%20istotno%C5%9Bci.pdf",
+           "source": "",
            "filename": "2.4. Parametryczne testy istotności.pdf"
           },
           {
@@ -382,6 +419,7 @@
            "size_label": "725 kB",
            "local": "assets/materials/918d4ea1/2.5._p-wartosc._Test_t.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/74/2.5.%20p-warto%C5%9B%C4%87.%20Test%20t.pdf",
+           "source": "",
            "filename": "2.5. p-wartość. Test t.pdf"
           },
           {
@@ -391,6 +429,7 @@
            "size_label": "192 kB",
            "local": "assets/materials/17c2ee0f/2.6._Testy_roznicy_srednich_dla_par._Sparowany_test_t.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/73/2.6.%20Testy%20r%C3%B3%C5%BCnicy%20%C5%9Brednich%20dla%20par.%20Sparowany%20test%20t.pdf",
+           "source": "",
            "filename": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf"
           },
           {
@@ -400,6 +439,7 @@
            "size_label": "2.0 MB",
            "local": "assets/materials/e6e9be43/2.7._Test_Wilcoxona_dla_par_obserwacji.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/72/2.7.%20Test%20Wilcoxona%20dla%20par%20obserwacji.pdf",
+           "source": "",
            "filename": "2.7. Test Wilcoxona dla par obserwacji.pdf"
           },
           {
@@ -409,6 +449,7 @@
            "size_label": "268 kB",
            "local": "assets/materials/26013ca2/2.8._Testy_zgodnosci._Testy_normalnosci_rozkladu.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/71/2.8.%20Testy%20zgodno%C5%9Bci.%20Testy%20normalno%C5%9Bci%20rozk%C5%82adu.pdf",
+           "source": "",
            "filename": "2.8. Testy zgodności. Testy normalności rozkładu.pdf"
           }
          ]
@@ -424,6 +465,7 @@
            "size_label": "15 MB",
            "local": "assets/materials/58e3706e/Slajdy_do_wykladu_otwierajacego_Akademie_Sztuki_Kwantowej.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/9/75/Slajdy%20do%20wyk%C5%82adu%20otwieraj%C4%85cego%20Akademi%C4%99%20Sztuki%20Kwantowej.pdf",
+           "source": "",
            "filename": "Slajdy do wykładu otwierającego Akademię Sztuki Kwantowej.pdf"
           },
           {
@@ -433,6 +475,7 @@
            "size_label": "562 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/9/76/otwarcie_ask.mp4",
+           "source": "Indico",
            "filename": "otwarcie_ask.mp4"
           }
          ]
@@ -472,6 +515,7 @@
            "size_label": "438 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/51/Wprowadzenie.mp4",
+           "source": "Indico",
            "filename": "Wprowadzenie.mp4"
           },
           {
@@ -481,6 +525,7 @@
            "size_label": "292 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/52/Pomiary.mp4",
+           "source": "Indico",
            "filename": "Pomiary.mp4"
           },
           {
@@ -490,6 +535,7 @@
            "size_label": "311 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/54/Informacja.mp4",
+           "source": "Indico",
            "filename": "Informacja.mp4"
           },
           {
@@ -499,6 +545,7 @@
            "size_label": "300 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/55/Klonowanie.mp4",
+           "source": "Indico",
            "filename": "Klonowanie.mp4"
           },
           {
@@ -508,6 +555,7 @@
            "size_label": "200 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/92/Kryptografia.mp4",
+           "source": "Indico",
            "filename": "Kryptografia.mp4"
           }
          ]
@@ -523,6 +571,7 @@
            "size_label": "793 kB",
            "local": "assets/materials/7473fd4a/Algorytmy_kwantowe.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/23/180/Algorytmy%20kwantowe.pdf",
+           "source": "",
            "filename": "Algorytmy kwantowe.pdf"
           }
          ]
@@ -538,6 +587,7 @@
            "size_label": "211 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/141/algorytmy-1.mp4",
+           "source": "Indico",
            "filename": "algorytmy-1.mp4"
           },
           {
@@ -547,6 +597,7 @@
            "size_label": "113 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/142/algorytmy-2.mp4",
+           "source": "Indico",
            "filename": "algorytmy-2.mp4"
           },
           {
@@ -556,6 +607,7 @@
            "size_label": "92 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/143/algorytmy-3.mp4",
+           "source": "Indico",
            "filename": "algorytmy-3.mp4"
           },
           {
@@ -565,6 +617,7 @@
            "size_label": "199 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/144/algorytmy-4.mp4",
+           "source": "Indico",
            "filename": "algorytmy-4.mp4"
           },
           {
@@ -574,6 +627,7 @@
            "size_label": "166 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/145/algorytmy-5.mp4",
+           "source": "Indico",
            "filename": "algorytmy-5.mp4"
           },
           {
@@ -583,6 +637,7 @@
            "size_label": "155 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/152/algorytmy-6.mp4",
+           "source": "Indico",
            "filename": "algorytmy-6.mp4"
           },
           {
@@ -592,6 +647,7 @@
            "size_label": "170 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/147/algorytmy-7.mp4",
+           "source": "Indico",
            "filename": "algorytmy-7.mp4"
           },
           {
@@ -601,6 +657,7 @@
            "size_label": "151 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/148/algorytmy-8.mp4",
+           "source": "Indico",
            "filename": "algorytmy-8.mp4"
           },
           {
@@ -610,6 +667,7 @@
            "size_label": "189 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/149/algorytmy-9.mp4",
+           "source": "Indico",
            "filename": "algorytmy-9.mp4"
           },
           {
@@ -619,6 +677,7 @@
            "size_label": "73 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/150/algorytmy-10.mp4",
+           "source": "Indico",
            "filename": "algorytmy-10.mp4"
           },
           {
@@ -628,6 +687,7 @@
            "size_label": "191 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/151/algorytmy-11.mp4",
+           "source": "Indico",
            "filename": "algorytmy-11.mp4"
           }
          ]
@@ -643,6 +703,7 @@
            "size_label": "848 kB",
            "local": "assets/materials/66dc0d85/Wprowadzenie_do_obliczen_kwantowych.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/22/179/Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.pdf",
+           "source": "",
            "filename": "Wprowadzenie do obliczeń kwantowych.pdf"
           }
          ]
@@ -658,6 +719,7 @@
            "size_label": "625 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/10/80/otwarcie_oblicze%C5%84_kwantowych.mp4",
+           "source": "Indico",
            "filename": "otwarcie_obliczeń_kwantowych.mp4"
           }
          ]
@@ -697,6 +759,7 @@
            "size_label": "247 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/10/perceptron.mp4",
+           "source": "Indico",
            "filename": "perceptron.mp4"
           },
           {
@@ -706,6 +769,7 @@
            "size_label": "872 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/11/mlp.mp4",
+           "source": "Indico",
            "filename": "mlp.mp4"
           },
           {
@@ -715,6 +779,7 @@
            "size_label": "238 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/14/mlp_ex.mp4",
+           "source": "Indico",
            "filename": "mlp_ex.mp4"
           },
           {
@@ -724,6 +789,7 @@
            "size_label": "519 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/12/covariance.mp4",
+           "source": "Indico",
            "filename": "covariance.mp4"
           },
           {
@@ -733,6 +799,7 @@
            "size_label": "931 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/57/metody_statystyczne.mp4",
+           "source": "Indico",
            "filename": "metody_statystyczne.mp4"
           }
          ]
@@ -748,6 +815,7 @@
            "size_label": "3.9 MB",
            "local": "assets/materials/3140633f/1_perceptron.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/176/1_perceptron.pdf",
+           "source": "",
            "filename": "1_perceptron.pdf"
           },
           {
@@ -757,6 +825,7 @@
            "size_label": "12 MB",
            "local": "assets/materials/a7b2b833/2_mlp.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/177/2_mlp.pdf",
+           "source": "",
            "filename": "2_mlp.pdf"
           },
           {
@@ -766,6 +835,7 @@
            "size_label": "2.7 MB",
            "local": "assets/materials/e0230bb0/3_mlp_ex.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/175/3_mlp_ex.pdf",
+           "source": "",
            "filename": "3_mlp_ex.pdf"
           },
           {
@@ -775,6 +845,7 @@
            "size_label": "2.6 MB",
            "local": "assets/materials/b954df0b/4_covariance.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/174/4_covariance.pdf",
+           "source": "",
            "filename": "4_covariance.pdf"
           },
           {
@@ -784,6 +855,7 @@
            "size_label": "4.6 MB",
            "local": "assets/materials/416e18d9/5_stats.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/173/5_stats.pdf",
+           "source": "",
            "filename": "5_stats.pdf"
           }
          ]
@@ -799,6 +871,7 @@
            "size_label": "718 kB",
            "local": "assets/materials/09c98082/mindmap.png",
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/272/mindmap.png",
+           "source": "",
            "filename": "mindmap.png"
           },
           {
@@ -808,6 +881,7 @@
            "size_label": "410 kB",
            "local": "assets/materials/8b0a3b16/mindmap_zoom_1.png",
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/271/mindmap_zoom_1.png",
+           "source": "",
            "filename": "mindmap_zoom_1.png"
           },
           {
@@ -817,6 +891,7 @@
            "size_label": "325 kB",
            "local": "assets/materials/9f91fce1/mindmap_zoom_2.png",
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/270/mindmap_zoom_2.png",
+           "source": "",
            "filename": "mindmap_zoom_2.png"
           },
           {
@@ -826,6 +901,7 @@
            "size_label": "741 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/79/otwarcie_uczenia_maszynowego.mp4",
+           "source": "Indico",
            "filename": "otwarcie_uczenia_maszynowego.mp4"
           }
          ]
@@ -870,6 +946,7 @@
            "size_label": "1.4 MB",
            "local": "assets/materials/a7461b20/Wyklad_podsumowujacy_ASK_11.01.25.pdf",
            "remote": "https://akademia.iitis.pl/event/7/contributions/7/attachments/6/128/Wyk%C5%82ad%20podsumowuj%C4%85cy%20ASK%20(11.01.25).pdf",
+           "source": "",
            "filename": "Wykład podsumowujący ASK (11.01.25).pdf"
           },
           {
@@ -879,6 +956,7 @@
            "size_label": "628 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/7/attachments/6/138/podsumowanie_ask.mp4",
+           "source": "Indico",
            "filename": "podsumowanie_ask.mp4"
           }
          ]
@@ -918,6 +996,7 @@
            "size_label": "508 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/8/attachments/28/139/podsumowanie_oblicze%C5%84_kwantowych.mp4",
+           "source": "Indico",
            "filename": "podsumowanie_obliczeń_kwantowych.mp4"
           }
          ]
@@ -957,6 +1036,7 @@
            "size_label": "508 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/7/contributions/9/attachments/29/140/podsumowanie_uczenia_maszynowego.mp4",
+           "source": "Indico",
            "filename": "podsumowanie_uczenia_maszynowego.mp4"
           }
          ]
@@ -1004,6 +1084,7 @@
        "size_label": "162 kB",
        "local": "assets/materials/12c2df0d/grafik_wykladow_online_ASK.pdf",
        "remote": "https://akademia.iitis.pl/event/8/attachments/2/90/grafik_wykladow_online_ASK.pdf",
+       "source": "",
        "filename": "grafik_wykladow_online_ASK.pdf"
       },
       {
@@ -1013,6 +1094,7 @@
        "size_label": "214 kB",
        "local": "assets/materials/1fbf2170/kadra_dydaktyczna.pdf",
        "remote": "https://akademia.iitis.pl/event/8/attachments/2/6/kadra_dydaktyczna.pdf",
+       "source": "",
        "filename": "kadra_dydaktyczna.pdf"
       },
       {
@@ -1022,6 +1104,7 @@
        "size_label": "133 kB",
        "local": "assets/materials/4f893652/opis_blokow_tematycznych.pdf",
        "remote": "https://akademia.iitis.pl/event/8/attachments/2/7/opis_blok%C3%B3w_tematycznych.pdf",
+       "source": "",
        "filename": "opis_bloków_tematycznych.pdf"
       },
       {
@@ -1031,6 +1114,7 @@
        "size_label": "132 kB",
        "local": "assets/materials/54d0c106/Sugerowana_kolejnosc_odtwarzania_wykladow_II_termin.pdf",
        "remote": "https://akademia.iitis.pl/event/8/attachments/2/172/Sugerowana%20kolejno%C5%9B%C4%87%20odtwarzania%20wyk%C5%82ad%C3%B3w%20(II%20termin).pdf",
+       "source": "",
        "filename": "Sugerowana kolejność odtwarzania wykładów (II termin).pdf"
       }
      ]
@@ -1073,6 +1157,7 @@
            "size_label": "307 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/96/OK.1%20Algebra%20liniowa%20%E2%80%93%20cz.%201.mp4",
+           "source": "Indico",
            "filename": "OK.1 Algebra liniowa – cz. 1.mp4"
           },
           {
@@ -1082,6 +1167,7 @@
            "size_label": "264 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/97/OK.2%20Algebra%20liniowa%20%E2%80%93%20cz.%202.mp4",
+           "source": "Indico",
            "filename": "OK.2 Algebra liniowa – cz. 2.mp4"
           },
           {
@@ -1091,6 +1177,7 @@
            "size_label": "284 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/252/UM.5%20Algorytmy%20numeryczne%20znajduj%C4%85ce%20minimum%20lokalne%20zadanej%20funkcji%20celu.mp4",
+           "source": "Indico",
            "filename": "UM.5 Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu.mp4"
           },
           {
@@ -1100,6 +1187,7 @@
            "size_label": "434 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/95/UM.1%20Rachunek%20prawdopodobie%C5%84stwa%20%E2%80%93%20cz.%201.mp4",
+           "source": "Indico",
            "filename": "UM.1 Rachunek prawdopodobieństwa – cz. 1.mp4"
           },
           {
@@ -1109,6 +1197,7 @@
            "size_label": "336 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/94/UM.2%20Rachunek%20prawdopodobie%C5%84stwa%20%E2%80%93%20cz.%202.mp4",
+           "source": "Indico",
            "filename": "UM.2 Rachunek prawdopodobieństwa – cz. 2.mp4"
           },
           {
@@ -1118,6 +1207,7 @@
            "size_label": "569 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/98/UM.3%20Statystyka%20matematyczna%20%E2%80%93%20cz.%201.mp4",
+           "source": "Indico",
            "filename": "UM.3 Statystyka matematyczna – cz. 1.mp4"
           },
           {
@@ -1127,6 +1217,7 @@
            "size_label": "407 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/99/UM.4%20Statystyka%20matematyczna%20%E2%80%93%20cz.%202.mp4",
+           "source": "Indico",
            "filename": "UM.4 Statystyka matematyczna – cz. 2.mp4"
           }
          ]
@@ -1142,6 +1233,7 @@
            "size_label": "546 kB",
            "local": "assets/materials/3fd20274/3.1._Liczby_zespolone.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/106/3.1.%20Liczby%20zespolone.pdf",
+           "source": "",
            "filename": "3.1. Liczby zespolone.pdf"
           },
           {
@@ -1151,6 +1243,7 @@
            "size_label": "170 kB",
            "local": "assets/materials/c9fd9aa0/3.2._Wektory._Sprzezenie_hermitowskie.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/105/3.2.%20Wektory.%20Sprz%C4%99%C5%BCenie%20hermitowskie.pdf",
+           "source": "",
            "filename": "3.2. Wektory. Sprzężenie hermitowskie.pdf"
           },
           {
@@ -1160,6 +1253,7 @@
            "size_label": "171 kB",
            "local": "assets/materials/9144f5ac/3.3._Iloczyn_skalarny_wektorow._Liniowa_zaleznosc_wektorow._Baza_i_wymiar_przestrzeni_wektorowej.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/104/3.3.%20Iloczyn%20skalarny%20wektor%C3%B3w.%20Liniowa%20zale%C5%BCno%C5%9B%C4%87%20wektor%C3%B3w.%20Baza%20i%20wymiar%20przestrzeni%20wektorowej.pdf",
+           "source": "",
            "filename": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf"
           },
           {
@@ -1169,6 +1263,7 @@
            "size_label": "106 kB",
            "local": "assets/materials/d7557cc2/3.4._Norma_euklidesowa._Wektory_unormowane._Wektory_ortogonalne.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/103/3.4.%20Norma%20euklidesowa.%20Wektory%20unormowane.%20Wektory%20ortogonalne.pdf",
+           "source": "",
            "filename": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf"
           },
           {
@@ -1178,6 +1273,7 @@
            "size_label": "155 kB",
            "local": "assets/materials/b6b082f4/3.5._Macierze.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/102/3.5.%20Macierze.pdf",
+           "source": "",
            "filename": "3.5. Macierze.pdf"
           },
           {
@@ -1187,6 +1283,7 @@
            "size_label": "182 kB",
            "local": "assets/materials/9ba30eef/3.6._Pewne_szczegolne_rodzaje_macierzy.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/101/3.6.%20Pewne%20szczeg%C3%B3lne%20rodzaje%20macierzy.pdf",
+           "source": "",
            "filename": "3.6. Pewne szczególne rodzaje macierzy.pdf"
           },
           {
@@ -1196,6 +1293,7 @@
            "size_label": "182 kB",
            "local": "assets/materials/6d544902/3.7._Wektory_i_wartosci_wlasne.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/100/3.7.%20Wektory%20i%20warto%C5%9Bci%20w%C5%82asne.pdf",
+           "source": "",
            "filename": "3.7. Wektory i wartości własne.pdf"
           }
          ]
@@ -1211,6 +1309,7 @@
            "size_label": "14 MB",
            "local": "assets/materials/3901cc74/1.1._Doswiadczenie_losowe_a_model_matematyczny.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/113/1.1.%20Do%C5%9Bwiadczenie%20losowe%20a%20model%20matematyczny.pdf",
+           "source": "",
            "filename": "1.1. Doświadczenie losowe a model matematyczny.pdf"
           },
           {
@@ -1220,6 +1319,7 @@
            "size_label": "1.6 MB",
            "local": "assets/materials/05bcc517/1.2._Prawdopodobienstwo_warunkowe_zdarzenia_niezalezne.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/114/1.2.%20Prawdopodobie%C5%84stwo%20warunkowe,%20zdarzenia%20niezale%C5%BCne.pdf",
+           "source": "",
            "filename": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf"
           },
           {
@@ -1229,6 +1329,7 @@
            "size_label": "5.5 MB",
            "local": "assets/materials/1fd823a1/1.3._Zmienna_losowa.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/112/1.3.%20Zmienna%20losowa.pdf",
+           "source": "",
            "filename": "1.3. Zmienna losowa.pdf"
           },
           {
@@ -1238,6 +1339,7 @@
            "size_label": "5.3 MB",
            "local": "assets/materials/308afa91/1.4._Zmienna_losowa_dyskretna.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/111/1.4.%20Zmienna%20losowa%20dyskretna.pdf",
+           "source": "",
            "filename": "1.4. Zmienna losowa dyskretna.pdf"
           },
           {
@@ -1247,6 +1349,7 @@
            "size_label": "212 kB",
            "local": "assets/materials/e306fecc/1.5._Dystrybuanta_zmiennej_losowej.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/110/1.5.%20Dystrybuanta%20zmiennej%20losowej.pdf",
+           "source": "",
            "filename": "1.5. Dystrybuanta zmiennej losowej.pdf"
           },
           {
@@ -1256,6 +1359,7 @@
            "size_label": "521 kB",
            "local": "assets/materials/e5aa4178/1.6._Zmienna_losowa_absolutnie_ciagla.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/109/1.6.%20Zmienna%20losowa%20absolutnie%20ci%C4%85g%C5%82a.pdf",
+           "source": "",
            "filename": "1.6. Zmienna losowa absolutnie ciągła.pdf"
           },
           {
@@ -1265,6 +1369,7 @@
            "size_label": "538 kB",
            "local": "assets/materials/f821a404/1.7._Dwuwymiarowa_zmienna_losowa_zmienne_losowe_niezalezne.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/108/1.7.%20Dwuwymiarowa%20zmienna%20losowa,%20zmienne%20losowe%20niezale%C5%BCne.pdf",
+           "source": "",
            "filename": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf"
           },
           {
@@ -1274,6 +1379,7 @@
            "size_label": "185 kB",
            "local": "assets/materials/2725d5ca/1.8._CTG_rozklad_t_Studenta.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/107/1.8.%20CTG,%20rozk%C5%82ad%20t%20Studenta.pdf",
+           "source": "",
            "filename": "1.8. CTG, rozkład t Studenta.pdf"
           }
          ]
@@ -1289,6 +1395,7 @@
            "size_label": "5.1 MB",
            "local": "assets/materials/84e34717/2.1._Teoretyczne_podstawy_wnioskowania_statystycznego.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/122/2.1.%20Teoretyczne%20podstawy%20wnioskowania%20statystycznego.pdf",
+           "source": "",
            "filename": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf"
           },
           {
@@ -1298,6 +1405,7 @@
            "size_label": "455 kB",
            "local": "assets/materials/f9c22b30/2.2._Statystyka_z_proby_jako_zmienna_losowa.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/121/2.2.%20Statystyka%20z%20pr%C3%B3by%20(jako%20zmienna%20losowa).pdf",
+           "source": "",
            "filename": "2.2. Statystyka z próby (jako zmienna losowa).pdf"
           },
           {
@@ -1307,6 +1415,7 @@
            "size_label": "336 kB",
            "local": "assets/materials/de3b90a7/2.3._Weryfikacja_hipotez_statystycznych.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/120/2.3.%20Weryfikacja%20hipotez%20statystycznych.pdf",
+           "source": "",
            "filename": "2.3. Weryfikacja hipotez statystycznych.pdf"
           },
           {
@@ -1316,6 +1425,7 @@
            "size_label": "3.6 MB",
            "local": "assets/materials/195b761f/2.4._Parametryczne_testy_istotnosci.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/119/2.4.%20Parametryczne%20testy%20istotno%C5%9Bci.pdf",
+           "source": "",
            "filename": "2.4. Parametryczne testy istotności.pdf"
           },
           {
@@ -1325,6 +1435,7 @@
            "size_label": "725 kB",
            "local": "assets/materials/918d4ea1/2.5._p-wartosc._Test_t.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/118/2.5.%20p-warto%C5%9B%C4%87.%20Test%20t.pdf",
+           "source": "",
            "filename": "2.5. p-wartość. Test t.pdf"
           },
           {
@@ -1334,6 +1445,7 @@
            "size_label": "192 kB",
            "local": "assets/materials/17c2ee0f/2.6._Testy_roznicy_srednich_dla_par._Sparowany_test_t.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/117/2.6.%20Testy%20r%C3%B3%C5%BCnicy%20%C5%9Brednich%20dla%20par.%20Sparowany%20test%20t.pdf",
+           "source": "",
            "filename": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf"
           },
           {
@@ -1343,6 +1455,7 @@
            "size_label": "2.0 MB",
            "local": "assets/materials/e6e9be43/2.7._Test_Wilcoxona_dla_par_obserwacji.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/116/2.7.%20Test%20Wilcoxona%20dla%20par%20obserwacji.pdf",
+           "source": "",
            "filename": "2.7. Test Wilcoxona dla par obserwacji.pdf"
           },
           {
@@ -1352,6 +1465,7 @@
            "size_label": "268 kB",
            "local": "assets/materials/26013ca2/2.8._Testy_zgodnosci._Testy_normalnosci_rozkladu.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/115/2.8.%20Testy%20zgodno%C5%9Bci.%20Testy%20normalno%C5%9Bci%20rozk%C5%82adu.pdf",
+           "source": "",
            "filename": "2.8. Testy zgodności. Testy normalności rozkładu.pdf"
           }
          ]
@@ -1367,6 +1481,7 @@
            "size_label": "1.5 MB",
            "local": "assets/materials/8e8ca11c/OK._3_4_Metoda_spadku_wzdluz_gradientu.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/51/253/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.pdf",
+           "source": "",
            "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.pdf"
           }
          ]
@@ -1382,6 +1497,7 @@
            "size_label": "15 MB",
            "local": "assets/materials/111d1471/Wyklad_otwierajacy_ASK_12.01.25.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/24/124/Wyk%C5%82ad%20otwieraj%C4%85cy%20ASK%20(12.01.25).pdf",
+           "source": "",
            "filename": "Wykład otwierający ASK (12.01.25).pdf"
           },
           {
@@ -1391,6 +1507,7 @@
            "size_label": "727 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/24/153/live_2_hws.mp4",
+           "source": "Indico",
            "filename": "live_2_hws.mp4"
           }
          ]
@@ -1430,6 +1547,7 @@
            "size_label": "438 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/133/OK.5%20Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.mp4",
+           "source": "Indico",
            "filename": "OK.5 Wprowadzenie do obliczeń kwantowych.mp4"
           },
           {
@@ -1439,6 +1557,7 @@
            "size_label": "292 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/134/OK.6%20Pomiary%20kwantowe.mp4",
+           "source": "Indico",
            "filename": "OK.6 Pomiary kwantowe.mp4"
           },
           {
@@ -1448,6 +1567,7 @@
            "size_label": "311 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/135/OK.7%20Informacja%20klasyczna%20i%20kwantowa.mp4",
+           "source": "Indico",
            "filename": "OK.7 Informacja klasyczna i kwantowa.mp4"
           },
           {
@@ -1457,6 +1577,7 @@
            "size_label": "300 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/136/OK.8%20Zakaz%20klonowania.mp4",
+           "source": "Indico",
            "filename": "OK.8 Zakaz klonowania.mp4"
           },
           {
@@ -1466,6 +1587,7 @@
            "size_label": "200 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/137/OK.9%20Kryptografia.mp4",
+           "source": "Indico",
            "filename": "OK.9 Kryptografia.mp4"
           }
          ]
@@ -1481,6 +1603,7 @@
            "size_label": "793 kB",
            "local": "assets/materials/7473fd4a/Algorytmy_kwantowe.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/18/181/Algorytmy%20kwantowe.pdf",
+           "source": "",
            "filename": "Algorytmy kwantowe.pdf"
           }
          ]
@@ -1496,6 +1619,7 @@
            "size_label": "211 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/170/OK.10%20Algorytmy%20kwantowe%201.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 1.mp4"
           },
           {
@@ -1505,6 +1629,7 @@
            "size_label": "113 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/168/OK.10%20Algorytmy%20kwantowe%202.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 2.mp4"
           },
           {
@@ -1514,6 +1639,7 @@
            "size_label": "92 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/171/OK.10%20Algorytmy%20kwantowe%203.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 3.mp4"
           },
           {
@@ -1523,6 +1649,7 @@
            "size_label": "199 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/165/OK.10%20Algorytmy%20kwantowe%204.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 4.mp4"
           },
           {
@@ -1532,6 +1659,7 @@
            "size_label": "166 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/164/OK.10%20Algorytmy%20kwantowe%205.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 5.mp4"
           },
           {
@@ -1541,6 +1669,7 @@
            "size_label": "155 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/163/OK.10%20Algorytmy%20kwantowe%206.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 6.mp4"
           },
           {
@@ -1550,6 +1679,7 @@
            "size_label": "170 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/162/OK.10%20Algorytmy%20kwantowe%207.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 7.mp4"
           },
           {
@@ -1559,6 +1689,7 @@
            "size_label": "151 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/161/OK.10%20Algorytmy%20kwantowe%208.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 8.mp4"
           },
           {
@@ -1568,6 +1699,7 @@
            "size_label": "189 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/166/OK.10%20Algorytmy%20kwantowe%209.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 9.mp4"
           },
           {
@@ -1577,6 +1709,7 @@
            "size_label": "73 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/169/OK.10%20Algorytmy%20kwantowe%2010.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 10.mp4"
           },
           {
@@ -1586,6 +1719,7 @@
            "size_label": "191 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/167/OK.10%20Algorytmy%20kwantowe%2011.mp4",
+           "source": "Indico",
            "filename": "OK.10 Algorytmy kwantowe 11.mp4"
           }
          ]
@@ -1601,6 +1735,7 @@
            "size_label": "848 kB",
            "local": "assets/materials/66dc0d85/Wprowadzenie_do_obliczen_kwantowych.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/17/182/Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.pdf",
+           "source": "",
            "filename": "Wprowadzenie do obliczeń kwantowych.pdf"
           }
          ]
@@ -1616,6 +1751,7 @@
            "size_label": "500 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/26/154/live_2_zp.mp4",
+           "source": "Indico",
            "filename": "live_2_zp.mp4"
           }
          ]
@@ -1655,6 +1791,7 @@
            "size_label": "247 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/125/UM.5%20Perceptron.mp4",
+           "source": "Indico",
            "filename": "UM.5 Perceptron.mp4"
           },
           {
@@ -1664,6 +1801,7 @@
            "size_label": "872 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/126/UM.6%20Sieci%20MLP.mp4",
+           "source": "Indico",
            "filename": "UM.6 Sieci MLP.mp4"
           },
           {
@@ -1673,6 +1811,7 @@
            "size_label": "238 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/127/UM.7%20Sieci%20MLP%20(analiza).mp4",
+           "source": "Indico",
            "filename": "UM.7 Sieci MLP (analiza).mp4"
           },
           {
@@ -1682,6 +1821,7 @@
            "size_label": "519 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/131/UM.8%20Statystyczne%20metody%20UM%20-%20wprowadzenie.mp4",
+           "source": "Indico",
            "filename": "UM.8 Statystyczne metody UM - wprowadzenie.mp4"
           },
           {
@@ -1691,6 +1831,7 @@
            "size_label": "931 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/132/UM.9%20Statystyczne%20metody%20UM.mp4",
+           "source": "Indico",
            "filename": "UM.9 Statystyczne metody UM.mp4"
           }
          ]
@@ -1706,6 +1847,7 @@
            "size_label": "3.9 MB",
            "local": "assets/materials/3140633f/1_perceptron.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/156/1_perceptron.pdf",
+           "source": "",
            "filename": "1_perceptron.pdf"
           },
           {
@@ -1715,6 +1857,7 @@
            "size_label": "12 MB",
            "local": "assets/materials/a7b2b833/2_mlp.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/157/2_mlp.pdf",
+           "source": "",
            "filename": "2_mlp.pdf"
           },
           {
@@ -1724,6 +1867,7 @@
            "size_label": "2.7 MB",
            "local": "assets/materials/e0230bb0/3_mlp_ex.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/158/3_mlp_ex.pdf",
+           "source": "",
            "filename": "3_mlp_ex.pdf"
           },
           {
@@ -1733,6 +1877,7 @@
            "size_label": "2.6 MB",
            "local": "assets/materials/b954df0b/4_covariance.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/159/4_covariance.pdf",
+           "source": "",
            "filename": "4_covariance.pdf"
           },
           {
@@ -1742,6 +1887,7 @@
            "size_label": "4.6 MB",
            "local": "assets/materials/416e18d9/5_stats.pdf",
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/160/5_stats.pdf",
+           "source": "",
            "filename": "5_stats.pdf"
           }
          ]
@@ -1757,6 +1903,7 @@
            "size_label": "718 kB",
            "local": "assets/materials/09c98082/mindmap.png",
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/266/mindmap.png",
+           "source": "",
            "filename": "mindmap.png"
           },
           {
@@ -1766,6 +1913,7 @@
            "size_label": "410 kB",
            "local": "assets/materials/8b0a3b16/mindmap_zoom_1.png",
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/265/mindmap_zoom_1.png",
+           "source": "",
            "filename": "mindmap_zoom_1.png"
           },
           {
@@ -1775,6 +1923,7 @@
            "size_label": "325 kB",
            "local": "assets/materials/9f91fce1/mindmap_zoom_2.png",
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/264/mindmap_zoom_2.png",
+           "source": "",
            "filename": "mindmap_zoom_2.png"
           },
           {
@@ -1784,6 +1933,7 @@
            "size_label": "599 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/155/live_2_pg.mp4",
+           "source": "Indico",
            "filename": "live_2_pg.mp4"
           }
          ]
@@ -1828,6 +1978,7 @@
            "size_label": "69 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/17/attachments/54/258/informatyka_kwantowa.mp4",
+           "source": "Indico",
            "filename": "informatyka_kwantowa.mp4"
           }
          ]
@@ -1867,6 +2018,7 @@
            "size_label": "137 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/16/attachments/55/259/intro_march.mp4",
+           "source": "Indico",
            "filename": "intro_march.mp4"
           }
          ]
@@ -1906,6 +2058,7 @@
            "size_label": "227 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/8/contributions/18/attachments/56/260/uczenie_maszyn.mp4",
+           "source": "Indico",
            "filename": "uczenie_maszyn.mp4"
           }
          ]
@@ -1953,6 +2106,7 @@
        "size_label": "162 kB",
        "local": "assets/materials/12c2df0d/grafik_wykladow_online_ASK.pdf",
        "remote": "https://akademia.iitis.pl/event/12/attachments/34/183/grafik_wykladow_online_ASK.pdf",
+       "source": "",
        "filename": "grafik_wykladow_online_ASK.pdf"
       },
       {
@@ -1962,6 +2116,7 @@
        "size_label": "214 kB",
        "local": "assets/materials/1fbf2170/kadra_dydaktyczna.pdf",
        "remote": "https://akademia.iitis.pl/event/12/attachments/34/184/kadra_dydaktyczna.pdf",
+       "source": "",
        "filename": "kadra_dydaktyczna.pdf"
       },
       {
@@ -1971,6 +2126,7 @@
        "size_label": "133 kB",
        "local": "assets/materials/4f893652/opis_blokow_tematycznych.pdf",
        "remote": "https://akademia.iitis.pl/event/12/attachments/34/185/opis_blok%C3%B3w_tematycznych.pdf",
+       "source": "",
        "filename": "opis_bloków_tematycznych.pdf"
       },
       {
@@ -1980,6 +2136,7 @@
        "size_label": "129 kB",
        "local": "assets/materials/a30fc141/Sugerowana_kolejnosc_odtwarzania_wykladow_I_termin.pdf",
        "remote": "https://akademia.iitis.pl/event/12/attachments/34/186/Sugerowana%20kolejno%C5%9B%C4%87%20odtwarzania%20wyk%C5%82ad%C3%B3w%20(I%20termin).pdf",
+       "source": "",
        "filename": "Sugerowana kolejność odtwarzania wykładów (I termin).pdf"
       }
      ]
@@ -2022,6 +2179,7 @@
            "size_label": "307 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/187/Wyk%C5%82ad%203a.mp4",
+           "source": "Indico",
            "filename": "Wykład 3a.mp4"
           },
           {
@@ -2031,6 +2189,7 @@
            "size_label": "264 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/188/Wyk%C5%82ad%203b.mp4",
+           "source": "Indico",
            "filename": "Wykład 3b.mp4"
           },
           {
@@ -2040,6 +2199,7 @@
            "size_label": "434 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/189/Wyk%C5%82ad%201a.mp4",
+           "source": "Indico",
            "filename": "Wykład 1a.mp4"
           },
           {
@@ -2049,6 +2209,7 @@
            "size_label": "336 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/190/Wyk%C5%82ad%201b.mp4",
+           "source": "Indico",
            "filename": "Wykład 1b.mp4"
           },
           {
@@ -2058,6 +2219,7 @@
            "size_label": "569 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/191/Wyk%C5%82ad%202.mp4",
+           "source": "Indico",
            "filename": "Wykład 2.mp4"
           },
           {
@@ -2067,6 +2229,7 @@
            "size_label": "407 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/192/Wyk%C5%82ad%202b.mp4",
+           "source": "Indico",
            "filename": "Wykład 2b.mp4"
           },
           {
@@ -2076,6 +2239,7 @@
            "size_label": "284 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/254/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.mp4",
+           "source": "Indico",
            "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.mp4"
           }
          ]
@@ -2091,6 +2255,7 @@
            "size_label": "1.5 MB",
            "local": "assets/materials/8e8ca11c/OK._3_4_Metoda_spadku_wzdluz_gradientu.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/52/255/Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.pdf",
+           "source": "",
            "filename": "Metoda spadku wzdłuż gradientu.pdf"
           }
          ]
@@ -2106,6 +2271,7 @@
            "size_label": "546 kB",
            "local": "assets/materials/3fd20274/3.1._Liczby_zespolone.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/225/3.1.%20Liczby%20zespolone.pdf",
+           "source": "",
            "filename": "3.1. Liczby zespolone.pdf"
           },
           {
@@ -2115,6 +2281,7 @@
            "size_label": "170 kB",
            "local": "assets/materials/c9fd9aa0/3.2._Wektory._Sprzezenie_hermitowskie.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/226/3.2.%20Wektory.%20Sprz%C4%99%C5%BCenie%20hermitowskie.pdf",
+           "source": "",
            "filename": "3.2. Wektory. Sprzężenie hermitowskie.pdf"
           },
           {
@@ -2124,6 +2291,7 @@
            "size_label": "171 kB",
            "local": "assets/materials/9144f5ac/3.3._Iloczyn_skalarny_wektorow._Liniowa_zaleznosc_wektorow._Baza_i_wymiar_przestrzeni_wektorowej.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/227/3.3.%20Iloczyn%20skalarny%20wektor%C3%B3w.%20Liniowa%20zale%C5%BCno%C5%9B%C4%87%20wektor%C3%B3w.%20Baza%20i%20wymiar%20przestrzeni%20wektorowej.pdf",
+           "source": "",
            "filename": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf"
           },
           {
@@ -2133,6 +2301,7 @@
            "size_label": "106 kB",
            "local": "assets/materials/d7557cc2/3.4._Norma_euklidesowa._Wektory_unormowane._Wektory_ortogonalne.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/228/3.4.%20Norma%20euklidesowa.%20Wektory%20unormowane.%20Wektory%20ortogonalne.pdf",
+           "source": "",
            "filename": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf"
           },
           {
@@ -2142,6 +2311,7 @@
            "size_label": "155 kB",
            "local": "assets/materials/b6b082f4/3.5._Macierze.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/229/3.5.%20Macierze.pdf",
+           "source": "",
            "filename": "3.5. Macierze.pdf"
           },
           {
@@ -2151,6 +2321,7 @@
            "size_label": "182 kB",
            "local": "assets/materials/9ba30eef/3.6._Pewne_szczegolne_rodzaje_macierzy.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/230/3.6.%20Pewne%20szczeg%C3%B3lne%20rodzaje%20macierzy.pdf",
+           "source": "",
            "filename": "3.6. Pewne szczególne rodzaje macierzy.pdf"
           },
           {
@@ -2160,6 +2331,7 @@
            "size_label": "182 kB",
            "local": "assets/materials/6d544902/3.7._Wektory_i_wartosci_wlasne.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/231/3.7.%20Wektory%20i%20warto%C5%9Bci%20w%C5%82asne.pdf",
+           "source": "",
            "filename": "3.7. Wektory i wartości własne.pdf"
           }
          ]
@@ -2175,6 +2347,7 @@
            "size_label": "14 MB",
            "local": "assets/materials/3901cc74/1.1._Doswiadczenie_losowe_a_model_matematyczny.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/205/1.1.%20Do%C5%9Bwiadczenie%20losowe%20a%20model%20matematyczny.pdf",
+           "source": "",
            "filename": "1.1. Doświadczenie losowe a model matematyczny.pdf"
           },
           {
@@ -2184,6 +2357,7 @@
            "size_label": "1.6 MB",
            "local": "assets/materials/05bcc517/1.2._Prawdopodobienstwo_warunkowe_zdarzenia_niezalezne.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/206/1.2.%20Prawdopodobie%C5%84stwo%20warunkowe,%20zdarzenia%20niezale%C5%BCne.pdf",
+           "source": "",
            "filename": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf"
           },
           {
@@ -2193,6 +2367,7 @@
            "size_label": "5.5 MB",
            "local": "assets/materials/1fd823a1/1.3._Zmienna_losowa.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/207/1.3.%20Zmienna%20losowa.pdf",
+           "source": "",
            "filename": "1.3. Zmienna losowa.pdf"
           },
           {
@@ -2202,6 +2377,7 @@
            "size_label": "5.3 MB",
            "local": "assets/materials/308afa91/1.4._Zmienna_losowa_dyskretna.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/208/1.4.%20Zmienna%20losowa%20dyskretna.pdf",
+           "source": "",
            "filename": "1.4. Zmienna losowa dyskretna.pdf"
           },
           {
@@ -2211,6 +2387,7 @@
            "size_label": "212 kB",
            "local": "assets/materials/e306fecc/1.5._Dystrybuanta_zmiennej_losowej.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/209/1.5.%20Dystrybuanta%20zmiennej%20losowej.pdf",
+           "source": "",
            "filename": "1.5. Dystrybuanta zmiennej losowej.pdf"
           },
           {
@@ -2220,6 +2397,7 @@
            "size_label": "521 kB",
            "local": "assets/materials/e5aa4178/1.6._Zmienna_losowa_absolutnie_ciagla.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/210/1.6.%20Zmienna%20losowa%20absolutnie%20ci%C4%85g%C5%82a.pdf",
+           "source": "",
            "filename": "1.6. Zmienna losowa absolutnie ciągła.pdf"
           },
           {
@@ -2229,6 +2407,7 @@
            "size_label": "538 kB",
            "local": "assets/materials/f821a404/1.7._Dwuwymiarowa_zmienna_losowa_zmienne_losowe_niezalezne.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/211/1.7.%20Dwuwymiarowa%20zmienna%20losowa,%20zmienne%20losowe%20niezale%C5%BCne.pdf",
+           "source": "",
            "filename": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf"
           },
           {
@@ -2238,6 +2417,7 @@
            "size_label": "185 kB",
            "local": "assets/materials/2725d5ca/1.8._CTG_rozklad_t_Studenta.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/212/1.8.%20CTG,%20rozk%C5%82ad%20t%20Studenta.pdf",
+           "source": "",
            "filename": "1.8. CTG, rozkład t Studenta.pdf"
           }
          ]
@@ -2253,6 +2433,7 @@
            "size_label": "5.1 MB",
            "local": "assets/materials/84e34717/2.1._Teoretyczne_podstawy_wnioskowania_statystycznego.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/213/2.1.%20Teoretyczne%20podstawy%20wnioskowania%20statystycznego.pdf",
+           "source": "",
            "filename": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf"
           },
           {
@@ -2262,6 +2443,7 @@
            "size_label": "455 kB",
            "local": "assets/materials/f9c22b30/2.2._Statystyka_z_proby_jako_zmienna_losowa.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/214/2.2.%20Statystyka%20z%20pr%C3%B3by%20(jako%20zmienna%20losowa).pdf",
+           "source": "",
            "filename": "2.2. Statystyka z próby (jako zmienna losowa).pdf"
           },
           {
@@ -2271,6 +2453,7 @@
            "size_label": "336 kB",
            "local": "assets/materials/de3b90a7/2.3._Weryfikacja_hipotez_statystycznych.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/215/2.3.%20Weryfikacja%20hipotez%20statystycznych.pdf",
+           "source": "",
            "filename": "2.3. Weryfikacja hipotez statystycznych.pdf"
           },
           {
@@ -2280,6 +2463,7 @@
            "size_label": "3.6 MB",
            "local": "assets/materials/195b761f/2.4._Parametryczne_testy_istotnosci.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/216/2.4.%20Parametryczne%20testy%20istotno%C5%9Bci.pdf",
+           "source": "",
            "filename": "2.4. Parametryczne testy istotności.pdf"
           },
           {
@@ -2289,6 +2473,7 @@
            "size_label": "725 kB",
            "local": "assets/materials/918d4ea1/2.5._p-wartosc._Test_t.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/217/2.5.%20p-warto%C5%9B%C4%87.%20Test%20t.pdf",
+           "source": "",
            "filename": "2.5. p-wartość. Test t.pdf"
           },
           {
@@ -2298,6 +2483,7 @@
            "size_label": "192 kB",
            "local": "assets/materials/17c2ee0f/2.6._Testy_roznicy_srednich_dla_par._Sparowany_test_t.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/218/2.6.%20Testy%20r%C3%B3%C5%BCnicy%20%C5%9Brednich%20dla%20par.%20Sparowany%20test%20t.pdf",
+           "source": "",
            "filename": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf"
           },
           {
@@ -2307,6 +2493,7 @@
            "size_label": "2.0 MB",
            "local": "assets/materials/e6e9be43/2.7._Test_Wilcoxona_dla_par_obserwacji.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/219/2.7.%20Test%20Wilcoxona%20dla%20par%20obserwacji.pdf",
+           "source": "",
            "filename": "2.7. Test Wilcoxona dla par obserwacji.pdf"
           },
           {
@@ -2316,6 +2503,7 @@
            "size_label": "268 kB",
            "local": "assets/materials/26013ca2/2.8._Testy_zgodnosci._Testy_normalnosci_rozkladu.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/220/2.8.%20Testy%20zgodno%C5%9Bci.%20Testy%20normalno%C5%9Bci%20rozk%C5%82adu.pdf",
+           "source": "",
            "filename": "2.8. Testy zgodności. Testy normalności rozkładu.pdf"
           }
          ]
@@ -2331,6 +2519,7 @@
            "size_label": "15 MB",
            "local": "assets/materials/58e3706e/Slajdy_do_wykladu_otwierajacego_Akademie_Sztuki_Kwantowej.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/41/221/Slajdy%20do%20wyk%C5%82adu%20otwieraj%C4%85cego%20Akademi%C4%99%20Sztuki%20Kwantowej.pdf",
+           "source": "",
            "filename": "Slajdy do wykładu otwierającego Akademię Sztuki Kwantowej.pdf"
           },
           {
@@ -2340,6 +2529,7 @@
            "size_label": "562 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/41/222/otwarcie_ask.mp4",
+           "source": "Indico",
            "filename": "otwarcie_ask.mp4"
           }
          ]
@@ -2379,6 +2569,7 @@
            "size_label": "311 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/198/Informacja.mp4",
+           "source": "Indico",
            "filename": "Informacja.mp4"
           },
           {
@@ -2388,6 +2579,7 @@
            "size_label": "200 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/199/Kryptografia.mp4",
+           "source": "Indico",
            "filename": "Kryptografia.mp4"
           },
           {
@@ -2397,6 +2589,7 @@
            "size_label": "292 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/200/Pomiary.mp4",
+           "source": "Indico",
            "filename": "Pomiary.mp4"
           },
           {
@@ -2406,6 +2599,7 @@
            "size_label": "438 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/201/Wprowadzenie.mp4",
+           "source": "Indico",
            "filename": "Wprowadzenie.mp4"
           },
           {
@@ -2415,6 +2609,7 @@
            "size_label": "300 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/202/Klonowanie.mp4",
+           "source": "Indico",
            "filename": "Klonowanie.mp4"
           }
          ]
@@ -2430,6 +2625,7 @@
            "size_label": "211 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/241/algorytmy-1.mp4",
+           "source": "Indico",
            "filename": "algorytmy-1.mp4"
           },
           {
@@ -2439,6 +2635,7 @@
            "size_label": "73 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/242/algorytmy-10.mp4",
+           "source": "Indico",
            "filename": "algorytmy-10.mp4"
           },
           {
@@ -2448,6 +2645,7 @@
            "size_label": "191 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/243/algorytmy-11.mp4",
+           "source": "Indico",
            "filename": "algorytmy-11.mp4"
           },
           {
@@ -2457,6 +2655,7 @@
            "size_label": "113 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/244/algorytmy-2.mp4",
+           "source": "Indico",
            "filename": "algorytmy-2.mp4"
           },
           {
@@ -2466,6 +2665,7 @@
            "size_label": "92 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/245/algorytmy-3.mp4",
+           "source": "Indico",
            "filename": "algorytmy-3.mp4"
           },
           {
@@ -2475,6 +2675,7 @@
            "size_label": "199 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/246/algorytmy-4.mp4",
+           "source": "Indico",
            "filename": "algorytmy-4.mp4"
           },
           {
@@ -2484,6 +2685,7 @@
            "size_label": "166 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/247/algorytmy-5.mp4",
+           "source": "Indico",
            "filename": "algorytmy-5.mp4"
           },
           {
@@ -2493,6 +2695,7 @@
            "size_label": "155 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/248/algorytmy-6.mp4",
+           "source": "Indico",
            "filename": "algorytmy-6.mp4"
           },
           {
@@ -2502,6 +2705,7 @@
            "size_label": "170 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/249/algorytmy-7.mp4",
+           "source": "Indico",
            "filename": "algorytmy-7.mp4"
           },
           {
@@ -2511,6 +2715,7 @@
            "size_label": "151 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/250/algorytmy-8.mp4",
+           "source": "Indico",
            "filename": "algorytmy-8.mp4"
           },
           {
@@ -2520,6 +2725,7 @@
            "size_label": "189 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/251/algorytmy-9.mp4",
+           "source": "Indico",
            "filename": "algorytmy-9.mp4"
           }
          ]
@@ -2535,6 +2741,7 @@
            "size_label": "793 kB",
            "local": "assets/materials/7473fd4a/Algorytmy_kwantowe.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/47/238/Algorytmy%20kwantowe.pdf",
+           "source": "",
            "filename": "Algorytmy kwantowe.pdf"
           }
          ]
@@ -2550,6 +2757,7 @@
            "size_label": "848 kB",
            "local": "assets/materials/66dc0d85/Wprowadzenie_do_obliczen_kwantowych.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/46/237/Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.pdf",
+           "source": "",
            "filename": "Wprowadzenie do obliczeń kwantowych.pdf"
           }
          ]
@@ -2565,6 +2773,7 @@
            "size_label": "625 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/42/223/otwarcie_oblicze%C5%84_kwantowych.mp4",
+           "source": "Indico",
            "filename": "otwarcie_obliczeń_kwantowych.mp4"
           }
          ]
@@ -2604,6 +2813,7 @@
            "size_label": "247 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/193/perceptron.mp4",
+           "source": "Indico",
            "filename": "perceptron.mp4"
           },
           {
@@ -2613,6 +2823,7 @@
            "size_label": "872 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/194/mlp.mp4",
+           "source": "Indico",
            "filename": "mlp.mp4"
           },
           {
@@ -2622,6 +2833,7 @@
            "size_label": "238 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/195/mlp_ex.mp4",
+           "source": "Indico",
            "filename": "mlp_ex.mp4"
           },
           {
@@ -2631,6 +2843,7 @@
            "size_label": "931 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/196/metody_statystyczne.mp4",
+           "source": "Indico",
            "filename": "metody_statystyczne.mp4"
           },
           {
@@ -2640,6 +2853,7 @@
            "size_label": "519 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/197/covariance.mp4",
+           "source": "Indico",
            "filename": "covariance.mp4"
           }
          ]
@@ -2655,6 +2869,7 @@
            "size_label": "3.9 MB",
            "local": "assets/materials/3140633f/1_perceptron.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/232/1_perceptron.pdf",
+           "source": "",
            "filename": "1_perceptron.pdf"
           },
           {
@@ -2664,6 +2879,7 @@
            "size_label": "12 MB",
            "local": "assets/materials/a7b2b833/2_mlp.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/233/2_mlp.pdf",
+           "source": "",
            "filename": "2_mlp.pdf"
           },
           {
@@ -2673,6 +2889,7 @@
            "size_label": "2.7 MB",
            "local": "assets/materials/e0230bb0/3_mlp_ex.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/234/3_mlp_ex.pdf",
+           "source": "",
            "filename": "3_mlp_ex.pdf"
           },
           {
@@ -2682,6 +2899,7 @@
            "size_label": "2.6 MB",
            "local": "assets/materials/b954df0b/4_covariance.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/235/4_covariance.pdf",
+           "source": "",
            "filename": "4_covariance.pdf"
           },
           {
@@ -2691,6 +2909,7 @@
            "size_label": "4.6 MB",
            "local": "assets/materials/416e18d9/5_stats.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/236/5_stats.pdf",
+           "source": "",
            "filename": "5_stats.pdf"
           }
          ]
@@ -2706,6 +2925,7 @@
            "size_label": "718 kB",
            "local": "assets/materials/09c98082/mindmap.png",
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/263/mindmap.png",
+           "source": "",
            "filename": "mindmap.png"
           },
           {
@@ -2715,6 +2935,7 @@
            "size_label": "410 kB",
            "local": "assets/materials/8b0a3b16/mindmap_zoom_1.png",
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/262/mindmap_zoom_1.png",
+           "source": "",
            "filename": "mindmap_zoom_1.png"
           },
           {
@@ -2724,6 +2945,7 @@
            "size_label": "325 kB",
            "local": "assets/materials/9f91fce1/mindmap_zoom_2.png",
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/261/mindmap_zoom_2.png",
+           "source": "",
            "filename": "mindmap_zoom_2.png"
           },
           {
@@ -2733,6 +2955,7 @@
            "size_label": "741 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/224/otwarcie_uczenia_maszynowego.mp4",
+           "source": "Indico",
            "filename": "otwarcie_uczenia_maszynowego.mp4"
           }
          ]
@@ -2777,6 +3000,7 @@
            "size_label": "508 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/27/attachments/49/240/podsumowanie_uczenia_maszynowego.mp4",
+           "source": "Indico",
            "filename": "podsumowanie_uczenia_maszynowego.mp4"
           }
          ]
@@ -2816,6 +3040,7 @@
            "size_label": "1.4 MB",
            "local": "assets/materials/a7461b20/Wyklad_podsumowujacy_ASK_11.01.25.pdf",
            "remote": "https://akademia.iitis.pl/event/12/contributions/29/attachments/38/203/Wyk%C5%82ad%20podsumowuj%C4%85cy%20ASK%20(11.01.25).pdf",
+           "source": "",
            "filename": "Wykład podsumowujący ASK (11.01.25).pdf"
           },
           {
@@ -2825,6 +3050,7 @@
            "size_label": "628 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/29/attachments/38/204/podsumowanie_ask.mp4",
+           "source": "Indico",
            "filename": "podsumowanie_ask.mp4"
           }
          ]
@@ -2864,6 +3090,7 @@
            "size_label": "508 MB",
            "local": null,
            "remote": "https://akademia.iitis.pl/event/12/contributions/28/attachments/48/239/podsumowanie_oblicze%C5%84_kwantowych.mp4",
+           "source": "Indico",
            "filename": "podsumowanie_obliczeń_kwantowych.mp4"
           }
          ]
@@ -3534,6 +3761,7 @@
            "size_label": "6.0 kB",
            "local": "assets/materials/29ffb5e5/pennylane-jax.ipynb",
            "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/276/pennylane-jax.ipynb",
+           "source": "",
            "filename": "pennylane-jax.ipynb"
           },
           {
@@ -3543,6 +3771,7 @@
            "size_label": "11 kB",
            "local": "assets/materials/5ec29331/pennylane-jaxnn.ipynb",
            "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/277/pennylane-jaxnn.ipynb",
+           "source": "",
            "filename": "pennylane-jaxnn.ipynb"
           },
           {
@@ -3552,6 +3781,7 @@
            "size_label": "7.7 kB",
            "local": "assets/materials/b0682281/pennylane-mixed.ipynb",
            "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/278/pennylane-mixed.ipynb",
+           "source": "",
            "filename": "pennylane-mixed.ipynb"
           },
           {
@@ -3561,6 +3791,7 @@
            "size_label": "557 B",
            "local": "assets/materials/f8a2c278/pennylane_example.py",
            "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/279/pennylane_example.py",
+           "source": "",
            "filename": "pennylane_example.py"
           },
           {
@@ -3570,6 +3801,7 @@
            "size_label": "4.9 kB",
            "local": "assets/materials/81372b00/tutorial.py",
            "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/280/tutorial.py",
+           "source": "",
            "filename": "tutorial.py"
           }
          ]
@@ -3671,6 +3903,7 @@
            "size_label": "9.0 kB",
            "local": "assets/materials/f06f8736/pennylane-jax.ipynb",
            "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/283/pennylane-jax.ipynb",
+           "source": "",
            "filename": "pennylane-jax.ipynb"
           },
           {
@@ -3680,6 +3913,7 @@
            "size_label": "11 kB",
            "local": "assets/materials/a830f22f/pennylane-jaxnn.ipynb",
            "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/284/pennylane-jaxnn.ipynb",
+           "source": "",
            "filename": "pennylane-jaxnn.ipynb"
           },
           {
@@ -3689,6 +3923,7 @@
            "size_label": "7.7 kB",
            "local": "assets/materials/b0682281/pennylane-mixed.ipynb",
            "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/285/pennylane-mixed.ipynb",
+           "source": "",
            "filename": "pennylane-mixed.ipynb"
           },
           {
@@ -3698,6 +3933,7 @@
            "size_label": "557 B",
            "local": "assets/materials/f8a2c278/pennylane_example.py",
            "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/281/pennylane_example.py",
+           "source": "",
            "filename": "pennylane_example.py"
           },
           {
@@ -3707,6 +3943,7 @@
            "size_label": "4.9 kB",
            "local": "assets/materials/81372b00/tutorial.py",
            "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/282/tutorial.py",
+           "source": "",
            "filename": "tutorial.py"
           }
          ]
@@ -3751,6 +3988,7 @@
            "size_label": "",
            "local": null,
            "remote": "https://pennylane.ai/qml/demos/tutorial_kernel_based_training",
+           "source": "",
            "filename": null
           },
           {
@@ -3760,6 +3998,7 @@
            "size_label": "",
            "local": null,
            "remote": "https://pennylane.ai/qml/demos/tutorial_kernels_module",
+           "source": "",
            "filename": null
           }
          ]
@@ -3920,6 +4159,7 @@
            "size_label": "",
            "local": null,
            "remote": "https://matrix.to/#/!lfIegQALgSQVWFWAot:matrix.org?via=matrix.org",
+           "source": "",
            "filename": null
           }
          ]
@@ -3935,6 +4175,7 @@
            "size_label": "8.2 MB",
            "local": "assets/materials/fff003ec/lecture.pdf",
            "remote": "https://akademia.iitis.pl/event/24/contributions/54/attachments/62/292/lecture.pdf",
+           "source": "",
            "filename": "lecture.pdf"
           },
           {
@@ -3944,6 +4185,7 @@
            "size_label": "6.0 kB",
            "local": "assets/materials/29ffb5e5/pennylane-jax.ipynb",
            "remote": "https://akademia.iitis.pl/event/24/contributions/54/attachments/62/290/pennylane-jax.ipynb",
+           "source": "",
            "filename": "pennylane-jax.ipynb"
           },
           {
@@ -3953,6 +4195,7 @@
            "size_label": "11 kB",
            "local": "assets/materials/5ec29331/pennylane-jaxnn.ipynb",
            "remote": "https://akademia.iitis.pl/event/24/contributions/54/attachments/62/289/pennylane-jaxnn.ipynb",
+           "source": "",
            "filename": "pennylane-jaxnn.ipynb"
           },
           {
@@ -3962,6 +4205,7 @@
            "size_label": "7.7 kB",
            "local": "assets/materials/b0682281/pennylane-mixed.ipynb",
            "remote": "https://akademia.iitis.pl/event/24/contributions/54/attachments/62/291/pennylane-mixed.ipynb",
+           "source": "",
            "filename": "pennylane-mixed.ipynb"
           }
          ]
@@ -4006,6 +4250,7 @@
            "size_label": "",
            "local": null,
            "remote": "https://doi.org/10.1007%2Fs10462-012-9369-4",
+           "source": "",
            "filename": null
           },
           {
@@ -4015,6 +4260,7 @@
            "size_label": "",
            "local": null,
            "remote": "https://pennylane.ai/qml/demos/tutorial_huang_geometric_kernel_difference",
+           "source": "",
            "filename": null
           },
           {
@@ -4024,6 +4270,7 @@
            "size_label": "",
            "local": null,
            "remote": "https://pennylane.ai/qml/demos/tutorial_kernel_based_training",
+           "source": "",
            "filename": null
           },
           {
@@ -4033,6 +4280,7 @@
            "size_label": "",
            "local": null,
            "remote": "https://web.mit.edu/zoya/www/SVM.pdf",
+           "source": "",
            "filename": null
           },
           {
@@ -4042,6 +4290,7 @@
            "size_label": "",
            "local": null,
            "remote": "https://pennylane.ai/qml/demos/tutorial_kernels_module",
+           "source": "",
            "filename": null
           }
          ]
@@ -4202,6 +4451,7 @@
            "size_label": "15 MB",
            "local": "assets/materials/c0040f7c/ask_podsumowanie_gawron.pdf",
            "remote": "https://akademia.iitis.pl/event/27/contributions/55/attachments/64/299/ask_podsumowanie_gawron.pdf",
+           "source": "",
            "filename": "ask_podsumowanie_gawron.pdf"
           }
          ]
@@ -4241,6 +4491,7 @@
            "size_label": "1.7 MB",
            "local": "assets/materials/3e6d68fe/ASQ_ML_podsumowanie.pdf",
            "remote": "https://akademia.iitis.pl/event/27/contributions/56/attachments/65/300/ASQ_ML_podsumowanie.pdf",
+           "source": "",
            "filename": "ASQ_ML_podsumowanie.pdf"
           }
          ]
