@@ -293,3 +293,65 @@ ul.ev-files {
     dd { margin-left: 0; }
   }
 }
+
+/* --- odtwarzacz nagrań ---------------------------------------------------- */
+/* Nagrania leżą w zewnętrznym repozytorium i bywają duże (do ~930 MB), więc
+   odtwarzacz jest zwinięty, a preload="none" nie rusza sieci do naciśnięcia
+   play. Bez tego strona terminu I odpytywałaby serwer 34 razy przy wejściu. */
+.ev-file--video {
+  padding: 0;
+  border-bottom: 1px dotted $arch-border;
+
+  &:last-child { border-bottom: none; }
+}
+
+details.ev-player {
+  summary {
+    cursor: pointer;
+    padding: .3em 0;
+    font-size: .93em;
+    line-height: 1.4;
+    list-style: none;
+    color: #1c4f7c;
+
+    &::-webkit-details-marker { display: none; }
+
+    &:before {
+      content: "▸";
+      display: inline-block;
+      width: 1em;
+      color: $arch-muted;
+      font-size: .85em;
+    }
+
+    &:hover { color: $arch-accent; }
+  }
+
+  &[open] > summary:before {
+    content: "▾";
+  }
+}
+
+.ev-player-title {
+  text-decoration: underline;
+}
+
+.ev-player-body {
+  padding: .4em 0 .8em 1em;
+
+  video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background: #000;
+    display: block;
+  }
+}
+
+.ev-player-dl {
+  margin: .4em 0 0;
+  font-size: .82em;
+  color: $arch-muted;
+
+  a { color: $arch-accent; }
+}

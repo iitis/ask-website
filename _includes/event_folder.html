@@ -2,6 +2,10 @@
 Renderuje jeden folder z materiałami (Indico "attachment folder").
 Pliki skopiowane lokalnie linkują do assets/materials/; nagrania i odnośniki
 zewnętrzne - do źródła, oznaczonego etykietą item.source.
+
+Nagrania dostają zwijany odtwarzacz. preload="none" sprawia, że przeglądarka
+nie tyka zewnętrznego serwera, dopóki ktoś nie wciśnie play - istotne, bo na
+stronie terminu I jest 34 nagrań.
 {% endcomment %}
 {% assign folder = include.folder %}
 
@@ -16,24 +20,48 @@ zewnętrzne - do źródła, oznaczonego etykietą item.source.
   <ul class="ev-files">
     {% for item in folder.items %}
       <li class="ev-file ev-file--{{ item.kind }}">
-        {% if item.local %}
-          <a href="{{ item.local | prepend: '/' | relative_url }}">{{ item.title }}</a>
+
+        {% if item.kind == 'video' %}
+          <details class="ev-player">
+            <summary>
+              <span class="ev-player-title">{{ item.title }}</span>
+              <span class="ev-file-tags">
+                <span class="ev-tag">wideo</span>
+                {% if item.size_label != '' %}<span class="ev-size">{{ item.size_label }}</span>{% endif %}
+                {% if item.source != '' %}<span class="ev-tag ev-tag--remote">{{ item.source }}</span>{% endif %}
+              </span>
+            </summary>
+            <div class="ev-player-body">
+              <video controls preload="none" playsinline>
+                <source src="{{ item.remote }}" type="video/mp4">
+                Twoja przeglądarka nie odtworzy tego nagrania.
+              </video>
+              <p class="ev-player-dl">
+                <a href="{{ item.remote }}" rel="noopener">Pobierz plik</a>{% if item.size_label != '' %} ({{ item.size_label }}){% endif %}
+              </p>
+            </div>
+          </details>
+
         {% else %}
-          <a href="{{ item.remote }}" rel="noopener">{{ item.title }}</a>
+          {% if item.local %}
+            <a href="{{ item.local | prepend: '/' | relative_url }}">{{ item.title }}</a>
+          {% else %}
+            <a href="{{ item.remote }}" rel="noopener">{{ item.title }}</a>
+          {% endif %}
+          <span class="ev-file-tags">
+            {% case item.kind %}
+              {% when 'pdf' %}<span class="ev-tag">PDF</span>
+              {% when 'notebook' %}<span class="ev-tag">notatnik</span>
+              {% when 'code' %}<span class="ev-tag">kod</span>
+              {% when 'image' %}<span class="ev-tag">obraz</span>
+              {% when 'link' %}<span class="ev-tag">odnośnik</span>
+              {% else %}<span class="ev-tag">plik</span>
+            {% endcase %}
+            {% if item.size_label != '' %}<span class="ev-size">{{ item.size_label }}</span>{% endif %}
+            {% if item.source != '' %}<span class="ev-tag ev-tag--remote">{{ item.source }}</span>{% endif %}
+          </span>
         {% endif %}
-        <span class="ev-file-tags">
-          {% case item.kind %}
-            {% when 'pdf' %}<span class="ev-tag">PDF</span>
-            {% when 'video' %}<span class="ev-tag">wideo</span>
-            {% when 'notebook' %}<span class="ev-tag">notatnik</span>
-            {% when 'code' %}<span class="ev-tag">kod</span>
-            {% when 'image' %}<span class="ev-tag">obraz</span>
-            {% when 'link' %}<span class="ev-tag">odnośnik</span>
-            {% else %}<span class="ev-tag">plik</span>
-          {% endcase %}
-          {% if item.size_label != '' %}<span class="ev-size">{{ item.size_label }}</span>{% endif %}
-          {% if item.source != '' %}<span class="ev-tag ev-tag--remote">{{ item.source }}</span>{% endif %}
-        </span>
+
       </li>
     {% endfor %}
   </ul>
