@@ -19,6 +19,8 @@ Etapy:
     python3 tools/zenodo.py links --record ID [--sandbox]
         Zapisuje _data/video_urls.json (MD5 -> URL pliku na Zenodo).
         Po tym kroku `fetch_indico.py` linkuje nagrania do Zenodo.
+        Korzysta z tools/video_manifest.json, więc odbudowa linków po nowej
+        wersji rekordu nie wymaga ponownego pobierania nagrań.
 
 Token API czytany jest w tej kolejności:
     1. plik ~/.config/zenodo/token (zalecane - nie trafia do listy procesów),
@@ -346,11 +348,14 @@ def cmd_links(args: argparse.Namespace) -> int:
     record = resp.json()
 
     by_name = {f["key"]: f for f in record.get("files", [])}
-    manifest = json.loads(
-        (Path(args.dir).expanduser() / "manifest.json").read_text(encoding="utf-8")
-    ) if args.dir else None
-    if manifest is None:
-        raise SystemExit("Podaj --dir z manifest.json, żeby zmapować MD5.")
+    if args.dir:
+        source = Path(args.dir).expanduser() / "manifest.json"
+    else:
+        source = Path(__file__).with_name("video_manifest.json")
+    if not source.exists():
+        raise SystemExit(f"Brak manifestu ({source}). Uruchom `download`.")
+    manifest = json.loads(source.read_text(encoding="utf-8"))
+    print(f"manifest: {source}")
 
     from urllib.parse import quote
 
@@ -406,7 +411,8 @@ def main() -> int:
 
     p = sub.add_parser("links", help="zapisz mapowanie MD5 -> URL")
     p.add_argument("--record", required=True)
-    p.add_argument("--dir", required=True)
+    p.add_argument("--dir", help="katalog z manifest.json "
+                   "(domyślnie tools/video_manifest.json)")
     p.set_defaults(func=cmd_links)
 
     args = parser.parse_args()
