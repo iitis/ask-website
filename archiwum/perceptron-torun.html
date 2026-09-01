@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/perceptron-torun/
+title: "Warsztaty stacjonarne 'Kwantowy perceptron' - Toruń"
+summary: "5-6 kwietnia 2025 • Instytut Fizyki • C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej) • Grudziądzka 5, 87-100 Toruń"
+event_id: 13
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

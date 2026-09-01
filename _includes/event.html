@@ -1,0 +1,98 @@
+{% comment %}
+Renderuje pojedyncze wydarzenie z _data/archiwum.json.
+Użycie: {% include event.html event=event %}
+{% endcomment %}
+{% assign event = include.event %}
+
+<article class="ev">
+
+  <p class="ev-back"><a href="{{ '/archiwum/' | relative_url }}">&larr; Archiwum wydarzeń</a></p>
+
+  <h1 class="ev-title">{{ event.title }}</h1>
+
+  <dl class="ev-meta">
+    <dt>Termin</dt>
+    <dd>
+      {{ event.date_label }}{% if event.start.time %}, godz. {{ event.start.time }}&ndash;{{ event.end.time }}{% endif %}
+    </dd>
+
+    <dt>Miejsce</dt>
+    <dd>
+      {% if event.location != '' or event.room != '' or event.address != '' %}
+        {% if event.location != '' %}{{ event.location }}{% endif %}
+        {% if event.room != '' %}{% if event.location != '' %}, {% endif %}sala {{ event.room }}{% endif %}
+        {% if event.address != '' %}<br>{{ event.address | newline_to_br }}{% endif %}
+      {% elsif event.kind == 'online' %}
+        Online (zdalnie)
+      {% else %}
+        &mdash;
+      {% endif %}
+    </dd>
+
+    <dt>Rodzaj</dt>
+    <dd>
+      {% if event.kind == 'online' %}Wykłady online{% else %}Warsztaty stacjonarne{% endif %}
+      &middot; {{ event.n_materials_label }}
+    </dd>
+
+    <dt>Oryginał</dt>
+    <dd><a href="{{ event.indico_url }}" rel="noopener">{{ event.indico_url }}</a></dd>
+  </dl>
+
+  {% if event.folders and event.folders.size > 0 %}
+    <h2 id="materialy-ogolne">Materiały ogólne</h2>
+    {% for folder in event.folders %}
+      {% include event_folder.html folder=folder %}
+    {% endfor %}
+  {% endif %}
+
+  {% if event.days and event.days.size > 0 %}
+    <h2 id="program">Program</h2>
+
+    {% for day in event.days %}
+      <section class="ev-day">
+        <h3 class="ev-day-title">{{ day.label }}</h3>
+
+        {% for c in day.contributions %}
+          <section class="ev-item">
+            <p class="ev-item-head">
+              <span class="ev-time">{{ c.start.time }}&ndash;{{ c.end.time }}</span>
+              <span class="ev-item-title">{{ c.title }}</span>
+            </p>
+
+            {% if c.speakers.size > 0 or c.room != '' %}
+              <p class="ev-item-sub">
+                {% if c.speakers.size > 0 %}
+                  <span class="ev-speakers">{{ c.speakers | join: ', ' }}</span>
+                {% endif %}
+                {% if c.room != '' %}
+                  <span class="ev-room">sala {{ c.room }}</span>
+                {% endif %}
+              </p>
+            {% endif %}
+
+            {% if c.description_html != '' %}
+              <div class="ev-desc">{{ c.description_html }}</div>
+            {% endif %}
+
+            {% if c.folders.size > 0 %}
+              <div class="ev-item-materials">
+                <p class="ev-materials-label">Materiały</p>
+                {% for folder in c.folders %}
+                  {% include event_folder.html folder=folder %}
+                {% endfor %}
+              </div>
+            {% endif %}
+          </section>
+        {% endfor %}
+      </section>
+    {% endfor %}
+  {% endif %}
+
+  <p class="ev-note">
+    Kopia danych z systemu Indico (<a href="{{ event.indico_url }}" rel="noopener">{{ event.indico_url }}</a>),
+    stan na {{ site.data.archiwum.fetched_at_label }}. Nagrania wideo, ze względu na rozmiar,
+    pozostają na serwerze Indico &mdash; oznaczono je etykietą „Indico”.
+  </p>
+
+</article>

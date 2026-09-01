@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "main.jpg"
+permalink: /archiwum/wyklad-podsumowujacy/
+title: "Wykład podsumowujący projekt 'Akademia Sztuki Kwantowej'"
+summary: "1 kwietnia 2026 • Online"
+event_id: 27
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/metody-jadrowe-krakow/
+title: "Warsztaty stacjonarne 'Kwantowe uczenie maszynowe i kwantowe metody jądrowe' - Kraków"
+summary: "18-19 października 2025 • D17 • 1.20 (parter) • Ul. Kawiory 21, 30-055 Kraków"
+event_id: 22
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

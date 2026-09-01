@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/uczenie-maszynowe-krakow/
+title: "Warsztaty stacjonarne 'Dwa dni z uczeniem maszynowym' - Kraków"
+summary: "13-14 września 2025 • Budynek D17 • Sala 1.20 (parter) • Ul. Kawiory 21, 30-055 Kraków"
+event_id: 17
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

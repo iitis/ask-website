@@ -1,0 +1,40 @@
+{% comment %}
+Renderuje jeden folder z materiałami (Indico "attachment folder").
+Pliki skopiowane lokalnie linkują do assets/materials/, wideo i odnośniki
+zewnętrzne - do źródła.
+{% endcomment %}
+{% assign folder = include.folder %}
+
+<div class="ev-folder">
+  {% if folder.title != '' %}
+    <p class="ev-folder-title">{{ folder.title }}</p>
+  {% endif %}
+  {% if folder.description != '' %}
+    <p class="ev-folder-desc">{{ folder.description }}</p>
+  {% endif %}
+
+  <ul class="ev-files">
+    {% for item in folder.items %}
+      <li class="ev-file ev-file--{{ item.kind }}">
+        {% if item.local %}
+          <a href="{{ item.local | prepend: '/' | relative_url }}">{{ item.title }}</a>
+        {% else %}
+          <a href="{{ item.remote }}" rel="noopener">{{ item.title }}</a>
+        {% endif %}
+        <span class="ev-file-tags">
+          {% case item.kind %}
+            {% when 'pdf' %}<span class="ev-tag">PDF</span>
+            {% when 'video' %}<span class="ev-tag">wideo</span>
+            {% when 'notebook' %}<span class="ev-tag">notatnik</span>
+            {% when 'code' %}<span class="ev-tag">kod</span>
+            {% when 'image' %}<span class="ev-tag">obraz</span>
+            {% when 'link' %}<span class="ev-tag">odnośnik</span>
+            {% else %}<span class="ev-tag">plik</span>
+          {% endcase %}
+          {% if item.size_label != '' %}<span class="ev-size">{{ item.size_label }}</span>{% endif %}
+          {% unless item.local %}{% if item.kind != 'link' %}<span class="ev-tag ev-tag--remote">Indico</span>{% endif %}{% endunless %}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

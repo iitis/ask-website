@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/wyzarzanie-gdansk/
+title: "Warsztaty stacjonarne 'Kwantowe wyżarzanie kombinatorycznych problemów optymalizacyjnych' - Gdańsk"
+summary: "21-22 marca 2026 • Instytut Informatyki WMFiI UG • 1.18 • Wita Stwosza 57, Gdańsk"
+event_id: 21
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

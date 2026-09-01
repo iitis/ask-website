@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/uczenie-maszynowe-warszawa/
+title: "Warsztaty stacjonarne 'Dwa dni z uczeniem maszynowym' - Warszawa"
+summary: "4-5 października 2025 • Instytut Ekonometrii (budynek G (główny)) • 152(sobota), 115(niedziela) • ul. Niepodległości 162, Warszawa, przy samym metrze Pole Mokotowskie"
+event_id: 18
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

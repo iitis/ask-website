@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "main.jpg"
+permalink: /archiwum/wyklady-online-termin-3/
+title: "Wykłady online (wprowadzenie do Akademii Sztuki Kwantowej) - termin III"
+summary: "8-29 marca 2025"
+event_id: 12
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

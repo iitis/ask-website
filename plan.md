@@ -9,6 +9,9 @@ active: true
 ## Szczegółowy plan szkoleń
 Szczegółowy plan szkoleń znajduje się [tutaj]({{ site.docs | relative_url }}/plan_szkolen.pdf)
 
+Program i materiały ze zrealizowanych wykładów online oraz warsztatów zebrano
+w [Archiwum wydarzeń]({{ '/archiwum/' | relative_url }}).
+
 
 ## I ETAP (XI 2024 – III 2025)
 

@@ -1,0 +1,4280 @@
+{
+ "source": "https://akademia.iitis.pl",
+ "fetched_at": "2026-09-01",
+ "fetched_at_label": "1 września 2026",
+ "stats": {
+  "events": "16 wydarzeń",
+  "online": "4 wydarzenia online",
+  "warsztaty": "12 warsztatów stacjonarnych",
+  "local_files": "52 pliki skopiowane lokalnie",
+  "remote_files": "102 pliki pozostawione w Indico",
+  "local_bytes": "130 MB"
+ },
+ "events": [
+  {
+   "id": 7,
+   "slug": "wyklady-online-termin-1",
+   "kind": "online",
+   "title": "Wykłady online (wprowadzenie do Akademii Sztuki Kwantowej) - termin I",
+   "start": {
+    "date": "2024-12-07",
+    "time": "11:00",
+    "iso": "2024-12-07T11:00:00+01:00",
+    "day_label": "7 grudnia 2024"
+   },
+   "end": {
+    "date": "2025-01-11",
+    "time": "17:00",
+    "iso": "2025-01-11T17:00:00+01:00",
+    "day_label": "11 stycznia 2025"
+   },
+   "date_label": "7 grudnia 2024 - 11 stycznia 2025",
+   "place": "",
+   "location": "",
+   "room": "",
+   "address": "",
+   "indico_url": "https://akademia.iitis.pl/event/7/",
+   "folders": [
+    {
+     "title": "",
+     "description": "",
+     "items": [
+      {
+       "title": "grafik_wykladow_online_ASK.pdf",
+       "kind": "pdf",
+       "size": 166071,
+       "size_label": "162 kB",
+       "local": "assets/materials/12c2df0d/grafik_wykladow_online_ASK.pdf",
+       "remote": "https://akademia.iitis.pl/event/7/attachments/1/91/grafik_wykladow_online_ASK.pdf",
+       "filename": "grafik_wykladow_online_ASK.pdf"
+      },
+      {
+       "title": "kadra_dydaktyczna.pdf",
+       "kind": "pdf",
+       "size": 219515,
+       "size_label": "214 kB",
+       "local": "assets/materials/1fbf2170/kadra_dydaktyczna.pdf",
+       "remote": "https://akademia.iitis.pl/event/7/attachments/1/3/kadra_dydaktyczna.pdf",
+       "filename": "kadra_dydaktyczna.pdf"
+      },
+      {
+       "title": "opis_bloków_tematycznych.pdf",
+       "kind": "pdf",
+       "size": 135749,
+       "size_label": "133 kB",
+       "local": "assets/materials/4f893652/opis_blokow_tematycznych.pdf",
+       "remote": "https://akademia.iitis.pl/event/7/attachments/1/4/opis_blok%C3%B3w_tematycznych.pdf",
+       "filename": "opis_bloków_tematycznych.pdf"
+      },
+      {
+       "title": "Sugerowana kolejność odtwarzania wykładów (I termin).pdf",
+       "kind": "pdf",
+       "size": 132424,
+       "size_label": "129 kB",
+       "local": "assets/materials/a30fc141/Sugerowana_kolejnosc_odtwarzania_wykladow_I_termin.pdf",
+       "remote": "https://akademia.iitis.pl/event/7/attachments/1/178/Sugerowana%20kolejno%C5%9B%C4%87%20odtwarzania%20wyk%C5%82ad%C3%B3w%20(I%20termin).pdf",
+       "filename": "Sugerowana kolejność odtwarzania wykładów (I termin).pdf"
+      }
+     ]
+    }
+   ],
+   "days": [
+    {
+     "label": "7 grudnia 2024",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Podstawy matematyczne obliczeń kwantowych i SI",
+       "start": {
+        "date": "2024-12-07",
+        "time": "11:00",
+        "iso": "2024-12-07T11:00:00+01:00",
+        "day_label": "7 grudnia 2024"
+       },
+       "end": {
+        "date": "2024-12-07",
+        "time": "12:30",
+        "iso": "2024-12-07T12:30:00+01:00",
+        "day_label": "7 grudnia 2024"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Hanna Wojewódka Ściążko"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowczynią i wprowadzenie do następujących czterech bloków tematycznych:<br>\n1. Elementy rachunku prawdopodobieństwa.<br>\n2. Elementy statystyki matematycznej.<br>\n3. Elementy algebry liniowej.<br>\n4. Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 5 tygodni) nagrań około 8h wykładów dotyczących następujących zagadnień (wykłady będą udostępniane stopniowo):</p>\n<p>Elementy rachunku prawdopodobieństwa i statystyki matematycznej:</p>\n<p>1.1. Modelowanie doświadczenia losowego za pomocą przestrzeni probabilistycznej.<br>\n1.2. Zmienna losowa - intuicje, przykłady, formalna definicja.<br>\n1.3. Typowe rozkłady prawdopodobieństwa (w tym rozkład normalny).<br>\n1.4. Zmienne losowe niezależne.<br>\n1.5. Centralne twierdzenie graniczne.<br>\n1.6. Rozkład t Studenta.</p>\n<p>Elementy statystyki matematycznej:</p>\n<p>2.1. Teoretyczne podstawy wnioskowania statystycznego.<br>\n2.2. Weryfikacja hipotez statystycznych: parametryczne testy istotności (przykład – test t); testy różnicy średnich dla obserwacji powiązanych w pary (przykłady – sparowany test t i test Wilcoxona dla par obserwacji); testy zgodności, testy normalności rozkładu (przykład – test normalności Shapiro-Wilka).</p>\n<p>Elementy algebry liniowej:</p>\n<p>3.1. Liczby zespolone.<br>\n3.2. Przestrzeń wektorowa, pojęcie iloczynu skalarnego.<br>\n3.3. Notacja Diraca.<br>\n3.4. Macierze i działania na macierzach.<br>\n3.5. Wektory i wartości własne macierzy.</p>\n<p>Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu:</p>\n<p>4.1. Pojęcie gradientu.<br>\n4.2. Metoda spadku wzdłuż gradientu.<br>\n4.3. Metoda stochastycznego spadku wzdłuż gradientu.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "OK 2. Elementy algebry liniowej (cz. 2)",
+           "kind": "video",
+           "size": 276508514,
+           "size_label": "264 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/49/Wyk%C5%82ad%203b.mp4",
+           "filename": "Wykład 3b.mp4"
+          },
+          {
+           "title": "OK. 1 Elementy algebry liniowej (cz. 1)",
+           "kind": "video",
+           "size": 321947700,
+           "size_label": "307 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/16/Wyk%C5%82ad%203a.mp4",
+           "filename": "Wykład 3a.mp4"
+          },
+          {
+           "title": "OK.[3,4] Metoda spadku wzdłuż gradientu.mp4",
+           "kind": "video",
+           "size": 297681539,
+           "size_label": "284 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/256/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.mp4",
+           "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.mp4"
+          },
+          {
+           "title": "UM. 1 Elementy rachunku prawdopodobieństwa (cz. 1)",
+           "kind": "video",
+           "size": 455151444,
+           "size_label": "434 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/8/Wyk%C5%82ad%201a.mp4",
+           "filename": "Wykład 1a.mp4"
+          },
+          {
+           "title": "UM. 2 Elementy rachunku prawdopodobieństwa (cz. 2)",
+           "kind": "video",
+           "size": 352353634,
+           "size_label": "336 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/9/Wyk%C5%82ad%201b.mp4",
+           "filename": "Wykład 1b.mp4"
+          },
+          {
+           "title": "UM. 3 Elementy statystyki matematycznej (cz. 1)",
+           "kind": "video",
+           "size": 596559021,
+           "size_label": "569 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/13/Wyk%C5%82ad%202.mp4",
+           "filename": "Wykład 2.mp4"
+          },
+          {
+           "title": "UM. 4 Elementy statystyki matematycznej (cz. 2)",
+           "kind": "video",
+           "size": 426556817,
+           "size_label": "407 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/3/15/Wyk%C5%82ad%202b.mp4",
+           "filename": "Wykład 2b.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Metoda spadku wzdłuż gradientu (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "OK.[3,4] Metoda spadku wzdłuż gradientu.pdf",
+           "kind": "pdf",
+           "size": 1599695,
+           "size_label": "1.5 MB",
+           "local": "assets/materials/8e8ca11c/OK._3_4_Metoda_spadku_wzdluz_gradientu.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/53/257/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.pdf",
+           "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Slajdy do wykładu z algebry liniowej",
+         "description": "",
+         "items": [
+          {
+           "title": "3.1. Liczby zespolone.pdf",
+           "kind": "pdf",
+           "size": 558686,
+           "size_label": "546 kB",
+           "local": "assets/materials/3fd20274/3.1._Liczby_zespolone.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/87/3.1.%20Liczby%20zespolone.pdf",
+           "filename": "3.1. Liczby zespolone.pdf"
+          },
+          {
+           "title": "3.2. Wektory. Sprzężenie hermitowskie.pdf",
+           "kind": "pdf",
+           "size": 174055,
+           "size_label": "170 kB",
+           "local": "assets/materials/c9fd9aa0/3.2._Wektory._Sprzezenie_hermitowskie.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/86/3.2.%20Wektory.%20Sprz%C4%99%C5%BCenie%20hermitowskie.pdf",
+           "filename": "3.2. Wektory. Sprzężenie hermitowskie.pdf"
+          },
+          {
+           "title": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf",
+           "kind": "pdf",
+           "size": 174987,
+           "size_label": "171 kB",
+           "local": "assets/materials/9144f5ac/3.3._Iloczyn_skalarny_wektorow._Liniowa_zaleznosc_wektorow._Baza_i_wymiar_przestrzeni_wektorowej.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/85/3.3.%20Iloczyn%20skalarny%20wektor%C3%B3w.%20Liniowa%20zale%C5%BCno%C5%9B%C4%87%20wektor%C3%B3w.%20Baza%20i%20wymiar%20przestrzeni%20wektorowej.pdf",
+           "filename": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf"
+          },
+          {
+           "title": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf",
+           "kind": "pdf",
+           "size": 108337,
+           "size_label": "106 kB",
+           "local": "assets/materials/d7557cc2/3.4._Norma_euklidesowa._Wektory_unormowane._Wektory_ortogonalne.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/84/3.4.%20Norma%20euklidesowa.%20Wektory%20unormowane.%20Wektory%20ortogonalne.pdf",
+           "filename": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf"
+          },
+          {
+           "title": "3.5. Macierze.pdf",
+           "kind": "pdf",
+           "size": 159085,
+           "size_label": "155 kB",
+           "local": "assets/materials/b6b082f4/3.5._Macierze.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/83/3.5.%20Macierze.pdf",
+           "filename": "3.5. Macierze.pdf"
+          },
+          {
+           "title": "3.6. Pewne szczególne rodzaje macierzy.pdf",
+           "kind": "pdf",
+           "size": 186538,
+           "size_label": "182 kB",
+           "local": "assets/materials/9ba30eef/3.6._Pewne_szczegolne_rodzaje_macierzy.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/82/3.6.%20Pewne%20szczeg%C3%B3lne%20rodzaje%20macierzy.pdf",
+           "filename": "3.6. Pewne szczególne rodzaje macierzy.pdf"
+          },
+          {
+           "title": "3.7. Wektory i wartości własne.pdf",
+           "kind": "pdf",
+           "size": 186243,
+           "size_label": "182 kB",
+           "local": "assets/materials/6d544902/3.7._Wektory_i_wartosci_wlasne.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/12/81/3.7.%20Wektory%20i%20warto%C5%9Bci%20w%C5%82asne.pdf",
+           "filename": "3.7. Wektory i wartości własne.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Slajdy do wykładu z rachunku prawdopodobieństwa",
+         "description": "",
+         "items": [
+          {
+           "title": "1.1. Doświadczenie losowe a model matematyczny.pdf",
+           "kind": "pdf",
+           "size": 14222387,
+           "size_label": "14 MB",
+           "local": "assets/materials/3901cc74/1.1._Doswiadczenie_losowe_a_model_matematyczny.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/65/1.1.%20Do%C5%9Bwiadczenie%20losowe%20a%20model%20matematyczny.pdf",
+           "filename": "1.1. Doświadczenie losowe a model matematyczny.pdf"
+          },
+          {
+           "title": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf",
+           "kind": "pdf",
+           "size": 1654663,
+           "size_label": "1.6 MB",
+           "local": "assets/materials/05bcc517/1.2._Prawdopodobienstwo_warunkowe_zdarzenia_niezalezne.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/64/1.2.%20Prawdopodobie%C5%84stwo%20warunkowe,%20zdarzenia%20niezale%C5%BCne.pdf",
+           "filename": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf"
+          },
+          {
+           "title": "1.3. Zmienna losowa.pdf",
+           "kind": "pdf",
+           "size": 5789347,
+           "size_label": "5.5 MB",
+           "local": "assets/materials/1fd823a1/1.3._Zmienna_losowa.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/63/1.3.%20Zmienna%20losowa.pdf",
+           "filename": "1.3. Zmienna losowa.pdf"
+          },
+          {
+           "title": "1.4. Zmienna losowa dyskretna.pdf",
+           "kind": "pdf",
+           "size": 5551173,
+           "size_label": "5.3 MB",
+           "local": "assets/materials/308afa91/1.4._Zmienna_losowa_dyskretna.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/62/1.4.%20Zmienna%20losowa%20dyskretna.pdf",
+           "filename": "1.4. Zmienna losowa dyskretna.pdf"
+          },
+          {
+           "title": "1.5. Dystrybuanta zmiennej losowej.pdf",
+           "kind": "pdf",
+           "size": 216861,
+           "size_label": "212 kB",
+           "local": "assets/materials/e306fecc/1.5._Dystrybuanta_zmiennej_losowej.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/61/1.5.%20Dystrybuanta%20zmiennej%20losowej.pdf",
+           "filename": "1.5. Dystrybuanta zmiennej losowej.pdf"
+          },
+          {
+           "title": "1.6. Zmienna losowa absolutnie ciągła.pdf",
+           "kind": "pdf",
+           "size": 533347,
+           "size_label": "521 kB",
+           "local": "assets/materials/e5aa4178/1.6._Zmienna_losowa_absolutnie_ciagla.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/60/1.6.%20Zmienna%20losowa%20absolutnie%20ci%C4%85g%C5%82a.pdf",
+           "filename": "1.6. Zmienna losowa absolutnie ciągła.pdf"
+          },
+          {
+           "title": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf",
+           "kind": "pdf",
+           "size": 551152,
+           "size_label": "538 kB",
+           "local": "assets/materials/f821a404/1.7._Dwuwymiarowa_zmienna_losowa_zmienne_losowe_niezalezne.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/59/1.7.%20Dwuwymiarowa%20zmienna%20losowa,%20zmienne%20losowe%20niezale%C5%BCne.pdf",
+           "filename": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf"
+          },
+          {
+           "title": "1.8. CTG, rozkład t Studenta.pdf",
+           "kind": "pdf",
+           "size": 189337,
+           "size_label": "185 kB",
+           "local": "assets/materials/2725d5ca/1.8._CTG_rozklad_t_Studenta.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/7/58/1.8.%20CTG,%20rozk%C5%82ad%20t%20Studenta.pdf",
+           "filename": "1.8. CTG, rozkład t Studenta.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Slajdy do wykładu ze statystyki matematycznej",
+         "description": "",
+         "items": [
+          {
+           "title": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf",
+           "kind": "pdf",
+           "size": 5365756,
+           "size_label": "5.1 MB",
+           "local": "assets/materials/84e34717/2.1._Teoretyczne_podstawy_wnioskowania_statystycznego.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/67/2.1.%20Teoretyczne%20podstawy%20wnioskowania%20statystycznego.pdf",
+           "filename": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf"
+          },
+          {
+           "title": "2.2. Statystyka z próby (jako zmienna losowa).pdf",
+           "kind": "pdf",
+           "size": 465923,
+           "size_label": "455 kB",
+           "local": "assets/materials/f9c22b30/2.2._Statystyka_z_proby_jako_zmienna_losowa.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/66/2.2.%20Statystyka%20z%20pr%C3%B3by%20(jako%20zmienna%20losowa).pdf",
+           "filename": "2.2. Statystyka z próby (jako zmienna losowa).pdf"
+          },
+          {
+           "title": "2.3. Weryfikacja hipotez statystycznych.pdf",
+           "kind": "pdf",
+           "size": 343823,
+           "size_label": "336 kB",
+           "local": "assets/materials/de3b90a7/2.3._Weryfikacja_hipotez_statystycznych.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/68/2.3.%20Weryfikacja%20hipotez%20statystycznych.pdf",
+           "filename": "2.3. Weryfikacja hipotez statystycznych.pdf"
+          },
+          {
+           "title": "2.4. Parametryczne testy istotności.pdf",
+           "kind": "pdf",
+           "size": 3747973,
+           "size_label": "3.6 MB",
+           "local": "assets/materials/195b761f/2.4._Parametryczne_testy_istotnosci.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/70/2.4.%20Parametryczne%20testy%20istotno%C5%9Bci.pdf",
+           "filename": "2.4. Parametryczne testy istotności.pdf"
+          },
+          {
+           "title": "2.5. p-wartość. Test t.pdf",
+           "kind": "pdf",
+           "size": 742838,
+           "size_label": "725 kB",
+           "local": "assets/materials/918d4ea1/2.5._p-wartosc._Test_t.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/74/2.5.%20p-warto%C5%9B%C4%87.%20Test%20t.pdf",
+           "filename": "2.5. p-wartość. Test t.pdf"
+          },
+          {
+           "title": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf",
+           "kind": "pdf",
+           "size": 196563,
+           "size_label": "192 kB",
+           "local": "assets/materials/17c2ee0f/2.6._Testy_roznicy_srednich_dla_par._Sparowany_test_t.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/73/2.6.%20Testy%20r%C3%B3%C5%BCnicy%20%C5%9Brednich%20dla%20par.%20Sparowany%20test%20t.pdf",
+           "filename": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf"
+          },
+          {
+           "title": "2.7. Test Wilcoxona dla par obserwacji.pdf",
+           "kind": "pdf",
+           "size": 2124993,
+           "size_label": "2.0 MB",
+           "local": "assets/materials/e6e9be43/2.7._Test_Wilcoxona_dla_par_obserwacji.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/72/2.7.%20Test%20Wilcoxona%20dla%20par%20obserwacji.pdf",
+           "filename": "2.7. Test Wilcoxona dla par obserwacji.pdf"
+          },
+          {
+           "title": "2.8. Testy zgodności. Testy normalności rozkładu.pdf",
+           "kind": "pdf",
+           "size": 274812,
+           "size_label": "268 kB",
+           "local": "assets/materials/26013ca2/2.8._Testy_zgodnosci._Testy_normalnosci_rozkladu.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/8/71/2.8.%20Testy%20zgodno%C5%9Bci.%20Testy%20normalno%C5%9Bci%20rozk%C5%82adu.pdf",
+           "filename": "2.8. Testy zgodności. Testy normalności rozkładu.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 7.12.24",
+         "description": "Wykład otwierający Akademię Sztuki Kwantowej",
+         "items": [
+          {
+           "title": "Slajdy do wykładu otwierającego Akademię Sztuki Kwantowej.pdf",
+           "kind": "pdf",
+           "size": 15753340,
+           "size_label": "15 MB",
+           "local": "assets/materials/58e3706e/Slajdy_do_wykladu_otwierajacego_Akademie_Sztuki_Kwantowej.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/9/75/Slajdy%20do%20wyk%C5%82adu%20otwieraj%C4%85cego%20Akademi%C4%99%20Sztuki%20Kwantowej.pdf",
+           "filename": "Slajdy do wykładu otwierającego Akademię Sztuki Kwantowej.pdf"
+          },
+          {
+           "title": "Wykład otwierający ASK",
+           "kind": "video",
+           "size": 588880396,
+           "size_label": "562 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/3/attachments/9/76/otwarcie_ask.mp4",
+           "filename": "otwarcie_ask.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 3,
+       "title": "Wprowadzenie do obliczeń kwantowych i algorytmów kwantowych",
+       "start": {
+        "date": "2024-12-07",
+        "time": "12:45",
+        "iso": "2024-12-07T12:45:00+01:00",
+        "day_label": "7 grudnia 2024"
+       },
+       "end": {
+        "date": "2024-12-07",
+        "time": "14:15",
+        "iso": "2024-12-07T14:15:00+01:00",
+        "day_label": "7 grudnia 2024"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Zbigniew Puchała"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowcą i wprowadzenie do następujących dwóch bloków tematycznych:<br>\n5. Wprowadzenie do obliczeń kwantowych.<br>\n6. Algorytmy kwantowe.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne przy realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 5 tygodni) nagrań około 8h wykładów dotyczących następujących zagadnień (wykłady będą udostępniane stopniowo):</p>\n<p>Wprowadzenie do obliczeń kwantowych:</p>\n<p>5.1. Zagadnienia wstępne, fizyka mikroświata, efekty kwantowe.<br>\n5.2. Ewolucja układu w czasie. Równanie Schroedingera.<br>\n5.3. Stany kwantowe i superpozycja stanów – definicje i przykłady.<br>\n5.4. Pomiar kwantowy – czym jest i jakie są jego efekty?<br>\n5.5. Hamiltonian, ewolucja unitarna.<br>\n5.6. Bramki kwantowe.<br>\n5.7. Układy złożone, iloczyn tensorowy, stany produktowe, stany splątane, stany Bella.<br>\n5.8. Informacja klasyczna vs informacja kwantowa. Częściowa konwersja obu form informacji w siebie.<br>\n5.9. No cloning theorem.<br>\n5.10. Kwantowe gęste kodowanie. Kwantowa teleportacja.<br>\n5.11. Kwantowa kryptografia.</p>\n<p>Algorytmy kwantowe:</p>\n<p>6.1. Algorytm Shore'a: badanie okresowości funkcji (przykład algorytmu faktoryzacji).<br>\n6.2. Algorytm kwantowy Deutsch-Jozsa.<br>\n6.3. Algorytm Grovera: poszukiwanie elementu znaczonego.<br>\n6.4. Twierdzenie Shannona – kwantowa informacja, macierze gęstości.<br>\n6.5. Kompresja Schumachera.<br>\n6.6. Kwantowa korekcja błędów.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "OK. 5 Wprowadzenie do obliczeń kwantowych",
+           "kind": "video",
+           "size": 459538484,
+           "size_label": "438 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/51/Wprowadzenie.mp4",
+           "filename": "Wprowadzenie.mp4"
+          },
+          {
+           "title": "OK. 6 Pomiary kwantowe",
+           "kind": "video",
+           "size": 306188118,
+           "size_label": "292 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/52/Pomiary.mp4",
+           "filename": "Pomiary.mp4"
+          },
+          {
+           "title": "OK. 7 Informacja klasyczna i kwantowa",
+           "kind": "video",
+           "size": 326434102,
+           "size_label": "311 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/54/Informacja.mp4",
+           "filename": "Informacja.mp4"
+          },
+          {
+           "title": "OK. 8 Zakaz klonowania.mp4",
+           "kind": "video",
+           "size": 314130694,
+           "size_label": "300 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/55/Klonowanie.mp4",
+           "filename": "Klonowanie.mp4"
+          },
+          {
+           "title": "OK. 9 Kryptografia",
+           "kind": "video",
+           "size": 209489153,
+           "size_label": "200 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/5/92/Kryptografia.mp4",
+           "filename": "Kryptografia.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Algorytmy kwantowe (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "Algorytmy kwantowe.pdf",
+           "kind": "pdf",
+           "size": 811614,
+           "size_label": "793 kB",
+           "local": "assets/materials/7473fd4a/Algorytmy_kwantowe.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/23/180/Algorytmy%20kwantowe.pdf",
+           "filename": "Algorytmy kwantowe.pdf"
+          }
+         ]
+        },
+        {
+         "title": "OK. 10 Algorytmy kwantowe",
+         "description": "Algorytmy kwantowe (wykłady)",
+         "items": [
+          {
+           "title": "Algorytmy 01",
+           "kind": "video",
+           "size": 220853712,
+           "size_label": "211 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/141/algorytmy-1.mp4",
+           "filename": "algorytmy-1.mp4"
+          },
+          {
+           "title": "Algorytmy 02",
+           "kind": "video",
+           "size": 118873599,
+           "size_label": "113 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/142/algorytmy-2.mp4",
+           "filename": "algorytmy-2.mp4"
+          },
+          {
+           "title": "Algorytmy 03",
+           "kind": "video",
+           "size": 96650397,
+           "size_label": "92 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/143/algorytmy-3.mp4",
+           "filename": "algorytmy-3.mp4"
+          },
+          {
+           "title": "Algorytmy 04",
+           "kind": "video",
+           "size": 208694337,
+           "size_label": "199 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/144/algorytmy-4.mp4",
+           "filename": "algorytmy-4.mp4"
+          },
+          {
+           "title": "Algorytmy 05",
+           "kind": "video",
+           "size": 174436621,
+           "size_label": "166 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/145/algorytmy-5.mp4",
+           "filename": "algorytmy-5.mp4"
+          },
+          {
+           "title": "Algorytmy 06",
+           "kind": "video",
+           "size": 162776609,
+           "size_label": "155 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/152/algorytmy-6.mp4",
+           "filename": "algorytmy-6.mp4"
+          },
+          {
+           "title": "Algorytmy 07",
+           "kind": "video",
+           "size": 177919440,
+           "size_label": "170 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/147/algorytmy-7.mp4",
+           "filename": "algorytmy-7.mp4"
+          },
+          {
+           "title": "Algorytmy 08",
+           "kind": "video",
+           "size": 158681122,
+           "size_label": "151 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/148/algorytmy-8.mp4",
+           "filename": "algorytmy-8.mp4"
+          },
+          {
+           "title": "Algorytmy 09",
+           "kind": "video",
+           "size": 198327606,
+           "size_label": "189 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/149/algorytmy-9.mp4",
+           "filename": "algorytmy-9.mp4"
+          },
+          {
+           "title": "Algorytmy 10",
+           "kind": "video",
+           "size": 76346858,
+           "size_label": "73 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/150/algorytmy-10.mp4",
+           "filename": "algorytmy-10.mp4"
+          },
+          {
+           "title": "Algorytmy 11",
+           "kind": "video",
+           "size": 200647072,
+           "size_label": "191 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/30/151/algorytmy-11.mp4",
+           "filename": "algorytmy-11.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Wprowadzenie do obliczeń kwantowych (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "Wprowadzenie do obliczeń kwantowych.pdf",
+           "kind": "pdf",
+           "size": 867953,
+           "size_label": "848 kB",
+           "local": "assets/materials/66dc0d85/Wprowadzenie_do_obliczen_kwantowych.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/22/179/Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.pdf",
+           "filename": "Wprowadzenie do obliczeń kwantowych.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 7.12.24",
+         "description": "Wprowadzenie do obliczeń kwantowych",
+         "items": [
+          {
+           "title": "Wykład wprowadzający do obliczeń kwantowych",
+           "kind": "video",
+           "size": 654873890,
+           "size_label": "625 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/5/attachments/10/80/otwarcie_oblicze%C5%84_kwantowych.mp4",
+           "filename": "otwarcie_obliczeń_kwantowych.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 4,
+       "title": "Podstawy uczenia maszynowego",
+       "start": {
+        "date": "2024-12-07",
+        "time": "15:30",
+        "iso": "2024-12-07T15:30:00+01:00",
+        "day_label": "7 grudnia 2024"
+       },
+       "end": {
+        "date": "2024-12-07",
+        "time": "17:00",
+        "iso": "2024-12-07T17:00:00+01:00",
+        "day_label": "7 grudnia 2024"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowcą i wprowadzenie do bloku tematycznego:<br>\n7. Podstawy uczenia maszynowego.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne przy realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 5 tygodni) nagrań około 6h wykładów dotyczących następujących zagadnień:</p>\n<p>Podstawy uczenia maszynowego (ML):</p>\n<p>7.1. Podstawowe zagadnienia ML - cele, pojęcia, zadania, wprowadzenie.<br>\n7.2. Przykładowe dane (klasyfikacja hiperspektralna krwi).<br>\n7.3. Metody jądrowe - wprowadzenie, klasyfikator SVM.<br>\n7.4. Zaawansowane sieci neuronowe.<br>\n7.5. “Skrzynka narzędziowa” uczenia maszynowego.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "UM. 5 Perceptron",
+           "kind": "video",
+           "size": 258602935,
+           "size_label": "247 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/10/perceptron.mp4",
+           "filename": "perceptron.mp4"
+          },
+          {
+           "title": "UM. 6 Sieci MLP",
+           "kind": "video",
+           "size": 914288055,
+           "size_label": "872 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/11/mlp.mp4",
+           "filename": "mlp.mp4"
+          },
+          {
+           "title": "UM. 7 Sieć MLP (analiza)",
+           "kind": "video",
+           "size": 249566904,
+           "size_label": "238 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/14/mlp_ex.mp4",
+           "filename": "mlp_ex.mp4"
+          },
+          {
+           "title": "UM. 8 Statystyczne metody uczenia maszynowego - wprowadzenie",
+           "kind": "video",
+           "size": 544339678,
+           "size_label": "519 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/12/covariance.mp4",
+           "filename": "covariance.mp4"
+          },
+          {
+           "title": "UM. 9 Statystyczne metody uczenia maszynowego",
+           "kind": "video",
+           "size": 976545093,
+           "size_label": "931 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/4/57/metody_statystyczne.mp4",
+           "filename": "metody_statystyczne.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Podstawy uczenia maszynowego (slajdy do wykładów)",
+         "description": "",
+         "items": [
+          {
+           "title": "1_perceptron.pdf",
+           "kind": "pdf",
+           "size": 4071834,
+           "size_label": "3.9 MB",
+           "local": "assets/materials/3140633f/1_perceptron.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/176/1_perceptron.pdf",
+           "filename": "1_perceptron.pdf"
+          },
+          {
+           "title": "2_mlp.pdf",
+           "kind": "pdf",
+           "size": 13104041,
+           "size_label": "12 MB",
+           "local": "assets/materials/a7b2b833/2_mlp.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/177/2_mlp.pdf",
+           "filename": "2_mlp.pdf"
+          },
+          {
+           "title": "3_mlp_ex.pdf",
+           "kind": "pdf",
+           "size": 2843697,
+           "size_label": "2.7 MB",
+           "local": "assets/materials/e0230bb0/3_mlp_ex.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/175/3_mlp_ex.pdf",
+           "filename": "3_mlp_ex.pdf"
+          },
+          {
+           "title": "4_covariance.pdf",
+           "kind": "pdf",
+           "size": 2723804,
+           "size_label": "2.6 MB",
+           "local": "assets/materials/b954df0b/4_covariance.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/174/4_covariance.pdf",
+           "filename": "4_covariance.pdf"
+          },
+          {
+           "title": "5_stats.pdf",
+           "kind": "pdf",
+           "size": 4851111,
+           "size_label": "4.6 MB",
+           "local": "assets/materials/416e18d9/5_stats.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/21/173/5_stats.pdf",
+           "filename": "5_stats.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 7.12.24",
+         "description": "Wprowadzenie do uczenia maszynowego i SI",
+         "items": [
+          {
+           "title": "mindmap.png",
+           "kind": "image",
+           "size": 734742,
+           "size_label": "718 kB",
+           "local": "assets/materials/09c98082/mindmap.png",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/272/mindmap.png",
+           "filename": "mindmap.png"
+          },
+          {
+           "title": "mindmap_zoom_1.png",
+           "kind": "image",
+           "size": 419848,
+           "size_label": "410 kB",
+           "local": "assets/materials/8b0a3b16/mindmap_zoom_1.png",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/271/mindmap_zoom_1.png",
+           "filename": "mindmap_zoom_1.png"
+          },
+          {
+           "title": "mindmap_zoom_2.png",
+           "kind": "image",
+           "size": 333107,
+           "size_label": "325 kB",
+           "local": "assets/materials/9f91fce1/mindmap_zoom_2.png",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/270/mindmap_zoom_2.png",
+           "filename": "mindmap_zoom_2.png"
+          },
+          {
+           "title": "Wykład wprowadzający do uczenia maszynowego",
+           "kind": "video",
+           "size": 776841044,
+           "size_label": "741 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/6/attachments/11/79/otwarcie_uczenia_maszynowego.mp4",
+           "filename": "otwarcie_uczenia_maszynowego.mp4"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "11 stycznia 2025",
+     "contributions": [
+      {
+       "id": 5,
+       "title": "Podstawy matematyczne obliczeń kwantowych i SI",
+       "start": {
+        "date": "2025-01-11",
+        "time": "11:00",
+        "iso": "2025-01-11T11:00:00+01:00",
+        "day_label": "11 stycznia 2025"
+       },
+       "end": {
+        "date": "2025-01-11",
+        "time": "12:30",
+        "iso": "2025-01-11T12:30:00+01:00",
+        "day_label": "11 stycznia 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Hanna Wojewódka Ściążko"
+       ],
+       "description_html": "<p>Podsumowanie wykładów 1-4, sesja Q&amp;A z wykładowczynią, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący ASK (11.01.25) - SLAJDY.pdf",
+           "kind": "pdf",
+           "size": 1508143,
+           "size_label": "1.4 MB",
+           "local": "assets/materials/a7461b20/Wyklad_podsumowujacy_ASK_11.01.25.pdf",
+           "remote": "https://akademia.iitis.pl/event/7/contributions/7/attachments/6/128/Wyk%C5%82ad%20podsumowuj%C4%85cy%20ASK%20(11.01.25).pdf",
+           "filename": "Wykład podsumowujący ASK (11.01.25).pdf"
+          },
+          {
+           "title": "Wykład podsumowujący.mp4",
+           "kind": "video",
+           "size": 658537279,
+           "size_label": "628 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/7/attachments/6/138/podsumowanie_ask.mp4",
+           "filename": "podsumowanie_ask.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 6,
+       "title": "Wprowadzenie do obliczeń kwantowych i algorytmy kwantowe",
+       "start": {
+        "date": "2025-01-11",
+        "time": "12:45",
+        "iso": "2025-01-11T12:45:00+01:00",
+        "day_label": "11 stycznia 2025"
+       },
+       "end": {
+        "date": "2025-01-11",
+        "time": "14:15",
+        "iso": "2025-01-11T14:15:00+01:00",
+        "day_label": "11 stycznia 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Zbigniew Puchała"
+       ],
+       "description_html": "<p>Podsumowanie wykładów 5 i 6, sesja Q&amp;A z wykładowcą, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący",
+           "kind": "video",
+           "size": 532610286,
+           "size_label": "508 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/8/attachments/28/139/podsumowanie_oblicze%C5%84_kwantowych.mp4",
+           "filename": "podsumowanie_obliczeń_kwantowych.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 7,
+       "title": "Podstawy uczenia maszynowego",
+       "start": {
+        "date": "2025-01-11",
+        "time": "15:30",
+        "iso": "2025-01-11T15:30:00+01:00",
+        "day_label": "11 stycznia 2025"
+       },
+       "end": {
+        "date": "2025-01-11",
+        "time": "17:00",
+        "iso": "2025-01-11T17:00:00+01:00",
+        "day_label": "11 stycznia 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<p>Podsumowanie wykładu 7, sesja Q&amp;A z wykładowcą, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący",
+           "kind": "video",
+           "size": 533146107,
+           "size_label": "508 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/7/contributions/9/attachments/29/140/podsumowanie_uczenia_maszynowego.mp4",
+           "filename": "podsumowanie_uczenia_maszynowego.mp4"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "n_materials": 74,
+   "n_materials_label": "74 materiały"
+  },
+  {
+   "id": 8,
+   "slug": "wyklady-online-termin-2",
+   "kind": "online",
+   "title": "Wykłady online (wprowadzenie do Akademii Sztuki Kwantowej) - termin II",
+   "start": {
+    "date": "2025-01-12",
+    "time": "11:00",
+    "iso": "2025-01-12T11:00:00+01:00",
+    "day_label": "12 stycznia 2025"
+   },
+   "end": {
+    "date": "2025-03-15",
+    "time": "17:00",
+    "iso": "2025-03-15T17:00:00+01:00",
+    "day_label": "15 marca 2025"
+   },
+   "date_label": "12 stycznia - 15 marca 2025",
+   "place": "",
+   "location": "",
+   "room": "",
+   "address": "",
+   "indico_url": "https://akademia.iitis.pl/event/8/",
+   "folders": [
+    {
+     "title": "",
+     "description": "",
+     "items": [
+      {
+       "title": "grafik_wykladow_online_ASK.pdf",
+       "kind": "pdf",
+       "size": 166071,
+       "size_label": "162 kB",
+       "local": "assets/materials/12c2df0d/grafik_wykladow_online_ASK.pdf",
+       "remote": "https://akademia.iitis.pl/event/8/attachments/2/90/grafik_wykladow_online_ASK.pdf",
+       "filename": "grafik_wykladow_online_ASK.pdf"
+      },
+      {
+       "title": "kadra_dydaktyczna.pdf",
+       "kind": "pdf",
+       "size": 219515,
+       "size_label": "214 kB",
+       "local": "assets/materials/1fbf2170/kadra_dydaktyczna.pdf",
+       "remote": "https://akademia.iitis.pl/event/8/attachments/2/6/kadra_dydaktyczna.pdf",
+       "filename": "kadra_dydaktyczna.pdf"
+      },
+      {
+       "title": "opis_bloków_tematycznych.pdf",
+       "kind": "pdf",
+       "size": 135749,
+       "size_label": "133 kB",
+       "local": "assets/materials/4f893652/opis_blokow_tematycznych.pdf",
+       "remote": "https://akademia.iitis.pl/event/8/attachments/2/7/opis_blok%C3%B3w_tematycznych.pdf",
+       "filename": "opis_bloków_tematycznych.pdf"
+      },
+      {
+       "title": "Sugerowana kolejność odtwarzania wykładów (II termin).pdf",
+       "kind": "pdf",
+       "size": 134794,
+       "size_label": "132 kB",
+       "local": "assets/materials/54d0c106/Sugerowana_kolejnosc_odtwarzania_wykladow_II_termin.pdf",
+       "remote": "https://akademia.iitis.pl/event/8/attachments/2/172/Sugerowana%20kolejno%C5%9B%C4%87%20odtwarzania%20wyk%C5%82ad%C3%B3w%20(II%20termin).pdf",
+       "filename": "Sugerowana kolejność odtwarzania wykładów (II termin).pdf"
+      }
+     ]
+    }
+   ],
+   "days": [
+    {
+     "label": "12 stycznia 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Podstawy matematyczne obliczeń kwantowych i SI",
+       "start": {
+        "date": "2025-01-12",
+        "time": "11:00",
+        "iso": "2025-01-12T11:00:00+01:00",
+        "day_label": "12 stycznia 2025"
+       },
+       "end": {
+        "date": "2025-01-12",
+        "time": "12:30",
+        "iso": "2025-01-12T12:30:00+01:00",
+        "day_label": "12 stycznia 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Hanna Wojewódka Ściążko"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowczynią i wprowadzenie do następujących czterech bloków tematycznych:<br>\n1. Elementy rachunku prawdopodobieństwa.<br>\n2. Elementy statystyki matematycznej.<br>\n3. Elementy algebry liniowej.<br>\n4. Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne podczas realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 9 tygodni) nagrań około 8h wykładów dotyczących następujących zagadnień:</p>\n<p>Elementy rachunku prawdopodobieństwa:</p>\n<p>1.1. Modelowanie doświadczenia losowego za pomocą przestrzeni probabilistycznej.<br>\n1.2. Zmienna losowa - intuicje, przykłady, formalna definicja.<br>\n1.3. Typowe rozkłady prawdopodobieństwa (w tym rozkład normalny).<br>\n1.4. Zmienne losowe niezależne.<br>\n1.5. Centralne twierdzenie graniczne.<br>\n1.6. Rozkład t Studenta.</p>\n<p>Elementy statystyki matematycznej:</p>\n<p>2.1. Teoretyczne podstawy wnioskowania statystycznego.<br>\n2.2. Weryfikacja hipotez statystycznych: parametryczne testy istotności (przykład – test t); testy różnicy średnich dla obserwacji powiązanych w pary (przykłady – sparowany test t i test Wilcoxona dla par obserwacji); testy zgodności, testy normalności rozkładu (przykład – test normalności Shapiro-Wilka).</p>\n<p>Elementy algebry liniowej:</p>\n<p>3.1. Liczby zespolone.<br>\n3.2. Przestrzeń wektorowa, pojęcie iloczynu skalarnego.<br>\n3.3. Notacja Diraca.<br>\n3.4. Macierze i działania na macierzach.<br>\n3.5. Wektory i wartości własne macierzy.</p>\n<p>Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu:</p>\n<p>4.1. Pojęcie gradientu.<br>\n4.2. Metoda spadku wzdłuż gradientu.<br>\n4.3. Metoda stochastycznego spadku wzdłuż gradientu.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "OK.1 Algebra liniowa – cz. 1.mp4",
+           "kind": "video",
+           "size": 321947700,
+           "size_label": "307 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/96/OK.1%20Algebra%20liniowa%20%E2%80%93%20cz.%201.mp4",
+           "filename": "OK.1 Algebra liniowa – cz. 1.mp4"
+          },
+          {
+           "title": "OK.2 Algebra liniowa – cz. 2.mp4",
+           "kind": "video",
+           "size": 276508514,
+           "size_label": "264 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/97/OK.2%20Algebra%20liniowa%20%E2%80%93%20cz.%202.mp4",
+           "filename": "OK.2 Algebra liniowa – cz. 2.mp4"
+          },
+          {
+           "title": "OK.[3,4] Metoda spadku wzdłuż gradientu.mp4",
+           "kind": "video",
+           "size": 297681539,
+           "size_label": "284 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/252/UM.5%20Algorytmy%20numeryczne%20znajduj%C4%85ce%20minimum%20lokalne%20zadanej%20funkcji%20celu.mp4",
+           "filename": "UM.5 Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu.mp4"
+          },
+          {
+           "title": "UM.1 Rachunek prawdopodobieństwa – cz. 1.mp4",
+           "kind": "video",
+           "size": 455151444,
+           "size_label": "434 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/95/UM.1%20Rachunek%20prawdopodobie%C5%84stwa%20%E2%80%93%20cz.%201.mp4",
+           "filename": "UM.1 Rachunek prawdopodobieństwa – cz. 1.mp4"
+          },
+          {
+           "title": "UM.2 Rachunek prawdopodobieństwa – cz. 2.mp4",
+           "kind": "video",
+           "size": 352353634,
+           "size_label": "336 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/94/UM.2%20Rachunek%20prawdopodobie%C5%84stwa%20%E2%80%93%20cz.%202.mp4",
+           "filename": "UM.2 Rachunek prawdopodobieństwa – cz. 2.mp4"
+          },
+          {
+           "title": "UM.3 Statystyka matematyczna – cz. 1.mp4",
+           "kind": "video",
+           "size": 596559021,
+           "size_label": "569 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/98/UM.3%20Statystyka%20matematyczna%20%E2%80%93%20cz.%201.mp4",
+           "filename": "UM.3 Statystyka matematyczna – cz. 1.mp4"
+          },
+          {
+           "title": "UM.4 Statystyka matematyczna – cz. 2.mp4",
+           "kind": "video",
+           "size": 426556817,
+           "size_label": "407 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/13/99/UM.4%20Statystyka%20matematyczna%20%E2%80%93%20cz.%202.mp4",
+           "filename": "UM.4 Statystyka matematyczna – cz. 2.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Elementy algebry liniowej (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "3.1. Liczby zespolone.pdf",
+           "kind": "pdf",
+           "size": 558686,
+           "size_label": "546 kB",
+           "local": "assets/materials/3fd20274/3.1._Liczby_zespolone.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/106/3.1.%20Liczby%20zespolone.pdf",
+           "filename": "3.1. Liczby zespolone.pdf"
+          },
+          {
+           "title": "3.2. Wektory. Sprzężenie hermitowskie.pdf",
+           "kind": "pdf",
+           "size": 174055,
+           "size_label": "170 kB",
+           "local": "assets/materials/c9fd9aa0/3.2._Wektory._Sprzezenie_hermitowskie.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/105/3.2.%20Wektory.%20Sprz%C4%99%C5%BCenie%20hermitowskie.pdf",
+           "filename": "3.2. Wektory. Sprzężenie hermitowskie.pdf"
+          },
+          {
+           "title": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf",
+           "kind": "pdf",
+           "size": 174987,
+           "size_label": "171 kB",
+           "local": "assets/materials/9144f5ac/3.3._Iloczyn_skalarny_wektorow._Liniowa_zaleznosc_wektorow._Baza_i_wymiar_przestrzeni_wektorowej.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/104/3.3.%20Iloczyn%20skalarny%20wektor%C3%B3w.%20Liniowa%20zale%C5%BCno%C5%9B%C4%87%20wektor%C3%B3w.%20Baza%20i%20wymiar%20przestrzeni%20wektorowej.pdf",
+           "filename": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf"
+          },
+          {
+           "title": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf",
+           "kind": "pdf",
+           "size": 108337,
+           "size_label": "106 kB",
+           "local": "assets/materials/d7557cc2/3.4._Norma_euklidesowa._Wektory_unormowane._Wektory_ortogonalne.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/103/3.4.%20Norma%20euklidesowa.%20Wektory%20unormowane.%20Wektory%20ortogonalne.pdf",
+           "filename": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf"
+          },
+          {
+           "title": "3.5. Macierze.pdf",
+           "kind": "pdf",
+           "size": 159085,
+           "size_label": "155 kB",
+           "local": "assets/materials/b6b082f4/3.5._Macierze.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/102/3.5.%20Macierze.pdf",
+           "filename": "3.5. Macierze.pdf"
+          },
+          {
+           "title": "3.6. Pewne szczególne rodzaje macierzy.pdf",
+           "kind": "pdf",
+           "size": 186538,
+           "size_label": "182 kB",
+           "local": "assets/materials/9ba30eef/3.6._Pewne_szczegolne_rodzaje_macierzy.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/101/3.6.%20Pewne%20szczeg%C3%B3lne%20rodzaje%20macierzy.pdf",
+           "filename": "3.6. Pewne szczególne rodzaje macierzy.pdf"
+          },
+          {
+           "title": "3.7. Wektory i wartości własne.pdf",
+           "kind": "pdf",
+           "size": 186243,
+           "size_label": "182 kB",
+           "local": "assets/materials/6d544902/3.7._Wektory_i_wartosci_wlasne.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/14/100/3.7.%20Wektory%20i%20warto%C5%9Bci%20w%C5%82asne.pdf",
+           "filename": "3.7. Wektory i wartości własne.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Elementy rachunku prawdopodobieństwa (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "1.1. Doświadczenie losowe a model matematyczny.pdf",
+           "kind": "pdf",
+           "size": 14222387,
+           "size_label": "14 MB",
+           "local": "assets/materials/3901cc74/1.1._Doswiadczenie_losowe_a_model_matematyczny.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/113/1.1.%20Do%C5%9Bwiadczenie%20losowe%20a%20model%20matematyczny.pdf",
+           "filename": "1.1. Doświadczenie losowe a model matematyczny.pdf"
+          },
+          {
+           "title": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf",
+           "kind": "pdf",
+           "size": 1654663,
+           "size_label": "1.6 MB",
+           "local": "assets/materials/05bcc517/1.2._Prawdopodobienstwo_warunkowe_zdarzenia_niezalezne.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/114/1.2.%20Prawdopodobie%C5%84stwo%20warunkowe,%20zdarzenia%20niezale%C5%BCne.pdf",
+           "filename": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf"
+          },
+          {
+           "title": "1.3. Zmienna losowa.pdf",
+           "kind": "pdf",
+           "size": 5789347,
+           "size_label": "5.5 MB",
+           "local": "assets/materials/1fd823a1/1.3._Zmienna_losowa.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/112/1.3.%20Zmienna%20losowa.pdf",
+           "filename": "1.3. Zmienna losowa.pdf"
+          },
+          {
+           "title": "1.4. Zmienna losowa dyskretna.pdf",
+           "kind": "pdf",
+           "size": 5551173,
+           "size_label": "5.3 MB",
+           "local": "assets/materials/308afa91/1.4._Zmienna_losowa_dyskretna.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/111/1.4.%20Zmienna%20losowa%20dyskretna.pdf",
+           "filename": "1.4. Zmienna losowa dyskretna.pdf"
+          },
+          {
+           "title": "1.5. Dystrybuanta zmiennej losowej.pdf",
+           "kind": "pdf",
+           "size": 216861,
+           "size_label": "212 kB",
+           "local": "assets/materials/e306fecc/1.5._Dystrybuanta_zmiennej_losowej.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/110/1.5.%20Dystrybuanta%20zmiennej%20losowej.pdf",
+           "filename": "1.5. Dystrybuanta zmiennej losowej.pdf"
+          },
+          {
+           "title": "1.6. Zmienna losowa absolutnie ciągła.pdf",
+           "kind": "pdf",
+           "size": 533347,
+           "size_label": "521 kB",
+           "local": "assets/materials/e5aa4178/1.6._Zmienna_losowa_absolutnie_ciagla.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/109/1.6.%20Zmienna%20losowa%20absolutnie%20ci%C4%85g%C5%82a.pdf",
+           "filename": "1.6. Zmienna losowa absolutnie ciągła.pdf"
+          },
+          {
+           "title": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf",
+           "kind": "pdf",
+           "size": 551152,
+           "size_label": "538 kB",
+           "local": "assets/materials/f821a404/1.7._Dwuwymiarowa_zmienna_losowa_zmienne_losowe_niezalezne.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/108/1.7.%20Dwuwymiarowa%20zmienna%20losowa,%20zmienne%20losowe%20niezale%C5%BCne.pdf",
+           "filename": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf"
+          },
+          {
+           "title": "1.8. CTG, rozkład t Studenta.pdf",
+           "kind": "pdf",
+           "size": 189337,
+           "size_label": "185 kB",
+           "local": "assets/materials/2725d5ca/1.8._CTG_rozklad_t_Studenta.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/15/107/1.8.%20CTG,%20rozk%C5%82ad%20t%20Studenta.pdf",
+           "filename": "1.8. CTG, rozkład t Studenta.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Elementy statystyki matematycznej (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf",
+           "kind": "pdf",
+           "size": 5365756,
+           "size_label": "5.1 MB",
+           "local": "assets/materials/84e34717/2.1._Teoretyczne_podstawy_wnioskowania_statystycznego.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/122/2.1.%20Teoretyczne%20podstawy%20wnioskowania%20statystycznego.pdf",
+           "filename": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf"
+          },
+          {
+           "title": "2.2. Statystyka z próby (jako zmienna losowa).pdf",
+           "kind": "pdf",
+           "size": 465923,
+           "size_label": "455 kB",
+           "local": "assets/materials/f9c22b30/2.2._Statystyka_z_proby_jako_zmienna_losowa.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/121/2.2.%20Statystyka%20z%20pr%C3%B3by%20(jako%20zmienna%20losowa).pdf",
+           "filename": "2.2. Statystyka z próby (jako zmienna losowa).pdf"
+          },
+          {
+           "title": "2.3. Weryfikacja hipotez statystycznych.pdf",
+           "kind": "pdf",
+           "size": 343823,
+           "size_label": "336 kB",
+           "local": "assets/materials/de3b90a7/2.3._Weryfikacja_hipotez_statystycznych.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/120/2.3.%20Weryfikacja%20hipotez%20statystycznych.pdf",
+           "filename": "2.3. Weryfikacja hipotez statystycznych.pdf"
+          },
+          {
+           "title": "2.4. Parametryczne testy istotności.pdf",
+           "kind": "pdf",
+           "size": 3747973,
+           "size_label": "3.6 MB",
+           "local": "assets/materials/195b761f/2.4._Parametryczne_testy_istotnosci.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/119/2.4.%20Parametryczne%20testy%20istotno%C5%9Bci.pdf",
+           "filename": "2.4. Parametryczne testy istotności.pdf"
+          },
+          {
+           "title": "2.5. p-wartość. Test t.pdf",
+           "kind": "pdf",
+           "size": 742838,
+           "size_label": "725 kB",
+           "local": "assets/materials/918d4ea1/2.5._p-wartosc._Test_t.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/118/2.5.%20p-warto%C5%9B%C4%87.%20Test%20t.pdf",
+           "filename": "2.5. p-wartość. Test t.pdf"
+          },
+          {
+           "title": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf",
+           "kind": "pdf",
+           "size": 196563,
+           "size_label": "192 kB",
+           "local": "assets/materials/17c2ee0f/2.6._Testy_roznicy_srednich_dla_par._Sparowany_test_t.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/117/2.6.%20Testy%20r%C3%B3%C5%BCnicy%20%C5%9Brednich%20dla%20par.%20Sparowany%20test%20t.pdf",
+           "filename": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf"
+          },
+          {
+           "title": "2.7. Test Wilcoxona dla par obserwacji.pdf",
+           "kind": "pdf",
+           "size": 2124993,
+           "size_label": "2.0 MB",
+           "local": "assets/materials/e6e9be43/2.7._Test_Wilcoxona_dla_par_obserwacji.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/116/2.7.%20Test%20Wilcoxona%20dla%20par%20obserwacji.pdf",
+           "filename": "2.7. Test Wilcoxona dla par obserwacji.pdf"
+          },
+          {
+           "title": "2.8. Testy zgodności. Testy normalności rozkładu.pdf",
+           "kind": "pdf",
+           "size": 274812,
+           "size_label": "268 kB",
+           "local": "assets/materials/26013ca2/2.8._Testy_zgodnosci._Testy_normalnosci_rozkladu.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/16/115/2.8.%20Testy%20zgodno%C5%9Bci.%20Testy%20normalno%C5%9Bci%20rozk%C5%82adu.pdf",
+           "filename": "2.8. Testy zgodności. Testy normalności rozkładu.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Metoda spadku wzdłuż gradientu (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "OK.[3,4] Metoda spadku wzdłuż gradientu",
+           "kind": "pdf",
+           "size": 1599695,
+           "size_label": "1.5 MB",
+           "local": "assets/materials/8e8ca11c/OK._3_4_Metoda_spadku_wzdluz_gradientu.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/51/253/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.pdf",
+           "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 12.01.25",
+         "description": "Wykład otwierający Akademię Sztuki Kwantowej",
+         "items": [
+          {
+           "title": "Wykład otwierający ASK (12.01.25).pdf",
+           "kind": "pdf",
+           "size": 15976680,
+           "size_label": "15 MB",
+           "local": "assets/materials/111d1471/Wyklad_otwierajacy_ASK_12.01.25.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/24/124/Wyk%C5%82ad%20otwieraj%C4%85cy%20ASK%20(12.01.25).pdf",
+           "filename": "Wykład otwierający ASK (12.01.25).pdf"
+          },
+          {
+           "title": "Wykład otwierający ASK",
+           "kind": "video",
+           "size": 762676155,
+           "size_label": "727 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/10/attachments/24/153/live_2_hws.mp4",
+           "filename": "live_2_hws.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 3,
+       "title": "Wprowadzenie do obliczeń kwantowych i algorytmów kwantowych",
+       "start": {
+        "date": "2025-01-12",
+        "time": "12:45",
+        "iso": "2025-01-12T12:45:00+01:00",
+        "day_label": "12 stycznia 2025"
+       },
+       "end": {
+        "date": "2025-01-12",
+        "time": "14:15",
+        "iso": "2025-01-12T14:15:00+01:00",
+        "day_label": "12 stycznia 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Zbigniew Puchała"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowcą i wprowadzenie do następujących dwóch bloków tematycznych:<br>\n5. Wprowadzenie do obliczeń kwantowych.<br>\n6. Algorytmy kwantowe.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne przy realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 9 tygodni) nagrań około 8h wykładów dotyczących następujących zagadnień (wykłady będą udostępniane stopniowo):</p>\n<p>Wprowadzenie do obliczeń kwantowych:</p>\n<p>5.1. Zagadnienia wstępne, fizyka mikroświata, efekty kwantowe.<br>\n5.2. Ewolucja układu w czasie. Równanie Schroedingera.<br>\n5.3. Stany kwantowe i superpozycja stanów – definicje i przykłady.<br>\n5.4. Pomiar kwantowy – czym jest i jakie są jego efekty?<br>\n5.5. Hamiltonian, ewolucja unitarna.<br>\n5.6. Bramki kwantowe.<br>\n5.7. Układy złożone, iloczyn tensorowy, stany produktowe, stany splątane, stany Bella.<br>\n5.8. Informacja klasyczna vs informacja kwantowa. Częściowa konwersja obu form informacji w siebie.<br>\n5.9. No cloning theorem.<br>\n5.10. Kwantowe gęste kodowanie. Kwantowa teleportacja.<br>\n5.11. Kwantowa kryptografia.</p>\n<p>Algorytmy kwantowe:</p>\n<p>6.1. Algorytm Shore'a: badanie okresowości funkcji (przykład algorytmu faktoryzacji).<br>\n6.2. Algorytm kwantowy Deutsch-Jozsa.<br>\n6.3. Algorytm Grovera: poszukiwanie elementu znaczonego.<br>\n6.4. Twierdzenie Shannona – kwantowa informacja, macierze gęstości.<br>\n6.5. Kompresja Schumachera.<br>\n6.6. Kwantowa korekcja błędów.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "OK.5 Wprowadzenie do obliczeń kwantowych.mp4",
+           "kind": "video",
+           "size": 459538484,
+           "size_label": "438 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/133/OK.5%20Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.mp4",
+           "filename": "OK.5 Wprowadzenie do obliczeń kwantowych.mp4"
+          },
+          {
+           "title": "OK.6 Pomiary kwantowe.mp4",
+           "kind": "video",
+           "size": 306188118,
+           "size_label": "292 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/134/OK.6%20Pomiary%20kwantowe.mp4",
+           "filename": "OK.6 Pomiary kwantowe.mp4"
+          },
+          {
+           "title": "OK.7 Informacja klasyczna i kwantowa.mp4",
+           "kind": "video",
+           "size": 326434102,
+           "size_label": "311 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/135/OK.7%20Informacja%20klasyczna%20i%20kwantowa.mp4",
+           "filename": "OK.7 Informacja klasyczna i kwantowa.mp4"
+          },
+          {
+           "title": "OK.8 Zakaz klonowania.mp4",
+           "kind": "video",
+           "size": 314130694,
+           "size_label": "300 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/136/OK.8%20Zakaz%20klonowania.mp4",
+           "filename": "OK.8 Zakaz klonowania.mp4"
+          },
+          {
+           "title": "OK.9 Kryptografia.mp4",
+           "kind": "video",
+           "size": 209489153,
+           "size_label": "200 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/25/137/OK.9%20Kryptografia.mp4",
+           "filename": "OK.9 Kryptografia.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Algorytmy kwantowe (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "Algorytmy kwantowe.pdf",
+           "kind": "pdf",
+           "size": 811614,
+           "size_label": "793 kB",
+           "local": "assets/materials/7473fd4a/Algorytmy_kwantowe.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/18/181/Algorytmy%20kwantowe.pdf",
+           "filename": "Algorytmy kwantowe.pdf"
+          }
+         ]
+        },
+        {
+         "title": "OK. 10 Algorytmy kwantowe",
+         "description": "",
+         "items": [
+          {
+           "title": "OK.10 Algorytmy kwantowe 01.mp4",
+           "kind": "video",
+           "size": 220853712,
+           "size_label": "211 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/170/OK.10%20Algorytmy%20kwantowe%201.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 1.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 02.mp4",
+           "kind": "video",
+           "size": 118873599,
+           "size_label": "113 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/168/OK.10%20Algorytmy%20kwantowe%202.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 2.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 03.mp4",
+           "kind": "video",
+           "size": 96650397,
+           "size_label": "92 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/171/OK.10%20Algorytmy%20kwantowe%203.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 3.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 04.mp4",
+           "kind": "video",
+           "size": 208694337,
+           "size_label": "199 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/165/OK.10%20Algorytmy%20kwantowe%204.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 4.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 05.mp4",
+           "kind": "video",
+           "size": 174436621,
+           "size_label": "166 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/164/OK.10%20Algorytmy%20kwantowe%205.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 5.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 06.mp4",
+           "kind": "video",
+           "size": 162776609,
+           "size_label": "155 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/163/OK.10%20Algorytmy%20kwantowe%206.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 6.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 07.mp4",
+           "kind": "video",
+           "size": 177919440,
+           "size_label": "170 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/162/OK.10%20Algorytmy%20kwantowe%207.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 7.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 08.mp4",
+           "kind": "video",
+           "size": 158681122,
+           "size_label": "151 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/161/OK.10%20Algorytmy%20kwantowe%208.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 8.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 09.mp4",
+           "kind": "video",
+           "size": 198327606,
+           "size_label": "189 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/166/OK.10%20Algorytmy%20kwantowe%209.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 9.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 10.mp4",
+           "kind": "video",
+           "size": 76346858,
+           "size_label": "73 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/169/OK.10%20Algorytmy%20kwantowe%2010.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 10.mp4"
+          },
+          {
+           "title": "OK.10 Algorytmy kwantowe 11.mp4",
+           "kind": "video",
+           "size": 200647072,
+           "size_label": "191 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/33/167/OK.10%20Algorytmy%20kwantowe%2011.mp4",
+           "filename": "OK.10 Algorytmy kwantowe 11.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Wprowadzenie do obliczeń kwantowych (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "Wprowadzenie do obliczeń kwantowych.pdf",
+           "kind": "pdf",
+           "size": 867953,
+           "size_label": "848 kB",
+           "local": "assets/materials/66dc0d85/Wprowadzenie_do_obliczen_kwantowych.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/17/182/Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.pdf",
+           "filename": "Wprowadzenie do obliczeń kwantowych.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 12.01.25",
+         "description": "Wprowadzenie do obliczeń kwantowych i algorytmów kwantowych",
+         "items": [
+          {
+           "title": "Wykład otwierający OK",
+           "kind": "video",
+           "size": 524351435,
+           "size_label": "500 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/15/attachments/26/154/live_2_zp.mp4",
+           "filename": "live_2_zp.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 4,
+       "title": "Podstawy uczenia maszynowego",
+       "start": {
+        "date": "2025-01-12",
+        "time": "15:30",
+        "iso": "2025-01-12T15:30:00+01:00",
+        "day_label": "12 stycznia 2025"
+       },
+       "end": {
+        "date": "2025-01-12",
+        "time": "17:00",
+        "iso": "2025-01-12T17:00:00+01:00",
+        "day_label": "12 stycznia 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowcą i wprowadzenie do bloku tematycznego:<br>\n7. Podstawy uczenia maszynowego.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne przy realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 5 tygodni) nagrań około 6h wykładów dotyczących następujących zagadnień:</p>\n<p>Podstawy uczenia maszynowego (ML):</p>\n<p>7.1. Podstawowe zagadnienia ML - cele, pojęcia, zadania, wprowadzenie.<br>\n7.2. Przykładowe dane (klasyfikacja hiperspektralna krwi).<br>\n7.3. Metody jądrowe - wprowadzenie, klasyfikator SVM.<br>\n7.4. Zaawansowane sieci neuronowe.<br>\n7.5. “Skrzynka narzędziowa” uczenia maszynowego.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "UM.5 Perceptron.mp4",
+           "kind": "video",
+           "size": 258602935,
+           "size_label": "247 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/125/UM.5%20Perceptron.mp4",
+           "filename": "UM.5 Perceptron.mp4"
+          },
+          {
+           "title": "UM.6 Sieci MLP.mp4",
+           "kind": "video",
+           "size": 914288055,
+           "size_label": "872 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/126/UM.6%20Sieci%20MLP.mp4",
+           "filename": "UM.6 Sieci MLP.mp4"
+          },
+          {
+           "title": "UM.7 Sieci MLP (analiza).mp4",
+           "kind": "video",
+           "size": 249566904,
+           "size_label": "238 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/127/UM.7%20Sieci%20MLP%20(analiza).mp4",
+           "filename": "UM.7 Sieci MLP (analiza).mp4"
+          },
+          {
+           "title": "UM.8 Statystyczne metody UM - wprowadzenie.mp4",
+           "kind": "video",
+           "size": 544339678,
+           "size_label": "519 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/131/UM.8%20Statystyczne%20metody%20UM%20-%20wprowadzenie.mp4",
+           "filename": "UM.8 Statystyczne metody UM - wprowadzenie.mp4"
+          },
+          {
+           "title": "UM.9 Statystyczne metody UM.mp4",
+           "kind": "video",
+           "size": 976545093,
+           "size_label": "931 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/20/132/UM.9%20Statystyczne%20metody%20UM.mp4",
+           "filename": "UM.9 Statystyczne metody UM.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Podstawy uczenia maszynowego (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "1_perceptron.pdf",
+           "kind": "pdf",
+           "size": 4071834,
+           "size_label": "3.9 MB",
+           "local": "assets/materials/3140633f/1_perceptron.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/156/1_perceptron.pdf",
+           "filename": "1_perceptron.pdf"
+          },
+          {
+           "title": "2_mlp.pdf",
+           "kind": "pdf",
+           "size": 13104041,
+           "size_label": "12 MB",
+           "local": "assets/materials/a7b2b833/2_mlp.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/157/2_mlp.pdf",
+           "filename": "2_mlp.pdf"
+          },
+          {
+           "title": "3_mlp_ex.pdf",
+           "kind": "pdf",
+           "size": 2843697,
+           "size_label": "2.7 MB",
+           "local": "assets/materials/e0230bb0/3_mlp_ex.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/158/3_mlp_ex.pdf",
+           "filename": "3_mlp_ex.pdf"
+          },
+          {
+           "title": "4_covariance.pdf",
+           "kind": "pdf",
+           "size": 2723804,
+           "size_label": "2.6 MB",
+           "local": "assets/materials/b954df0b/4_covariance.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/159/4_covariance.pdf",
+           "filename": "4_covariance.pdf"
+          },
+          {
+           "title": "5_stats.pdf",
+           "kind": "pdf",
+           "size": 4851111,
+           "size_label": "4.6 MB",
+           "local": "assets/materials/416e18d9/5_stats.pdf",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/19/160/5_stats.pdf",
+           "filename": "5_stats.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 12.01.25",
+         "description": "Podstawy uczenia maszynowego",
+         "items": [
+          {
+           "title": "mindmap.png",
+           "kind": "image",
+           "size": 734742,
+           "size_label": "718 kB",
+           "local": "assets/materials/09c98082/mindmap.png",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/266/mindmap.png",
+           "filename": "mindmap.png"
+          },
+          {
+           "title": "mindmap_zoom_1.png",
+           "kind": "image",
+           "size": 419848,
+           "size_label": "410 kB",
+           "local": "assets/materials/8b0a3b16/mindmap_zoom_1.png",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/265/mindmap_zoom_1.png",
+           "filename": "mindmap_zoom_1.png"
+          },
+          {
+           "title": "mindmap_zoom_2.png",
+           "kind": "image",
+           "size": 333107,
+           "size_label": "325 kB",
+           "local": "assets/materials/9f91fce1/mindmap_zoom_2.png",
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/264/mindmap_zoom_2.png",
+           "filename": "mindmap_zoom_2.png"
+          },
+          {
+           "title": "Wykład otwierający UM",
+           "kind": "video",
+           "size": 627608880,
+           "size_label": "599 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/14/attachments/27/155/live_2_pg.mp4",
+           "filename": "live_2_pg.mp4"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "15 marca 2025",
+     "contributions": [
+      {
+       "id": 9,
+       "title": "Wprowadzenie do obliczeń kwantowych i algorytmy kwantowe",
+       "start": {
+        "date": "2025-03-15",
+        "time": "11:00",
+        "iso": "2025-03-15T11:00:00+01:00",
+        "day_label": "15 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-15",
+        "time": "12:30",
+        "iso": "2025-03-15T12:30:00+01:00",
+        "day_label": "15 marca 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Zbigniew Puchała"
+       ],
+       "description_html": "<p>Podsumowanie wykładów 5 i 6, sesja Q&amp;A z wykładowcą, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący.mp4",
+           "kind": "video",
+           "size": 72818082,
+           "size_label": "69 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/17/attachments/54/258/informatyka_kwantowa.mp4",
+           "filename": "informatyka_kwantowa.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 8,
+       "title": "Podstawy matematyczne obliczeń kwantowych i SI",
+       "start": {
+        "date": "2025-03-15",
+        "time": "12:45",
+        "iso": "2025-03-15T12:45:00+01:00",
+        "day_label": "15 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-15",
+        "time": "14:15",
+        "iso": "2025-03-15T14:15:00+01:00",
+        "day_label": "15 marca 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Podsumowanie wykładów 1-4, sesja Q&amp;A z wykładowczynią, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący.mp4",
+           "kind": "video",
+           "size": 143300399,
+           "size_label": "137 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/16/attachments/55/259/intro_march.mp4",
+           "filename": "intro_march.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 10,
+       "title": "Podstawy uczenia maszynowego",
+       "start": {
+        "date": "2025-03-15",
+        "time": "15:30",
+        "iso": "2025-03-15T15:30:00+01:00",
+        "day_label": "15 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-15",
+        "time": "17:00",
+        "iso": "2025-03-15T17:00:00+01:00",
+        "day_label": "15 marca 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<p>Podsumowanie wykładu 7, sesja Q&amp;A z wykładowcą, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący.mp4",
+           "kind": "video",
+           "size": 238524860,
+           "size_label": "227 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/8/contributions/18/attachments/56/260/uczenie_maszyn.mp4",
+           "filename": "uczenie_maszyn.mp4"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "n_materials": 73,
+   "n_materials_label": "73 materiały"
+  },
+  {
+   "id": 12,
+   "slug": "wyklady-online-termin-3",
+   "kind": "online",
+   "title": "Wykłady online (wprowadzenie do Akademii Sztuki Kwantowej) - termin III",
+   "start": {
+    "date": "2025-03-08",
+    "time": "12:00",
+    "iso": "2025-03-08T12:00:00+01:00",
+    "day_label": "8 marca 2025"
+   },
+   "end": {
+    "date": "2025-03-29",
+    "time": "18:00",
+    "iso": "2025-03-29T18:00:00+01:00",
+    "day_label": "29 marca 2025"
+   },
+   "date_label": "8-29 marca 2025",
+   "place": "",
+   "location": "",
+   "room": "",
+   "address": "",
+   "indico_url": "https://akademia.iitis.pl/event/12/",
+   "folders": [
+    {
+     "title": "",
+     "description": "",
+     "items": [
+      {
+       "title": "grafik_wykladow_online_ASK.pdf",
+       "kind": "pdf",
+       "size": 166071,
+       "size_label": "162 kB",
+       "local": "assets/materials/12c2df0d/grafik_wykladow_online_ASK.pdf",
+       "remote": "https://akademia.iitis.pl/event/12/attachments/34/183/grafik_wykladow_online_ASK.pdf",
+       "filename": "grafik_wykladow_online_ASK.pdf"
+      },
+      {
+       "title": "kadra_dydaktyczna.pdf",
+       "kind": "pdf",
+       "size": 219515,
+       "size_label": "214 kB",
+       "local": "assets/materials/1fbf2170/kadra_dydaktyczna.pdf",
+       "remote": "https://akademia.iitis.pl/event/12/attachments/34/184/kadra_dydaktyczna.pdf",
+       "filename": "kadra_dydaktyczna.pdf"
+      },
+      {
+       "title": "opis_bloków_tematycznych.pdf",
+       "kind": "pdf",
+       "size": 135749,
+       "size_label": "133 kB",
+       "local": "assets/materials/4f893652/opis_blokow_tematycznych.pdf",
+       "remote": "https://akademia.iitis.pl/event/12/attachments/34/185/opis_blok%C3%B3w_tematycznych.pdf",
+       "filename": "opis_bloków_tematycznych.pdf"
+      },
+      {
+       "title": "Sugerowana kolejność odtwarzania wykładów (I termin).pdf",
+       "kind": "pdf",
+       "size": 132424,
+       "size_label": "129 kB",
+       "local": "assets/materials/a30fc141/Sugerowana_kolejnosc_odtwarzania_wykladow_I_termin.pdf",
+       "remote": "https://akademia.iitis.pl/event/12/attachments/34/186/Sugerowana%20kolejno%C5%9B%C4%87%20odtwarzania%20wyk%C5%82ad%C3%B3w%20(I%20termin).pdf",
+       "filename": "Sugerowana kolejność odtwarzania wykładów (I termin).pdf"
+      }
+     ]
+    }
+   ],
+   "days": [
+    {
+     "label": "8 marca 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Podstawy matematyczne obliczeń kwantowych i SI",
+       "start": {
+        "date": "2025-03-08",
+        "time": "12:00",
+        "iso": "2025-03-08T12:00:00+01:00",
+        "day_label": "8 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-08",
+        "time": "12:20",
+        "iso": "2025-03-08T12:20:00+01:00",
+        "day_label": "8 marca 2025"
+       },
+       "duration": 20,
+       "room": "",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowczynią i wprowadzenie do następujących czterech bloków tematycznych:<br>\n1. Elementy rachunku prawdopodobieństwa.<br>\n2. Elementy statystyki matematycznej.<br>\n3. Elementy algebry liniowej.<br>\n4. Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 5 tygodni) nagrań około 8h wykładów dotyczących następujących zagadnień (wykłady będą udostępniane stopniowo):</p>\n<p>Elementy rachunku prawdopodobieństwa i statystyki matematycznej:</p>\n<p>1.1. Modelowanie doświadczenia losowego za pomocą przestrzeni probabilistycznej.<br>\n1.2. Zmienna losowa - intuicje, przykłady, formalna definicja.<br>\n1.3. Typowe rozkłady prawdopodobieństwa (w tym rozkład normalny).<br>\n1.4. Zmienne losowe niezależne.<br>\n1.5. Centralne twierdzenie graniczne.<br>\n1.6. Rozkład t Studenta.</p>\n<p>Elementy statystyki matematycznej:</p>\n<p>2.1. Teoretyczne podstawy wnioskowania statystycznego.<br>\n2.2. Weryfikacja hipotez statystycznych: parametryczne testy istotności (przykład – test t); testy różnicy średnich dla obserwacji powiązanych w pary (przykłady – sparowany test t i test Wilcoxona dla par obserwacji); testy zgodności, testy normalności rozkładu (przykład – test normalności Shapiro-Wilka).</p>\n<p>Elementy algebry liniowej:</p>\n<p>3.1. Liczby zespolone.<br>\n3.2. Przestrzeń wektorowa, pojęcie iloczynu skalarnego.<br>\n3.3. Notacja Diraca.<br>\n3.4. Macierze i działania na macierzach.<br>\n3.5. Wektory i wartości własne macierzy.</p>\n<p>Algorytmy numeryczne znajdujące minimum lokalne zadanej funkcji celu:</p>\n<p>4.1. Pojęcie gradientu.<br>\n4.2. Metoda spadku wzdłuż gradientu.<br>\n4.3. Metoda stochastycznego spadku wzdłuż gradientu.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Elementy algebry liniowej (cz. 1)",
+           "kind": "video",
+           "size": 321947700,
+           "size_label": "307 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/187/Wyk%C5%82ad%203a.mp4",
+           "filename": "Wykład 3a.mp4"
+          },
+          {
+           "title": "Elementy algebry liniowej (cz. 2)",
+           "kind": "video",
+           "size": 276508514,
+           "size_label": "264 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/188/Wyk%C5%82ad%203b.mp4",
+           "filename": "Wykład 3b.mp4"
+          },
+          {
+           "title": "Elementy rachunku prawdopodobieństwa (cz. 1)",
+           "kind": "video",
+           "size": 455151444,
+           "size_label": "434 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/189/Wyk%C5%82ad%201a.mp4",
+           "filename": "Wykład 1a.mp4"
+          },
+          {
+           "title": "Elementy rachunku prawdopodobieństwa (cz. 2)",
+           "kind": "video",
+           "size": 352353634,
+           "size_label": "336 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/190/Wyk%C5%82ad%201b.mp4",
+           "filename": "Wykład 1b.mp4"
+          },
+          {
+           "title": "Elementy statystyki matematycznej (cz. 1)",
+           "kind": "video",
+           "size": 596559021,
+           "size_label": "569 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/191/Wyk%C5%82ad%202.mp4",
+           "filename": "Wykład 2.mp4"
+          },
+          {
+           "title": "Elementy statystyki matematycznej (cz. 2)",
+           "kind": "video",
+           "size": 426556817,
+           "size_label": "407 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/192/Wyk%C5%82ad%202b.mp4",
+           "filename": "Wykład 2b.mp4"
+          },
+          {
+           "title": "Metoda spadku wzdłuż gradientu",
+           "kind": "video",
+           "size": 297681539,
+           "size_label": "284 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/35/254/OK.%5B3,4%5D%20Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.mp4",
+           "filename": "OK.[3,4] Metoda spadku wzdłuż gradientu.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Metoda spadku wzdłuż gradientu",
+         "description": "",
+         "items": [
+          {
+           "title": "Metoda spadku wzdłuż gradientu",
+           "kind": "pdf",
+           "size": 1599695,
+           "size_label": "1.5 MB",
+           "local": "assets/materials/8e8ca11c/OK._3_4_Metoda_spadku_wzdluz_gradientu.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/52/255/Metoda%20spadku%20wzd%C5%82u%C5%BC%20gradientu.pdf",
+           "filename": "Metoda spadku wzdłuż gradientu.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Slajdy do wykładu z algebry liniowej",
+         "description": "",
+         "items": [
+          {
+           "title": "3.1. Liczby zespolone.pdf",
+           "kind": "pdf",
+           "size": 558686,
+           "size_label": "546 kB",
+           "local": "assets/materials/3fd20274/3.1._Liczby_zespolone.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/225/3.1.%20Liczby%20zespolone.pdf",
+           "filename": "3.1. Liczby zespolone.pdf"
+          },
+          {
+           "title": "3.2. Wektory. Sprzężenie hermitowskie.pdf",
+           "kind": "pdf",
+           "size": 174055,
+           "size_label": "170 kB",
+           "local": "assets/materials/c9fd9aa0/3.2._Wektory._Sprzezenie_hermitowskie.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/226/3.2.%20Wektory.%20Sprz%C4%99%C5%BCenie%20hermitowskie.pdf",
+           "filename": "3.2. Wektory. Sprzężenie hermitowskie.pdf"
+          },
+          {
+           "title": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf",
+           "kind": "pdf",
+           "size": 174987,
+           "size_label": "171 kB",
+           "local": "assets/materials/9144f5ac/3.3._Iloczyn_skalarny_wektorow._Liniowa_zaleznosc_wektorow._Baza_i_wymiar_przestrzeni_wektorowej.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/227/3.3.%20Iloczyn%20skalarny%20wektor%C3%B3w.%20Liniowa%20zale%C5%BCno%C5%9B%C4%87%20wektor%C3%B3w.%20Baza%20i%20wymiar%20przestrzeni%20wektorowej.pdf",
+           "filename": "3.3. Iloczyn skalarny wektorów. Liniowa zależność wektorów. Baza i wymiar przestrzeni wektorowej.pdf"
+          },
+          {
+           "title": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf",
+           "kind": "pdf",
+           "size": 108337,
+           "size_label": "106 kB",
+           "local": "assets/materials/d7557cc2/3.4._Norma_euklidesowa._Wektory_unormowane._Wektory_ortogonalne.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/228/3.4.%20Norma%20euklidesowa.%20Wektory%20unormowane.%20Wektory%20ortogonalne.pdf",
+           "filename": "3.4. Norma euklidesowa. Wektory unormowane. Wektory ortogonalne.pdf"
+          },
+          {
+           "title": "3.5. Macierze.pdf",
+           "kind": "pdf",
+           "size": 159085,
+           "size_label": "155 kB",
+           "local": "assets/materials/b6b082f4/3.5._Macierze.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/229/3.5.%20Macierze.pdf",
+           "filename": "3.5. Macierze.pdf"
+          },
+          {
+           "title": "3.6. Pewne szczególne rodzaje macierzy.pdf",
+           "kind": "pdf",
+           "size": 186538,
+           "size_label": "182 kB",
+           "local": "assets/materials/9ba30eef/3.6._Pewne_szczegolne_rodzaje_macierzy.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/230/3.6.%20Pewne%20szczeg%C3%B3lne%20rodzaje%20macierzy.pdf",
+           "filename": "3.6. Pewne szczególne rodzaje macierzy.pdf"
+          },
+          {
+           "title": "3.7. Wektory i wartości własne.pdf",
+           "kind": "pdf",
+           "size": 186243,
+           "size_label": "182 kB",
+           "local": "assets/materials/6d544902/3.7._Wektory_i_wartosci_wlasne.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/44/231/3.7.%20Wektory%20i%20warto%C5%9Bci%20w%C5%82asne.pdf",
+           "filename": "3.7. Wektory i wartości własne.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Slajdy do wykładu z rachunku prawdopodobieństwa",
+         "description": "",
+         "items": [
+          {
+           "title": "1.1. Doświadczenie losowe a model matematyczny.pdf",
+           "kind": "pdf",
+           "size": 14222387,
+           "size_label": "14 MB",
+           "local": "assets/materials/3901cc74/1.1._Doswiadczenie_losowe_a_model_matematyczny.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/205/1.1.%20Do%C5%9Bwiadczenie%20losowe%20a%20model%20matematyczny.pdf",
+           "filename": "1.1. Doświadczenie losowe a model matematyczny.pdf"
+          },
+          {
+           "title": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf",
+           "kind": "pdf",
+           "size": 1654663,
+           "size_label": "1.6 MB",
+           "local": "assets/materials/05bcc517/1.2._Prawdopodobienstwo_warunkowe_zdarzenia_niezalezne.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/206/1.2.%20Prawdopodobie%C5%84stwo%20warunkowe,%20zdarzenia%20niezale%C5%BCne.pdf",
+           "filename": "1.2. Prawdopodobieństwo warunkowe, zdarzenia niezależne.pdf"
+          },
+          {
+           "title": "1.3. Zmienna losowa.pdf",
+           "kind": "pdf",
+           "size": 5789347,
+           "size_label": "5.5 MB",
+           "local": "assets/materials/1fd823a1/1.3._Zmienna_losowa.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/207/1.3.%20Zmienna%20losowa.pdf",
+           "filename": "1.3. Zmienna losowa.pdf"
+          },
+          {
+           "title": "1.4. Zmienna losowa dyskretna.pdf",
+           "kind": "pdf",
+           "size": 5551173,
+           "size_label": "5.3 MB",
+           "local": "assets/materials/308afa91/1.4._Zmienna_losowa_dyskretna.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/208/1.4.%20Zmienna%20losowa%20dyskretna.pdf",
+           "filename": "1.4. Zmienna losowa dyskretna.pdf"
+          },
+          {
+           "title": "1.5. Dystrybuanta zmiennej losowej.pdf",
+           "kind": "pdf",
+           "size": 216861,
+           "size_label": "212 kB",
+           "local": "assets/materials/e306fecc/1.5._Dystrybuanta_zmiennej_losowej.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/209/1.5.%20Dystrybuanta%20zmiennej%20losowej.pdf",
+           "filename": "1.5. Dystrybuanta zmiennej losowej.pdf"
+          },
+          {
+           "title": "1.6. Zmienna losowa absolutnie ciągła.pdf",
+           "kind": "pdf",
+           "size": 533347,
+           "size_label": "521 kB",
+           "local": "assets/materials/e5aa4178/1.6._Zmienna_losowa_absolutnie_ciagla.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/210/1.6.%20Zmienna%20losowa%20absolutnie%20ci%C4%85g%C5%82a.pdf",
+           "filename": "1.6. Zmienna losowa absolutnie ciągła.pdf"
+          },
+          {
+           "title": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf",
+           "kind": "pdf",
+           "size": 551152,
+           "size_label": "538 kB",
+           "local": "assets/materials/f821a404/1.7._Dwuwymiarowa_zmienna_losowa_zmienne_losowe_niezalezne.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/211/1.7.%20Dwuwymiarowa%20zmienna%20losowa,%20zmienne%20losowe%20niezale%C5%BCne.pdf",
+           "filename": "1.7. Dwuwymiarowa zmienna losowa, zmienne losowe niezależne.pdf"
+          },
+          {
+           "title": "1.8. CTG, rozkład t Studenta.pdf",
+           "kind": "pdf",
+           "size": 189337,
+           "size_label": "185 kB",
+           "local": "assets/materials/2725d5ca/1.8._CTG_rozklad_t_Studenta.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/39/212/1.8.%20CTG,%20rozk%C5%82ad%20t%20Studenta.pdf",
+           "filename": "1.8. CTG, rozkład t Studenta.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Slajdy do wykładu ze statystyki matematycznej",
+         "description": "",
+         "items": [
+          {
+           "title": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf",
+           "kind": "pdf",
+           "size": 5365756,
+           "size_label": "5.1 MB",
+           "local": "assets/materials/84e34717/2.1._Teoretyczne_podstawy_wnioskowania_statystycznego.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/213/2.1.%20Teoretyczne%20podstawy%20wnioskowania%20statystycznego.pdf",
+           "filename": "2.1. Teoretyczne podstawy wnioskowania statystycznego.pdf"
+          },
+          {
+           "title": "2.2. Statystyka z próby (jako zmienna losowa).pdf",
+           "kind": "pdf",
+           "size": 465923,
+           "size_label": "455 kB",
+           "local": "assets/materials/f9c22b30/2.2._Statystyka_z_proby_jako_zmienna_losowa.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/214/2.2.%20Statystyka%20z%20pr%C3%B3by%20(jako%20zmienna%20losowa).pdf",
+           "filename": "2.2. Statystyka z próby (jako zmienna losowa).pdf"
+          },
+          {
+           "title": "2.3. Weryfikacja hipotez statystycznych.pdf",
+           "kind": "pdf",
+           "size": 343823,
+           "size_label": "336 kB",
+           "local": "assets/materials/de3b90a7/2.3._Weryfikacja_hipotez_statystycznych.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/215/2.3.%20Weryfikacja%20hipotez%20statystycznych.pdf",
+           "filename": "2.3. Weryfikacja hipotez statystycznych.pdf"
+          },
+          {
+           "title": "2.4. Parametryczne testy istotności.pdf",
+           "kind": "pdf",
+           "size": 3747973,
+           "size_label": "3.6 MB",
+           "local": "assets/materials/195b761f/2.4._Parametryczne_testy_istotnosci.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/216/2.4.%20Parametryczne%20testy%20istotno%C5%9Bci.pdf",
+           "filename": "2.4. Parametryczne testy istotności.pdf"
+          },
+          {
+           "title": "2.5. p-wartość. Test t.pdf",
+           "kind": "pdf",
+           "size": 742838,
+           "size_label": "725 kB",
+           "local": "assets/materials/918d4ea1/2.5._p-wartosc._Test_t.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/217/2.5.%20p-warto%C5%9B%C4%87.%20Test%20t.pdf",
+           "filename": "2.5. p-wartość. Test t.pdf"
+          },
+          {
+           "title": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf",
+           "kind": "pdf",
+           "size": 196563,
+           "size_label": "192 kB",
+           "local": "assets/materials/17c2ee0f/2.6._Testy_roznicy_srednich_dla_par._Sparowany_test_t.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/218/2.6.%20Testy%20r%C3%B3%C5%BCnicy%20%C5%9Brednich%20dla%20par.%20Sparowany%20test%20t.pdf",
+           "filename": "2.6. Testy różnicy średnich dla par. Sparowany test t.pdf"
+          },
+          {
+           "title": "2.7. Test Wilcoxona dla par obserwacji.pdf",
+           "kind": "pdf",
+           "size": 2124993,
+           "size_label": "2.0 MB",
+           "local": "assets/materials/e6e9be43/2.7._Test_Wilcoxona_dla_par_obserwacji.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/219/2.7.%20Test%20Wilcoxona%20dla%20par%20obserwacji.pdf",
+           "filename": "2.7. Test Wilcoxona dla par obserwacji.pdf"
+          },
+          {
+           "title": "2.8. Testy zgodności. Testy normalności rozkładu.pdf",
+           "kind": "pdf",
+           "size": 274812,
+           "size_label": "268 kB",
+           "local": "assets/materials/26013ca2/2.8._Testy_zgodnosci._Testy_normalnosci_rozkladu.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/40/220/2.8.%20Testy%20zgodno%C5%9Bci.%20Testy%20normalno%C5%9Bci%20rozk%C5%82adu.pdf",
+           "filename": "2.8. Testy zgodności. Testy normalności rozkładu.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 7.12.24",
+         "description": "Wykład otwierający Akademię Sztuki Kwantowej",
+         "items": [
+          {
+           "title": "Slajdy do wykładu otwierającego Akademię Sztuki Kwantowej.pdf",
+           "kind": "pdf",
+           "size": 15753340,
+           "size_label": "15 MB",
+           "local": "assets/materials/58e3706e/Slajdy_do_wykladu_otwierajacego_Akademie_Sztuki_Kwantowej.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/41/221/Slajdy%20do%20wyk%C5%82adu%20otwieraj%C4%85cego%20Akademi%C4%99%20Sztuki%20Kwantowej.pdf",
+           "filename": "Slajdy do wykładu otwierającego Akademię Sztuki Kwantowej.pdf"
+          },
+          {
+           "title": "Wykład otwierający ASK",
+           "kind": "video",
+           "size": 588880396,
+           "size_label": "562 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/26/attachments/41/222/otwarcie_ask.mp4",
+           "filename": "otwarcie_ask.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 3,
+       "title": "Wprowadzenie do obliczeń kwantowych i algorytmów kwantowych",
+       "start": {
+        "date": "2025-03-08",
+        "time": "12:20",
+        "iso": "2025-03-08T12:20:00+01:00",
+        "day_label": "8 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-08",
+        "time": "12:40",
+        "iso": "2025-03-08T12:40:00+01:00",
+        "day_label": "8 marca 2025"
+       },
+       "duration": 20,
+       "room": "",
+       "speakers": [
+        "Zbigniew Puchała"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowcą i wprowadzenie do następujących dwóch bloków tematycznych:<br>\n5. Wprowadzenie do obliczeń kwantowych.<br>\n6. Algorytmy kwantowe.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne przy realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 5 tygodni) nagrań około 8h wykładów dotyczących następujących zagadnień (wykłady będą udostępniane stopniowo):</p>\n<p>Wprowadzenie do obliczeń kwantowych:</p>\n<p>5.1. Zagadnienia wstępne, fizyka mikroświata, efekty kwantowe.<br>\n5.2. Ewolucja układu w czasie. Równanie Schroedingera.<br>\n5.3. Stany kwantowe i superpozycja stanów – definicje i przykłady.<br>\n5.4. Pomiar kwantowy – czym jest i jakie są jego efekty?<br>\n5.5. Hamiltonian, ewolucja unitarna.<br>\n5.6. Bramki kwantowe.<br>\n5.7. Układy złożone, iloczyn tensorowy, stany produktowe, stany splątane, stany Bella.<br>\n5.8. Informacja klasyczna vs informacja kwantowa. Częściowa konwersja obu form informacji w siebie.<br>\n5.9. No cloning theorem.<br>\n5.10. Kwantowe gęste kodowanie. Kwantowa teleportacja.<br>\n5.11. Kwantowa kryptografia.</p>\n<p>Algorytmy kwantowe:</p>\n<p>6.1. Algorytm Shore'a: badanie okresowości funkcji (przykład algorytmu faktoryzacji).<br>\n6.2. Algorytm kwantowy Deutsch-Jozsa.<br>\n6.3. Algorytm Grovera: poszukiwanie elementu znaczonego.<br>\n6.4. Twierdzenie Shannona – kwantowa informacja, macierze gęstości.<br>\n6.5. Kompresja Schumachera.<br>\n6.6. Kwantowa korekcja błędów.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Informacja klasyczna i kwantowa",
+           "kind": "video",
+           "size": 326434102,
+           "size_label": "311 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/198/Informacja.mp4",
+           "filename": "Informacja.mp4"
+          },
+          {
+           "title": "Kryptografia",
+           "kind": "video",
+           "size": 209489153,
+           "size_label": "200 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/199/Kryptografia.mp4",
+           "filename": "Kryptografia.mp4"
+          },
+          {
+           "title": "Pomiary kwantowe",
+           "kind": "video",
+           "size": 306188118,
+           "size_label": "292 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/200/Pomiary.mp4",
+           "filename": "Pomiary.mp4"
+          },
+          {
+           "title": "Wprowadzenie do obliczeń kwantowych",
+           "kind": "video",
+           "size": 459538484,
+           "size_label": "438 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/201/Wprowadzenie.mp4",
+           "filename": "Wprowadzenie.mp4"
+          },
+          {
+           "title": "Zakaz klonowania.mp4",
+           "kind": "video",
+           "size": 314130694,
+           "size_label": "300 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/37/202/Klonowanie.mp4",
+           "filename": "Klonowanie.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Algorytmy kwantowe",
+         "description": "Algorytmy kwantowe (wykłady)",
+         "items": [
+          {
+           "title": "Algorytmy 1",
+           "kind": "video",
+           "size": 220853712,
+           "size_label": "211 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/241/algorytmy-1.mp4",
+           "filename": "algorytmy-1.mp4"
+          },
+          {
+           "title": "Algorytmy 10",
+           "kind": "video",
+           "size": 76346858,
+           "size_label": "73 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/242/algorytmy-10.mp4",
+           "filename": "algorytmy-10.mp4"
+          },
+          {
+           "title": "Algorytmy 11",
+           "kind": "video",
+           "size": 200647072,
+           "size_label": "191 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/243/algorytmy-11.mp4",
+           "filename": "algorytmy-11.mp4"
+          },
+          {
+           "title": "Algorytmy 2",
+           "kind": "video",
+           "size": 118873599,
+           "size_label": "113 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/244/algorytmy-2.mp4",
+           "filename": "algorytmy-2.mp4"
+          },
+          {
+           "title": "Algorytmy 3",
+           "kind": "video",
+           "size": 96650397,
+           "size_label": "92 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/245/algorytmy-3.mp4",
+           "filename": "algorytmy-3.mp4"
+          },
+          {
+           "title": "Algorytmy 4",
+           "kind": "video",
+           "size": 208694337,
+           "size_label": "199 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/246/algorytmy-4.mp4",
+           "filename": "algorytmy-4.mp4"
+          },
+          {
+           "title": "Algorytmy 5",
+           "kind": "video",
+           "size": 174436621,
+           "size_label": "166 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/247/algorytmy-5.mp4",
+           "filename": "algorytmy-5.mp4"
+          },
+          {
+           "title": "Algorytmy 6",
+           "kind": "video",
+           "size": 162776609,
+           "size_label": "155 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/248/algorytmy-6.mp4",
+           "filename": "algorytmy-6.mp4"
+          },
+          {
+           "title": "Algorytmy 7",
+           "kind": "video",
+           "size": 177919440,
+           "size_label": "170 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/249/algorytmy-7.mp4",
+           "filename": "algorytmy-7.mp4"
+          },
+          {
+           "title": "Algorytmy 8",
+           "kind": "video",
+           "size": 158681122,
+           "size_label": "151 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/250/algorytmy-8.mp4",
+           "filename": "algorytmy-8.mp4"
+          },
+          {
+           "title": "Algorytmy 9",
+           "kind": "video",
+           "size": 198327606,
+           "size_label": "189 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/50/251/algorytmy-9.mp4",
+           "filename": "algorytmy-9.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Algorytmy kwantowe (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "Algorytmy kwantowe.pdf",
+           "kind": "pdf",
+           "size": 811614,
+           "size_label": "793 kB",
+           "local": "assets/materials/7473fd4a/Algorytmy_kwantowe.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/47/238/Algorytmy%20kwantowe.pdf",
+           "filename": "Algorytmy kwantowe.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wprowadzenie do obliczeń kwantowych (slajdy)",
+         "description": "",
+         "items": [
+          {
+           "title": "Wprowadzenie do obliczeń kwantowych.pdf",
+           "kind": "pdf",
+           "size": 867953,
+           "size_label": "848 kB",
+           "local": "assets/materials/66dc0d85/Wprowadzenie_do_obliczen_kwantowych.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/46/237/Wprowadzenie%20do%20oblicze%C5%84%20kwantowych.pdf",
+           "filename": "Wprowadzenie do obliczeń kwantowych.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 7.12.24",
+         "description": "Wprowadzenie do obliczeń kwantowych",
+         "items": [
+          {
+           "title": "Wykład wprowadzający do obliczeń kwantowych",
+           "kind": "video",
+           "size": 654873890,
+           "size_label": "625 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/25/attachments/42/223/otwarcie_oblicze%C5%84_kwantowych.mp4",
+           "filename": "otwarcie_obliczeń_kwantowych.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 4,
+       "title": "Podstawy uczenia maszynowego",
+       "start": {
+        "date": "2025-03-08",
+        "time": "12:40",
+        "iso": "2025-03-08T12:40:00+01:00",
+        "day_label": "8 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-08",
+        "time": "13:00",
+        "iso": "2025-03-08T13:00:00+01:00",
+        "day_label": "8 marca 2025"
+       },
+       "duration": 20,
+       "room": "",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<p>Zapoznanie z wykładowcą i wprowadzenie do bloku tematycznego:<br>\n7. Podstawy uczenia maszynowego.</p>\n<p>Wskazanie, w jakim stopniu i dlaczego będą one istotne przy realizacji dalszej treści szkoleń.</p>\n<p>Udostępnienie (na okres 5 tygodni) nagrań około 6h wykładów dotyczących następujących zagadnień:</p>\n<p>Podstawy uczenia maszynowego (ML):</p>\n<p>7.1. Podstawowe zagadnienia ML - cele, pojęcia, zadania, wprowadzenie.<br>\n7.2. Przykładowe dane (klasyfikacja hiperspektralna krwi).<br>\n7.3. Metody jądrowe - wprowadzenie, klasyfikator SVM.<br>\n7.4. Zaawansowane sieci neuronowe.<br>\n7.5. “Skrzynka narzędziowa” uczenia maszynowego.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Perceptron",
+           "kind": "video",
+           "size": 258602935,
+           "size_label": "247 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/193/perceptron.mp4",
+           "filename": "perceptron.mp4"
+          },
+          {
+           "title": "Sieci MLP",
+           "kind": "video",
+           "size": 914288055,
+           "size_label": "872 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/194/mlp.mp4",
+           "filename": "mlp.mp4"
+          },
+          {
+           "title": "Sieć MLP (analiza)",
+           "kind": "video",
+           "size": 249566904,
+           "size_label": "238 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/195/mlp_ex.mp4",
+           "filename": "mlp_ex.mp4"
+          },
+          {
+           "title": "Statystyczne metody uczenia maszynowego",
+           "kind": "video",
+           "size": 976545093,
+           "size_label": "931 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/196/metody_statystyczne.mp4",
+           "filename": "metody_statystyczne.mp4"
+          },
+          {
+           "title": "Statystyczne metody uczenia maszynowego - wprowadzenie",
+           "kind": "video",
+           "size": 544339678,
+           "size_label": "519 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/36/197/covariance.mp4",
+           "filename": "covariance.mp4"
+          }
+         ]
+        },
+        {
+         "title": "Podstawy uczenia maszynowego (slajdy do wykładów)",
+         "description": "",
+         "items": [
+          {
+           "title": "1_perceptron.pdf",
+           "kind": "pdf",
+           "size": 4071834,
+           "size_label": "3.9 MB",
+           "local": "assets/materials/3140633f/1_perceptron.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/232/1_perceptron.pdf",
+           "filename": "1_perceptron.pdf"
+          },
+          {
+           "title": "2_mlp.pdf",
+           "kind": "pdf",
+           "size": 13104041,
+           "size_label": "12 MB",
+           "local": "assets/materials/a7b2b833/2_mlp.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/233/2_mlp.pdf",
+           "filename": "2_mlp.pdf"
+          },
+          {
+           "title": "3_mlp_ex.pdf",
+           "kind": "pdf",
+           "size": 2843697,
+           "size_label": "2.7 MB",
+           "local": "assets/materials/e0230bb0/3_mlp_ex.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/234/3_mlp_ex.pdf",
+           "filename": "3_mlp_ex.pdf"
+          },
+          {
+           "title": "4_covariance.pdf",
+           "kind": "pdf",
+           "size": 2723804,
+           "size_label": "2.6 MB",
+           "local": "assets/materials/b954df0b/4_covariance.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/235/4_covariance.pdf",
+           "filename": "4_covariance.pdf"
+          },
+          {
+           "title": "5_stats.pdf",
+           "kind": "pdf",
+           "size": 4851111,
+           "size_label": "4.6 MB",
+           "local": "assets/materials/416e18d9/5_stats.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/45/236/5_stats.pdf",
+           "filename": "5_stats.pdf"
+          }
+         ]
+        },
+        {
+         "title": "Wykład na żywo z 7.12.24",
+         "description": "Wprowadzenie do uczenia maszynowego i SI",
+         "items": [
+          {
+           "title": "mindmap.png",
+           "kind": "image",
+           "size": 734742,
+           "size_label": "718 kB",
+           "local": "assets/materials/09c98082/mindmap.png",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/263/mindmap.png",
+           "filename": "mindmap.png"
+          },
+          {
+           "title": "mindmap_zoom_1.png",
+           "kind": "image",
+           "size": 419848,
+           "size_label": "410 kB",
+           "local": "assets/materials/8b0a3b16/mindmap_zoom_1.png",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/262/mindmap_zoom_1.png",
+           "filename": "mindmap_zoom_1.png"
+          },
+          {
+           "title": "mindmap_zoom_2.png",
+           "kind": "image",
+           "size": 333107,
+           "size_label": "325 kB",
+           "local": "assets/materials/9f91fce1/mindmap_zoom_2.png",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/261/mindmap_zoom_2.png",
+           "filename": "mindmap_zoom_2.png"
+          },
+          {
+           "title": "Wykład wprowadzający do uczenia maszynowego",
+           "kind": "video",
+           "size": 776841044,
+           "size_label": "741 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/30/attachments/43/224/otwarcie_uczenia_maszynowego.mp4",
+           "filename": "otwarcie_uczenia_maszynowego.mp4"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "29 marca 2025",
+     "contributions": [
+      {
+       "id": 7,
+       "title": "Podstawy uczenia maszynowego",
+       "start": {
+        "date": "2025-03-29",
+        "time": "11:00",
+        "iso": "2025-03-29T11:00:00+01:00",
+        "day_label": "29 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-29",
+        "time": "12:30",
+        "iso": "2025-03-29T12:30:00+01:00",
+        "day_label": "29 marca 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<p>Podsumowanie wykładu 7, sesja Q&amp;A z wykładowcą, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący",
+           "kind": "video",
+           "size": 533146107,
+           "size_label": "508 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/27/attachments/49/240/podsumowanie_uczenia_maszynowego.mp4",
+           "filename": "podsumowanie_uczenia_maszynowego.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 5,
+       "title": "Podstawy matematyczne obliczeń kwantowych i SI",
+       "start": {
+        "date": "2025-03-29",
+        "time": "12:30",
+        "iso": "2025-03-29T12:30:00+01:00",
+        "day_label": "29 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-29",
+        "time": "14:00",
+        "iso": "2025-03-29T14:00:00+01:00",
+        "day_label": "29 marca 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Podsumowanie wykładów 1-4, sesja Q&amp;A z wykładowczynią, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący ASK (11.01.25) - SLAJDY.pdf",
+           "kind": "pdf",
+           "size": 1508143,
+           "size_label": "1.4 MB",
+           "local": "assets/materials/a7461b20/Wyklad_podsumowujacy_ASK_11.01.25.pdf",
+           "remote": "https://akademia.iitis.pl/event/12/contributions/29/attachments/38/203/Wyk%C5%82ad%20podsumowuj%C4%85cy%20ASK%20(11.01.25).pdf",
+           "filename": "Wykład podsumowujący ASK (11.01.25).pdf"
+          },
+          {
+           "title": "Wykład podsumowujący.mp4",
+           "kind": "video",
+           "size": 658537279,
+           "size_label": "628 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/29/attachments/38/204/podsumowanie_ask.mp4",
+           "filename": "podsumowanie_ask.mp4"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 6,
+       "title": "Wprowadzenie do obliczeń kwantowych i algorytmy kwantowe",
+       "start": {
+        "date": "2025-03-29",
+        "time": "14:00",
+        "iso": "2025-03-29T14:00:00+01:00",
+        "day_label": "29 marca 2025"
+       },
+       "end": {
+        "date": "2025-03-29",
+        "time": "15:30",
+        "iso": "2025-03-29T15:30:00+01:00",
+        "day_label": "29 marca 2025"
+       },
+       "duration": 90,
+       "room": "",
+       "speakers": [
+        "Piotr Gawron"
+       ],
+       "description_html": "<p>Podsumowanie wykładów 5 i 6, sesja Q&amp;A z wykładowcą, dyskusja.</p>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Wykład podsumowujący",
+           "kind": "video",
+           "size": 532610286,
+           "size_label": "508 MB",
+           "local": null,
+           "remote": "https://akademia.iitis.pl/event/12/contributions/28/attachments/48/239/podsumowanie_oblicze%C5%84_kwantowych.mp4",
+           "filename": "podsumowanie_obliczeń_kwantowych.mp4"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "n_materials": 74,
+   "n_materials_label": "74 materiały"
+  },
+  {
+   "id": 13,
+   "slug": "perceptron-torun",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowy perceptron\" - Toruń",
+   "start": {
+    "date": "2025-04-05",
+    "time": "09:00",
+    "iso": "2025-04-05T09:00:00+02:00",
+    "day_label": "5 kwietnia 2025"
+   },
+   "end": {
+    "date": "2025-04-06",
+    "time": "15:00",
+    "iso": "2025-04-06T15:00:00+02:00",
+    "day_label": "6 kwietnia 2025"
+   },
+   "date_label": "5-6 kwietnia 2025",
+   "place": "Instytut Fizyki • C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej) • Grudziądzka 5, 87-100 Toruń",
+   "location": "Instytut Fizyki",
+   "room": "C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej)",
+   "address": "Grudziądzka 5, 87-100 Toruń",
+   "indico_url": "https://akademia.iitis.pl/event/13/",
+   "folders": [],
+   "days": [
+    {
+     "label": "5 kwietnia 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Perceptron i IBMQ - Wprowadzenie i podstawy",
+       "start": {
+        "date": "2025-04-05",
+        "time": "09:00",
+        "iso": "2025-04-05T09:00:00+02:00",
+        "day_label": "5 kwietnia 2025"
+       },
+       "end": {
+        "date": "2025-04-05",
+        "time": "15:00",
+        "iso": "2025-04-05T15:00:00+02:00",
+        "day_label": "5 kwietnia 2025"
+       },
+       "duration": 360,
+       "room": "C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej)",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Przypomnienie zagadnień:<br>\n1. Kubity i stany kubitu: Omówienie podstawowych jednostek informacji kwantowej, ich reprezentacji i właściwości.<br>\n2. Splątanie kwantowe: Wyjaśnienie fenomenu splątania oraz jego znaczenia w obliczeniach kwantowych.<br>\n3. Bramkowy model obliczeń: Przedstawienie zasad działania komputerów kwantowych opartych na bramkach.<br>\n4. Obwody kwantowe: Budowa i analiza podstawowych obwodów kwantowych.<br>\n5. Perceptron: Przypomnienie klasycznego perceptronu oraz zasad jego działania i uczenia.<br>\n6. Python: Krótkie przypomnienie podstawowej składni języka Python, niezbędnej do implementacji obwodów kwantowych.</p>\n<p>Teoria:<br>\n1. Bramkowe komputery kwantowe: Szczegółowy opis budowy i zasad działania komputerów kwantowych opartych na bramkach.<br>\n2. Ograniczenia komputerów kwantowych: Omówienie problemów i ograniczeń związanych z obecnym stanem technologii kwantowej.<br>\n3. Źródła błędów w komputerach bramkowych: Analiza typowych źródeł błędów w obliczeniach kwantowych i ich wpływu na wyniki.<br>\n4. Kwantowy model perceptronu: Budowa, elementy składowe oraz przykładowe obwody kwantowego perceptronu.</p>\n<p>Praktyka:<br>\n1. Uzyskanie dostępu do IBMQ: Proces rejestracji i uzyskania dostępu do platformy IBMQ.<br>\n2. Podstawy biblioteki qiskit: Wprowadzenie do biblioteki Qiskit, narzędzia do programowania komputerów kwantowych.<br>\n3. Podstawowe operacje w portalu IBMQ: Nauka monitorowania i zarządzania obliczeniami kwantowymi za pomocą portalu IBMQ.<br>\n4. Symulatory architektur komputerów bramkowych: Implementacja pierwszego programu na symulatorze kwantowym.<br>\n5. Symulatory lokalne vs chmurowe: Porównanie lokalnych i chmurowych symulatorów kwantowych.<br>\n6.Implementacja programu uruchamianego na komputerze bramkowym: Praktyczna realizacja przygotowania stanu splątanego.</p>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "6 kwietnia 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Perceptron i IBMQ - implementacja i komunikacja",
+       "start": {
+        "date": "2025-04-06",
+        "time": "09:00",
+        "iso": "2025-04-06T09:00:00+02:00",
+        "day_label": "6 kwietnia 2025"
+       },
+       "end": {
+        "date": "2025-04-06",
+        "time": "15:00",
+        "iso": "2025-04-06T15:00:00+02:00",
+        "day_label": "6 kwietnia 2025"
+       },
+       "duration": 360,
+       "room": "C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej)",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Praktyka:<br>\n1. Implementacja składowych perceptronu: Tworzenie i testowanie podstawowych elementów kwantowego perceptronu.<br>\n2. Obserwacje działania modelu dla losowo dobranych wag: Analiza wyników działania perceptronu z losowo wybranymi wagami.<br>\n3. Implementacja algorytmu uczenia kwantowego perceptronu: Kodowanie i testowanie algorytmu uczącego perceptronu.<br>\n4. Uczenie modelu, weryfikacja wyników: Proces uczenia modelu perceptronu i ocena jego skuteczności.</p>\n<p>Zagadnienia dodatkowe:<br>\n1. Model bramkowy vs wyżarzanie kwantowe: Porównanie dwóch podejść do obliczeń kwantowych: modelu bramkowego i wyżarzania kwantowego.<br>\n2. Algorytm QAOA: Przegląd algorytmu Quantum Approximate Optimization Algorithm (QAOA) i jego zastosowań.<br>\n3. Dostęp do innych maszyn.</p>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 14,
+   "slug": "perceptron-chorzow",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowy perceptron\" - Chorzów",
+   "start": {
+    "date": "2025-05-24",
+    "time": "10:00",
+    "iso": "2025-05-24T10:00:00+02:00",
+    "day_label": "24 maja 2025"
+   },
+   "end": {
+    "date": "2025-05-25",
+    "time": "16:00",
+    "iso": "2025-05-25T16:00:00+02:00",
+    "day_label": "25 maja 2025"
+   },
+   "date_label": "24-25 maja 2025",
+   "place": "ul. 75 Pułku Piechoty 1, 41-500 Chorzów",
+   "location": "",
+   "room": "",
+   "address": "ul. 75 Pułku Piechoty 1\n41-500 Chorzów",
+   "indico_url": "https://akademia.iitis.pl/event/14/",
+   "folders": [],
+   "days": [
+    {
+     "label": "24 maja 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Perceptron i IBMQ - Wprowadzenie i podstawy",
+       "start": {
+        "date": "2025-05-24",
+        "time": "10:00",
+        "iso": "2025-05-24T10:00:00+02:00",
+        "day_label": "24 maja 2025"
+       },
+       "end": {
+        "date": "2025-05-24",
+        "time": "16:00",
+        "iso": "2025-05-24T16:00:00+02:00",
+        "day_label": "24 maja 2025"
+       },
+       "duration": 360,
+       "room": "",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Przypomnienie zagadnień:<br>\n1. Kubity i stany kubitu: Omówienie podstawowych jednostek informacji kwantowej, ich reprezentacji i właściwości.<br>\n2. Splątanie kwantowe: Wyjaśnienie fenomenu splątania oraz jego znaczenia w obliczeniach kwantowych.<br>\n3. Bramkowy model obliczeń: Przedstawienie zasad działania komputerów kwantowych opartych na bramkach.<br>\n4. Obwody kwantowe: Budowa i analiza podstawowych obwodów kwantowych.<br>\n5. Perceptron: Przypomnienie klasycznego perceptronu oraz zasad jego działania i uczenia.<br>\n6. Python: Krótkie przypomnienie podstawowej składni języka Python, niezbędnej do implementacji obwodów kwantowych.</p>\n<p>Teoria:<br>\n1. Bramkowe komputery kwantowe: Szczegółowy opis budowy i zasad działania komputerów kwantowych opartych na bramkach.<br>\n2. Ograniczenia komputerów kwantowych: Omówienie problemów i ograniczeń związanych z obecnym stanem technologii kwantowej.<br>\n3. Źródła błędów w komputerach bramkowych: Analiza typowych źródeł błędów w obliczeniach kwantowych i ich wpływu na wyniki.<br>\n4. Kwantowy model perceptronu: Budowa, elementy składowe oraz przykładowe obwody kwantowego perceptronu.</p>\n<p>Praktyka:<br>\n1. Uzyskanie dostępu do IBMQ: Proces rejestracji i uzyskania dostępu do platformy IBMQ.<br>\n2. Podstawy biblioteki qiskit: Wprowadzenie do biblioteki Qiskit, narzędzia do programowania komputerów kwantowych.<br>\n3. Podstawowe operacje w portalu IBMQ: Nauka monitorowania i zarządzania obliczeniami kwantowymi za pomocą portalu IBMQ.<br>\n4. Symulatory architektur komputerów bramkowych: Implementacja pierwszego programu na symulatorze kwantowym.<br>\n5. Symulatory lokalne vs chmurowe: Porównanie lokalnych i chmurowych symulatorów kwantowych.<br>\n6.Implementacja programu uruchamianego na komputerze bramkowym: Praktyczna realizacja przygotowania stanu splątanego.</p>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "25 maja 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Perceptron i IBMQ - implementacja i komunikacja",
+       "start": {
+        "date": "2025-05-25",
+        "time": "10:00",
+        "iso": "2025-05-25T10:00:00+02:00",
+        "day_label": "25 maja 2025"
+       },
+       "end": {
+        "date": "2025-05-25",
+        "time": "16:00",
+        "iso": "2025-05-25T16:00:00+02:00",
+        "day_label": "25 maja 2025"
+       },
+       "duration": 360,
+       "room": "",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Praktyka:<br>\n1. Implementacja składowych perceptronu: Tworzenie i testowanie podstawowych elementów kwantowego perceptronu.<br>\n2. Obserwacje działania modelu dla losowo dobranych wag: Analiza wyników działania perceptronu z losowo wybranymi wagami.<br>\n3. Implementacja algorytmu uczenia kwantowego perceptronu: Kodowanie i testowanie algorytmu uczącego perceptronu.<br>\n4. Uczenie modelu, weryfikacja wyników: Proces uczenia modelu perceptronu i ocena jego skuteczności.</p>\n<p>Zagadnienia dodatkowe:<br>\n1. Model bramkowy vs wyżarzanie kwantowe: Porównanie dwóch podejść do obliczeń kwantowych: modelu bramkowego i wyżarzania kwantowego.<br>\n2. Algorytm QAOA: Przegląd algorytmu Quantum Approximate Optimization Algorithm (QAOA) i jego zastosowań.</p>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 16,
+   "slug": "uczenie-maszynowe-torun",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Dwa dni z uczeniem maszynowym\" - Toruń",
+   "start": {
+    "date": "2025-05-31",
+    "time": "09:00",
+    "iso": "2025-05-31T09:00:00+02:00",
+    "day_label": "31 maja 2025"
+   },
+   "end": {
+    "date": "2025-06-01",
+    "time": "15:00",
+    "iso": "2025-06-01T15:00:00+02:00",
+    "day_label": "1 czerwca 2025"
+   },
+   "date_label": "31 maja - 1 czerwca 2025",
+   "place": "Instytut Fizyki • C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej) • Grudziądzka 5, 87-100 Toruń",
+   "location": "Instytut Fizyki",
+   "room": "C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej)",
+   "address": "Grudziądzka 5, 87-100 Toruń",
+   "indico_url": "https://akademia.iitis.pl/event/16/",
+   "folders": [],
+   "days": [
+    {
+     "label": "31 maja 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Uczenie maszynowe - Dzień 1",
+       "start": {
+        "date": "2025-05-31",
+        "time": "09:00",
+        "iso": "2025-05-31T09:00:00+02:00",
+        "day_label": "31 maja 2025"
+       },
+       "end": {
+        "date": "2025-05-31",
+        "time": "15:00",
+        "iso": "2025-05-31T15:00:00+02:00",
+        "day_label": "31 maja 2025"
+       },
+       "duration": 360,
+       "room": "C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej)",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<h5>Dzień 1: Wprowadzenie, podstawy i elementy klasycznego uczenia maszynowego</h5>\n<h6>Analiza danych i data mining</h6>\n<ul>\n<li><strong>Analiza przykładowych problemów</strong>: Przejście praktycznych studiów przypadku związanych z analizą danych (w tym zastosowanie zbioru danych obrazowych do detekcji śladów krwi). Celem jest zrozumienie, jak w realnych scenariuszach wykorzystywać techniki data mining.  </li>\n<li><strong>Narzędzia analizy danych</strong>: Omówienie wybranych narzędzi analitycznych, w tym metod redukcji wymiarowości, grupowania oraz wykrywania anomalii jako podstawowych zestawu narzędzi analizy zbiorów danych. Ćwiczenia praktyczne.</li>\n</ul>\n<h6>Klasyfikatory</h6>\n<ul>\n<li><strong>Optymalizacja hiperparametrów, miary wydajności</strong>: kompleksowy przegląd procesu projektowania klasyfikatora „od A do Z”. Zrozumienie, kiedy model można uznać za skuteczny oraz jakie błędy i ryzyka mogą wystąpić.  </li>\n<li><strong>Klasyfikator SVM i metody kernelowe</strong>: omówienie metod opartych na funkcjach jądra (ang. kernels) – struktura, teoria oraz praktyczne wykorzystanie w różnych zadaniach klasyfikacyjnych.  </li>\n<li><strong>Analiza wyników i weryfikacja działania</strong>: interpretacja wyników działania klasyfikatora oraz sposoby oceny poprawności i wiarygodności modelu w praktyce.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "1 czerwca 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Uczenie maszynowe - Dzień 2",
+       "start": {
+        "date": "2025-06-01",
+        "time": "09:00",
+        "iso": "2025-06-01T09:00:00+02:00",
+        "day_label": "1 czerwca 2025"
+       },
+       "end": {
+        "date": "2025-06-01",
+        "time": "15:00",
+        "iso": "2025-06-01T15:00:00+02:00",
+        "day_label": "1 czerwca 2025"
+       },
+       "duration": 360,
+       "room": "C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej)",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<h5>Dzień 2: Od perceptronu do głębokich sieci neuronowych</h5>\n<h6>Perceptron i sieci MLP</h6>\n<ul>\n<li><strong>Perceptron</strong>: wyjaśnienie podstaw sieci neuronowych oraz sposobu, w jaki reprezentują i odwzorowują zbiór treningowy.  </li>\n<li><strong>Klasyfikator MLP</strong>: omówienie zasad działania, przygotowania oraz optymalizacji wielowarstwowych sieci perceptronowych (MLP). Ćwiczenia praktyczne zorientowane na skuteczne zbudowanie i wytrenowanie sieci MLP.</li>\n<li><strong>Sieci neuronowe – aspekty praktyczne</strong>: przegląd algorytmów optymalizacji, zasad przygotowania danych i innych kluczowych zagadnień związanych z implementacją sieci neuronowych.  </li>\n<li><strong>Praca w środowiskach sklearn i PyTorch</strong>: ćwiczenia obejmujące konfigurację, trening oraz porównanie możliwości dwóch popularnych środowisk do realizacji systemów uczenia maszynowego.</li>\n</ul>\n<h6>Modele głębokiego uczenia</h6>\n<ul>\n<li><strong>Sieci konwolucyjne</strong>: omówienie architektury, zasady działania oraz obszarów zastosowania. Analiza wybranych pretrenowanych sieci konwolucyjnych, z uwzględnieniem ćwiczeń praktycznych w zakresie wykorzystania i ewaluacji.  </li>\n<li><strong>Duże modele językowe (LLM)</strong>: przedstawienie architektury i sposobów zastosowania dużych modeli językowych w różnych zadaniach. Analiza działania i praktyczne wskazówki dotyczące wdrożeń oraz dalszego rozwijania własnych projektów wykorzystujących LLM.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 17,
+   "slug": "uczenie-maszynowe-krakow",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Dwa dni z uczeniem maszynowym\" - Kraków",
+   "start": {
+    "date": "2025-09-13",
+    "time": "10:00",
+    "iso": "2025-09-13T10:00:00+02:00",
+    "day_label": "13 września 2025"
+   },
+   "end": {
+    "date": "2025-09-14",
+    "time": "16:00",
+    "iso": "2025-09-14T16:00:00+02:00",
+    "day_label": "14 września 2025"
+   },
+   "date_label": "13-14 września 2025",
+   "place": "Budynek D17 • Sala 1.20 (parter) • Ul. Kawiory 21, 30-055 Kraków",
+   "location": "Budynek D17",
+   "room": "Sala 1.20 (parter)",
+   "address": "Ul. Kawiory 21, 30-055 Kraków",
+   "indico_url": "https://akademia.iitis.pl/event/17/",
+   "folders": [],
+   "days": [
+    {
+     "label": "13 września 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Uczenie maszynowe - Dzień 1",
+       "start": {
+        "date": "2025-09-13",
+        "time": "10:00",
+        "iso": "2025-09-13T10:00:00+02:00",
+        "day_label": "13 września 2025"
+       },
+       "end": {
+        "date": "2025-09-13",
+        "time": "16:00",
+        "iso": "2025-09-13T16:00:00+02:00",
+        "day_label": "13 września 2025"
+       },
+       "duration": 360,
+       "room": "Sala 1.20 (parter)",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<h5>Dzień 1: Wprowadzenie, podstawy i elementy klasycznego uczenia maszynowego</h5>\n<h6>Analiza danych i data mining</h6>\n<ul>\n<li><strong>Analiza przykładowych problemów</strong>: Przejście praktycznych studiów przypadku związanych z analizą danych (w tym zastosowanie zbioru danych obrazowych do detekcji śladów krwi). Celem jest zrozumienie, jak w realnych scenariuszach wykorzystywać techniki data mining.  </li>\n<li><strong>Narzędzia analizy danych</strong>: Omówienie wybranych narzędzi analitycznych, w tym metod redukcji wymiarowości, grupowania oraz wykrywania anomalii jako podstawowych zestawu narzędzi analizy zbiorów danych. Ćwiczenia praktyczne.</li>\n</ul>\n<h6>Klasyfikatory</h6>\n<ul>\n<li><strong>Optymalizacja hiperparametrów, miary wydajności</strong>: kompleksowy przegląd procesu projektowania klasyfikatora „od A do Z”. Zrozumienie, kiedy model można uznać za skuteczny oraz jakie błędy i ryzyka mogą wystąpić.  </li>\n<li><strong>Klasyfikator SVM i metody kernelowe</strong>: omówienie metod opartych na funkcjach jądra (ang. kernels) – struktura, teoria oraz praktyczne wykorzystanie w różnych zadaniach klasyfikacyjnych.  </li>\n<li><strong>Analiza wyników i weryfikacja działania</strong>: interpretacja wyników działania klasyfikatora oraz sposoby oceny poprawności i wiarygodności modelu w praktyce.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "14 września 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Uczenie maszynowe - Dzień 2",
+       "start": {
+        "date": "2025-09-14",
+        "time": "10:00",
+        "iso": "2025-09-14T10:00:00+02:00",
+        "day_label": "14 września 2025"
+       },
+       "end": {
+        "date": "2025-09-14",
+        "time": "16:00",
+        "iso": "2025-09-14T16:00:00+02:00",
+        "day_label": "14 września 2025"
+       },
+       "duration": 360,
+       "room": "Sala 1.20 (parter)",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<h5>Dzień 2: Od perceptronu do głębokich sieci neuronowych</h5>\n<h6>Perceptron i sieci MLP</h6>\n<ul>\n<li><strong>Perceptron</strong>: wyjaśnienie podstaw sieci neuronowych oraz sposobu, w jaki reprezentują i odwzorowują zbiór treningowy.  </li>\n<li><strong>Klasyfikator MLP</strong>: omówienie zasad działania, przygotowania oraz optymalizacji wielowarstwowych sieci perceptronowych (MLP). Ćwiczenia praktyczne zorientowane na skuteczne zbudowanie i wytrenowanie sieci MLP.</li>\n<li><strong>Sieci neuronowe – aspekty praktyczne</strong>: przegląd algorytmów optymalizacji, zasad przygotowania danych i innych kluczowych zagadnień związanych z implementacją sieci neuronowych.  </li>\n<li><strong>Praca w środowiskach sklearn i PyTorch</strong>: ćwiczenia obejmujące konfigurację, trening oraz porównanie możliwości dwóch popularnych środowisk do realizacji systemów uczenia maszynowego.</li>\n</ul>\n<h6>Modele głębokiego uczenia</h6>\n<ul>\n<li><strong>Sieci konwolucyjne</strong>: omówienie architektury, zasady działania oraz obszarów zastosowania. Analiza wybranych pretrenowanych sieci konwolucyjnych, z uwzględnieniem ćwiczeń praktycznych w zakresie wykorzystania i ewaluacji.  </li>\n<li><strong>Duże modele językowe (LLM)</strong>: przedstawienie architektury i sposobów zastosowania dużych modeli językowych w różnych zadaniach. Analiza działania i praktyczne wskazówki dotyczące wdrożeń oraz dalszego rozwijania własnych projektów wykorzystujących LLM.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 15,
+   "slug": "perceptron-poznan",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowy perceptron\" - Poznań",
+   "start": {
+    "date": "2025-09-20",
+    "time": "10:00",
+    "iso": "2025-09-20T10:00:00+02:00",
+    "day_label": "20 września 2025"
+   },
+   "end": {
+    "date": "2025-09-21",
+    "time": "16:00",
+    "iso": "2025-09-21T16:00:00+02:00",
+    "day_label": "21 września 2025"
+   },
+   "date_label": "20-21 września 2025",
+   "place": "Collegium Mathematicum • D1 • Ul. Uniwersytetu Poznańskiego 4, 61-614 Poznań, Wejście jest od strony lasu, tzw. wejście A.",
+   "location": "Collegium Mathematicum",
+   "room": "D1",
+   "address": "Ul. Uniwersytetu Poznańskiego 4\n61-614 Poznań\nWejście jest od strony lasu, tzw. wejście A.",
+   "indico_url": "https://akademia.iitis.pl/event/15/",
+   "folders": [],
+   "days": [
+    {
+     "label": "20 września 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Perceptron i IBMQ - Wprowadzenie i podstawy",
+       "start": {
+        "date": "2025-09-20",
+        "time": "10:00",
+        "iso": "2025-09-20T10:00:00+02:00",
+        "day_label": "20 września 2025"
+       },
+       "end": {
+        "date": "2025-09-20",
+        "time": "16:00",
+        "iso": "2025-09-20T16:00:00+02:00",
+        "day_label": "20 września 2025"
+       },
+       "duration": 360,
+       "room": "D1",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Przypomnienie zagadnień:<br>\n1. Kubity i stany kubitu: Omówienie podstawowych jednostek informacji kwantowej, ich reprezentacji i właściwości.<br>\n2. Splątanie kwantowe: Wyjaśnienie fenomenu splątania oraz jego znaczenia w obliczeniach kwantowych.<br>\n3. Bramkowy model obliczeń: Przedstawienie zasad działania komputerów kwantowych opartych na bramkach.<br>\n4. Obwody kwantowe: Budowa i analiza podstawowych obwodów kwantowych.<br>\n5. Perceptron: Przypomnienie klasycznego perceptronu oraz zasad jego działania i uczenia.<br>\n6. Python: Krótkie przypomnienie podstawowej składni języka Python, niezbędnej do implementacji obwodów kwantowych.</p>\n<p>Teoria:<br>\n1. Bramkowe komputery kwantowe: Szczegółowy opis budowy i zasad działania komputerów kwantowych opartych na bramkach.<br>\n2. Ograniczenia komputerów kwantowych: Omówienie problemów i ograniczeń związanych z obecnym stanem technologii kwantowej.<br>\n3. Źródła błędów w komputerach bramkowych: Analiza typowych źródeł błędów w obliczeniach kwantowych i ich wpływu na wyniki.<br>\n4. Kwantowy model perceptronu: Budowa, elementy składowe oraz przykładowe obwody kwantowego perceptronu.</p>\n<p>Praktyka:<br>\n1. Uzyskanie dostępu do IBMQ: Proces rejestracji i uzyskania dostępu do platformy IBMQ.<br>\n2. Podstawy biblioteki qiskit: Wprowadzenie do biblioteki Qiskit, narzędzia do programowania komputerów kwantowych.<br>\n3. Podstawowe operacje w portalu IBMQ: Nauka monitorowania i zarządzania obliczeniami kwantowymi za pomocą portalu IBMQ.<br>\n4. Symulatory architektur komputerów bramkowych: Implementacja pierwszego programu na symulatorze kwantowym.<br>\n5. Symulatory lokalne vs chmurowe: Porównanie lokalnych i chmurowych symulatorów kwantowych.<br>\n6.Implementacja programu uruchamianego na komputerze bramkowym: Praktyczna realizacja przygotowania stanu splątanego.</p>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "21 września 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Perceptron i IBMQ - implementacja i komunikacja",
+       "start": {
+        "date": "2025-09-21",
+        "time": "10:00",
+        "iso": "2025-09-21T10:00:00+02:00",
+        "day_label": "21 września 2025"
+       },
+       "end": {
+        "date": "2025-09-21",
+        "time": "16:00",
+        "iso": "2025-09-21T16:00:00+02:00",
+        "day_label": "21 września 2025"
+       },
+       "duration": 360,
+       "room": "D1",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "<p>Praktyka:<br>\n1. Implementacja składowych perceptronu: Tworzenie i testowanie podstawowych elementów kwantowego perceptronu.<br>\n2. Obserwacje działania modelu dla losowo dobranych wag: Analiza wyników działania perceptronu z losowo wybranymi wagami.<br>\n3. Implementacja algorytmu uczenia kwantowego perceptronu: Kodowanie i testowanie algorytmu uczącego perceptronu.<br>\n4. Uczenie modelu, weryfikacja wyników: Proces uczenia modelu perceptronu i ocena jego skuteczności.</p>\n<p>Zagadnienia dodatkowe:<br>\n1. Model bramkowy vs wyżarzanie kwantowe: Porównanie dwóch podejść do obliczeń kwantowych: modelu bramkowego i wyżarzania kwantowego.<br>\n2. Algorytm QAOA: Przegląd algorytmu Quantum Approximate Optimization Algorithm (QAOA) i jego zastosowań.</p>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 18,
+   "slug": "uczenie-maszynowe-warszawa",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Dwa dni z uczeniem maszynowym\" - Warszawa",
+   "start": {
+    "date": "2025-10-04",
+    "time": "10:00",
+    "iso": "2025-10-04T10:00:00+02:00",
+    "day_label": "4 października 2025"
+   },
+   "end": {
+    "date": "2025-10-05",
+    "time": "16:00",
+    "iso": "2025-10-05T16:00:00+02:00",
+    "day_label": "5 października 2025"
+   },
+   "date_label": "4-5 października 2025",
+   "place": "Instytut Ekonometrii (budynek G (główny)) • 152(sobota), 115(niedziela) • ul. Niepodległości 162, Warszawa, przy samym metrze Pole Mokotowskie",
+   "location": "Instytut Ekonometrii (budynek G (główny))",
+   "room": "152(sobota), 115(niedziela)",
+   "address": "ul. Niepodległości 162\nWarszawa\nprzy samym metrze Pole Mokotowskie",
+   "indico_url": "https://akademia.iitis.pl/event/18/",
+   "folders": [],
+   "days": [
+    {
+     "label": "4 października 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Uczenie maszynowe - Dzień 1",
+       "start": {
+        "date": "2025-10-04",
+        "time": "10:00",
+        "iso": "2025-10-04T10:00:00+02:00",
+        "day_label": "4 października 2025"
+       },
+       "end": {
+        "date": "2025-10-04",
+        "time": "16:00",
+        "iso": "2025-10-04T16:00:00+02:00",
+        "day_label": "4 października 2025"
+       },
+       "duration": 360,
+       "room": "152(sobota), 115(niedziela)",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<h5>Dzień 1: Wprowadzenie, podstawy i elementy klasycznego uczenia maszynowego</h5>\n<h6>Analiza danych i data mining</h6>\n<ul>\n<li><strong>Analiza przykładowych problemów</strong>: Przejście praktycznych studiów przypadku związanych z analizą danych (w tym zastosowanie zbioru danych obrazowych do detekcji śladów krwi). Celem jest zrozumienie, jak w realnych scenariuszach wykorzystywać techniki data mining.  </li>\n<li><strong>Narzędzia analizy danych</strong>: Omówienie wybranych narzędzi analitycznych, w tym metod redukcji wymiarowości, grupowania oraz wykrywania anomalii jako podstawowych zestawu narzędzi analizy zbiorów danych. Ćwiczenia praktyczne.</li>\n</ul>\n<h6>Klasyfikatory</h6>\n<ul>\n<li><strong>Optymalizacja hiperparametrów, miary wydajności</strong>: kompleksowy przegląd procesu projektowania klasyfikatora „od A do Z”. Zrozumienie, kiedy model można uznać za skuteczny oraz jakie błędy i ryzyka mogą wystąpić.  </li>\n<li><strong>Klasyfikator SVM i metody kernelowe</strong>: omówienie metod opartych na funkcjach jądra (ang. kernels) – struktura, teoria oraz praktyczne wykorzystanie w różnych zadaniach klasyfikacyjnych.  </li>\n<li><strong>Analiza wyników i weryfikacja działania</strong>: interpretacja wyników działania klasyfikatora oraz sposoby oceny poprawności i wiarygodności modelu w praktyce.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "5 października 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Uczenie maszynowe - Dzień 2",
+       "start": {
+        "date": "2025-10-05",
+        "time": "10:00",
+        "iso": "2025-10-05T10:00:00+02:00",
+        "day_label": "5 października 2025"
+       },
+       "end": {
+        "date": "2025-10-05",
+        "time": "16:00",
+        "iso": "2025-10-05T16:00:00+02:00",
+        "day_label": "5 października 2025"
+       },
+       "duration": 360,
+       "room": "152(sobota), 115(niedziela)",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "<h5>Dzień 2: Od perceptronu do głębokich sieci neuronowych</h5>\n<h6>Perceptron i sieci MLP</h6>\n<ul>\n<li><strong>Perceptron</strong>: wyjaśnienie podstaw sieci neuronowych oraz sposobu, w jaki reprezentują i odwzorowują zbiór treningowy.  </li>\n<li><strong>Klasyfikator MLP</strong>: omówienie zasad działania, przygotowania oraz optymalizacji wielowarstwowych sieci perceptronowych (MLP). Ćwiczenia praktyczne zorientowane na skuteczne zbudowanie i wytrenowanie sieci MLP.</li>\n<li><strong>Sieci neuronowe – aspekty praktyczne</strong>: przegląd algorytmów optymalizacji, zasad przygotowania danych i innych kluczowych zagadnień związanych z implementacją sieci neuronowych.  </li>\n<li><strong>Praca w środowiskach sklearn i PyTorch</strong>: ćwiczenia obejmujące konfigurację, trening oraz porównanie możliwości dwóch popularnych środowisk do realizacji systemów uczenia maszynowego.</li>\n</ul>\n<h6>Modele głębokiego uczenia</h6>\n<ul>\n<li><strong>Sieci konwolucyjne</strong>: omówienie architektury, zasady działania oraz obszarów zastosowania. Analiza wybranych pretrenowanych sieci konwolucyjnych, z uwzględnieniem ćwiczeń praktycznych w zakresie wykorzystania i ewaluacji.  </li>\n<li><strong>Duże modele językowe (LLM)</strong>: przedstawienie architektury i sposobów zastosowania dużych modeli językowych w różnych zadaniach. Analiza działania i praktyczne wskazówki dotyczące wdrożeń oraz dalszego rozwijania własnych projektów wykorzystujących LLM.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 19,
+   "slug": "wyzarzanie-chorzow",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowe wyżarzanie kombinatorycznych problemów optymalizacyjnych\" - Chorzów",
+   "start": {
+    "date": "2025-10-04",
+    "time": "10:00",
+    "iso": "2025-10-04T10:00:00+02:00",
+    "day_label": "4 października 2025"
+   },
+   "end": {
+    "date": "2025-10-05",
+    "time": "16:00",
+    "iso": "2025-10-05T16:00:00+02:00",
+    "day_label": "5 października 2025"
+   },
+   "date_label": "4-5 października 2025",
+   "place": "",
+   "location": "",
+   "room": "",
+   "address": "",
+   "indico_url": "https://akademia.iitis.pl/event/19/",
+   "folders": [],
+   "days": [
+    {
+     "label": "4 października 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Wyżarznie kombinatorycznych problemów optymalizacyjnych - podstawy",
+       "start": {
+        "date": "2025-10-04",
+        "time": "10:00",
+        "iso": "2025-10-04T10:00:00+02:00",
+        "day_label": "4 października 2025"
+       },
+       "end": {
+        "date": "2025-10-04",
+        "time": "16:00",
+        "iso": "2025-10-04T16:00:00+02:00",
+        "day_label": "4 października 2025"
+       },
+       "duration": 360,
+       "room": "",
+       "speakers": [
+        "Bartłomiej Gardas",
+        "Tomasz Śmierzchalski"
+       ],
+       "description_html": "<ul>\n<li>Klasyczny model Isinga: kodowanie / zmienne, znaczenie, stany nisko-energetyczne.</li>\n<li>Interpretacja fizyczna modelu Isinga: znaczenie odziaływań i pól magnetycznych.</li>\n<li>Model QUBO: znaczenie, przykłady, równoważność z modelem Isinga.</li>\n<li>Kodowanie dyskretnych problemów optymalizacyjnych za pomocą QUBO / Isinga.</li>\n<li>Algorytm wyczerpującego przeszukiwania (Brute-Force): certyfikacja, ograniczenia.</li>\n<li>Analiza złożoności problemu poszukiwania stanu podstawowego: trudności i wyzwania.</li>\n<li>Podejście heurystycznie: przegląd klasycznych algorytmów inspirowanych fizycznie.</li>\n<li>Kwantowanie modelu Isinga: kwantowy model Isinga z poprzecznym polem.</li>\n<li>Związek pomiędzy klasycznym a kwantowym modelem Isinga: problem własny a sortowanie.</li>\n<li>Twierdzenie adiabatyczne w mechanice kwantowej oraz kwantowe wyżarzanie.</li>\n<li>Kwantowy procesor wyżarzający D-Wave: opis, dostępne topologie, osadzanie problemów.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "5 października 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Wyżarznie kombinatorycznych problemów optymalizacyjnych - DWave",
+       "start": {
+        "date": "2025-10-05",
+        "time": "10:00",
+        "iso": "2025-10-05T10:00:00+02:00",
+        "day_label": "5 października 2025"
+       },
+       "end": {
+        "date": "2025-10-05",
+        "time": "16:00",
+        "iso": "2025-10-05T16:00:00+02:00",
+        "day_label": "5 października 2025"
+       },
+       "duration": 360,
+       "room": "",
+       "speakers": [
+        "Bartłomiej Gardas",
+        "Tomasz Śmierzchalski"
+       ],
+       "description_html": "<ul>\n<li>Rozwiązywanie modelu Isinga z wykorzystaniem kwantowego wyżarzania.</li>\n<li>Praktyczne wykorzystanie biblioteki D-Wave Ocean.</li>\n<li>Implementacja algorytmu wyczerpującego przeszukiwania.</li>\n<li>Implementacja algorytmu typu \"Branch &amp; Bound\". </li>\n<li>Implementacja algorytmu symulowanej bifurkacji.</li>\n<li>Implementacja algorytmu symulowanego wyżarzania.</li>\n<li>Implementacja algorytmu równoległego wyżarzania.</li>\n<li>Wykorzystanie procesorów graficznych (GPU) w algorytmach heurystycznych.</li>\n<li>Analiza porównawcza algorytmów dla wybranych instancji problemów Isinga.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 22,
+   "slug": "metody-jadrowe-krakow",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowe uczenie maszynowe i kwantowe metody jądrowe\" - Kraków",
+   "start": {
+    "date": "2025-10-18",
+    "time": "10:00",
+    "iso": "2025-10-18T10:00:00+02:00",
+    "day_label": "18 października 2025"
+   },
+   "end": {
+    "date": "2025-10-19",
+    "time": "16:00",
+    "iso": "2025-10-19T16:00:00+02:00",
+    "day_label": "19 października 2025"
+   },
+   "date_label": "18-19 października 2025",
+   "place": "D17 • 1.20 (parter) • Ul. Kawiory 21, 30-055 Kraków",
+   "location": "D17",
+   "room": "1.20 (parter)",
+   "address": "Ul. Kawiory 21\n30-055 Kraków",
+   "indico_url": "https://akademia.iitis.pl/event/22/",
+   "folders": [],
+   "days": [
+    {
+     "label": "18 października 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Kwantowe uczenie maszynowe i kwantowe metody jądrowe",
+       "start": {
+        "date": "2025-10-18",
+        "time": "10:00",
+        "iso": "2025-10-18T10:00:00+02:00",
+        "day_label": "18 października 2025"
+       },
+       "end": {
+        "date": "2025-10-18",
+        "time": "16:00",
+        "iso": "2025-10-18T16:00:00+02:00",
+        "day_label": "18 października 2025"
+       },
+       "duration": 360,
+       "room": "1.20 (parter)",
+       "speakers": [
+        "Piotr Gawron"
+       ],
+       "description_html": "<h5>Dzień 1 – Fundamenty QML</h5>\n<h6>Blok 1 (1,5 h) – Podstawy obliczeń kwantowych i QML</h6>\n<ul>\n<li>Qubit, bramki, obwody parametryzowalne  </li>\n<li>Różnice między klasycznym ML a QML  </li>\n<li>Demo: PennyLane – pierwszy obwód  </li>\n</ul>\n<h6>Blok 2 (1,5 h) – Algorytmy wariacyjne</h6>\n<ul>\n<li>Idea algorytmów wariacyjnych  </li>\n<li>Metoda przesuwania parametrów  </li>\n<li>Ćwiczenie: prosty jednoqubitowy klasyfikator  </li>\n</ul>\n<h6>Blok 3 (1,5 h) – Kwantowe sieci neuronowe</h6>\n<ul>\n<li>Architektury QNN, sposoby ładowania danych  </li>\n<li>Ćwiczenie: klasyfikator z re-uploadingiem danych  </li>\n</ul>\n<h6>Blok 4 (1,5 h) – Hybrydowe modele QNN</h6>\n<ul>\n<li>Łączenie QNN i klasycznych warstw  </li>\n<li>Ćwiczenie: prosty model hybrydowy (PyTorch/Jax + PennyLane)</li>\n</ul>",
+       "folders": [
+        {
+         "title": "Materiały",
+         "description": "",
+         "items": [
+          {
+           "title": "pennylane-jax.ipynb",
+           "kind": "notebook",
+           "size": 6099,
+           "size_label": "6.0 kB",
+           "local": "assets/materials/29ffb5e5/pennylane-jax.ipynb",
+           "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/276/pennylane-jax.ipynb",
+           "filename": "pennylane-jax.ipynb"
+          },
+          {
+           "title": "pennylane-jaxnn.ipynb",
+           "kind": "notebook",
+           "size": 10808,
+           "size_label": "11 kB",
+           "local": "assets/materials/5ec29331/pennylane-jaxnn.ipynb",
+           "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/277/pennylane-jaxnn.ipynb",
+           "filename": "pennylane-jaxnn.ipynb"
+          },
+          {
+           "title": "pennylane-mixed.ipynb",
+           "kind": "notebook",
+           "size": 7857,
+           "size_label": "7.7 kB",
+           "local": "assets/materials/b0682281/pennylane-mixed.ipynb",
+           "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/278/pennylane-mixed.ipynb",
+           "filename": "pennylane-mixed.ipynb"
+          },
+          {
+           "title": "pennylane_example.py",
+           "kind": "code",
+           "size": 557,
+           "size_label": "557 B",
+           "local": "assets/materials/f8a2c278/pennylane_example.py",
+           "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/279/pennylane_example.py",
+           "filename": "pennylane_example.py"
+          },
+          {
+           "title": "tutorial.py",
+           "kind": "code",
+           "size": 4985,
+           "size_label": "4.9 kB",
+           "local": "assets/materials/81372b00/tutorial.py",
+           "remote": "https://akademia.iitis.pl/event/22/contributions/49/attachments/58/280/tutorial.py",
+           "filename": "tutorial.py"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "19 października 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Kwantowe uczenie maszynowe i kwantowe metody jądrowe",
+       "start": {
+        "date": "2025-10-19",
+        "time": "10:00",
+        "iso": "2025-10-19T10:00:00+02:00",
+        "day_label": "19 października 2025"
+       },
+       "end": {
+        "date": "2025-10-19",
+        "time": "16:00",
+        "iso": "2025-10-19T16:00:00+02:00",
+        "day_label": "19 października 2025"
+       },
+       "duration": 360,
+       "room": "1.20 (parter)",
+       "speakers": [
+        "Piotr Gawron"
+       ],
+       "description_html": "<h5>Dzień 2 – Metody jądrowe i projekt</h5>\n<h6>Blok 5 (1,5 h) – Kwantowe metody jądrowe</h6>\n<ul>\n<li>Kwantowe kernele, intuicja geometryczna  </li>\n<li>Ćwiczenie: klasyfikator SVM z kwantowym kernelem  </li>\n</ul>\n<h6>Blok 6 (1,5 h) – Szum i ograniczenia praktyczne</h6>\n<ul>\n<li>Szum i dekoherencja, mitigacja błędów  </li>\n<li>Demo: obwód na backendzie dostawcy komputera kwantowego + porównanie z symulatorem  </li>\n</ul>\n<h6>Blok 7 (1,5 h) – Mini-projekt</h6>\n<ul>\n<li>Zadanie: prosty klasyfikator (QNN lub kernel) na własnym zbiorze danych  </li>\n<li>Praca w grupach  </li>\n</ul>\n<h6>Blok 8 (1,5 h) – Prezentacje i podsumowanie</h6>\n<ul>\n<li>Prezentacje mini-projektów  </li>\n<li>Dyskusja: mocne i słabe strony QML  </li>\n<li>Podsumowanie szkolenia, Q&amp;A</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 5,
+   "n_materials_label": "5 materiałów"
+  },
+  {
+   "id": 23,
+   "slug": "metody-jadrowe-warszawa",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowe uczenie maszynowe i kwantowe metody jądrowe\" - Warszawa",
+   "start": {
+    "date": "2025-11-15",
+    "time": "10:00",
+    "iso": "2025-11-15T10:00:00+01:00",
+    "day_label": "15 listopada 2025"
+   },
+   "end": {
+    "date": "2025-11-16",
+    "time": "16:00",
+    "iso": "2025-11-16T16:00:00+01:00",
+    "day_label": "16 listopada 2025"
+   },
+   "date_label": "15-16 listopada 2025",
+   "place": "Instytut Ekonometrii (budynek G (główny)) • 115 • ul. Niepodległości 162  (przy metrze Pole Mokotowskie), Warszawa",
+   "location": "Instytut Ekonometrii (budynek G (główny))",
+   "room": "115",
+   "address": "ul. Niepodległości 162  (przy metrze Pole Mokotowskie)\nWarszawa",
+   "indico_url": "https://akademia.iitis.pl/event/23/",
+   "folders": [],
+   "days": [
+    {
+     "label": "15 listopada 2025",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Kwantowe uczenie maszynowe i kwantowe metody jądrowe",
+       "start": {
+        "date": "2025-11-15",
+        "time": "10:00",
+        "iso": "2025-11-15T10:00:00+01:00",
+        "day_label": "15 listopada 2025"
+       },
+       "end": {
+        "date": "2025-11-15",
+        "time": "16:00",
+        "iso": "2025-11-15T16:00:00+01:00",
+        "day_label": "15 listopada 2025"
+       },
+       "duration": 360,
+       "room": "115",
+       "speakers": [
+        "Piotr Gawron"
+       ],
+       "description_html": "<h5>Dzień 1 – Fundamenty QML</h5>\n<h6>Blok 1 (1,5 h) – Podstawy obliczeń kwantowych i QML</h6>\n<ul>\n<li>Qubit, bramki, obwody parametryzowalne  </li>\n<li>Różnice między klasycznym ML a QML  </li>\n<li>Demo: PennyLane – pierwszy obwód  </li>\n</ul>\n<h6>Blok 2 (1,5 h) – Algorytmy wariacyjne</h6>\n<ul>\n<li>Idea algorytmów wariacyjnych  </li>\n<li>Metoda przesuwania parametrów  </li>\n<li>Ćwiczenie: prosty jednoqubitowy klasyfikator  </li>\n</ul>\n<h6>Blok 3 (1,5 h) – Kwantowe sieci neuronowe</h6>\n<ul>\n<li>Architektury QNN, sposoby ładowania danych  </li>\n<li>Ćwiczenie: klasyfikator z re-uploadingiem danych  </li>\n</ul>\n<h6>Blok 4 (1,5 h) – Hybrydowe modele QNN</h6>\n<ul>\n<li>Łączenie QNN i klasycznych warstw  </li>\n<li>Ćwiczenie: prosty model hybrydowy (PyTorch/Jax + PennyLane)</li>\n</ul>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "pennylane-jax.ipynb",
+           "kind": "notebook",
+           "size": 9202,
+           "size_label": "9.0 kB",
+           "local": "assets/materials/f06f8736/pennylane-jax.ipynb",
+           "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/283/pennylane-jax.ipynb",
+           "filename": "pennylane-jax.ipynb"
+          },
+          {
+           "title": "pennylane-jaxnn.ipynb",
+           "kind": "notebook",
+           "size": 10798,
+           "size_label": "11 kB",
+           "local": "assets/materials/a830f22f/pennylane-jaxnn.ipynb",
+           "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/284/pennylane-jaxnn.ipynb",
+           "filename": "pennylane-jaxnn.ipynb"
+          },
+          {
+           "title": "pennylane-mixed.ipynb",
+           "kind": "notebook",
+           "size": 7857,
+           "size_label": "7.7 kB",
+           "local": "assets/materials/b0682281/pennylane-mixed.ipynb",
+           "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/285/pennylane-mixed.ipynb",
+           "filename": "pennylane-mixed.ipynb"
+          },
+          {
+           "title": "pennylane_example.py",
+           "kind": "code",
+           "size": 557,
+           "size_label": "557 B",
+           "local": "assets/materials/f8a2c278/pennylane_example.py",
+           "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/281/pennylane_example.py",
+           "filename": "pennylane_example.py"
+          },
+          {
+           "title": "tutorial.py",
+           "kind": "code",
+           "size": 4985,
+           "size_label": "4.9 kB",
+           "local": "assets/materials/81372b00/tutorial.py",
+           "remote": "https://akademia.iitis.pl/event/23/contributions/52/attachments/59/282/tutorial.py",
+           "filename": "tutorial.py"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "16 listopada 2025",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Kwantowe uczenie maszynowe i kwantowe metody jądrowe",
+       "start": {
+        "date": "2025-11-16",
+        "time": "10:00",
+        "iso": "2025-11-16T10:00:00+01:00",
+        "day_label": "16 listopada 2025"
+       },
+       "end": {
+        "date": "2025-11-16",
+        "time": "16:00",
+        "iso": "2025-11-16T16:00:00+01:00",
+        "day_label": "16 listopada 2025"
+       },
+       "duration": 360,
+       "room": "115",
+       "speakers": [
+        "Piotr Gawron"
+       ],
+       "description_html": "<h5>Dzień 2 – Metody jądrowe i projekt</h5>\n<h6>Blok 5 (1,5 h) – Kwantowe metody jądrowe</h6>\n<ul>\n<li>Kwantowe kernele, intuicja geometryczna  </li>\n<li>Ćwiczenie: klasyfikator SVM z kwantowym kernelem  </li>\n</ul>\n<h6>Blok 6 (1,5 h) – Noise i ograniczenia praktyczne</h6>\n<ul>\n<li>Szum i dekoherencja, mitigacja błędów  </li>\n<li>Demo: obwód na backendzie dostawcy komputera kwantowego + porównanie z symulatorem  </li>\n</ul>\n<h6>Blok 7 (1,5 h) – Mini-projekt</h6>\n<ul>\n<li>Zadanie: prosty klasyfikator (QNN lub kernel) na własnym zbiorze danych  </li>\n<li>Praca w grupach  </li>\n</ul>\n<h6>Blok 8 (1,5 h) – Prezentacje i podsumowanie</h6>\n<ul>\n<li>Prezentacje mini-projektów  </li>\n<li>Dyskusja: mocne i słabe strony QML  </li>\n<li>Podsumowanie szkolenia, Q&amp;A</li>\n</ul>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Kernel-based training of quantum models with scikit-learn",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://pennylane.ai/qml/demos/tutorial_kernel_based_training",
+           "filename": null
+          },
+          {
+           "title": "Training and evaluating quantum kernels",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://pennylane.ai/qml/demos/tutorial_kernels_module",
+           "filename": null
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "n_materials": 7,
+   "n_materials_label": "7 materiałów"
+  },
+  {
+   "id": 20,
+   "slug": "wyzarzanie-poznan",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowe wyżarzanie kombinatorycznych problemów optymalizacyjnych\" - Poznań",
+   "start": {
+    "date": "2026-01-17",
+    "time": "10:00",
+    "iso": "2026-01-17T10:00:00+01:00",
+    "day_label": "17 stycznia 2026"
+   },
+   "end": {
+    "date": "2026-01-18",
+    "time": "16:00",
+    "iso": "2026-01-18T16:00:00+01:00",
+    "day_label": "18 stycznia 2026"
+   },
+   "date_label": "17-18 stycznia 2026",
+   "place": "Collegium Mathematicum • 16/17 i A1-22/23. • Ul. Uniwersytetu Poznańskiego 4, 61-614 Poznań, Wejście jest od strony lasu, tzw. wejście A.",
+   "location": "Collegium Mathematicum",
+   "room": "16/17 i A1-22/23.",
+   "address": "Ul. Uniwersytetu Poznańskiego 4\n61-614 Poznań\nWejście jest od strony lasu, tzw. wejście A.",
+   "indico_url": "https://akademia.iitis.pl/event/20/",
+   "folders": [],
+   "days": [
+    {
+     "label": "17 stycznia 2026",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Wyżarznie kombinatorycznych problemów optymalizacyjnych - podstawy",
+       "start": {
+        "date": "2026-01-17",
+        "time": "10:00",
+        "iso": "2026-01-17T10:00:00+01:00",
+        "day_label": "17 stycznia 2026"
+       },
+       "end": {
+        "date": "2026-01-17",
+        "time": "16:00",
+        "iso": "2026-01-17T16:00:00+01:00",
+        "day_label": "17 stycznia 2026"
+       },
+       "duration": 360,
+       "room": "16/17 i A1-22/23.",
+       "speakers": [
+        "Bartłomiej Gardas",
+        "Tomasz Śmierzchalski"
+       ],
+       "description_html": "<ul>\n<li>Klasyczny model Isinga: kodowanie / zmienne, znaczenie, stany nisko-energetyczne.</li>\n<li>Interpretacja fizyczna modelu Isinga: znaczenie odziaływań i pól magnetycznych.</li>\n<li>Model QUBO: znaczenie, przykłady, równoważność z modelem Isinga. </li>\n<li>Kodowanie dyskretnych problemów optymalizacyjnych za pomocą QUBO / Isinga.</li>\n<li>Algorytm wyczerpującego przeszukiwania (Brute-Force): certyfikacja, ograniczenia.</li>\n<li>Analiza złożoności problemu poszukiwania stanu podstawowego: trudności i wyzwania.</li>\n<li>Podejście heurystycznie: przegląd klasycznych algorytmów inspirowanych fizycznie.</li>\n<li>Kwantowanie modelu Isinga: kwantowy model Isinga z poprzecznym polem.</li>\n<li>Związek pomiędzy klasycznym a kwantowym modelem Isinga: problem własny a sortowanie.</li>\n<li>Twierdzenie adiabatyczne w mechanice kwantowej oraz kwantowe wyżarzanie.</li>\n<li>Kwantowy procesor wyżarzający D-Wave: opis, dostępne topologie, osadzanie problemów.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "18 stycznia 2026",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Wyżarznie kombinatorycznych problemów optymalizacyjnych - DWave",
+       "start": {
+        "date": "2026-01-18",
+        "time": "10:00",
+        "iso": "2026-01-18T10:00:00+01:00",
+        "day_label": "18 stycznia 2026"
+       },
+       "end": {
+        "date": "2026-01-18",
+        "time": "16:00",
+        "iso": "2026-01-18T16:00:00+01:00",
+        "day_label": "18 stycznia 2026"
+       },
+       "duration": 360,
+       "room": "16/17 i A1-22/23.",
+       "speakers": [
+        "Bartłomiej Gardas",
+        "Tomasz Śmierzchalski"
+       ],
+       "description_html": "<ul>\n<li>Rozwiązywanie modelu Isinga z wykorzystaniem kwantowego wyżarzania.</li>\n<li>Praktyczne wykorzystanie biblioteki D-Wave Ocean.</li>\n<li>Implementacja algorytmu wyczerpującego przeszukiwania.</li>\n<li>Implementacja algorytmu typu \"Branch &amp; Bound\". </li>\n<li>Implementacja algorytmu symulowanej bifurkacji.</li>\n<li>Implementacja algorytmu symulowanego wyżarzania.</li>\n<li>Implementacja algorytmu równoległego wyżarzania.</li>\n<li>Wykorzystanie procesorów graficznych (GPU) w algorytmach heurystycznych.</li>\n<li>Analiza porównawcza algorytmów dla wybranych instancji problemów Isinga.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 24,
+   "slug": "metody-jadrowe-gdansk",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowe uczenie maszynowe i kwantowe metody jądrowe\" - Gdańsk",
+   "start": {
+    "date": "2026-03-14",
+    "time": "10:00",
+    "iso": "2026-03-14T10:00:00+01:00",
+    "day_label": "14 marca 2026"
+   },
+   "end": {
+    "date": "2026-03-15",
+    "time": "16:00",
+    "iso": "2026-03-15T16:00:00+01:00",
+    "day_label": "15 marca 2026"
+   },
+   "date_label": "14-15 marca 2026",
+   "place": "Instytut Informatyki WMFiI UG • 1.18 • ul. Wita Stwosza 57, Gdańsk",
+   "location": "Instytut Informatyki WMFiI UG",
+   "room": "1.18",
+   "address": "ul. Wita Stwosza 57, Gdańsk",
+   "indico_url": "https://akademia.iitis.pl/event/24/",
+   "folders": [],
+   "days": [
+    {
+     "label": "14 marca 2026",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Wyżarznie kombinatorycznych problemów optymalizacyjnych - podstawy",
+       "start": {
+        "date": "2026-03-14",
+        "time": "10:00",
+        "iso": "2026-03-14T10:00:00+01:00",
+        "day_label": "14 marca 2026"
+       },
+       "end": {
+        "date": "2026-03-14",
+        "time": "16:00",
+        "iso": "2026-03-14T16:00:00+01:00",
+        "day_label": "14 marca 2026"
+       },
+       "duration": 360,
+       "room": "1.18",
+       "speakers": [
+        "Piotr Gawron"
+       ],
+       "description_html": "<h5>Dzień 1 – Fundamenty QML</h5>\n<h6>Blok 1 (1,5 h) – Podstawy obliczeń kwantowych i QML</h6>\n<ul>\n<li>Qubit, bramki, obwody parametryzowalne  </li>\n<li>Różnice między klasycznym ML a QML  </li>\n<li>Demo: PennyLane – pierwszy obwód  </li>\n</ul>\n<h6>Blok 2 (1,5 h) – Algorytmy wariacyjne</h6>\n<ul>\n<li>Idea algorytmów wariacyjnych  </li>\n<li>Metoda przesuwania parametrów  </li>\n<li>Ćwiczenie: prosty jednoqubitowy klasyfikator  </li>\n</ul>\n<h6>Blok 3 (1,5 h) – Kwantowe sieci neuronowe</h6>\n<ul>\n<li>Architektury QNN, sposoby ładowania danych  </li>\n<li>Ćwiczenie: klasyfikator z re-uploadingiem danych  </li>\n</ul>\n<h6>Blok 4 (1,5 h) – Hybrydowe modele QNN</h6>\n<ul>\n<li>Łączenie QNN i klasycznych warstw  </li>\n<li>Ćwiczenie: prosty model hybrydowy (PyTorch/Jax + PennyLane)</li>\n</ul>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Matrix",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://matrix.to/#/!lfIegQALgSQVWFWAot:matrix.org?via=matrix.org",
+           "filename": null
+          }
+         ]
+        },
+        {
+         "title": "Materiały",
+         "description": "",
+         "items": [
+          {
+           "title": "lecture.pdf",
+           "kind": "pdf",
+           "size": 8635054,
+           "size_label": "8.2 MB",
+           "local": "assets/materials/fff003ec/lecture.pdf",
+           "remote": "https://akademia.iitis.pl/event/24/contributions/54/attachments/62/292/lecture.pdf",
+           "filename": "lecture.pdf"
+          },
+          {
+           "title": "pennylane-jax.ipynb",
+           "kind": "notebook",
+           "size": 6099,
+           "size_label": "6.0 kB",
+           "local": "assets/materials/29ffb5e5/pennylane-jax.ipynb",
+           "remote": "https://akademia.iitis.pl/event/24/contributions/54/attachments/62/290/pennylane-jax.ipynb",
+           "filename": "pennylane-jax.ipynb"
+          },
+          {
+           "title": "pennylane-jaxnn.ipynb",
+           "kind": "notebook",
+           "size": 10808,
+           "size_label": "11 kB",
+           "local": "assets/materials/5ec29331/pennylane-jaxnn.ipynb",
+           "remote": "https://akademia.iitis.pl/event/24/contributions/54/attachments/62/289/pennylane-jaxnn.ipynb",
+           "filename": "pennylane-jaxnn.ipynb"
+          },
+          {
+           "title": "pennylane-mixed.ipynb",
+           "kind": "notebook",
+           "size": 7857,
+           "size_label": "7.7 kB",
+           "local": "assets/materials/b0682281/pennylane-mixed.ipynb",
+           "remote": "https://akademia.iitis.pl/event/24/contributions/54/attachments/62/291/pennylane-mixed.ipynb",
+           "filename": "pennylane-mixed.ipynb"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "15 marca 2026",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Wyżarznie kombinatorycznych problemów optymalizacyjnych - DWave",
+       "start": {
+        "date": "2026-03-15",
+        "time": "10:00",
+        "iso": "2026-03-15T10:00:00+01:00",
+        "day_label": "15 marca 2026"
+       },
+       "end": {
+        "date": "2026-03-15",
+        "time": "16:00",
+        "iso": "2026-03-15T16:00:00+01:00",
+        "day_label": "15 marca 2026"
+       },
+       "duration": 360,
+       "room": "1.18",
+       "speakers": [
+        "Piotr Gawron"
+       ],
+       "description_html": "<h5>Dzień 2 – Metody jądrowe i projekt</h5>\n<h6>Blok 5 (1,5 h) – Kwantowe metody jądrowe</h6>\n<ul>\n<li>Kwantowe kernele, intuicja geometryczna  </li>\n<li>Ćwiczenie: klasyfikator SVM z kwantowym kernelem  </li>\n</ul>\n<h6>Blok 6 (1,5 h) – Noise i ograniczenia praktyczne</h6>\n<ul>\n<li>Szum i dekoherencja, mitigacja błędów  </li>\n<li>Demo: obwód na backendzie dostawcy komputera kwantowego + porównanie z symulatorem  </li>\n</ul>\n<h6>Blok 7 (1,5 h) – Mini-projekt</h6>\n<ul>\n<li>Zadanie: prosty klasyfikator (QNN lub kernel) na własnym zbiorze danych  </li>\n<li>Praca w grupach  </li>\n</ul>\n<h6>Blok 8 (1,5 h) – Prezentacje i podsumowanie</h6>\n<ul>\n<li>Prezentacje mini-projektów  </li>\n<li>Dyskusja: mocne i słabe strony QML  </li>\n<li>Podsumowanie szkolenia, Q&amp;A</li>\n</ul>",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "An overview of kernel alignment and its applications",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://doi.org/10.1007%2Fs10462-012-9369-4",
+           "filename": null
+          },
+          {
+           "title": "Before you train: Pre-screening quantum kernels with geometric difference",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://pennylane.ai/qml/demos/tutorial_huang_geometric_kernel_difference",
+           "filename": null
+          },
+          {
+           "title": "Kernel-based training of quantum models with scikit-learn",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://pennylane.ai/qml/demos/tutorial_kernel_based_training",
+           "filename": null
+          },
+          {
+           "title": "SVM",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://web.mit.edu/zoya/www/SVM.pdf",
+           "filename": null
+          },
+          {
+           "title": "Training and evaluating quantum kernels",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://pennylane.ai/qml/demos/tutorial_kernels_module",
+           "filename": null
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "n_materials": 10,
+   "n_materials_label": "10 materiałów"
+  },
+  {
+   "id": 21,
+   "slug": "wyzarzanie-gdansk",
+   "kind": "warsztaty",
+   "title": "Warsztaty stacjonarne \"Kwantowe wyżarzanie kombinatorycznych problemów optymalizacyjnych\" - Gdańsk",
+   "start": {
+    "date": "2026-03-21",
+    "time": "10:00",
+    "iso": "2026-03-21T10:00:00+01:00",
+    "day_label": "21 marca 2026"
+   },
+   "end": {
+    "date": "2026-03-22",
+    "time": "16:00",
+    "iso": "2026-03-22T16:00:00+01:00",
+    "day_label": "22 marca 2026"
+   },
+   "date_label": "21-22 marca 2026",
+   "place": "Instytut Informatyki WMFiI UG • 1.18 • Wita Stwosza 57, Gdańsk",
+   "location": "Instytut Informatyki WMFiI UG",
+   "room": "1.18",
+   "address": "Wita Stwosza 57, Gdańsk",
+   "indico_url": "https://akademia.iitis.pl/event/21/",
+   "folders": [],
+   "days": [
+    {
+     "label": "21 marca 2026",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Wyżarznie kombinatorycznych problemów optymalizacyjnych - podstawy",
+       "start": {
+        "date": "2026-03-21",
+        "time": "10:00",
+        "iso": "2026-03-21T10:00:00+01:00",
+        "day_label": "21 marca 2026"
+       },
+       "end": {
+        "date": "2026-03-21",
+        "time": "16:00",
+        "iso": "2026-03-21T16:00:00+01:00",
+        "day_label": "21 marca 2026"
+       },
+       "duration": 360,
+       "room": "1.18",
+       "speakers": [
+        "Bartłomiej Gardas",
+        "Tomasz Śmierzchalski"
+       ],
+       "description_html": "<ul>\n<li>Klasyczny model Isinga: kodowanie / zmienne, znaczenie, stany nisko-energetyczne.</li>\n<li>Interpretacja fizyczna modelu Isinga: znaczenie odziaływań i pól magnetycznych.</li>\n<li>Model QUBO: znaczenie, przykłady, równoważność z modelem Isinga.</li>\n<li>Kodowanie dyskretnych problemów optymalizacyjnych za pomocą QUBO / Isinga.</li>\n<li>Algorytm wyczerpującego przeszukiwania (Brute-Force): certyfikacja, ograniczenia.</li>\n<li>Analiza złożoności problemu poszukiwania stanu podstawowego: trudności i wyzwania.</li>\n<li>Podejście heurystycznie: przegląd klasycznych algorytmów inspirowanych fizycznie.</li>\n<li>Kwantowanie modelu Isinga: kwantowy model Isinga z poprzecznym polem.</li>\n<li>Związek pomiędzy klasycznym a kwantowym modelem Isinga: problem własny a sortowanie.</li>\n<li>Twierdzenie adiabatyczne w mechanice kwantowej oraz kwantowe wyżarzanie.</li>\n<li>Kwantowy procesor wyżarzający D-Wave: opis, dostępne topologie, osadzanie problemów.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    },
+    {
+     "label": "22 marca 2026",
+     "contributions": [
+      {
+       "id": 2,
+       "title": "Wyżarznie kombinatorycznych problemów optymalizacyjnych - DWave",
+       "start": {
+        "date": "2026-03-22",
+        "time": "10:00",
+        "iso": "2026-03-22T10:00:00+01:00",
+        "day_label": "22 marca 2026"
+       },
+       "end": {
+        "date": "2026-03-22",
+        "time": "16:00",
+        "iso": "2026-03-22T16:00:00+01:00",
+        "day_label": "22 marca 2026"
+       },
+       "duration": 360,
+       "room": "1.18",
+       "speakers": [
+        "Bartłomiej Gardas",
+        "Tomasz Śmierzchalski"
+       ],
+       "description_html": "<ul>\n<li>Rozwiązywanie modelu Isinga z wykorzystaniem kwantowego wyżarzania.</li>\n<li>Praktyczne wykorzystanie biblioteki D-Wave Ocean.</li>\n<li>Implementacja algorytmu wyczerpującego przeszukiwania.</li>\n<li>Implementacja algorytmu typu \"Branch &amp; Bound\". </li>\n<li>Implementacja algorytmu symulowanej bifurkacji.</li>\n<li>Implementacja algorytmu symulowanego wyżarzania.</li>\n<li>Implementacja algorytmu równoległego wyżarzania.</li>\n<li>Wykorzystanie procesorów graficznych (GPU) w algorytmach heurystycznych.</li>\n<li>Analiza porównawcza algorytmów dla wybranych instancji problemów Isinga.</li>\n</ul>",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 0,
+   "n_materials_label": "brak materiałów"
+  },
+  {
+   "id": 27,
+   "slug": "wyklad-podsumowujacy",
+   "kind": "online",
+   "title": "Wykład podsumowujący projekt \"Akademia Sztuki Kwantowej\"",
+   "start": {
+    "date": "2026-04-01",
+    "time": "16:00",
+    "iso": "2026-04-01T16:00:00+02:00",
+    "day_label": "1 kwietnia 2026"
+   },
+   "end": {
+    "date": "2026-04-01",
+    "time": "17:15",
+    "iso": "2026-04-01T17:15:00+02:00",
+    "day_label": "1 kwietnia 2026"
+   },
+   "date_label": "1 kwietnia 2026",
+   "place": "Online",
+   "location": "Online",
+   "room": "",
+   "address": "",
+   "indico_url": "https://akademia.iitis.pl/event/27/",
+   "folders": [],
+   "days": [
+    {
+     "label": "1 kwietnia 2026",
+     "contributions": [
+      {
+       "id": 1,
+       "title": "Podsumowanie części dot. obliczeń kwantowych",
+       "start": {
+        "date": "2026-04-01",
+        "time": "16:00",
+        "iso": "2026-04-01T16:00:00+02:00",
+        "day_label": "1 kwietnia 2026"
+       },
+       "end": {
+        "date": "2026-04-01",
+        "time": "16:30",
+        "iso": "2026-04-01T16:30:00+02:00",
+        "day_label": "1 kwietnia 2026"
+       },
+       "duration": 30,
+       "room": "",
+       "speakers": [
+        "Piotr Gawron"
+       ],
+       "description_html": "",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "ask_podsumowanie_gawron.pdf",
+           "kind": "pdf",
+           "size": 15552917,
+           "size_label": "15 MB",
+           "local": "assets/materials/c0040f7c/ask_podsumowanie_gawron.pdf",
+           "remote": "https://akademia.iitis.pl/event/27/contributions/55/attachments/64/299/ask_podsumowanie_gawron.pdf",
+           "filename": "ask_podsumowanie_gawron.pdf"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 2,
+       "title": "Podsumowanie części dot. uczenia maszynowego",
+       "start": {
+        "date": "2026-04-01",
+        "time": "16:30",
+        "iso": "2026-04-01T16:30:00+02:00",
+        "day_label": "1 kwietnia 2026"
+       },
+       "end": {
+        "date": "2026-04-01",
+        "time": "17:00",
+        "iso": "2026-04-01T17:00:00+02:00",
+        "day_label": "1 kwietnia 2026"
+       },
+       "duration": 30,
+       "room": "",
+       "speakers": [
+        "Przemysław Głomb"
+       ],
+       "description_html": "",
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "ASQ_ML_podsumowanie.pdf",
+           "kind": "pdf",
+           "size": 1825803,
+           "size_label": "1.7 MB",
+           "local": "assets/materials/3e6d68fe/ASQ_ML_podsumowanie.pdf",
+           "remote": "https://akademia.iitis.pl/event/27/contributions/56/attachments/65/300/ASQ_ML_podsumowanie.pdf",
+           "filename": "ASQ_ML_podsumowanie.pdf"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": 3,
+       "title": "Podsumowanie projektu",
+       "start": {
+        "date": "2026-04-01",
+        "time": "17:00",
+        "iso": "2026-04-01T17:00:00+02:00",
+        "day_label": "1 kwietnia 2026"
+       },
+       "end": {
+        "date": "2026-04-01",
+        "time": "17:10",
+        "iso": "2026-04-01T17:10:00+02:00",
+        "day_label": "1 kwietnia 2026"
+       },
+       "duration": 10,
+       "room": "",
+       "speakers": [
+        "Łukasz Pawela"
+       ],
+       "description_html": "",
+       "folders": []
+      }
+     ]
+    }
+   ],
+   "n_materials": 2,
+   "n_materials_label": "2 materiały"
+  }
+ ]
+}

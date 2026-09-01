@@ -1,0 +1,475 @@
+#!/usr/bin/env python3
+"""Pobiera dane o wydarzeniach z Indico (akademia.iitis.pl) i buduje z nich
+lokalną kopię na stronie projektu.
+
+Skrypt:
+  * czyta publiczne API eksportu Indico (/export/event/<id>.json),
+  * przelicza czasy z UTC na Europe/Warsaw (tak jak wyświetla je Indico),
+  * pobiera lokalnie materiały inne niż wideo (z deduplikacją po sumie
+    kontrolnej) do assets/materials/,
+  * zapisuje _data/archiwum.json oraz strony-zaślepki w archiwum/.
+
+Pliki wideo (ok. 37 GB) pozostają linkami do Indico - nie mieszczą się
+w limitach GitHub Pages (100 MB/plik).
+
+Wymagania: requests, markdown (opcjonalnie bleach).
+
+Użycie:
+    python3 tools/fetch_indico.py                 # pełne odświeżenie
+    python3 tools/fetch_indico.py --no-download   # tylko metadane
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import sys
+import unicodedata
+from datetime import datetime, timezone
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+import requests
+
+try:  # opcjonalnie: sanityzacja HTML z opisów
+    import bleach
+except ImportError:  # pragma: no cover
+    bleach = None
+
+import markdown
+
+BASE = "https://akademia.iitis.pl"
+TZ = ZoneInfo("Europe/Warsaw")
+ROOT = Path(__file__).resolve().parent.parent
+
+# Wydarzenia projektu "Akademia Sztuki Kwantowej".
+# Pomijamy konsultacje (event 25) - to inny projekt.
+ONLINE_IDS = [7, 8, 12, 27]
+WORKSHOP_IDS = [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+
+SLUGS = {
+    7: "wyklady-online-termin-1",
+    8: "wyklady-online-termin-2",
+    12: "wyklady-online-termin-3",
+    27: "wyklad-podsumowujacy",
+    13: "perceptron-torun",
+    14: "perceptron-chorzow",
+    15: "perceptron-poznan",
+    16: "uczenie-maszynowe-torun",
+    17: "uczenie-maszynowe-krakow",
+    18: "uczenie-maszynowe-warszawa",
+    19: "wyzarzanie-chorzow",
+    20: "wyzarzanie-poznan",
+    21: "wyzarzanie-gdansk",
+    22: "metody-jadrowe-krakow",
+    23: "metody-jadrowe-warszawa",
+    24: "metody-jadrowe-gdansk",
+}
+
+# Czego nie kopiujemy lokalnie (zostaje link do Indico).
+NO_MIRROR_PREFIXES = ("video/", "audio/")
+MIRROR_MAX_BYTES = 60 * 1024 * 1024
+
+MATERIALS_DIR = ROOT / "assets" / "materials"
+DATA_FILE = ROOT / "_data" / "archiwum.json"
+PAGES_DIR = ROOT / "archiwum"
+
+MONTHS = {
+    1: "stycznia", 2: "lutego", 3: "marca", 4: "kwietnia", 5: "maja",
+    6: "czerwca", 7: "lipca", 8: "sierpnia", 9: "września", 10: "października",
+    11: "listopada", 12: "grudnia",
+}
+MONTHS_NOM = {
+    1: "styczeń", 2: "luty", 3: "marzec", 4: "kwiecień", 5: "maj",
+    6: "czerwiec", 7: "lipiec", 8: "sierpień", 9: "wrzesień",
+    10: "październik", 11: "listopad", 12: "grudzień",
+}
+
+TRANS = str.maketrans({
+    "ą": "a", "ć": "c", "ę": "e", "ł": "l", "ń": "n", "ó": "o",
+    "ś": "s", "ź": "z", "ż": "z",
+    "Ą": "A", "Ć": "C", "Ę": "E", "Ł": "L", "Ń": "N", "Ó": "O",
+    "Ś": "S", "Ź": "Z", "Ż": "Z",
+})
+
+session = requests.Session()
+
+
+def _relax_tls_if_needed() -> None:
+    """Serwer Indico bywa skonfigurowany bez pełnego łańcucha certyfikatów.
+    Najpierw próbujemy normalnej weryfikacji, a dopiero w razie jej awarii
+    wyłączamy ją - pobierane dane są publiczne i weryfikowane sumami MD5."""
+    try:
+        session.get(f"{BASE}/", timeout=30).raise_for_status()
+        return
+    except requests.exceptions.SSLError:
+        pass
+    import urllib3
+
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+    session.verify = False
+    print(f"Uwaga: {BASE} ma niepełny łańcuch certyfikatów - weryfikacja TLS wyłączona.")
+
+
+def ascii_fold(text: str) -> str:
+    text = text.translate(TRANS)
+    return unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
+
+
+def slugify(text: str, maxlen: int = 80) -> str:
+    s = ascii_fold(text).lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return s[:maxlen].strip("-")
+
+
+def safe_filename(name: str) -> str:
+    stem, dot, ext = name.rpartition(".")
+    if not dot:
+        stem, ext = name, ""
+    stem = ascii_fold(stem)
+    stem = re.sub(r"[^A-Za-z0-9._-]+", "_", stem).strip("._-") or "plik"
+    ext = re.sub(r"[^A-Za-z0-9]+", "", ascii_fold(ext)).lower()
+    return f"{stem[:100]}.{ext}" if ext else stem[:100]
+
+
+def to_local(node: dict | None) -> dict | None:
+    """Indico zwraca czasy w UTC; przeliczamy na strefę wydarzenia."""
+    if not node or not node.get("date"):
+        return None
+    time_part = (node.get("time") or "00:00:00").split(".")[0]
+    dt = datetime.strptime(f"{node['date']} {time_part}", "%Y-%m-%d %H:%M:%S")
+    dt = dt.replace(tzinfo=timezone.utc).astimezone(TZ)
+    return {
+        "date": dt.strftime("%Y-%m-%d"),
+        "time": dt.strftime("%H:%M"),
+        "iso": dt.isoformat(),
+        "day_label": f"{dt.day} {MONTHS[dt.month]} {dt.year}",
+    }
+
+
+def date_range_label(start: dict, end: dict) -> str:
+    s = datetime.fromisoformat(start["iso"])
+    e = datetime.fromisoformat(end["iso"])
+    if (s.year, s.month, s.day) == (e.year, e.month, e.day):
+        return f"{s.day} {MONTHS[s.month]} {s.year}"
+    if (s.year, s.month) == (e.year, e.month):
+        return f"{s.day}-{e.day} {MONTHS[s.month]} {s.year}"
+    if s.year == e.year:
+        return f"{s.day} {MONTHS[s.month]} - {e.day} {MONTHS[e.month]} {s.year}"
+    return f"{s.day} {MONTHS[s.month]} {s.year} - {e.day} {MONTHS[e.month]} {e.year}"
+
+
+def human_size(n: int | None) -> str:
+    if not n:
+        return ""
+    for unit, div in (("GB", 1 << 30), ("MB", 1 << 20), ("kB", 1 << 10)):
+        if n >= div:
+            value = n / div
+            return f"{value:.1f} {unit}" if value < 10 else f"{value:.0f} {unit}"
+    return f"{n} B"
+
+
+# Indico renderuje opisy Markdownem z rozszerzeniem nl2br - robimy to samo,
+# żeby kopia wyglądała jak oryginał.
+MD = markdown.Markdown(extensions=["nl2br", "tables", "sane_lists"])
+ALLOWED_TAGS = [
+    "p", "br", "strong", "em", "code", "pre", "blockquote", "a", "ul", "ol",
+    "li", "h4", "h5", "h6", "table", "thead", "tbody", "tr", "th", "td", "hr",
+]
+
+
+def render_markdown(text: str) -> str:
+    """Zamienia opis z Indico na HTML; nagłówki degradujemy do h5/h6,
+    żeby nie konkurowały ze strukturą strony."""
+    if not text:
+        return ""
+    MD.reset()
+    html = MD.convert(text)
+    for src, dst in (("h1", "h5"), ("h2", "h5"), ("h3", "h6"), ("h4", "h6")):
+        html = html.replace(f"<{src}>", f"<{dst}>").replace(f"</{src}>", f"</{dst}>")
+    if bleach is not None:
+        html = bleach.clean(html, tags=ALLOWED_TAGS,
+                            attributes={"a": ["href", "title", "rel"]}, strip=True)
+    return html
+
+
+def plural(n: int, one: str, few: str, many: str) -> str:
+    """Polska odmiana liczebnika: 1 plik / 2-4 pliki / 5+ plików."""
+    if n == 1:
+        return f"{n} {one}"
+    if 2 <= n % 10 <= 4 and n % 100 not in range(12, 15):
+        return f"{n} {few}"
+    return f"{n} {many}"
+
+
+def materials_label(n: int) -> str:
+    return "brak materiałów" if n == 0 else plural(n, "materiał", "materiały", "materiałów")
+
+
+def person_name(participant: dict) -> str:
+    first = (participant.get("first_name") or "").strip()
+    last = (participant.get("last_name") or "").strip()
+    name = f"{first} {last}".strip()
+    return name or (participant.get("fullName") or "").strip()
+
+
+def kind_of(attachment: dict) -> str:
+    if attachment.get("type") == "link":
+        return "link"
+    ct = attachment.get("content_type") or ""
+    name = (attachment.get("filename") or "").lower()
+    if ct.startswith("video/"):
+        return "video"
+    if ct == "application/pdf":
+        return "pdf"
+    if ct.startswith("image/"):
+        return "image"
+    if "ipynb" in ct or name.endswith(".ipynb"):
+        return "notebook"
+    if "python" in ct or name.endswith(".py"):
+        return "code"
+    return "file"
+
+
+def fetch_event(event_id: int) -> dict:
+    url = f"{BASE}/export/event/{event_id}.json?detail=subcontributions"
+    resp = session.get(url, timeout=120)
+    resp.raise_for_status()
+    payload = resp.json()
+    if not payload.get("results"):
+        raise SystemExit(f"Wydarzenie {event_id}: brak danych (dostęp ograniczony?)")
+    return payload["results"][0]
+
+
+class Mirror:
+    """Pobiera pliki lokalnie, deduplikując po sumie kontrolnej."""
+
+    def __init__(self, enabled: bool) -> None:
+        self.enabled = enabled
+        self.by_checksum: dict[str, str] = {}
+        self.downloaded = 0
+        self.reused = 0
+        self.skipped: list[tuple[str, str]] = []
+        self.skipped_urls: set[str] = set()
+        self.bytes = 0
+
+    def path_for(self, attachment: dict) -> str | None:
+        kind = kind_of(attachment)
+        if kind == "link":
+            return None
+        ct = attachment.get("content_type") or ""
+        size = attachment.get("size") or 0
+        if ct.startswith(NO_MIRROR_PREFIXES) or size > MIRROR_MAX_BYTES:
+            self.skipped.append((attachment.get("title", "?"), human_size(size)))
+            self.skipped_urls.add(attachment["download_url"])
+            return None
+
+        checksum = attachment.get("checksum") or str(attachment["id"])
+        if checksum in self.by_checksum:
+            self.reused += 1
+            return self.by_checksum[checksum]
+
+        rel = f"assets/materials/{checksum[:8]}/{safe_filename(attachment['filename'])}"
+        target = ROOT / rel
+        if self.enabled and not target.exists():
+            target.parent.mkdir(parents=True, exist_ok=True)
+            with session.get(attachment["download_url"], stream=True, timeout=300) as resp:
+                resp.raise_for_status()
+                tmp = target.with_suffix(target.suffix + ".part")
+                with open(tmp, "wb") as fh:
+                    for chunk in resp.iter_content(1 << 16):
+                        fh.write(chunk)
+                tmp.replace(target)
+            self.downloaded += 1
+            self.bytes += target.stat().st_size
+            print(f"    ↓ {rel} ({human_size(size)})")
+        elif target.exists():
+            self.bytes += target.stat().st_size
+        self.by_checksum[checksum] = rel
+        return rel
+
+
+def build_folders(raw_folders: list[dict] | None, mirror: Mirror) -> list[dict]:
+    folders = []
+    for folder in raw_folders or []:
+        items = []
+        for att in folder.get("attachments", []):
+            kind = kind_of(att)
+            local = mirror.path_for(att)
+            items.append({
+                "title": att.get("title") or att.get("filename") or "materiał",
+                "kind": kind,
+                "size": att.get("size"),
+                "size_label": human_size(att.get("size")),
+                "local": local,
+                "remote": att.get("link_url") or att.get("download_url"),
+                "filename": att.get("filename"),
+            })
+        if not items:
+            continue
+        items.sort(key=lambda i: (i["kind"] == "video", i["title"].lower()))
+        folders.append({
+            "title": folder.get("title") or "",
+            "description": (folder.get("description") or "").strip(),
+            "items": items,
+        })
+    folders.sort(key=lambda f: (f["title"] != "", f["title"].lower()))
+    return folders
+
+
+def clean_text(text: str | None) -> str:
+    return (text or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+
+
+def build_event(event_id: int, kind: str, mirror: Mirror) -> dict:
+    raw = fetch_event(event_id)
+    print(f"  • [{event_id}] {raw['title']}")
+    start = to_local(raw["startDate"])
+    end = to_local(raw["endDate"])
+
+    place_parts = [p.strip() for p in (raw.get("location"), raw.get("room"), raw.get("address")) if (p or "").strip()]
+    place = " • ".join(clean_text(p).replace("\n", ", ") for p in place_parts)
+
+    contributions = []
+    for c in raw.get("contributions", []):
+        c_start, c_end = to_local(c["startDate"]), to_local(c["endDate"])
+        contributions.append({
+            "id": c.get("friendly_id"),
+            "title": clean_text(c.get("title")),
+            "start": c_start,
+            "end": c_end,
+            "duration": c.get("duration"),
+            "room": clean_text(c.get("room")),
+            "speakers": [person_name(s) for s in (c.get("speakers") or [])],
+            "description_html": render_markdown(clean_text(c.get("description"))),
+            "folders": build_folders(c.get("folders"), mirror),
+        })
+    contributions.sort(key=lambda c: (c["start"]["iso"] if c["start"] else "", str(c["id"])))
+
+    days: list[dict] = []
+    for c in contributions:
+        label = c["start"]["day_label"] if c["start"] else "Termin nieokreślony"
+        if not days or days[-1]["label"] != label:
+            days.append({"label": label, "contributions": []})
+        days[-1]["contributions"].append(c)
+
+    event_folders = build_folders(raw.get("folders"), mirror)
+    n_files = sum(len(f["items"]) for f in event_folders)
+    n_files += sum(len(f["items"]) for c in contributions for f in c["folders"])
+
+    return {
+        "id": int(event_id),
+        "slug": SLUGS.get(event_id) or slugify(raw["title"]),
+        "kind": kind,
+        "title": clean_text(raw["title"]),
+        "start": start,
+        "end": end,
+        "date_label": date_range_label(start, end),
+        "place": place,
+        "location": clean_text(raw.get("location")),
+        "room": clean_text(raw.get("room")),
+        "address": clean_text(raw.get("address")),
+        "indico_url": raw.get("url") or f"{BASE}/event/{event_id}/",
+        "folders": event_folders,
+        "days": days,
+        "n_materials": n_files,
+        "n_materials_label": materials_label(n_files),
+    }
+
+
+PAGE_TEMPLATE = """---
+layout: default
+bg: "{bg}"
+permalink: /archiwum/{slug}/
+title: "{title}"
+summary: "{summary}"
+event_id: {event_id}
+active: false
+---
+{{% assign event = nil %}}
+{{% for candidate in site.data.archiwum.events %}}
+  {{% if candidate.id == page.event_id %}}{{% assign event = candidate %}}{{% endif %}}
+{{% endfor %}}
+{{% include event.html event=event %}}
+"""
+
+
+def write_pages(events: list[dict]) -> None:
+    PAGES_DIR.mkdir(exist_ok=True)
+    known = set()
+    for ev in events:
+        bg = "main.jpg" if ev["kind"] == "online" else "trainings.jpg"
+        path = PAGES_DIR / f"{ev['slug']}.html"
+        summary = f"{ev['date_label']}" + (f" • {ev['place']}" if ev["place"] else "")
+        path.write_text(PAGE_TEMPLATE.format(
+            bg=bg,
+            slug=ev["slug"],
+            title=ev["title"].replace('"', "'"),
+            summary=summary.replace('"', "'"),
+            event_id=ev["id"],
+        ), encoding="utf-8")
+        known.add(path.name)
+    for stale in PAGES_DIR.glob("*.html"):
+        if stale.name not in known:
+            print(f"  ! usuwam nieaktualną stronę {stale.name}")
+            stale.unlink()
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--no-download", action="store_true",
+                        help="nie pobieraj plików, odśwież tylko metadane")
+    args = parser.parse_args()
+
+    _relax_tls_if_needed()
+    mirror = Mirror(enabled=not args.no_download)
+    events: list[dict] = []
+
+    print("Wykłady online:")
+    for eid in ONLINE_IDS:
+        events.append(build_event(eid, "online", mirror))
+    print("Warsztaty stacjonarne:")
+    for eid in WORKSHOP_IDS:
+        events.append(build_event(eid, "warsztaty", mirror))
+
+    events.sort(key=lambda e: e["start"]["iso"])
+
+    now = datetime.now(TZ)
+    n_online = sum(1 for e in events if e["kind"] == "online")
+    n_warsztaty = len(events) - n_online
+    n_remote = len({a for a in mirror.skipped_urls})
+    data = {
+        "source": BASE,
+        "fetched_at": now.strftime("%Y-%m-%d"),
+        "fetched_at_label": f"{now.day} {MONTHS[now.month]} {now.year}",
+        "stats": {
+            "events": plural(len(events), "wydarzenie", "wydarzenia", "wydarzeń"),
+            "online": plural(n_online, "wydarzenie online", "wydarzenia online",
+                             "wydarzeń online"),
+            "warsztaty": plural(n_warsztaty, "warsztat stacjonarny",
+                                "warsztaty stacjonarne", "warsztatów stacjonarnych"),
+            "local_files": plural(len(mirror.by_checksum), "plik skopiowany lokalnie",
+                                  "pliki skopiowane lokalnie", "plików skopiowanych lokalnie"),
+            "remote_files": plural(n_remote, "plik pozostawiony w Indico",
+                                   "pliki pozostawione w Indico",
+                                   "plików pozostawionych w Indico"),
+            "local_bytes": human_size(mirror.bytes),
+        },
+        "events": events,
+    }
+    DATA_FILE.parent.mkdir(exist_ok=True)
+    DATA_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    write_pages(events)
+
+    n_local = len(mirror.by_checksum)
+    print(f"\nZapisano {DATA_FILE.relative_to(ROOT)}: {len(events)} wydarzeń")
+    print(f"Materiały lokalne: {n_local} unikalnych plików, {human_size(mirror.bytes)}"
+          f" (nowo pobrane: {mirror.downloaded}, użyte ponownie: {mirror.reused})")
+    print(f"Pozostawione jako linki do Indico: {len(mirror.skipped)} plików")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

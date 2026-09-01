@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/wyzarzanie-chorzow/
+title: "Warsztaty stacjonarne 'Kwantowe wyżarzanie kombinatorycznych problemów optymalizacyjnych' - Chorzów"
+summary: "4-5 października 2025"
+event_id: 19
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

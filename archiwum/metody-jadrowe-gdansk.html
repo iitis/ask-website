@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/metody-jadrowe-gdansk/
+title: "Warsztaty stacjonarne 'Kwantowe uczenie maszynowe i kwantowe metody jądrowe' - Gdańsk"
+summary: "14-15 marca 2026 • Instytut Informatyki WMFiI UG • 1.18 • ul. Wita Stwosza 57, Gdańsk"
+event_id: 24
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

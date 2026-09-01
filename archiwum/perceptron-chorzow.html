@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/perceptron-chorzow/
+title: "Warsztaty stacjonarne 'Kwantowy perceptron' - Chorzów"
+summary: "24-25 maja 2025 • ul. 75 Pułku Piechoty 1, 41-500 Chorzów"
+event_id: 14
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

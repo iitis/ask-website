@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/perceptron-poznan/
+title: "Warsztaty stacjonarne 'Kwantowy perceptron' - Poznań"
+summary: "20-21 września 2025 • Collegium Mathematicum • D1 • Ul. Uniwersytetu Poznańskiego 4, 61-614 Poznań, Wejście jest od strony lasu, tzw. wejście A."
+event_id: 15
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}

@@ -1,0 +1,14 @@
+---
+layout: default
+bg: "trainings.jpg"
+permalink: /archiwum/wyzarzanie-poznan/
+title: "Warsztaty stacjonarne 'Kwantowe wyżarzanie kombinatorycznych problemów optymalizacyjnych' - Poznań"
+summary: "17-18 stycznia 2026 • Collegium Mathematicum • 16/17 i A1-22/23. • Ul. Uniwersytetu Poznańskiego 4, 61-614 Poznań, Wejście jest od strony lasu, tzw. wejście A."
+event_id: 20
+active: false
+---
+{% assign event = nil %}
+{% for candidate in site.data.archiwum.events %}
+  {% if candidate.id == page.event_id %}{% assign event = candidate %}{% endif %}
+{% endfor %}
+{% include event.html event=event %}
