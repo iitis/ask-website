@@ -379,6 +379,11 @@ def cmd_links(args: argparse.Namespace) -> int:
         "record_url": f"{base}/records/{args.record}",
         "doi": record.get("doi"),
         "source_label": "Zenodo",
+        # Zenodo to archiwum, nie CDN: serwuje pliki jako application/octet-stream
+        # z Content-Disposition: attachment, bez faststart i z ~1,4 MB/s.
+        # Odtwarzanie w <video> kończy się kręcącym się kółkiem, więc linkujemy
+        # do pobrania. Host z poprawnym video/mp4 może to ustawić na true.
+        "streamable": False,
         "files": mapping,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Zapisano {LINKS_FILE.relative_to(ROOT)}: {len(mapping)} nagrań")

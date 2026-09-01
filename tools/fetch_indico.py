@@ -475,6 +475,7 @@ def main() -> int:
             "record_url": VIDEO_LINKS.get("record_url") or "",
             "doi": VIDEO_LINKS.get("doi"),
             "moved": bool(VIDEO_LINKS["files"]),
+            "streamable": bool(VIDEO_LINKS.get("streamable")),
         },
         "stats": {
             "events": plural(len(events), "wydarzenie", "wydarzenia", "wydarzeń"),

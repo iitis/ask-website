@@ -6,7 +6,8 @@
   "label": "Zenodo",
   "record_url": "https://zenodo.org/records/22231106",
   "doi": "10.5281/zenodo.22231106",
-  "moved": true
+  "moved": true,
+  "streamable": false
  },
  "stats": {
   "events": "16 wydarzeń",

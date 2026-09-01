@@ -3,9 +3,12 @@ Renderuje jeden folder z materiałami (Indico "attachment folder").
 Pliki skopiowane lokalnie linkują do assets/materials/; nagrania i odnośniki
 zewnętrzne - do źródła, oznaczonego etykietą item.source.
 
-Nagrania dostają zwijany odtwarzacz. preload="none" sprawia, że przeglądarka
-nie tyka zewnętrznego serwera, dopóki ktoś nie wciśnie play - istotne, bo na
-stronie terminu I jest 34 nagrań.
+Nagrania dostają zwijany odtwarzacz tylko wtedy, gdy host je faktycznie
+strumieniuje (video_host.streamable). Zenodo tego nie robi: octet-stream,
+Content-Disposition: attachment, brak faststart i ~1,4 MB/s - odtwarzacz
+kręciłby kółkiem, więc tam zostaje sam link do pobrania.
+preload="none" sprawia, że przeglądarka nie tyka serwera do naciśnięcia play -
+istotne, bo na stronie terminu I jest 34 nagrań.
 {% endcomment %}
 {% assign folder = include.folder %}
 
@@ -21,7 +24,7 @@ stronie terminu I jest 34 nagrań.
     {% for item in folder.items %}
       <li class="ev-file ev-file--{{ item.kind }}">
 
-        {% if item.kind == 'video' %}
+        {% if item.kind == 'video' and site.data.archiwum.video_host.streamable %}
           <details class="ev-player">
             <summary>
               <span class="ev-player-title">{{ item.title }}</span>
@@ -51,6 +54,7 @@ stronie terminu I jest 34 nagrań.
           <span class="ev-file-tags">
             {% case item.kind %}
               {% when 'pdf' %}<span class="ev-tag">PDF</span>
+              {% when 'video' %}<span class="ev-tag">wideo</span>
               {% when 'notebook' %}<span class="ev-tag">notatnik</span>
               {% when 'code' %}<span class="ev-tag">kod</span>
               {% when 'image' %}<span class="ev-tag">obraz</span>
