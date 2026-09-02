@@ -13,9 +13,9 @@
   "events": "16 wydarzeń",
   "online": "4 wydarzenia online",
   "warsztaty": "12 warsztatów stacjonarnych",
-  "local_files": "52 pliki skopiowane lokalnie",
+  "local_files": "56 plików skopiowanych lokalnie",
   "remote_files": "102 pliki pozostawione w Indico",
-  "local_bytes": "130 MB"
+  "local_bytes": "155 MB"
  },
  "events": [
   {
@@ -3212,7 +3212,24 @@
         "Łukasz Pawela"
        ],
        "description_html": "<p>Przypomnienie zagadnień:<br>\n1. Kubity i stany kubitu: Omówienie podstawowych jednostek informacji kwantowej, ich reprezentacji i właściwości.<br>\n2. Splątanie kwantowe: Wyjaśnienie fenomenu splątania oraz jego znaczenia w obliczeniach kwantowych.<br>\n3. Bramkowy model obliczeń: Przedstawienie zasad działania komputerów kwantowych opartych na bramkach.<br>\n4. Obwody kwantowe: Budowa i analiza podstawowych obwodów kwantowych.<br>\n5. Perceptron: Przypomnienie klasycznego perceptronu oraz zasad jego działania i uczenia.<br>\n6. Python: Krótkie przypomnienie podstawowej składni języka Python, niezbędnej do implementacji obwodów kwantowych.</p>\n<p>Teoria:<br>\n1. Bramkowe komputery kwantowe: Szczegółowy opis budowy i zasad działania komputerów kwantowych opartych na bramkach.<br>\n2. Ograniczenia komputerów kwantowych: Omówienie problemów i ograniczeń związanych z obecnym stanem technologii kwantowej.<br>\n3. Źródła błędów w komputerach bramkowych: Analiza typowych źródeł błędów w obliczeniach kwantowych i ich wpływu na wyniki.<br>\n4. Kwantowy model perceptronu: Budowa, elementy składowe oraz przykładowe obwody kwantowego perceptronu.</p>\n<p>Praktyka:<br>\n1. Uzyskanie dostępu do IBMQ: Proces rejestracji i uzyskania dostępu do platformy IBMQ.<br>\n2. Podstawy biblioteki qiskit: Wprowadzenie do biblioteki Qiskit, narzędzia do programowania komputerów kwantowych.<br>\n3. Podstawowe operacje w portalu IBMQ: Nauka monitorowania i zarządzania obliczeniami kwantowymi za pomocą portalu IBMQ.<br>\n4. Symulatory architektur komputerów bramkowych: Implementacja pierwszego programu na symulatorze kwantowym.<br>\n5. Symulatory lokalne vs chmurowe: Porównanie lokalnych i chmurowych symulatorów kwantowych.<br>\n6.Implementacja programu uruchamianego na komputerze bramkowym: Praktyczna realizacja przygotowania stanu splątanego.</p>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowy-perceptron-materialy.zip",
+           "kind": "file",
+           "size": 4396971,
+           "size_label": "4.2 MB",
+           "local": "assets/materials/90b48090/kwantowy-perceptron-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/13/contributions/31/attachments/66/301/kwantowy-perceptron-materialy.zip",
+           "source": "",
+           "filename": "kwantowy-perceptron-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -3240,13 +3257,30 @@
         "Łukasz Pawela"
        ],
        "description_html": "<p>Praktyka:<br>\n1. Implementacja składowych perceptronu: Tworzenie i testowanie podstawowych elementów kwantowego perceptronu.<br>\n2. Obserwacje działania modelu dla losowo dobranych wag: Analiza wyników działania perceptronu z losowo wybranymi wagami.<br>\n3. Implementacja algorytmu uczenia kwantowego perceptronu: Kodowanie i testowanie algorytmu uczącego perceptronu.<br>\n4. Uczenie modelu, weryfikacja wyników: Proces uczenia modelu perceptronu i ocena jego skuteczności.</p>\n<p>Zagadnienia dodatkowe:<br>\n1. Model bramkowy vs wyżarzanie kwantowe: Porównanie dwóch podejść do obliczeń kwantowych: modelu bramkowego i wyżarzania kwantowego.<br>\n2. Algorytm QAOA: Przegląd algorytmu Quantum Approximate Optimization Algorithm (QAOA) i jego zastosowań.<br>\n3. Dostęp do innych maszyn.</p>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowy-perceptron-materialy.zip",
+           "kind": "file",
+           "size": 4396971,
+           "size_label": "4.2 MB",
+           "local": "assets/materials/90b48090/kwantowy-perceptron-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/13/contributions/32/attachments/67/302/kwantowy-perceptron-materialy.zip",
+           "source": "",
+           "filename": "kwantowy-perceptron-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 5,
-   "n_materials_label": "5 materiałów"
+   "n_materials": 7,
+   "n_materials_label": "7 materiałów"
   },
   {
    "id": 14,
@@ -3356,7 +3390,24 @@
         "Łukasz Pawela"
        ],
        "description_html": "<p>Przypomnienie zagadnień:<br>\n1. Kubity i stany kubitu: Omówienie podstawowych jednostek informacji kwantowej, ich reprezentacji i właściwości.<br>\n2. Splątanie kwantowe: Wyjaśnienie fenomenu splątania oraz jego znaczenia w obliczeniach kwantowych.<br>\n3. Bramkowy model obliczeń: Przedstawienie zasad działania komputerów kwantowych opartych na bramkach.<br>\n4. Obwody kwantowe: Budowa i analiza podstawowych obwodów kwantowych.<br>\n5. Perceptron: Przypomnienie klasycznego perceptronu oraz zasad jego działania i uczenia.<br>\n6. Python: Krótkie przypomnienie podstawowej składni języka Python, niezbędnej do implementacji obwodów kwantowych.</p>\n<p>Teoria:<br>\n1. Bramkowe komputery kwantowe: Szczegółowy opis budowy i zasad działania komputerów kwantowych opartych na bramkach.<br>\n2. Ograniczenia komputerów kwantowych: Omówienie problemów i ograniczeń związanych z obecnym stanem technologii kwantowej.<br>\n3. Źródła błędów w komputerach bramkowych: Analiza typowych źródeł błędów w obliczeniach kwantowych i ich wpływu na wyniki.<br>\n4. Kwantowy model perceptronu: Budowa, elementy składowe oraz przykładowe obwody kwantowego perceptronu.</p>\n<p>Praktyka:<br>\n1. Uzyskanie dostępu do IBMQ: Proces rejestracji i uzyskania dostępu do platformy IBMQ.<br>\n2. Podstawy biblioteki qiskit: Wprowadzenie do biblioteki Qiskit, narzędzia do programowania komputerów kwantowych.<br>\n3. Podstawowe operacje w portalu IBMQ: Nauka monitorowania i zarządzania obliczeniami kwantowymi za pomocą portalu IBMQ.<br>\n4. Symulatory architektur komputerów bramkowych: Implementacja pierwszego programu na symulatorze kwantowym.<br>\n5. Symulatory lokalne vs chmurowe: Porównanie lokalnych i chmurowych symulatorów kwantowych.<br>\n6.Implementacja programu uruchamianego na komputerze bramkowym: Praktyczna realizacja przygotowania stanu splątanego.</p>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowy-perceptron-materialy.zip",
+           "kind": "file",
+           "size": 4396971,
+           "size_label": "4.2 MB",
+           "local": "assets/materials/90b48090/kwantowy-perceptron-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/14/contributions/34/attachments/68/303/kwantowy-perceptron-materialy.zip",
+           "source": "",
+           "filename": "kwantowy-perceptron-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -3384,13 +3435,30 @@
         "Łukasz Pawela"
        ],
        "description_html": "<p>Praktyka:<br>\n1. Implementacja składowych perceptronu: Tworzenie i testowanie podstawowych elementów kwantowego perceptronu.<br>\n2. Obserwacje działania modelu dla losowo dobranych wag: Analiza wyników działania perceptronu z losowo wybranymi wagami.<br>\n3. Implementacja algorytmu uczenia kwantowego perceptronu: Kodowanie i testowanie algorytmu uczącego perceptronu.<br>\n4. Uczenie modelu, weryfikacja wyników: Proces uczenia modelu perceptronu i ocena jego skuteczności.</p>\n<p>Zagadnienia dodatkowe:<br>\n1. Model bramkowy vs wyżarzanie kwantowe: Porównanie dwóch podejść do obliczeń kwantowych: modelu bramkowego i wyżarzania kwantowego.<br>\n2. Algorytm QAOA: Przegląd algorytmu Quantum Approximate Optimization Algorithm (QAOA) i jego zastosowań.</p>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowy-perceptron-materialy.zip",
+           "kind": "file",
+           "size": 4396971,
+           "size_label": "4.2 MB",
+           "local": "assets/materials/90b48090/kwantowy-perceptron-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/14/contributions/33/attachments/69/304/kwantowy-perceptron-materialy.zip",
+           "source": "",
+           "filename": "kwantowy-perceptron-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 5,
-   "n_materials_label": "5 materiałów"
+   "n_materials": 7,
+   "n_materials_label": "7 materiałów"
   },
   {
    "id": 16,
@@ -3550,7 +3618,24 @@
         "Przemysław Głomb"
        ],
        "description_html": "<h5>Dzień 1: Wprowadzenie, podstawy i elementy klasycznego uczenia maszynowego</h5>\n<h6>Analiza danych i data mining</h6>\n<ul>\n<li><strong>Analiza przykładowych problemów</strong>: Przejście praktycznych studiów przypadku związanych z analizą danych (w tym zastosowanie zbioru danych obrazowych do detekcji śladów krwi). Celem jest zrozumienie, jak w realnych scenariuszach wykorzystywać techniki data mining.  </li>\n<li><strong>Narzędzia analizy danych</strong>: Omówienie wybranych narzędzi analitycznych, w tym metod redukcji wymiarowości, grupowania oraz wykrywania anomalii jako podstawowych zestawu narzędzi analizy zbiorów danych. Ćwiczenia praktyczne.</li>\n</ul>\n<h6>Klasyfikatory</h6>\n<ul>\n<li><strong>Optymalizacja hiperparametrów, miary wydajności</strong>: kompleksowy przegląd procesu projektowania klasyfikatora „od A do Z”. Zrozumienie, kiedy model można uznać za skuteczny oraz jakie błędy i ryzyka mogą wystąpić.  </li>\n<li><strong>Klasyfikator SVM i metody kernelowe</strong>: omówienie metod opartych na funkcjach jądra (ang. kernels) – struktura, teoria oraz praktyczne wykorzystanie w różnych zadaniach klasyfikacyjnych.  </li>\n<li><strong>Analiza wyników i weryfikacja działania</strong>: interpretacja wyników działania klasyfikatora oraz sposoby oceny poprawności i wiarygodności modelu w praktyce.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "kind": "file",
+           "size": 12500029,
+           "size_label": "12 MB",
+           "local": "assets/materials/cd68db35/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/16/contributions/38/attachments/72/307/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "source": "",
+           "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -3578,13 +3663,30 @@
         "Przemysław Głomb"
        ],
        "description_html": "<h5>Dzień 2: Od perceptronu do głębokich sieci neuronowych</h5>\n<h6>Perceptron i sieci MLP</h6>\n<ul>\n<li><strong>Perceptron</strong>: wyjaśnienie podstaw sieci neuronowych oraz sposobu, w jaki reprezentują i odwzorowują zbiór treningowy.  </li>\n<li><strong>Klasyfikator MLP</strong>: omówienie zasad działania, przygotowania oraz optymalizacji wielowarstwowych sieci perceptronowych (MLP). Ćwiczenia praktyczne zorientowane na skuteczne zbudowanie i wytrenowanie sieci MLP.</li>\n<li><strong>Sieci neuronowe – aspekty praktyczne</strong>: przegląd algorytmów optymalizacji, zasad przygotowania danych i innych kluczowych zagadnień związanych z implementacją sieci neuronowych.  </li>\n<li><strong>Praca w środowiskach sklearn i PyTorch</strong>: ćwiczenia obejmujące konfigurację, trening oraz porównanie możliwości dwóch popularnych środowisk do realizacji systemów uczenia maszynowego.</li>\n</ul>\n<h6>Modele głębokiego uczenia</h6>\n<ul>\n<li><strong>Sieci konwolucyjne</strong>: omówienie architektury, zasady działania oraz obszarów zastosowania. Analiza wybranych pretrenowanych sieci konwolucyjnych, z uwzględnieniem ćwiczeń praktycznych w zakresie wykorzystania i ewaluacji.  </li>\n<li><strong>Duże modele językowe (LLM)</strong>: przedstawienie architektury i sposobów zastosowania dużych modeli językowych w różnych zadaniach. Analiza działania i praktyczne wskazówki dotyczące wdrożeń oraz dalszego rozwijania własnych projektów wykorzystujących LLM.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "kind": "file",
+           "size": 12500029,
+           "size_label": "12 MB",
+           "local": "assets/materials/cd68db35/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/16/contributions/37/attachments/73/308/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "source": "",
+           "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 10,
-   "n_materials_label": "10 materiałów"
+   "n_materials": 12,
+   "n_materials_label": "12 materiałów"
   },
   {
    "id": 17,
@@ -3744,7 +3846,24 @@
         "Przemysław Głomb"
        ],
        "description_html": "<h5>Dzień 1: Wprowadzenie, podstawy i elementy klasycznego uczenia maszynowego</h5>\n<h6>Analiza danych i data mining</h6>\n<ul>\n<li><strong>Analiza przykładowych problemów</strong>: Przejście praktycznych studiów przypadku związanych z analizą danych (w tym zastosowanie zbioru danych obrazowych do detekcji śladów krwi). Celem jest zrozumienie, jak w realnych scenariuszach wykorzystywać techniki data mining.  </li>\n<li><strong>Narzędzia analizy danych</strong>: Omówienie wybranych narzędzi analitycznych, w tym metod redukcji wymiarowości, grupowania oraz wykrywania anomalii jako podstawowych zestawu narzędzi analizy zbiorów danych. Ćwiczenia praktyczne.</li>\n</ul>\n<h6>Klasyfikatory</h6>\n<ul>\n<li><strong>Optymalizacja hiperparametrów, miary wydajności</strong>: kompleksowy przegląd procesu projektowania klasyfikatora „od A do Z”. Zrozumienie, kiedy model można uznać za skuteczny oraz jakie błędy i ryzyka mogą wystąpić.  </li>\n<li><strong>Klasyfikator SVM i metody kernelowe</strong>: omówienie metod opartych na funkcjach jądra (ang. kernels) – struktura, teoria oraz praktyczne wykorzystanie w różnych zadaniach klasyfikacyjnych.  </li>\n<li><strong>Analiza wyników i weryfikacja działania</strong>: interpretacja wyników działania klasyfikatora oraz sposoby oceny poprawności i wiarygodności modelu w praktyce.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "kind": "file",
+           "size": 12500029,
+           "size_label": "12 MB",
+           "local": "assets/materials/cd68db35/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/17/contributions/39/attachments/74/309/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "source": "",
+           "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -3772,13 +3891,30 @@
         "Przemysław Głomb"
        ],
        "description_html": "<h5>Dzień 2: Od perceptronu do głębokich sieci neuronowych</h5>\n<h6>Perceptron i sieci MLP</h6>\n<ul>\n<li><strong>Perceptron</strong>: wyjaśnienie podstaw sieci neuronowych oraz sposobu, w jaki reprezentują i odwzorowują zbiór treningowy.  </li>\n<li><strong>Klasyfikator MLP</strong>: omówienie zasad działania, przygotowania oraz optymalizacji wielowarstwowych sieci perceptronowych (MLP). Ćwiczenia praktyczne zorientowane na skuteczne zbudowanie i wytrenowanie sieci MLP.</li>\n<li><strong>Sieci neuronowe – aspekty praktyczne</strong>: przegląd algorytmów optymalizacji, zasad przygotowania danych i innych kluczowych zagadnień związanych z implementacją sieci neuronowych.  </li>\n<li><strong>Praca w środowiskach sklearn i PyTorch</strong>: ćwiczenia obejmujące konfigurację, trening oraz porównanie możliwości dwóch popularnych środowisk do realizacji systemów uczenia maszynowego.</li>\n</ul>\n<h6>Modele głębokiego uczenia</h6>\n<ul>\n<li><strong>Sieci konwolucyjne</strong>: omówienie architektury, zasady działania oraz obszarów zastosowania. Analiza wybranych pretrenowanych sieci konwolucyjnych, z uwzględnieniem ćwiczeń praktycznych w zakresie wykorzystania i ewaluacji.  </li>\n<li><strong>Duże modele językowe (LLM)</strong>: przedstawienie architektury i sposobów zastosowania dużych modeli językowych w różnych zadaniach. Analiza działania i praktyczne wskazówki dotyczące wdrożeń oraz dalszego rozwijania własnych projektów wykorzystujących LLM.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "kind": "file",
+           "size": 12500029,
+           "size_label": "12 MB",
+           "local": "assets/materials/cd68db35/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/17/contributions/40/attachments/75/310/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "source": "",
+           "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 10,
-   "n_materials_label": "10 materiałów"
+   "n_materials": 12,
+   "n_materials_label": "12 materiałów"
   },
   {
    "id": 15,
@@ -3888,7 +4024,24 @@
         "Łukasz Pawela"
        ],
        "description_html": "<p>Przypomnienie zagadnień:<br>\n1. Kubity i stany kubitu: Omówienie podstawowych jednostek informacji kwantowej, ich reprezentacji i właściwości.<br>\n2. Splątanie kwantowe: Wyjaśnienie fenomenu splątania oraz jego znaczenia w obliczeniach kwantowych.<br>\n3. Bramkowy model obliczeń: Przedstawienie zasad działania komputerów kwantowych opartych na bramkach.<br>\n4. Obwody kwantowe: Budowa i analiza podstawowych obwodów kwantowych.<br>\n5. Perceptron: Przypomnienie klasycznego perceptronu oraz zasad jego działania i uczenia.<br>\n6. Python: Krótkie przypomnienie podstawowej składni języka Python, niezbędnej do implementacji obwodów kwantowych.</p>\n<p>Teoria:<br>\n1. Bramkowe komputery kwantowe: Szczegółowy opis budowy i zasad działania komputerów kwantowych opartych na bramkach.<br>\n2. Ograniczenia komputerów kwantowych: Omówienie problemów i ograniczeń związanych z obecnym stanem technologii kwantowej.<br>\n3. Źródła błędów w komputerach bramkowych: Analiza typowych źródeł błędów w obliczeniach kwantowych i ich wpływu na wyniki.<br>\n4. Kwantowy model perceptronu: Budowa, elementy składowe oraz przykładowe obwody kwantowego perceptronu.</p>\n<p>Praktyka:<br>\n1. Uzyskanie dostępu do IBMQ: Proces rejestracji i uzyskania dostępu do platformy IBMQ.<br>\n2. Podstawy biblioteki qiskit: Wprowadzenie do biblioteki Qiskit, narzędzia do programowania komputerów kwantowych.<br>\n3. Podstawowe operacje w portalu IBMQ: Nauka monitorowania i zarządzania obliczeniami kwantowymi za pomocą portalu IBMQ.<br>\n4. Symulatory architektur komputerów bramkowych: Implementacja pierwszego programu na symulatorze kwantowym.<br>\n5. Symulatory lokalne vs chmurowe: Porównanie lokalnych i chmurowych symulatorów kwantowych.<br>\n6.Implementacja programu uruchamianego na komputerze bramkowym: Praktyczna realizacja przygotowania stanu splątanego.</p>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowy-perceptron-materialy.zip",
+           "kind": "file",
+           "size": 4396971,
+           "size_label": "4.2 MB",
+           "local": "assets/materials/90b48090/kwantowy-perceptron-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/15/contributions/36/attachments/70/305/kwantowy-perceptron-materialy.zip",
+           "source": "",
+           "filename": "kwantowy-perceptron-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -3916,13 +4069,30 @@
         "Łukasz Pawela"
        ],
        "description_html": "<p>Praktyka:<br>\n1. Implementacja składowych perceptronu: Tworzenie i testowanie podstawowych elementów kwantowego perceptronu.<br>\n2. Obserwacje działania modelu dla losowo dobranych wag: Analiza wyników działania perceptronu z losowo wybranymi wagami.<br>\n3. Implementacja algorytmu uczenia kwantowego perceptronu: Kodowanie i testowanie algorytmu uczącego perceptronu.<br>\n4. Uczenie modelu, weryfikacja wyników: Proces uczenia modelu perceptronu i ocena jego skuteczności.</p>\n<p>Zagadnienia dodatkowe:<br>\n1. Model bramkowy vs wyżarzanie kwantowe: Porównanie dwóch podejść do obliczeń kwantowych: modelu bramkowego i wyżarzania kwantowego.<br>\n2. Algorytm QAOA: Przegląd algorytmu Quantum Approximate Optimization Algorithm (QAOA) i jego zastosowań.</p>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowy-perceptron-materialy.zip",
+           "kind": "file",
+           "size": 4396971,
+           "size_label": "4.2 MB",
+           "local": "assets/materials/90b48090/kwantowy-perceptron-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/15/contributions/35/attachments/71/306/kwantowy-perceptron-materialy.zip",
+           "source": "",
+           "filename": "kwantowy-perceptron-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 5,
-   "n_materials_label": "5 materiałów"
+   "n_materials": 7,
+   "n_materials_label": "7 materiałów"
   },
   {
    "id": 18,
@@ -4082,7 +4252,24 @@
         "Przemysław Głomb"
        ],
        "description_html": "<h5>Dzień 1: Wprowadzenie, podstawy i elementy klasycznego uczenia maszynowego</h5>\n<h6>Analiza danych i data mining</h6>\n<ul>\n<li><strong>Analiza przykładowych problemów</strong>: Przejście praktycznych studiów przypadku związanych z analizą danych (w tym zastosowanie zbioru danych obrazowych do detekcji śladów krwi). Celem jest zrozumienie, jak w realnych scenariuszach wykorzystywać techniki data mining.  </li>\n<li><strong>Narzędzia analizy danych</strong>: Omówienie wybranych narzędzi analitycznych, w tym metod redukcji wymiarowości, grupowania oraz wykrywania anomalii jako podstawowych zestawu narzędzi analizy zbiorów danych. Ćwiczenia praktyczne.</li>\n</ul>\n<h6>Klasyfikatory</h6>\n<ul>\n<li><strong>Optymalizacja hiperparametrów, miary wydajności</strong>: kompleksowy przegląd procesu projektowania klasyfikatora „od A do Z”. Zrozumienie, kiedy model można uznać za skuteczny oraz jakie błędy i ryzyka mogą wystąpić.  </li>\n<li><strong>Klasyfikator SVM i metody kernelowe</strong>: omówienie metod opartych na funkcjach jądra (ang. kernels) – struktura, teoria oraz praktyczne wykorzystanie w różnych zadaniach klasyfikacyjnych.  </li>\n<li><strong>Analiza wyników i weryfikacja działania</strong>: interpretacja wyników działania klasyfikatora oraz sposoby oceny poprawności i wiarygodności modelu w praktyce.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "kind": "file",
+           "size": 12500029,
+           "size_label": "12 MB",
+           "local": "assets/materials/cd68db35/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/18/contributions/41/attachments/76/311/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "source": "",
+           "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -4110,13 +4297,30 @@
         "Przemysław Głomb"
        ],
        "description_html": "<h5>Dzień 2: Od perceptronu do głębokich sieci neuronowych</h5>\n<h6>Perceptron i sieci MLP</h6>\n<ul>\n<li><strong>Perceptron</strong>: wyjaśnienie podstaw sieci neuronowych oraz sposobu, w jaki reprezentują i odwzorowują zbiór treningowy.  </li>\n<li><strong>Klasyfikator MLP</strong>: omówienie zasad działania, przygotowania oraz optymalizacji wielowarstwowych sieci perceptronowych (MLP). Ćwiczenia praktyczne zorientowane na skuteczne zbudowanie i wytrenowanie sieci MLP.</li>\n<li><strong>Sieci neuronowe – aspekty praktyczne</strong>: przegląd algorytmów optymalizacji, zasad przygotowania danych i innych kluczowych zagadnień związanych z implementacją sieci neuronowych.  </li>\n<li><strong>Praca w środowiskach sklearn i PyTorch</strong>: ćwiczenia obejmujące konfigurację, trening oraz porównanie możliwości dwóch popularnych środowisk do realizacji systemów uczenia maszynowego.</li>\n</ul>\n<h6>Modele głębokiego uczenia</h6>\n<ul>\n<li><strong>Sieci konwolucyjne</strong>: omówienie architektury, zasady działania oraz obszarów zastosowania. Analiza wybranych pretrenowanych sieci konwolucyjnych, z uwzględnieniem ćwiczeń praktycznych w zakresie wykorzystania i ewaluacji.  </li>\n<li><strong>Duże modele językowe (LLM)</strong>: przedstawienie architektury i sposobów zastosowania dużych modeli językowych w różnych zadaniach. Analiza działania i praktyczne wskazówki dotyczące wdrożeń oraz dalszego rozwijania własnych projektów wykorzystujących LLM.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "kind": "file",
+           "size": 12500029,
+           "size_label": "12 MB",
+           "local": "assets/materials/cd68db35/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/18/contributions/42/attachments/77/312/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
+           "source": "",
+           "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 10,
-   "n_materials_label": "10 materiałów"
+   "n_materials": 12,
+   "n_materials_label": "12 materiałów"
   },
   {
    "id": 19,
@@ -4207,7 +4411,24 @@
         "Tomasz Śmierzchalski"
        ],
        "description_html": "<ul>\n<li>Klasyczny model Isinga: kodowanie / zmienne, znaczenie, stany nisko-energetyczne.</li>\n<li>Interpretacja fizyczna modelu Isinga: znaczenie odziaływań i pól magnetycznych.</li>\n<li>Model QUBO: znaczenie, przykłady, równoważność z modelem Isinga.</li>\n<li>Kodowanie dyskretnych problemów optymalizacyjnych za pomocą QUBO / Isinga.</li>\n<li>Algorytm wyczerpującego przeszukiwania (Brute-Force): certyfikacja, ograniczenia.</li>\n<li>Analiza złożoności problemu poszukiwania stanu podstawowego: trudności i wyzwania.</li>\n<li>Podejście heurystycznie: przegląd klasycznych algorytmów inspirowanych fizycznie.</li>\n<li>Kwantowanie modelu Isinga: kwantowy model Isinga z poprzecznym polem.</li>\n<li>Związek pomiędzy klasycznym a kwantowym modelem Isinga: problem własny a sortowanie.</li>\n<li>Twierdzenie adiabatyczne w mechanice kwantowej oraz kwantowe wyżarzanie.</li>\n<li>Kwantowy procesor wyżarzający D-Wave: opis, dostępne topologie, osadzanie problemów.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowe-wyzarzanie-materialy.zip",
+           "kind": "file",
+           "size": 9541937,
+           "size_label": "9.1 MB",
+           "local": "assets/materials/a04a4d33/kwantowe-wyzarzanie-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/19/contributions/43/attachments/78/313/kwantowe-wyzarzanie-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-wyzarzanie-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -4236,13 +4457,30 @@
         "Tomasz Śmierzchalski"
        ],
        "description_html": "<ul>\n<li>Rozwiązywanie modelu Isinga z wykorzystaniem kwantowego wyżarzania.</li>\n<li>Praktyczne wykorzystanie biblioteki D-Wave Ocean.</li>\n<li>Implementacja algorytmu wyczerpującego przeszukiwania.</li>\n<li>Implementacja algorytmu typu \"Branch &amp; Bound\". </li>\n<li>Implementacja algorytmu symulowanej bifurkacji.</li>\n<li>Implementacja algorytmu symulowanego wyżarzania.</li>\n<li>Implementacja algorytmu równoległego wyżarzania.</li>\n<li>Wykorzystanie procesorów graficznych (GPU) w algorytmach heurystycznych.</li>\n<li>Analiza porównawcza algorytmów dla wybranych instancji problemów Isinga.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowe-wyzarzanie-materialy.zip",
+           "kind": "file",
+           "size": 9541937,
+           "size_label": "9.1 MB",
+           "local": "assets/materials/a04a4d33/kwantowe-wyzarzanie-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/19/contributions/44/attachments/79/314/kwantowe-wyzarzanie-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-wyzarzanie-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 3,
-   "n_materials_label": "3 materiały"
+   "n_materials": 5,
+   "n_materials_label": "5 materiałów"
   },
   {
    "id": 22,
@@ -4427,13 +4665,30 @@
         "Piotr Gawron"
        ],
        "description_html": "<h5>Dzień 2 – Metody jądrowe i projekt</h5>\n<h6>Blok 5 (1,5 h) – Kwantowe metody jądrowe</h6>\n<ul>\n<li>Kwantowe kernele, intuicja geometryczna  </li>\n<li>Ćwiczenie: klasyfikator SVM z kwantowym kernelem  </li>\n</ul>\n<h6>Blok 6 (1,5 h) – Szum i ograniczenia praktyczne</h6>\n<ul>\n<li>Szum i dekoherencja, mitigacja błędów  </li>\n<li>Demo: obwód na backendzie dostawcy komputera kwantowego + porównanie z symulatorem  </li>\n</ul>\n<h6>Blok 7 (1,5 h) – Mini-projekt</h6>\n<ul>\n<li>Zadanie: prosty klasyfikator (QNN lub kernel) na własnym zbiorze danych  </li>\n<li>Praca w grupach  </li>\n</ul>\n<h6>Blok 8 (1,5 h) – Prezentacje i podsumowanie</h6>\n<ul>\n<li>Prezentacje mini-projektów  </li>\n<li>Dyskusja: mocne i słabe strony QML  </li>\n<li>Podsumowanie szkolenia, Q&amp;A</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowe-uczenie-maszynowe-materialy.zip",
+           "kind": "file",
+           "size": 12160,
+           "size_label": "12 kB",
+           "local": "assets/materials/8901e66a/kwantowe-uczenie-maszynowe-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/22/contributions/50/attachments/84/319/kwantowe-uczenie-maszynowe-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-uczenie-maszynowe-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 9,
-   "n_materials_label": "9 materiałów"
+   "n_materials": 10,
+   "n_materials_label": "10 materiałów"
   },
   {
    "id": 23,
@@ -4634,6 +4889,16 @@
            "filename": null
           },
           {
+           "title": "kwantowe-uczenie-maszynowe-materialy.zip",
+           "kind": "file",
+           "size": 12160,
+           "size_label": "12 kB",
+           "local": "assets/materials/8901e66a/kwantowe-uczenie-maszynowe-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/23/contributions/51/attachments/60/320/kwantowe-uczenie-maszynowe-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-uczenie-maszynowe-materialy.zip"
+          },
+          {
            "title": "Training and evaluating quantum kernels",
            "kind": "link",
            "size": null,
@@ -4650,8 +4915,8 @@
      ]
     }
    ],
-   "n_materials": 11,
-   "n_materials_label": "11 materiałów"
+   "n_materials": 12,
+   "n_materials_label": "12 materiałów"
   },
   {
    "id": 20,
@@ -4742,7 +5007,24 @@
         "Tomasz Śmierzchalski"
        ],
        "description_html": "<ul>\n<li>Klasyczny model Isinga: kodowanie / zmienne, znaczenie, stany nisko-energetyczne.</li>\n<li>Interpretacja fizyczna modelu Isinga: znaczenie odziaływań i pól magnetycznych.</li>\n<li>Model QUBO: znaczenie, przykłady, równoważność z modelem Isinga. </li>\n<li>Kodowanie dyskretnych problemów optymalizacyjnych za pomocą QUBO / Isinga.</li>\n<li>Algorytm wyczerpującego przeszukiwania (Brute-Force): certyfikacja, ograniczenia.</li>\n<li>Analiza złożoności problemu poszukiwania stanu podstawowego: trudności i wyzwania.</li>\n<li>Podejście heurystycznie: przegląd klasycznych algorytmów inspirowanych fizycznie.</li>\n<li>Kwantowanie modelu Isinga: kwantowy model Isinga z poprzecznym polem.</li>\n<li>Związek pomiędzy klasycznym a kwantowym modelem Isinga: problem własny a sortowanie.</li>\n<li>Twierdzenie adiabatyczne w mechanice kwantowej oraz kwantowe wyżarzanie.</li>\n<li>Kwantowy procesor wyżarzający D-Wave: opis, dostępne topologie, osadzanie problemów.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowe-wyzarzanie-materialy.zip",
+           "kind": "file",
+           "size": 9541937,
+           "size_label": "9.1 MB",
+           "local": "assets/materials/a04a4d33/kwantowe-wyzarzanie-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/20/contributions/45/attachments/80/315/kwantowe-wyzarzanie-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-wyzarzanie-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -4771,13 +5053,30 @@
         "Tomasz Śmierzchalski"
        ],
        "description_html": "<ul>\n<li>Rozwiązywanie modelu Isinga z wykorzystaniem kwantowego wyżarzania.</li>\n<li>Praktyczne wykorzystanie biblioteki D-Wave Ocean.</li>\n<li>Implementacja algorytmu wyczerpującego przeszukiwania.</li>\n<li>Implementacja algorytmu typu \"Branch &amp; Bound\". </li>\n<li>Implementacja algorytmu symulowanej bifurkacji.</li>\n<li>Implementacja algorytmu symulowanego wyżarzania.</li>\n<li>Implementacja algorytmu równoległego wyżarzania.</li>\n<li>Wykorzystanie procesorów graficznych (GPU) w algorytmach heurystycznych.</li>\n<li>Analiza porównawcza algorytmów dla wybranych instancji problemów Isinga.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowe-wyzarzanie-materialy.zip",
+           "kind": "file",
+           "size": 9541937,
+           "size_label": "9.1 MB",
+           "local": "assets/materials/a04a4d33/kwantowe-wyzarzanie-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/20/contributions/46/attachments/81/316/kwantowe-wyzarzanie-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-wyzarzanie-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 3,
-   "n_materials_label": "3 materiały"
+   "n_materials": 5,
+   "n_materials_label": "5 materiałów"
   },
   {
    "id": 24,
@@ -5004,6 +5303,16 @@
            "filename": null
           },
           {
+           "title": "kwantowe-uczenie-maszynowe-materialy.zip",
+           "kind": "file",
+           "size": 12160,
+           "size_label": "12 kB",
+           "local": "assets/materials/8901e66a/kwantowe-uczenie-maszynowe-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/24/contributions/53/attachments/63/321/kwantowe-uczenie-maszynowe-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-uczenie-maszynowe-materialy.zip"
+          },
+          {
            "title": "SVM",
            "kind": "link",
            "size": null,
@@ -5030,8 +5339,8 @@
      ]
     }
    ],
-   "n_materials": 14,
-   "n_materials_label": "14 materiałów"
+   "n_materials": 15,
+   "n_materials_label": "15 materiałów"
   },
   {
    "id": 21,
@@ -5122,7 +5431,24 @@
         "Tomasz Śmierzchalski"
        ],
        "description_html": "<ul>\n<li>Klasyczny model Isinga: kodowanie / zmienne, znaczenie, stany nisko-energetyczne.</li>\n<li>Interpretacja fizyczna modelu Isinga: znaczenie odziaływań i pól magnetycznych.</li>\n<li>Model QUBO: znaczenie, przykłady, równoważność z modelem Isinga.</li>\n<li>Kodowanie dyskretnych problemów optymalizacyjnych za pomocą QUBO / Isinga.</li>\n<li>Algorytm wyczerpującego przeszukiwania (Brute-Force): certyfikacja, ograniczenia.</li>\n<li>Analiza złożoności problemu poszukiwania stanu podstawowego: trudności i wyzwania.</li>\n<li>Podejście heurystycznie: przegląd klasycznych algorytmów inspirowanych fizycznie.</li>\n<li>Kwantowanie modelu Isinga: kwantowy model Isinga z poprzecznym polem.</li>\n<li>Związek pomiędzy klasycznym a kwantowym modelem Isinga: problem własny a sortowanie.</li>\n<li>Twierdzenie adiabatyczne w mechanice kwantowej oraz kwantowe wyżarzanie.</li>\n<li>Kwantowy procesor wyżarzający D-Wave: opis, dostępne topologie, osadzanie problemów.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowe-wyzarzanie-materialy.zip",
+           "kind": "file",
+           "size": 9541937,
+           "size_label": "9.1 MB",
+           "local": "assets/materials/a04a4d33/kwantowe-wyzarzanie-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/21/contributions/47/attachments/82/317/kwantowe-wyzarzanie-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-wyzarzanie-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -5151,13 +5477,30 @@
         "Tomasz Śmierzchalski"
        ],
        "description_html": "<ul>\n<li>Rozwiązywanie modelu Isinga z wykorzystaniem kwantowego wyżarzania.</li>\n<li>Praktyczne wykorzystanie biblioteki D-Wave Ocean.</li>\n<li>Implementacja algorytmu wyczerpującego przeszukiwania.</li>\n<li>Implementacja algorytmu typu \"Branch &amp; Bound\". </li>\n<li>Implementacja algorytmu symulowanej bifurkacji.</li>\n<li>Implementacja algorytmu symulowanego wyżarzania.</li>\n<li>Implementacja algorytmu równoległego wyżarzania.</li>\n<li>Wykorzystanie procesorów graficznych (GPU) w algorytmach heurystycznych.</li>\n<li>Analiza porównawcza algorytmów dla wybranych instancji problemów Isinga.</li>\n</ul>",
-       "folders": []
+       "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "kwantowe-wyzarzanie-materialy.zip",
+           "kind": "file",
+           "size": 9541937,
+           "size_label": "9.1 MB",
+           "local": "assets/materials/a04a4d33/kwantowe-wyzarzanie-materialy.zip",
+           "remote": "https://akademia.iitis.pl/event/21/contributions/48/attachments/83/318/kwantowe-wyzarzanie-materialy.zip",
+           "source": "",
+           "filename": "kwantowe-wyzarzanie-materialy.zip"
+          }
+         ]
+        }
+       ]
       }
      ]
     }
    ],
-   "n_materials": 3,
-   "n_materials_label": "3 materiały"
+   "n_materials": 5,
+   "n_materials_label": "5 materiałów"
   },
   {
    "id": 27,
