@@ -10,18 +10,17 @@
     "",
     "\"strona_materialow\" + \"strona_bloku\" składają się na adres odnośnika",
     "dołączanego do każdego wydarzenia. Wskazuje on katalog bloku w repozytorium.",
-    "Po włączeniu GitHub Pages można go zmienić na",
-    "https://iitis.github.io/AkademiaSztukiKwantowej wraz ze ścieżkami",
-    "/strona/blok-0N.html, żeby prowadził do spisu z podglądem notatników."
+    "Odnośnik prowadzi do spisu materiałów bloku na stronie GitHub Pages,",
+    "gdzie notatniki można przeczytać w przeglądarce bez instalowania Pythona."
   ],
   "katalog_zrodlowy": "../AkademiaSztukiKwantowej/materialy",
   "repozytorium": "https://github.com/iitis/AkademiaSztukiKwantowej",
-  "strona_materialow": "https://github.com/iitis/AkademiaSztukiKwantowej/tree/master/materialy",
+  "strona_materialow": "https://iitis.github.io/AkademiaSztukiKwantowej",
   "zestawy": {
     "perceptron": {
       "tytul": "Materiały warsztatów",
       "opis": "",
-      "strona_bloku": "/03-kwantowy-perceptron",
+      "strona_bloku": "/strona/blok-03.html",
       "pliki": [
         "03-kwantowy-perceptron/wyklady/01-kwantowy-perceptron-komplet-materialow.pdf",
         "03-kwantowy-perceptron/wyklady/02-slajdy-pomocnicze.pdf",
@@ -41,7 +40,7 @@
     "uczenie-maszynowe": {
       "tytul": "Materiały warsztatów",
       "opis": "",
-      "strona_bloku": "/02-uczenie-maszynowe",
+      "strona_bloku": "/strona/blok-02.html",
       "pliki": [
         "02-uczenie-maszynowe/wyklady/*.pdf"
       ],
@@ -58,7 +57,7 @@
     "wyzarzanie": {
       "tytul": "Materiały warsztatów",
       "opis": "",
-      "strona_bloku": "/04-kwantowe-wyzarzanie",
+      "strona_bloku": "/strona/blok-04.html",
       "pliki": [
         "04-kwantowe-wyzarzanie/wyklady/01-kwantowe-wyzarzanie-komplet-materialow.pdf"
       ],
@@ -76,7 +75,7 @@
     "metody-jadrowe": {
       "tytul": "Materiały warsztatów — uzupełnienie",
       "opis": "Slajdy wykładowe i ćwiczenia bloku — uzupełnienie materiałów dołączonych do wydarzenia.",
-      "strona_bloku": "/05-kwantowe-uczenie-maszynowe",
+      "strona_bloku": "/strona/blok-05.html",
       "pliki": [
         "05-kwantowe-uczenie-maszynowe/wyklady/01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf",
         "05-kwantowe-uczenie-maszynowe/wyklady/02-kwantowe-uczenie-maszynowe-slajdy.pdf"
@@ -128,5 +127,5 @@
     "01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf": "Kwantowe uczenie maszynowe — komplet materiałów szkolenia (114 stron)",
     "02-kwantowe-uczenie-maszynowe-slajdy.pdf": "Kwantowe uczenie maszynowe i metody jądrowe — slajdy wykładowe (111 stron)"
   },
-  "tytul_odnosnika": "Wszystkie materiały bloku w repozytorium projektu"
+  "tytul_odnosnika": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce"
 }
