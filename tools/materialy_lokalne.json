@@ -1,0 +1,125 @@
+{
+  "_opis": [
+    "Materiały dokładane do wydarzeń z repozytorium projektu.",
+    "Część warsztatów stacjonarnych nie ma w Indico żadnych załączników;",
+    "dopóki nie zostaną tam dodane, archiwum publikuje kopię wprost",
+    "z repozytorium materiałów. Po uzupełnieniu Indico wystarczy usunąć",
+    "odpowiedni wpis z sekcji \"wydarzenia\" (albo cały ten plik).",
+    "Ścieżki w \"pliki\" i \"wzorce\" są względne wobec \"katalog_zrodlowy\";",
+    "obsługiwane są wzorce glob (** oznacza dowolne zagnieżdżenie)."
+  ],
+  "katalog_zrodlowy": "../AkademiaSztukiKwantowej/materialy",
+  "repozytorium": "https://github.com/iitis/AkademiaSztukiKwantowej",
+  "strona_materialow": "https://iitis.github.io/AkademiaSztukiKwantowej",
+  "zestawy": {
+    "perceptron": {
+      "tytul": "Materiały warsztatów",
+      "opis": "",
+      "strona_bloku": "/strona/blok-03.html",
+      "pliki": [
+        "03-kwantowy-perceptron/wyklady/01-kwantowy-perceptron-komplet-materialow.pdf",
+        "03-kwantowy-perceptron/wyklady/02-slajdy-pomocnicze.pdf",
+        "03-kwantowy-perceptron/materialy-zrodlowe/1811.02266-artykul-quantum-perceptron.pdf"
+      ],
+      "paczka": {
+        "nazwa": "kwantowy-perceptron-cwiczenia.zip",
+        "tytul": "Notatniki z ćwiczeniami i program zajęć (archiwum ZIP)",
+        "wzorce": [
+          "03-kwantowy-perceptron/README.md",
+          "03-kwantowy-perceptron/warsztaty/**",
+          "03-kwantowy-perceptron/plan/**"
+        ],
+        "limit_pliku_mb": 8
+      }
+    },
+    "uczenie-maszynowe": {
+      "tytul": "Materiały warsztatów",
+      "opis": "",
+      "strona_bloku": "/strona/blok-02.html",
+      "pliki": [
+        "02-uczenie-maszynowe/wyklady/*.pdf"
+      ],
+      "paczka": {
+        "nazwa": "dwa-dni-z-uczeniem-maszynowym-cwiczenia.zip",
+        "tytul": "Notatniki z ćwiczeniami i dane (archiwum ZIP)",
+        "wzorce": [
+          "02-uczenie-maszynowe/README.md",
+          "02-uczenie-maszynowe/warsztaty/**"
+        ],
+        "limit_pliku_mb": 2
+      }
+    },
+    "wyzarzanie": {
+      "tytul": "Materiały warsztatów",
+      "opis": "",
+      "strona_bloku": "/strona/blok-04.html",
+      "pliki": [
+        "04-kwantowe-wyzarzanie/wyklady/01-kwantowe-wyzarzanie-komplet-materialow.pdf"
+      ],
+      "paczka": {
+        "nazwa": "kwantowe-wyzarzanie-cwiczenia.zip",
+        "tytul": "Notatniki z ćwiczeniami, moduły pomocnicze i instancje testowe (archiwum ZIP)",
+        "wzorce": [
+          "04-kwantowe-wyzarzanie/README.md",
+          "04-kwantowe-wyzarzanie/warsztaty/**",
+          "04-kwantowe-wyzarzanie/plan/**"
+        ],
+        "limit_pliku_mb": 2
+      }
+    },
+    "metody-jadrowe": {
+      "tytul": "Materiały warsztatów — uzupełnienie",
+      "opis": "Slajdy wykładowe i ćwiczenia bloku — uzupełnienie materiałów dołączonych do wydarzenia.",
+      "strona_bloku": "/strona/blok-05.html",
+      "pliki": [
+        "05-kwantowe-uczenie-maszynowe/wyklady/01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf",
+        "05-kwantowe-uczenie-maszynowe/wyklady/02-kwantowe-uczenie-maszynowe-slajdy.pdf"
+      ],
+      "paczka": {
+        "nazwa": "kwantowe-uczenie-maszynowe-cwiczenia.zip",
+        "tytul": "Notatniki z ćwiczeniami i przykłady w Pythonie (archiwum ZIP)",
+        "wzorce": [
+          "05-kwantowe-uczenie-maszynowe/README.md",
+          "05-kwantowe-uczenie-maszynowe/warsztaty/**",
+          "05-kwantowe-uczenie-maszynowe/kod/**",
+          "05-kwantowe-uczenie-maszynowe/plan/**"
+        ]
+      }
+    }
+  },
+  "wydarzenia": {
+    "13": "perceptron",
+    "14": "perceptron",
+    "15": "perceptron",
+    "16": "uczenie-maszynowe",
+    "17": "uczenie-maszynowe",
+    "18": "uczenie-maszynowe",
+    "19": "wyzarzanie",
+    "20": "wyzarzanie",
+    "21": "wyzarzanie",
+    "22": "metody-jadrowe",
+    "23": "metody-jadrowe",
+    "24": "metody-jadrowe"
+  },
+  "pomijane_wzorce": [
+    "**/.ipynb_checkpoints/**",
+    "**/__pycache__/**"
+  ],
+  "limit_pliku_mb": 60,
+  "tytuly": {
+    "01-kwantowy-perceptron-komplet-materialow.pdf": "Kwantowy perceptron — komplet materiałów szkolenia (136 stron)",
+    "02-slajdy-pomocnicze.pdf": "Slajdy pomocnicze do ćwiczeń",
+    "1811.02266-artykul-quantum-perceptron.pdf": "F. Tacchino i in., „An Artificial Neuron Implemented on an Actual Quantum Processor” — artykuł źródłowy",
+    "01-perceptron.pdf": "Perceptron — wykład",
+    "02-sieci-mlp.pdf": "Sieci wielowarstwowe (MLP) — wykład",
+    "03-sieci-mlp-analiza.pdf": "Sieci MLP — analiza działania",
+    "04-kowariancja-i-metody-statystyczne.pdf": "Kowariancja i metody statystyczne",
+    "05-statystyczne-metody-uczenia-maszynowego.pdf": "Statystyczne metody uczenia maszynowego — redukcja wymiarowości i klasyfikacja",
+    "06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf": "Komplet slajdów całego szkolenia (484 strony)",
+    "07-podsumowanie-bloku-uczenia-maszynowego.pdf": "Wykład podsumowujący blok",
+    "08-wyklad-wprowadzajacy-plan.pdf": "Wykład wprowadzający — plan i zakres",
+    "01-kwantowe-wyzarzanie-komplet-materialow.pdf": "Kwantowe wyżarzanie — komplet materiałów szkolenia (136 stron)",
+    "01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf": "Kwantowe uczenie maszynowe — komplet materiałów szkolenia (114 stron)",
+    "02-kwantowe-uczenie-maszynowe-slajdy.pdf": "Kwantowe uczenie maszynowe i metody jądrowe — slajdy wykładowe (111 stron)"
+  }
+}

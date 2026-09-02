@@ -22,11 +22,15 @@ Użycie:
 from __future__ import annotations
 
 import argparse
+import fnmatch
+import hashlib
 import json
 import os
 import re
+import shutil
 import sys
 import unicodedata
+import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -74,6 +78,9 @@ MIRROR_MAX_BYTES = 60 * 1024 * 1024
 
 MATERIALS_DIR = ROOT / "assets" / "materials"
 DATA_FILE = ROOT / "_data" / "archiwum.json"
+# Materiały dokładane z repozytorium projektu do wydarzeń, które nie mają
+# załączników w Indico (patrz klasa Uzupelnienia).
+SUPPLEMENT_FILE = ROOT / "tools" / "materialy_lokalne.json"
 # Mapowanie MD5 -> URL dla nagrań przeniesionych poza Indico (patrz zenodo.py).
 VIDEO_LINKS_FILE = ROOT / "_data" / "video_urls.json"
 PAGES_DIR = ROOT / "archiwum"
@@ -249,6 +256,17 @@ def kind_of(attachment: dict) -> str:
     return "file"
 
 
+def kind_of_name(name: str) -> str:
+    """Odpowiednik kind_of() dla plików, które nie przyszły z Indico."""
+    name = name.lower()
+    for suffix, kind in ((".pdf", "pdf"), (".ipynb", "notebook"), (".py", "code"),
+                         (".qasm", "code"), (".zip", "file"), (".md", "file"),
+                         (".png", "image"), (".jpg", "image"), (".svg", "image")):
+        if name.endswith(suffix):
+            return kind
+    return "file"
+
+
 def fetch_event(event_id: int) -> dict:
     url = f"{BASE}/export/event/{event_id}.json?detail=subcontributions"
     resp = session.get(url, timeout=120)
@@ -307,6 +325,224 @@ class Mirror:
         return rel
 
 
+class Uzupelnienia:
+    """Dokłada do wydarzeń materiały z repozytorium projektu.
+
+    Część warsztatów stacjonarnych nie ma w Indico żadnych załączników —
+    w takim wypadku archiwum publikowałoby stronę z programem i podpisem
+    „brak materiałów”. Dopóki załączniki nie zostaną dodane w Indico,
+    kopiujemy tu odpowiadające im pliki wprost z repozytorium materiałów
+    (slajdy PDF) oraz pakujemy notatniki z ćwiczeniami w jedno archiwum ZIP.
+
+    Konfiguracja: tools/materialy_lokalne.json. Po uzupełnieniu Indico
+    wystarczy usunąć z niej wpis danego wydarzenia — kopia zniknie ze strony
+    przy najbliższym odświeżeniu.
+    """
+
+    def __init__(self, enabled: bool, plik: Path = SUPPLEMENT_FILE) -> None:
+        self.enabled = enabled and plik.exists()
+        self.by_digest: dict[str, str] = {}
+        self.dodane: dict[int, int] = {}
+        self.bytes = 0
+        self.brakujace: list[str] = []
+        if not self.enabled:
+            self.config: dict = {}
+            self.zrodlo = None
+            return
+        self.config = json.loads(plik.read_text(encoding="utf-8"))
+        self.zrodlo = (ROOT / self.config["katalog_zrodlowy"]).resolve()
+        self.limit = int(self.config.get("limit_pliku_mb", 60)) * 1024 * 1024
+        self.pomijane = self.config.get("pomijane_wzorce", [])
+        self.tytuly = self.config.get("tytuly", {})
+        if not self.zrodlo.is_dir():
+            print(f"Uwaga: brak katalogu z materiałami ({self.zrodlo}) — "
+                  f"pomijam uzupełnienia z repozytorium.")
+            self.enabled = False
+
+    # -- pomocnicze ------------------------------------------------------- #
+
+    def _pomijany(self, sciezka: Path) -> bool:
+        rel = sciezka.relative_to(self.zrodlo).as_posix()
+        return any(fnmatch.fnmatch(rel, wzorzec) for wzorzec in self.pomijane)
+
+    def _rozwin(self, wzorce: list[str]) -> list[Path]:
+        """Zamienia listę ścieżek i wzorców glob na posortowaną listę plików."""
+        znalezione: list[Path] = []
+        for wzorzec in wzorce:
+            trafienia = sorted(self.zrodlo.glob(wzorzec))
+            if not trafienia:
+                self.brakujace.append(wzorzec)
+            for sciezka in trafienia:
+                if sciezka.is_dir():
+                    znalezione.extend(sorted(q for q in sciezka.rglob("*") if q.is_file()))
+                elif sciezka.is_file():
+                    znalezione.append(sciezka)
+        wynik, widziane = [], set()
+        for sciezka in znalezione:
+            if sciezka in widziane or self._pomijany(sciezka):
+                continue
+            widziane.add(sciezka)
+            wynik.append(sciezka)
+        return wynik
+
+    @staticmethod
+    def _md5(sciezka: Path) -> str:
+        suma = hashlib.md5()
+        with open(sciezka, "rb") as fh:
+            for chunk in iter(lambda: fh.read(1 << 20), b""):
+                suma.update(chunk)
+        return suma.hexdigest()
+
+    def _opublikuj(self, sciezka: Path, digest: str, nazwa: str) -> str:
+        """Kopiuje plik do assets/materials/, deduplikując po sumie MD5."""
+        if digest in self.by_digest:
+            return self.by_digest[digest]
+        rel = f"assets/materials/{digest[:8]}/{safe_filename(nazwa)}"
+        target = ROOT / rel
+        if not target.exists():
+            target.parent.mkdir(parents=True, exist_ok=True)
+            tmp = target.with_suffix(target.suffix + ".part")
+            shutil.copyfile(sciezka, tmp)
+            tmp.replace(target)
+            print(f"    + {rel} ({human_size(target.stat().st_size)})")
+        self.bytes += target.stat().st_size
+        self.by_digest[digest] = rel
+        return rel
+
+    def _pozycja_pliku(self, sciezka: Path) -> dict | None:
+        rozmiar = sciezka.stat().st_size
+        if rozmiar > self.limit:
+            print(f"    ! pomijam {sciezka.name} ({human_size(rozmiar)} > limit)")
+            return None
+        rel = self._opublikuj(sciezka, self._md5(sciezka), sciezka.name)
+        return {
+            "title": self.tytuly.get(sciezka.name, sciezka.name),
+            "kind": kind_of_name(sciezka.name),
+            "size": rozmiar,
+            "size_label": human_size(rozmiar),
+            "local": rel,
+            "remote": "",
+            "source": "",
+            "filename": sciezka.name,
+        }
+
+    def _pozycja_paczki(self, paczka: dict) -> dict | None:
+        """Buduje archiwum ZIP z wzorców; zip jest deterministyczny (stałe
+        znaczniki czasu), więc ta sama zawartość daje tę samą sumę MD5
+        i nie tworzy nowego katalogu w assets/materials/ przy każdym odświeżeniu.
+
+        Duże zbiory danych pomijamy (limit_pliku_mb), żeby archiwum dało się
+        pobrać jednym kliknięciem; w środku zostaje spis pominiętych plików
+        wraz z adresem repozytorium, z którego można je wziąć."""
+        pliki = self._rozwin(paczka["wzorce"])
+        if not pliki:
+            return None
+        limit_wpisu = int(paczka.get("limit_pliku_mb", 0)) * 1024 * 1024
+        pominiete: list[Path] = []
+        if limit_wpisu:
+            pliki, pominiete = ([q for q in pliki if q.stat().st_size <= limit_wpisu],
+                                [q for q in pliki if q.stat().st_size > limit_wpisu])
+
+        bufor = ROOT / ".cache" / paczka["nazwa"]
+        bufor.parent.mkdir(exist_ok=True)
+        with zipfile.ZipFile(bufor, "w", zipfile.ZIP_DEFLATED) as archiwum:
+            for sciezka in pliki:
+                info = zipfile.ZipInfo(sciezka.relative_to(self.zrodlo).as_posix(),
+                                       date_time=(1980, 1, 1, 0, 0, 0))
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info.external_attr = 0o644 << 16
+                archiwum.writestr(info, sciezka.read_bytes())
+            if pominiete:
+                info = zipfile.ZipInfo("DANE-POBIERANE-OSOBNO.txt",
+                                       date_time=(1980, 1, 1, 0, 0, 0))
+                info.external_attr = 0o644 << 16
+                archiwum.writestr(info, self._nota_o_danych(pominiete))
+
+        rozmiar = bufor.stat().st_size
+        if rozmiar > self.limit:
+            print(f"    ! pomijam archiwum {paczka['nazwa']} "
+                  f"({human_size(rozmiar)} > limit {human_size(self.limit)})")
+            bufor.unlink()
+            return None
+        rel = self._opublikuj(bufor, self._md5(bufor), paczka["nazwa"])
+        bufor.unlink()
+        return {
+            "title": paczka.get("tytul") or paczka["nazwa"],
+            "kind": "file",
+            "size": rozmiar,
+            "size_label": human_size(rozmiar),
+            "local": rel,
+            "remote": "",
+            "source": "",
+            "filename": paczka["nazwa"],
+            "n_plikow": len(pliki),
+            "n_pominietych": len(pominiete),
+        }
+
+    def _nota_o_danych(self, pominiete: list[Path]) -> str:
+        wiersze = [
+            "Duże pliki z danymi pominięto w tym archiwum, aby zachować",
+            "rozsądny rozmiar pobierania. Wszystkie znajdują się w repozytorium",
+            "materiałów projektu:",
+            "",
+            f"  {self.config['repozytorium']}",
+            "",
+            "Pominięte pliki:",
+            "",
+        ]
+        wiersze += [f"  {q.relative_to(self.zrodlo).as_posix()}  "
+                    f"({human_size(q.stat().st_size)})" for q in pominiete]
+        return "\n".join(wiersze) + "\n"
+
+    # -- interfejs -------------------------------------------------------- #
+
+    def folders_for(self, event_id: int) -> list[dict]:
+        if not self.enabled:
+            return []
+        nazwa = self.config.get("wydarzenia", {}).get(str(event_id))
+        if not nazwa:
+            return []
+        zestaw = self.config["zestawy"][nazwa]
+
+        items = [poz for sciezka in self._rozwin(zestaw.get("pliki", []))
+                 if (poz := self._pozycja_pliku(sciezka))]
+        if paczka := zestaw.get("paczka"):
+            if poz := self._pozycja_paczki(paczka):
+                items.append(poz)
+        if not items:
+            return []
+
+        strona = zestaw.get("strona_bloku")
+        if strona:
+            items.append({
+                "title": "Wszystkie materiały bloku wraz z podglądem notatników "
+                         "w przeglądarce",
+                "kind": "link",
+                "size": None,
+                "size_label": "",
+                "local": None,
+                "remote": self.config["strona_materialow"].rstrip("/") + strona,
+                "source": "strona materiałów",
+                "filename": None,
+            })
+
+        self.dodane[event_id] = len(items)
+        czesci = [zestaw.get("opis", "").strip(),
+                  f"Pliki skopiowane z repozytorium materiałów projektu "
+                  f"({self.config['repozytorium']})."]
+        return [{
+            "title": zestaw.get("tytul") or "Materiały warsztatów",
+            "description": " ".join(c for c in czesci if c),
+            "items": items,
+        }]
+
+    def podsumowanie(self) -> str:
+        if not self.enabled or not self.dodane:
+            return ""
+        return (f"Uzupełnienia z repozytorium: {len(self.dodane)} wydarzeń, "
+                f"{len(self.by_digest)} unikalnych plików, {human_size(self.bytes)}")
+
+
 def build_folders(raw_folders: list[dict] | None, mirror: Mirror) -> list[dict]:
     folders = []
     for folder in raw_folders or []:
@@ -349,7 +585,8 @@ def clean_text(text: str | None) -> str:
     return (text or "").replace("\r\n", "\n").replace("\r", "\n").strip()
 
 
-def build_event(event_id: int, kind: str, mirror: Mirror) -> dict:
+def build_event(event_id: int, kind: str, mirror: Mirror,
+                uzupelnienia: Uzupelnienia | None = None) -> dict:
     raw = fetch_event(event_id)
     print(f"  • [{event_id}] {raw['title']}")
     start = to_local(raw["startDate"])
@@ -382,6 +619,8 @@ def build_event(event_id: int, kind: str, mirror: Mirror) -> dict:
         days[-1]["contributions"].append(c)
 
     event_folders = build_folders(raw.get("folders"), mirror)
+    if uzupelnienia:
+        event_folders.extend(uzupelnienia.folders_for(event_id))
     n_files = sum(len(f["items"]) for f in event_folders)
     n_files += sum(len(f["items"]) for c in contributions for f in c["folders"])
 
@@ -443,22 +682,58 @@ def write_pages(events: list[dict]) -> None:
             stale.unlink()
 
 
+def usun_osierocone(events: list[dict]) -> None:
+    """Usuwa z assets/materials/ pliki, do których nic już nie linkuje.
+
+    Wywoływane tylko po pełnym odświeżeniu (bez --no-download i bez
+    --bez-uzupelnien), bo tylko wtedy zestaw odnośników jest kompletny."""
+    uzyte: set[str] = set()
+
+    def zbierz(folders: list[dict]) -> None:
+        for folder in folders:
+            for item in folder["items"]:
+                if item.get("local"):
+                    uzyte.add(item["local"])
+
+    for ev in events:
+        zbierz(ev["folders"])
+        for day in ev["days"]:
+            for c in day["contributions"]:
+                zbierz(c["folders"])
+
+    for plik in sorted(MATERIALS_DIR.rglob("*")):
+        if not plik.is_file():
+            continue
+        if plik.relative_to(ROOT).as_posix() in uzyte:
+            continue
+        print(f"  ! usuwam nieużywany plik {plik.relative_to(ROOT)} "
+              f"({human_size(plik.stat().st_size)})")
+        plik.unlink()
+    for katalog in sorted(MATERIALS_DIR.iterdir()):
+        if katalog.is_dir() and not any(katalog.iterdir()):
+            katalog.rmdir()
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-download", action="store_true",
                         help="nie pobieraj plików, odśwież tylko metadane")
+    parser.add_argument("--bez-uzupelnien", action="store_true",
+                        help="nie dokładaj materiałów z repozytorium projektu "
+                             "(patrz tools/materialy_lokalne.json)")
     args = parser.parse_args()
 
     _relax_tls_if_needed()
     mirror = Mirror(enabled=not args.no_download)
+    uzupelnienia = Uzupelnienia(enabled=not args.bez_uzupelnien)
     events: list[dict] = []
 
     print("Wykłady online:")
     for eid in ONLINE_IDS:
-        events.append(build_event(eid, "online", mirror))
+        events.append(build_event(eid, "online", mirror, uzupelnienia))
     print("Warsztaty stacjonarne:")
     for eid in WORKSHOP_IDS:
-        events.append(build_event(eid, "warsztaty", mirror))
+        events.append(build_event(eid, "warsztaty", mirror, uzupelnienia))
 
     events.sort(key=lambda e: e["start"]["iso"])
 
@@ -495,6 +770,8 @@ def main() -> int:
     DATA_FILE.parent.mkdir(exist_ok=True)
     DATA_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     write_pages(events)
+    if not args.no_download and not args.bez_uzupelnien:
+        usun_osierocone(events)
 
     n_local = len(mirror.by_checksum)
     print(f"\nZapisano {DATA_FILE.relative_to(ROOT)}: {len(events)} wydarzeń")
@@ -507,6 +784,11 @@ def main() -> int:
               f"rekord {VIDEO_LINKS.get('record_url')}")
     else:
         print(f"Pozostawione jako linki do Indico: {len(mirror.skipped)} plików")
+    if podsumowanie := uzupelnienia.podsumowanie():
+        print(podsumowanie)
+    if uzupelnienia.brakujace:
+        print("Uwaga: wzorce bez trafień w katalogu materiałów: "
+              + ", ".join(sorted(set(uzupelnienia.brakujace))))
     return 0
 
 

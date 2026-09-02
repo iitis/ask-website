@@ -1,7 +1,7 @@
 {
  "source": "https://akademia.iitis.pl",
- "fetched_at": "2026-09-01",
- "fetched_at_label": "1 września 2026",
+ "fetched_at": "2026-09-02",
+ "fetched_at_label": "2 września 2026",
  "video_host": {
   "label": "Zenodo",
   "record_url": "https://zenodo.org/records/22231106",
@@ -3127,7 +3127,66 @@
    "room": "C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej)",
    "address": "Grudziądzka 5, 87-100 Toruń",
    "indico_url": "https://akademia.iitis.pl/event/13/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowy perceptron — komplet materiałów szkolenia (136 stron)",
+       "kind": "pdf",
+       "size": 3955978,
+       "size_label": "3.8 MB",
+       "local": "assets/materials/ad12f1c8/01-kwantowy-perceptron-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowy-perceptron-komplet-materialow.pdf"
+      },
+      {
+       "title": "Slajdy pomocnicze do ćwiczeń",
+       "kind": "pdf",
+       "size": 1175640,
+       "size_label": "1.1 MB",
+       "local": "assets/materials/e055f6a4/02-slajdy-pomocnicze.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-slajdy-pomocnicze.pdf"
+      },
+      {
+       "title": "F. Tacchino i in., „An Artificial Neuron Implemented on an Actual Quantum Processor” — artykuł źródłowy",
+       "kind": "pdf",
+       "size": 4503272,
+       "size_label": "4.3 MB",
+       "local": "assets/materials/824f9c31/1811.02266-artykul-quantum-perceptron.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "1811.02266-artykul-quantum-perceptron.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i program zajęć (archiwum ZIP)",
+       "kind": "file",
+       "size": 3555320,
+       "size_label": "3.4 MB",
+       "local": "assets/materials/44afa1c6/kwantowy-perceptron-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowy-perceptron-cwiczenia.zip",
+       "n_plikow": 17,
+       "n_pominietych": 0
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-03.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "5 kwietnia 2025",
@@ -3186,8 +3245,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 5,
+   "n_materials_label": "5 materiałów"
   },
   {
    "id": 14,
@@ -3212,7 +3271,66 @@
    "room": "",
    "address": "ul. 75 Pułku Piechoty 1\n41-500 Chorzów",
    "indico_url": "https://akademia.iitis.pl/event/14/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowy perceptron — komplet materiałów szkolenia (136 stron)",
+       "kind": "pdf",
+       "size": 3955978,
+       "size_label": "3.8 MB",
+       "local": "assets/materials/ad12f1c8/01-kwantowy-perceptron-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowy-perceptron-komplet-materialow.pdf"
+      },
+      {
+       "title": "Slajdy pomocnicze do ćwiczeń",
+       "kind": "pdf",
+       "size": 1175640,
+       "size_label": "1.1 MB",
+       "local": "assets/materials/e055f6a4/02-slajdy-pomocnicze.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-slajdy-pomocnicze.pdf"
+      },
+      {
+       "title": "F. Tacchino i in., „An Artificial Neuron Implemented on an Actual Quantum Processor” — artykuł źródłowy",
+       "kind": "pdf",
+       "size": 4503272,
+       "size_label": "4.3 MB",
+       "local": "assets/materials/824f9c31/1811.02266-artykul-quantum-perceptron.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "1811.02266-artykul-quantum-perceptron.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i program zajęć (archiwum ZIP)",
+       "kind": "file",
+       "size": 3555320,
+       "size_label": "3.4 MB",
+       "local": "assets/materials/44afa1c6/kwantowy-perceptron-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowy-perceptron-cwiczenia.zip",
+       "n_plikow": 17,
+       "n_pominietych": 0
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-03.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "24 maja 2025",
@@ -3271,8 +3389,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 5,
+   "n_materials_label": "5 materiałów"
   },
   {
    "id": 16,
@@ -3297,7 +3415,116 @@
    "room": "C.1.04 (Pracownia komputerowa Centrum Optyki Kwantowej)",
    "address": "Grudziądzka 5, 87-100 Toruń",
    "indico_url": "https://akademia.iitis.pl/event/16/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Perceptron — wykład",
+       "kind": "pdf",
+       "size": 4071834,
+       "size_label": "3.9 MB",
+       "local": "assets/materials/3140633f/01-perceptron.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-perceptron.pdf"
+      },
+      {
+       "title": "Sieci wielowarstwowe (MLP) — wykład",
+       "kind": "pdf",
+       "size": 13104041,
+       "size_label": "12 MB",
+       "local": "assets/materials/a7b2b833/02-sieci-mlp.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-sieci-mlp.pdf"
+      },
+      {
+       "title": "Sieci MLP — analiza działania",
+       "kind": "pdf",
+       "size": 2843697,
+       "size_label": "2.7 MB",
+       "local": "assets/materials/e0230bb0/03-sieci-mlp-analiza.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "03-sieci-mlp-analiza.pdf"
+      },
+      {
+       "title": "Kowariancja i metody statystyczne",
+       "kind": "pdf",
+       "size": 2723804,
+       "size_label": "2.6 MB",
+       "local": "assets/materials/b954df0b/04-kowariancja-i-metody-statystyczne.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "04-kowariancja-i-metody-statystyczne.pdf"
+      },
+      {
+       "title": "Statystyczne metody uczenia maszynowego — redukcja wymiarowości i klasyfikacja",
+       "kind": "pdf",
+       "size": 4851111,
+       "size_label": "4.6 MB",
+       "local": "assets/materials/416e18d9/05-statystyczne-metody-uczenia-maszynowego.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "05-statystyczne-metody-uczenia-maszynowego.pdf"
+      },
+      {
+       "title": "Komplet slajdów całego szkolenia (484 strony)",
+       "kind": "pdf",
+       "size": 8365557,
+       "size_label": "8.0 MB",
+       "local": "assets/materials/666040f4/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf"
+      },
+      {
+       "title": "Wykład podsumowujący blok",
+       "kind": "pdf",
+       "size": 1825803,
+       "size_label": "1.7 MB",
+       "local": "assets/materials/3e6d68fe/07-podsumowanie-bloku-uczenia-maszynowego.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "07-podsumowanie-bloku-uczenia-maszynowego.pdf"
+      },
+      {
+       "title": "Wykład wprowadzający — plan i zakres",
+       "kind": "pdf",
+       "size": 34082,
+       "size_label": "33 kB",
+       "local": "assets/materials/05e9345a/08-wyklad-wprowadzajacy-plan.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "08-wyklad-wprowadzajacy-plan.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i dane (archiwum ZIP)",
+       "kind": "file",
+       "size": 10900935,
+       "size_label": "10 MB",
+       "local": "assets/materials/84a2e1e2/dwa-dni-z-uczeniem-maszynowym-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "dwa-dni-z-uczeniem-maszynowym-cwiczenia.zip",
+       "n_plikow": 189,
+       "n_pominietych": 12
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-02.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "31 maja 2025",
@@ -3356,8 +3583,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 10,
+   "n_materials_label": "10 materiałów"
   },
   {
    "id": 17,
@@ -3382,7 +3609,116 @@
    "room": "Sala 1.20 (parter)",
    "address": "Ul. Kawiory 21, 30-055 Kraków",
    "indico_url": "https://akademia.iitis.pl/event/17/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Perceptron — wykład",
+       "kind": "pdf",
+       "size": 4071834,
+       "size_label": "3.9 MB",
+       "local": "assets/materials/3140633f/01-perceptron.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-perceptron.pdf"
+      },
+      {
+       "title": "Sieci wielowarstwowe (MLP) — wykład",
+       "kind": "pdf",
+       "size": 13104041,
+       "size_label": "12 MB",
+       "local": "assets/materials/a7b2b833/02-sieci-mlp.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-sieci-mlp.pdf"
+      },
+      {
+       "title": "Sieci MLP — analiza działania",
+       "kind": "pdf",
+       "size": 2843697,
+       "size_label": "2.7 MB",
+       "local": "assets/materials/e0230bb0/03-sieci-mlp-analiza.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "03-sieci-mlp-analiza.pdf"
+      },
+      {
+       "title": "Kowariancja i metody statystyczne",
+       "kind": "pdf",
+       "size": 2723804,
+       "size_label": "2.6 MB",
+       "local": "assets/materials/b954df0b/04-kowariancja-i-metody-statystyczne.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "04-kowariancja-i-metody-statystyczne.pdf"
+      },
+      {
+       "title": "Statystyczne metody uczenia maszynowego — redukcja wymiarowości i klasyfikacja",
+       "kind": "pdf",
+       "size": 4851111,
+       "size_label": "4.6 MB",
+       "local": "assets/materials/416e18d9/05-statystyczne-metody-uczenia-maszynowego.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "05-statystyczne-metody-uczenia-maszynowego.pdf"
+      },
+      {
+       "title": "Komplet slajdów całego szkolenia (484 strony)",
+       "kind": "pdf",
+       "size": 8365557,
+       "size_label": "8.0 MB",
+       "local": "assets/materials/666040f4/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf"
+      },
+      {
+       "title": "Wykład podsumowujący blok",
+       "kind": "pdf",
+       "size": 1825803,
+       "size_label": "1.7 MB",
+       "local": "assets/materials/3e6d68fe/07-podsumowanie-bloku-uczenia-maszynowego.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "07-podsumowanie-bloku-uczenia-maszynowego.pdf"
+      },
+      {
+       "title": "Wykład wprowadzający — plan i zakres",
+       "kind": "pdf",
+       "size": 34082,
+       "size_label": "33 kB",
+       "local": "assets/materials/05e9345a/08-wyklad-wprowadzajacy-plan.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "08-wyklad-wprowadzajacy-plan.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i dane (archiwum ZIP)",
+       "kind": "file",
+       "size": 10900935,
+       "size_label": "10 MB",
+       "local": "assets/materials/84a2e1e2/dwa-dni-z-uczeniem-maszynowym-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "dwa-dni-z-uczeniem-maszynowym-cwiczenia.zip",
+       "n_plikow": 189,
+       "n_pominietych": 12
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-02.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "13 września 2025",
@@ -3441,8 +3777,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 10,
+   "n_materials_label": "10 materiałów"
   },
   {
    "id": 15,
@@ -3467,7 +3803,66 @@
    "room": "D1",
    "address": "Ul. Uniwersytetu Poznańskiego 4\n61-614 Poznań\nWejście jest od strony lasu, tzw. wejście A.",
    "indico_url": "https://akademia.iitis.pl/event/15/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowy perceptron — komplet materiałów szkolenia (136 stron)",
+       "kind": "pdf",
+       "size": 3955978,
+       "size_label": "3.8 MB",
+       "local": "assets/materials/ad12f1c8/01-kwantowy-perceptron-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowy-perceptron-komplet-materialow.pdf"
+      },
+      {
+       "title": "Slajdy pomocnicze do ćwiczeń",
+       "kind": "pdf",
+       "size": 1175640,
+       "size_label": "1.1 MB",
+       "local": "assets/materials/e055f6a4/02-slajdy-pomocnicze.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-slajdy-pomocnicze.pdf"
+      },
+      {
+       "title": "F. Tacchino i in., „An Artificial Neuron Implemented on an Actual Quantum Processor” — artykuł źródłowy",
+       "kind": "pdf",
+       "size": 4503272,
+       "size_label": "4.3 MB",
+       "local": "assets/materials/824f9c31/1811.02266-artykul-quantum-perceptron.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "1811.02266-artykul-quantum-perceptron.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i program zajęć (archiwum ZIP)",
+       "kind": "file",
+       "size": 3555320,
+       "size_label": "3.4 MB",
+       "local": "assets/materials/44afa1c6/kwantowy-perceptron-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowy-perceptron-cwiczenia.zip",
+       "n_plikow": 17,
+       "n_pominietych": 0
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-03.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "20 września 2025",
@@ -3526,8 +3921,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 5,
+   "n_materials_label": "5 materiałów"
   },
   {
    "id": 18,
@@ -3552,7 +3947,116 @@
    "room": "152(sobota), 115(niedziela)",
    "address": "ul. Niepodległości 162\nWarszawa\nprzy samym metrze Pole Mokotowskie",
    "indico_url": "https://akademia.iitis.pl/event/18/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Perceptron — wykład",
+       "kind": "pdf",
+       "size": 4071834,
+       "size_label": "3.9 MB",
+       "local": "assets/materials/3140633f/01-perceptron.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-perceptron.pdf"
+      },
+      {
+       "title": "Sieci wielowarstwowe (MLP) — wykład",
+       "kind": "pdf",
+       "size": 13104041,
+       "size_label": "12 MB",
+       "local": "assets/materials/a7b2b833/02-sieci-mlp.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-sieci-mlp.pdf"
+      },
+      {
+       "title": "Sieci MLP — analiza działania",
+       "kind": "pdf",
+       "size": 2843697,
+       "size_label": "2.7 MB",
+       "local": "assets/materials/e0230bb0/03-sieci-mlp-analiza.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "03-sieci-mlp-analiza.pdf"
+      },
+      {
+       "title": "Kowariancja i metody statystyczne",
+       "kind": "pdf",
+       "size": 2723804,
+       "size_label": "2.6 MB",
+       "local": "assets/materials/b954df0b/04-kowariancja-i-metody-statystyczne.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "04-kowariancja-i-metody-statystyczne.pdf"
+      },
+      {
+       "title": "Statystyczne metody uczenia maszynowego — redukcja wymiarowości i klasyfikacja",
+       "kind": "pdf",
+       "size": 4851111,
+       "size_label": "4.6 MB",
+       "local": "assets/materials/416e18d9/05-statystyczne-metody-uczenia-maszynowego.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "05-statystyczne-metody-uczenia-maszynowego.pdf"
+      },
+      {
+       "title": "Komplet slajdów całego szkolenia (484 strony)",
+       "kind": "pdf",
+       "size": 8365557,
+       "size_label": "8.0 MB",
+       "local": "assets/materials/666040f4/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf"
+      },
+      {
+       "title": "Wykład podsumowujący blok",
+       "kind": "pdf",
+       "size": 1825803,
+       "size_label": "1.7 MB",
+       "local": "assets/materials/3e6d68fe/07-podsumowanie-bloku-uczenia-maszynowego.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "07-podsumowanie-bloku-uczenia-maszynowego.pdf"
+      },
+      {
+       "title": "Wykład wprowadzający — plan i zakres",
+       "kind": "pdf",
+       "size": 34082,
+       "size_label": "33 kB",
+       "local": "assets/materials/05e9345a/08-wyklad-wprowadzajacy-plan.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "08-wyklad-wprowadzajacy-plan.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i dane (archiwum ZIP)",
+       "kind": "file",
+       "size": 10900935,
+       "size_label": "10 MB",
+       "local": "assets/materials/84a2e1e2/dwa-dni-z-uczeniem-maszynowym-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "dwa-dni-z-uczeniem-maszynowym-cwiczenia.zip",
+       "n_plikow": 189,
+       "n_pominietych": 12
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-02.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "4 października 2025",
@@ -3611,8 +4115,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 10,
+   "n_materials_label": "10 materiałów"
   },
   {
    "id": 19,
@@ -3637,7 +4141,46 @@
    "room": "",
    "address": "",
    "indico_url": "https://akademia.iitis.pl/event/19/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowe wyżarzanie — komplet materiałów szkolenia (136 stron)",
+       "kind": "pdf",
+       "size": 2989802,
+       "size_label": "2.9 MB",
+       "local": "assets/materials/4511a37a/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowe-wyzarzanie-komplet-materialow.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami, moduły pomocnicze i instancje testowe (archiwum ZIP)",
+       "kind": "file",
+       "size": 7126725,
+       "size_label": "6.8 MB",
+       "local": "assets/materials/067034f3/kwantowe-wyzarzanie-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowe-wyzarzanie-cwiczenia.zip",
+       "n_plikow": 128,
+       "n_pominietych": 1
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-04.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "4 października 2025",
@@ -3698,8 +4241,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 3,
+   "n_materials_label": "3 materiały"
   },
   {
    "id": 22,
@@ -3724,7 +4267,56 @@
    "room": "1.20 (parter)",
    "address": "Ul. Kawiory 21\n30-055 Kraków",
    "indico_url": "https://akademia.iitis.pl/event/22/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów — uzupełnienie",
+     "description": "Slajdy wykładowe i ćwiczenia bloku — uzupełnienie materiałów dołączonych do wydarzenia. Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowe uczenie maszynowe — komplet materiałów szkolenia (114 stron)",
+       "kind": "pdf",
+       "size": 5217179,
+       "size_label": "5.0 MB",
+       "local": "assets/materials/eab7a2d7/01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf"
+      },
+      {
+       "title": "Kwantowe uczenie maszynowe i metody jądrowe — slajdy wykładowe (111 stron)",
+       "kind": "pdf",
+       "size": 8636767,
+       "size_label": "8.2 MB",
+       "local": "assets/materials/273cdda1/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-kwantowe-uczenie-maszynowe-slajdy.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i przykłady w Pythonie (archiwum ZIP)",
+       "kind": "file",
+       "size": 12700,
+       "size_label": "12 kB",
+       "local": "assets/materials/ea3066ee/kwantowe-uczenie-maszynowe-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowe-uczenie-maszynowe-cwiczenia.zip",
+       "n_plikow": 9,
+       "n_pominietych": 0
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-05.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "18 października 2025",
@@ -3840,8 +4432,8 @@
      ]
     }
    ],
-   "n_materials": 5,
-   "n_materials_label": "5 materiałów"
+   "n_materials": 9,
+   "n_materials_label": "9 materiałów"
   },
   {
    "id": 23,
@@ -3866,7 +4458,56 @@
    "room": "115",
    "address": "ul. Niepodległości 162  (przy metrze Pole Mokotowskie)\nWarszawa",
    "indico_url": "https://akademia.iitis.pl/event/23/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów — uzupełnienie",
+     "description": "Slajdy wykładowe i ćwiczenia bloku — uzupełnienie materiałów dołączonych do wydarzenia. Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowe uczenie maszynowe — komplet materiałów szkolenia (114 stron)",
+       "kind": "pdf",
+       "size": 5217179,
+       "size_label": "5.0 MB",
+       "local": "assets/materials/eab7a2d7/01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf"
+      },
+      {
+       "title": "Kwantowe uczenie maszynowe i metody jądrowe — slajdy wykładowe (111 stron)",
+       "kind": "pdf",
+       "size": 8636767,
+       "size_label": "8.2 MB",
+       "local": "assets/materials/273cdda1/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-kwantowe-uczenie-maszynowe-slajdy.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i przykłady w Pythonie (archiwum ZIP)",
+       "kind": "file",
+       "size": 12700,
+       "size_label": "12 kB",
+       "local": "assets/materials/ea3066ee/kwantowe-uczenie-maszynowe-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowe-uczenie-maszynowe-cwiczenia.zip",
+       "n_plikow": 9,
+       "n_pominietych": 0
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-05.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "15 listopada 2025",
@@ -4009,8 +4650,8 @@
      ]
     }
    ],
-   "n_materials": 7,
-   "n_materials_label": "7 materiałów"
+   "n_materials": 11,
+   "n_materials_label": "11 materiałów"
   },
   {
    "id": 20,
@@ -4035,7 +4676,46 @@
    "room": "16/17 i A1-22/23.",
    "address": "Ul. Uniwersytetu Poznańskiego 4\n61-614 Poznań\nWejście jest od strony lasu, tzw. wejście A.",
    "indico_url": "https://akademia.iitis.pl/event/20/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowe wyżarzanie — komplet materiałów szkolenia (136 stron)",
+       "kind": "pdf",
+       "size": 2989802,
+       "size_label": "2.9 MB",
+       "local": "assets/materials/4511a37a/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowe-wyzarzanie-komplet-materialow.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami, moduły pomocnicze i instancje testowe (archiwum ZIP)",
+       "kind": "file",
+       "size": 7126725,
+       "size_label": "6.8 MB",
+       "local": "assets/materials/067034f3/kwantowe-wyzarzanie-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowe-wyzarzanie-cwiczenia.zip",
+       "n_plikow": 128,
+       "n_pominietych": 1
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-04.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "17 stycznia 2026",
@@ -4096,8 +4776,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 3,
+   "n_materials_label": "3 materiały"
   },
   {
    "id": 24,
@@ -4122,7 +4802,56 @@
    "room": "1.18",
    "address": "ul. Wita Stwosza 57, Gdańsk",
    "indico_url": "https://akademia.iitis.pl/event/24/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów — uzupełnienie",
+     "description": "Slajdy wykładowe i ćwiczenia bloku — uzupełnienie materiałów dołączonych do wydarzenia. Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowe uczenie maszynowe — komplet materiałów szkolenia (114 stron)",
+       "kind": "pdf",
+       "size": 5217179,
+       "size_label": "5.0 MB",
+       "local": "assets/materials/eab7a2d7/01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowe-uczenie-maszynowe-komplet-materialow.pdf"
+      },
+      {
+       "title": "Kwantowe uczenie maszynowe i metody jądrowe — slajdy wykładowe (111 stron)",
+       "kind": "pdf",
+       "size": 8636767,
+       "size_label": "8.2 MB",
+       "local": "assets/materials/273cdda1/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "02-kwantowe-uczenie-maszynowe-slajdy.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami i przykłady w Pythonie (archiwum ZIP)",
+       "kind": "file",
+       "size": 12700,
+       "size_label": "12 kB",
+       "local": "assets/materials/ea3066ee/kwantowe-uczenie-maszynowe-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowe-uczenie-maszynowe-cwiczenia.zip",
+       "n_plikow": 9,
+       "n_pominietych": 0
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-05.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "14 marca 2026",
@@ -4301,8 +5030,8 @@
      ]
     }
    ],
-   "n_materials": 10,
-   "n_materials_label": "10 materiałów"
+   "n_materials": 14,
+   "n_materials_label": "14 materiałów"
   },
   {
    "id": 21,
@@ -4327,7 +5056,46 @@
    "room": "1.18",
    "address": "Wita Stwosza 57, Gdańsk",
    "indico_url": "https://akademia.iitis.pl/event/21/",
-   "folders": [],
+   "folders": [
+    {
+     "title": "Materiały warsztatów",
+     "description": "Pliki skopiowane z repozytorium materiałów projektu (https://github.com/iitis/AkademiaSztukiKwantowej).",
+     "items": [
+      {
+       "title": "Kwantowe wyżarzanie — komplet materiałów szkolenia (136 stron)",
+       "kind": "pdf",
+       "size": 2989802,
+       "size_label": "2.9 MB",
+       "local": "assets/materials/4511a37a/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+       "remote": "",
+       "source": "",
+       "filename": "01-kwantowe-wyzarzanie-komplet-materialow.pdf"
+      },
+      {
+       "title": "Notatniki z ćwiczeniami, moduły pomocnicze i instancje testowe (archiwum ZIP)",
+       "kind": "file",
+       "size": 7126725,
+       "size_label": "6.8 MB",
+       "local": "assets/materials/067034f3/kwantowe-wyzarzanie-cwiczenia.zip",
+       "remote": "",
+       "source": "",
+       "filename": "kwantowe-wyzarzanie-cwiczenia.zip",
+       "n_plikow": 128,
+       "n_pominietych": 1
+      },
+      {
+       "title": "Wszystkie materiały bloku wraz z podglądem notatników w przeglądarce",
+       "kind": "link",
+       "size": null,
+       "size_label": "",
+       "local": null,
+       "remote": "https://iitis.github.io/AkademiaSztukiKwantowej/strona/blok-04.html",
+       "source": "strona materiałów",
+       "filename": null
+      }
+     ]
+    }
+   ],
    "days": [
     {
      "label": "21 marca 2026",
@@ -4388,8 +5156,8 @@
      ]
     }
    ],
-   "n_materials": 0,
-   "n_materials_label": "brak materiałów"
+   "n_materials": 3,
+   "n_materials_label": "3 materiały"
   },
   {
    "id": 27,
