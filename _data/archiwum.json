@@ -5178,22 +5178,6 @@
        "description_html": "<h5>Dzień 1 – Fundamenty QML</h5>\n<h6>Blok 1 (1,5 h) – Podstawy obliczeń kwantowych i QML</h6>\n<ul>\n<li>Qubit, bramki, obwody parametryzowalne  </li>\n<li>Różnice między klasycznym ML a QML  </li>\n<li>Demo: PennyLane – pierwszy obwód  </li>\n</ul>\n<h6>Blok 2 (1,5 h) – Algorytmy wariacyjne</h6>\n<ul>\n<li>Idea algorytmów wariacyjnych  </li>\n<li>Metoda przesuwania parametrów  </li>\n<li>Ćwiczenie: prosty jednoqubitowy klasyfikator  </li>\n</ul>\n<h6>Blok 3 (1,5 h) – Kwantowe sieci neuronowe</h6>\n<ul>\n<li>Architektury QNN, sposoby ładowania danych  </li>\n<li>Ćwiczenie: klasyfikator z re-uploadingiem danych  </li>\n</ul>\n<h6>Blok 4 (1,5 h) – Hybrydowe modele QNN</h6>\n<ul>\n<li>Łączenie QNN i klasycznych warstw  </li>\n<li>Ćwiczenie: prosty model hybrydowy (PyTorch/Jax + PennyLane)</li>\n</ul>",
        "folders": [
         {
-         "title": "",
-         "description": "",
-         "items": [
-          {
-           "title": "Matrix",
-           "kind": "link",
-           "size": null,
-           "size_label": "",
-           "local": null,
-           "remote": "https://matrix.to/#/!lfIegQALgSQVWFWAot:matrix.org?via=matrix.org",
-           "source": "",
-           "filename": null
-          }
-         ]
-        },
-        {
          "title": "Materiały",
          "description": "",
          "items": [
@@ -5339,8 +5323,8 @@
      ]
     }
    ],
-   "n_materials": 15,
-   "n_materials_label": "15 materiałów"
+   "n_materials": 14,
+   "n_materials_label": "14 materiałów"
   },
   {
    "id": 21,

@@ -81,6 +81,7 @@ DATA_FILE = ROOT / "_data" / "archiwum.json"
 # Materiały dokładane z repozytorium projektu do wydarzeń, które nie mają
 # załączników w Indico (patrz klasa Uzupelnienia).
 SUPPLEMENT_FILE = ROOT / "tools" / "materialy_lokalne.json"
+SKIP_FILE = ROOT / "tools" / "pomijane_zalaczniki.json"
 # Mapowanie MD5 -> URL dla nagrań przeniesionych poza Indico (patrz zenodo.py).
 VIDEO_LINKS_FILE = ROOT / "_data" / "video_urls.json"
 PAGES_DIR = ROOT / "archiwum"
@@ -543,11 +544,37 @@ class Uzupelnienia:
                 f"{len(self.by_digest)} unikalnych plików, {human_size(self.bytes)}")
 
 
+def load_pomijane() -> dict:
+    """Wzorce załączników, których archiwum nie republikuje."""
+    if not SKIP_FILE.exists():
+        return {"url": [], "tytul": []}
+    cfg = json.loads(SKIP_FILE.read_text(encoding="utf-8"))
+    return {
+        "url": [w.lower() for w in cfg.get("wzorce_url", [])],
+        "tytul": [w.lower() for w in cfg.get("wzorce_tytulu", [])],
+    }
+
+
+POMIJANE = load_pomijane()
+POMINIETE: list[str] = []
+
+
+def pomijany_zalacznik(att: dict) -> bool:
+    adres = ((att.get("link_url") or "") + " " + (att.get("download_url") or "")).lower()
+    tytul = (att.get("title") or att.get("filename") or "").lower()
+    if any(w in adres for w in POMIJANE["url"]) or any(w in tytul for w in POMIJANE["tytul"]):
+        POMINIETE.append(att.get("title") or att.get("filename") or adres.strip())
+        return True
+    return False
+
+
 def build_folders(raw_folders: list[dict] | None, mirror: Mirror) -> list[dict]:
     folders = []
     for folder in raw_folders or []:
         items = []
         for att in folder.get("attachments", []):
+            if pomijany_zalacznik(att):
+                continue
             kind = kind_of(att)
             local = mirror.path_for(att)
             remote = att.get("link_url") or att.get("download_url")
@@ -784,6 +811,10 @@ def main() -> int:
               f"rekord {VIDEO_LINKS.get('record_url')}")
     else:
         print(f"Pozostawione jako linki do Indico: {len(mirror.skipped)} plików")
+    if POMINIETE:
+        print(f"Pominięte załączniki (tools/pomijane_zalaczniki.json): {len(POMINIETE)}")
+        for tytul in POMINIETE:
+            print(f"  - {tytul}")
     if podsumowanie := uzupelnienia.podsumowanie():
         print(podsumowanie)
     if uzupelnienia.brakujace:

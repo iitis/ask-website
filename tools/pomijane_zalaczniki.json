@@ -1,0 +1,16 @@
+{
+  "_opis": [
+    "Załączniki z Indico, których archiwum nie republikuje.",
+    "Dopasowanie jest po fragmencie adresu (wzorce_url) albo po fragmencie",
+    "tytułu (wzorce_tytulu), bez rozróżniania wielkości liter.",
+    "Zaproszenia do przestrzeni komunikacyjnych projektu działają jak klucz",
+    "dostępu, więc nie trafiają na publiczną stronę."
+  ],
+  "wzorce_url": [
+    "matrix.to/",
+    "://matrix."
+  ],
+  "wzorce_tytulu": [
+    "matrix"
+  ]
+}
