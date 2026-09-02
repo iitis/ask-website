@@ -3218,6 +3218,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/03-kwantowy-perceptron/wyklady/01-kwantowy-perceptron-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowy-perceptron-materialy.zip",
            "kind": "file",
            "size": 4396971,
@@ -3263,6 +3273,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/03-kwantowy-perceptron/wyklady/01-kwantowy-perceptron-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowy-perceptron-materialy.zip",
            "kind": "file",
            "size": 4396971,
@@ -3279,8 +3299,8 @@
      ]
     }
    ],
-   "n_materials": 7,
-   "n_materials_label": "7 materiałów"
+   "n_materials": 9,
+   "n_materials_label": "9 materiałów"
   },
   {
    "id": 14,
@@ -3396,6 +3416,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/03-kwantowy-perceptron/wyklady/01-kwantowy-perceptron-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowy-perceptron-materialy.zip",
            "kind": "file",
            "size": 4396971,
@@ -3441,6 +3471,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/03-kwantowy-perceptron/wyklady/01-kwantowy-perceptron-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowy-perceptron-materialy.zip",
            "kind": "file",
            "size": 4396971,
@@ -3457,8 +3497,8 @@
      ]
     }
    ],
-   "n_materials": 7,
-   "n_materials_label": "7 materiałów"
+   "n_materials": 9,
+   "n_materials_label": "9 materiałów"
   },
   {
    "id": 16,
@@ -3632,6 +3672,16 @@
            "remote": "https://akademia.iitis.pl/event/16/contributions/38/attachments/72/307/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
            "source": "",
            "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          },
+          {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/02-uczenie-maszynowe/wyklady/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+           "source": "",
+           "filename": null
           }
          ]
         }
@@ -3677,6 +3727,16 @@
            "remote": "https://akademia.iitis.pl/event/16/contributions/37/attachments/73/308/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
            "source": "",
            "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          },
+          {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/02-uczenie-maszynowe/wyklady/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+           "source": "",
+           "filename": null
           }
          ]
         }
@@ -3685,8 +3745,8 @@
      ]
     }
    ],
-   "n_materials": 12,
-   "n_materials_label": "12 materiałów"
+   "n_materials": 14,
+   "n_materials_label": "14 materiałów"
   },
   {
    "id": 17,
@@ -3860,6 +3920,16 @@
            "remote": "https://akademia.iitis.pl/event/17/contributions/39/attachments/74/309/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
            "source": "",
            "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          },
+          {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/02-uczenie-maszynowe/wyklady/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+           "source": "",
+           "filename": null
           }
          ]
         }
@@ -3905,6 +3975,16 @@
            "remote": "https://akademia.iitis.pl/event/17/contributions/40/attachments/75/310/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
            "source": "",
            "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          },
+          {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/02-uczenie-maszynowe/wyklady/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+           "source": "",
+           "filename": null
           }
          ]
         }
@@ -3913,8 +3993,8 @@
      ]
     }
    ],
-   "n_materials": 12,
-   "n_materials_label": "12 materiałów"
+   "n_materials": 14,
+   "n_materials_label": "14 materiałów"
   },
   {
    "id": 15,
@@ -4030,6 +4110,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/03-kwantowy-perceptron/wyklady/01-kwantowy-perceptron-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowy-perceptron-materialy.zip",
            "kind": "file",
            "size": 4396971,
@@ -4075,6 +4165,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/03-kwantowy-perceptron/wyklady/01-kwantowy-perceptron-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowy-perceptron-materialy.zip",
            "kind": "file",
            "size": 4396971,
@@ -4091,8 +4191,8 @@
      ]
     }
    ],
-   "n_materials": 7,
-   "n_materials_label": "7 materiałów"
+   "n_materials": 9,
+   "n_materials_label": "9 materiałów"
   },
   {
    "id": 18,
@@ -4266,6 +4366,16 @@
            "remote": "https://akademia.iitis.pl/event/18/contributions/41/attachments/76/311/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
            "source": "",
            "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          },
+          {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/02-uczenie-maszynowe/wyklady/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+           "source": "",
+           "filename": null
           }
          ]
         }
@@ -4311,6 +4421,16 @@
            "remote": "https://akademia.iitis.pl/event/18/contributions/42/attachments/77/312/dwa-dni-z-uczeniem-maszynowym-materialy.zip",
            "source": "",
            "filename": "dwa-dni-z-uczeniem-maszynowym-materialy.zip"
+          },
+          {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/02-uczenie-maszynowe/wyklady/06-dwa-dni-z-uczeniem-maszynowym-komplet-slajdow.pdf",
+           "source": "",
+           "filename": null
           }
          ]
         }
@@ -4319,8 +4439,8 @@
      ]
     }
    ],
-   "n_materials": 12,
-   "n_materials_label": "12 materiałów"
+   "n_materials": 14,
+   "n_materials_label": "14 materiałów"
   },
   {
    "id": 19,
@@ -4417,6 +4537,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/04-kwantowe-wyzarzanie/wyklady/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-wyzarzanie-materialy.zip",
            "kind": "file",
            "size": 9541937,
@@ -4463,6 +4593,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/04-kwantowe-wyzarzanie/wyklady/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-wyzarzanie-materialy.zip",
            "kind": "file",
            "size": 9541937,
@@ -4479,8 +4619,8 @@
      ]
     }
    ],
-   "n_materials": 5,
-   "n_materials_label": "5 materiałów"
+   "n_materials": 7,
+   "n_materials_label": "7 materiałów"
   },
   {
    "id": 22,
@@ -4582,6 +4722,22 @@
        "description_html": "<h5>Dzień 1 – Fundamenty QML</h5>\n<h6>Blok 1 (1,5 h) – Podstawy obliczeń kwantowych i QML</h6>\n<ul>\n<li>Qubit, bramki, obwody parametryzowalne  </li>\n<li>Różnice między klasycznym ML a QML  </li>\n<li>Demo: PennyLane – pierwszy obwód  </li>\n</ul>\n<h6>Blok 2 (1,5 h) – Algorytmy wariacyjne</h6>\n<ul>\n<li>Idea algorytmów wariacyjnych  </li>\n<li>Metoda przesuwania parametrów  </li>\n<li>Ćwiczenie: prosty jednoqubitowy klasyfikator  </li>\n</ul>\n<h6>Blok 3 (1,5 h) – Kwantowe sieci neuronowe</h6>\n<ul>\n<li>Architektury QNN, sposoby ładowania danych  </li>\n<li>Ćwiczenie: klasyfikator z re-uploadingiem danych  </li>\n</ul>\n<h6>Blok 4 (1,5 h) – Hybrydowe modele QNN</h6>\n<ul>\n<li>Łączenie QNN i klasycznych warstw  </li>\n<li>Ćwiczenie: prosty model hybrydowy (PyTorch/Jax + PennyLane)</li>\n</ul>",
        "folders": [
         {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/05-kwantowe-uczenie-maszynowe/wyklady/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+           "source": "",
+           "filename": null
+          }
+         ]
+        },
+        {
          "title": "Materiały",
          "description": "",
          "items": [
@@ -4671,6 +4827,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/05-kwantowe-uczenie-maszynowe/wyklady/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-uczenie-maszynowe-materialy.zip",
            "kind": "file",
            "size": 12160,
@@ -4687,8 +4853,8 @@
      ]
     }
    ],
-   "n_materials": 10,
-   "n_materials_label": "10 materiałów"
+   "n_materials": 12,
+   "n_materials_label": "12 materiałów"
   },
   {
    "id": 23,
@@ -4794,6 +4960,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/05-kwantowe-uczenie-maszynowe/wyklady/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "pennylane-jax.ipynb",
            "kind": "notebook",
            "size": 9202,
@@ -4889,6 +5065,16 @@
            "filename": null
           },
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/05-kwantowe-uczenie-maszynowe/wyklady/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-uczenie-maszynowe-materialy.zip",
            "kind": "file",
            "size": 12160,
@@ -4915,8 +5101,8 @@
      ]
     }
    ],
-   "n_materials": 12,
-   "n_materials_label": "12 materiałów"
+   "n_materials": 14,
+   "n_materials_label": "14 materiałów"
   },
   {
    "id": 20,
@@ -5013,6 +5199,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/04-kwantowe-wyzarzanie/wyklady/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-wyzarzanie-materialy.zip",
            "kind": "file",
            "size": 9541937,
@@ -5059,6 +5255,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/04-kwantowe-wyzarzanie/wyklady/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-wyzarzanie-materialy.zip",
            "kind": "file",
            "size": 9541937,
@@ -5075,8 +5281,8 @@
      ]
     }
    ],
-   "n_materials": 5,
-   "n_materials_label": "5 materiałów"
+   "n_materials": 7,
+   "n_materials_label": "7 materiałów"
   },
   {
    "id": 24,
@@ -5177,6 +5383,22 @@
        ],
        "description_html": "<h5>Dzień 1 – Fundamenty QML</h5>\n<h6>Blok 1 (1,5 h) – Podstawy obliczeń kwantowych i QML</h6>\n<ul>\n<li>Qubit, bramki, obwody parametryzowalne  </li>\n<li>Różnice między klasycznym ML a QML  </li>\n<li>Demo: PennyLane – pierwszy obwód  </li>\n</ul>\n<h6>Blok 2 (1,5 h) – Algorytmy wariacyjne</h6>\n<ul>\n<li>Idea algorytmów wariacyjnych  </li>\n<li>Metoda przesuwania parametrów  </li>\n<li>Ćwiczenie: prosty jednoqubitowy klasyfikator  </li>\n</ul>\n<h6>Blok 3 (1,5 h) – Kwantowe sieci neuronowe</h6>\n<ul>\n<li>Architektury QNN, sposoby ładowania danych  </li>\n<li>Ćwiczenie: klasyfikator z re-uploadingiem danych  </li>\n</ul>\n<h6>Blok 4 (1,5 h) – Hybrydowe modele QNN</h6>\n<ul>\n<li>Łączenie QNN i klasycznych warstw  </li>\n<li>Ćwiczenie: prosty model hybrydowy (PyTorch/Jax + PennyLane)</li>\n</ul>",
        "folders": [
+        {
+         "title": "",
+         "description": "",
+         "items": [
+          {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/05-kwantowe-uczenie-maszynowe/wyklady/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+           "source": "",
+           "filename": null
+          }
+         ]
+        },
         {
          "title": "Materiały",
          "description": "",
@@ -5287,6 +5509,16 @@
            "filename": null
           },
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/05-kwantowe-uczenie-maszynowe/wyklady/02-kwantowe-uczenie-maszynowe-slajdy.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-uczenie-maszynowe-materialy.zip",
            "kind": "file",
            "size": 12160,
@@ -5323,8 +5555,8 @@
      ]
     }
    ],
-   "n_materials": 14,
-   "n_materials_label": "14 materiałów"
+   "n_materials": 16,
+   "n_materials_label": "16 materiałów"
   },
   {
    "id": 21,
@@ -5421,6 +5653,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/04-kwantowe-wyzarzanie/wyklady/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-wyzarzanie-materialy.zip",
            "kind": "file",
            "size": 9541937,
@@ -5467,6 +5709,16 @@
          "description": "",
          "items": [
           {
+           "title": "Komplet materiałów",
+           "kind": "link",
+           "size": null,
+           "size_label": "",
+           "local": null,
+           "remote": "https://raw.githubusercontent.com/iitis/AkademiaSztukiKwantowej/master/materialy/04-kwantowe-wyzarzanie/wyklady/01-kwantowe-wyzarzanie-komplet-materialow.pdf",
+           "source": "",
+           "filename": null
+          },
+          {
            "title": "kwantowe-wyzarzanie-materialy.zip",
            "kind": "file",
            "size": 9541937,
@@ -5483,8 +5735,8 @@
      ]
     }
    ],
-   "n_materials": 5,
-   "n_materials_label": "5 materiałów"
+   "n_materials": 7,
+   "n_materials_label": "7 materiałów"
   },
   {
    "id": 27,
