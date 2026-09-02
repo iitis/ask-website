@@ -516,8 +516,8 @@ class Uzupelnienia:
         strona = zestaw.get("strona_bloku")
         if strona:
             items.append({
-                "title": "Wszystkie materiały bloku wraz z podglądem notatników "
-                         "w przeglądarce",
+                "title": self.config.get("tytul_odnosnika")
+                         or "Wszystkie materiały bloku",
                 "kind": "link",
                 "size": None,
                 "size_label": "",

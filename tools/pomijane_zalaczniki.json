@@ -3,14 +3,22 @@
     "Załączniki z Indico, których archiwum nie republikuje.",
     "Dopasowanie jest po fragmencie adresu (wzorce_url) albo po fragmencie",
     "tytułu (wzorce_tytulu), bez rozróżniania wielkości liter.",
+    "",
     "Zaproszenia do przestrzeni komunikacyjnych projektu działają jak klucz",
-    "dostępu, więc nie trafiają na publiczną stronę."
+    "dostępu, więc nie trafiają na publiczną stronę.",
+    "",
+    "Materiały warsztatów są publikowane w archiwum wprost z repozytorium",
+    "(tools/materialy_lokalne.json). Te same pliki dołączone w Indico jako",
+    "paczka *-materialy.zip albo odnośnik do raw.githubusercontent.com są",
+    "pomijane, żeby strona nie pokazywała ich po dwa razy."
   ],
   "wzorce_url": [
     "matrix.to/",
-    "://matrix."
+    "://matrix.",
+    "raw.githubusercontent.com/iitis/akademiasztukikwantowej"
   ],
   "wzorce_tytulu": [
-    "matrix"
+    "matrix",
+    "-materialy.zip"
   ]
 }
